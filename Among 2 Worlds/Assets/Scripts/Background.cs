@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class Background : MonoBehaviour
 {
-
-    public GameManager.dimension ownDimension;
+    public Sprite LightSprite, DarkSprite;
+    SpriteRenderer renderRef;
 
     // Start is called before the first frame update
     void Start()
     {
-
+        renderRef = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
@@ -21,13 +21,14 @@ public class Background : MonoBehaviour
 
     void updateDimensions()
     {
-        if (ownDimension == GameManager.GMInstance.currentdim)
+        switch (GameManager.GMInstance.currentdim)
         {
-            GetComponent<SpriteRenderer>().enabled = true;
-        }
-        else
-        {
-            GetComponent<SpriteRenderer>().enabled = false;
+            case (GameManager.dimension.Light):
+                renderRef.sprite = LightSprite;
+                break;
+            case (GameManager.dimension.Dark):
+                renderRef.sprite = DarkSprite;
+                break;
         }
     }
 
