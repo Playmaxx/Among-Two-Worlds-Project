@@ -12,6 +12,12 @@ public class Platform : MonoBehaviour
     public Sprite LightSprite;
     public Sprite DarkSprite;
 
+    //Awake is called before Start
+    private void Awake()
+    {
+        renderRef = GetComponent<SpriteRenderer>();
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -36,9 +42,17 @@ public class Platform : MonoBehaviour
                 case (MyColliderType.Polygon):
                     GetComponent<PolygonCollider2D>().enabled = true;
                     break;
-
             }
             GetComponent<SpriteRenderer>().enabled = true;
+            switch (GameManager.GMInstance.currentdim)
+            {
+                case (GameManager.dimension.Light):
+                    renderRef.sprite = LightSprite;
+                    break;
+                case (GameManager.dimension.Dark):
+                    renderRef.sprite = DarkSprite;
+                    break;
+            }
         }
         else
         {
