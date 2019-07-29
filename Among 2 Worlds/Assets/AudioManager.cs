@@ -25,7 +25,7 @@ public class AudioManager : MonoBehaviour
     {
         timecode1 = timecode2;
         timecode2 = GTD.time;
-        if (Input.GetKeyDown(KeyCode.P))
+        if (Input.GetKeyDown(KeyCode.E))
         {
             if (GTD.clip == CuteGiana)
             {

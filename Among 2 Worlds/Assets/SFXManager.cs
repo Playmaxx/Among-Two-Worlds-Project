@@ -13,7 +13,7 @@ public class SFXManager : MonoBehaviour
     void Start()
     {
         p_audio = GetComponent<AudioSource>();
-        p_audio.volume = 0.4f;
+        p_audio.volume = 0.5f;
         p_audio.clip = null;
     }
 
@@ -26,7 +26,7 @@ public class SFXManager : MonoBehaviour
             p_audio.Play();
         }
 
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.LeftShift) && (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.A)))
         {
             p_audio.clip = Dash;
             p_audio.Play();
