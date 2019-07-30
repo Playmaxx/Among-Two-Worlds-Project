@@ -24,6 +24,11 @@ public class Gale : MonoBehaviour, IChar     //manages abilities for Gale
             {
                 playerRef.transform.Translate(Vector2.right * playerRef.speedMultiplier);
             }
+            if (!Input.anyKey)
+            {
+                Vector2 moveVector = new Vector2(Input.GetAxis("MoveHorizontal"), 0);
+                playerRef.transform.Translate(moveVector * playerRef.speedMultiplier);
+            }
         }
     }
 
