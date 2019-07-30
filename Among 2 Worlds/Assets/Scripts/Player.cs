@@ -6,15 +6,16 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
 {
     public enum direction { Left, Right }       // variables
     public direction playerdirection;
+    public enum moveState { Grounded, Airborne, Dashing, Gliding, Walled, Other }
+    public moveState playerMoveState = moveState.Grounded;
+
     float playerheight = 3.943503f;
     float playerwidth = 0.7109921f;
     public bool isGrounded;
     public bool isWalled;
     public int Jumps = 2;
-    public int speedMultiplier = 10;
+    public float speedMultiplier = 0.15f;
     public int jumpforce = 7;
-    public float longJumpMultiplier = 2f;
-    public float gravityMultiplier = 2.5f;
     public int dashspeed = 300;
     public bool dashused = false;
     public int glidespeed = 2;
@@ -53,16 +54,16 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
         switch (GameManager.GMInstance.currentdim)
         {
             case (GameManager.dimension.Light):
-                lilianRef.movement(moveRef);
-                lilianRef.jump();
-                lilianRef.dash(moveRef);
-                lilianRef.glide();
-                lilianRef.wallaction();
+                lilianRef.movement();
+                //lilianRef.jump();
+                //lilianRef.dash();
+                //lilianRef.glide();
+                //lilianRef.wallaction();
                 break;
             case (GameManager.dimension.Dark):
-                galeRef.movement(moveRef);
-                galeRef.jump();
-                galeRef.dash(moveRef);
+                galeRef.movement();
+                //galeRef.jump();
+                //galeRef.dash();
                 break;
 
         }
@@ -83,27 +84,6 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
     void checkGroundState()     //checks if the player is grounded
     {
 
-        if (Physics2D.Raycast(rigidRef.position, Vector2.down, playerheight / 2))
-        {
-            refreshAbilities();
-            isGrounded = true;
-        }
-        else
-        {
-            if (isGrounded == true)
-            {
-                Jumps--;
-            }
-            isGrounded = false;
-        }
-        if (Physics2D.Raycast(rigidRef.position, Vector2.left, playerwidth / 2) || Physics2D.Raycast(rigidRef.position, Vector2.right, playerwidth / 2))
-        {
-            isWalled = true;
-        }
-        else
-        {
-            isWalled = false;
-        }
     }
 
     void refreshAbilities()     //refreshes jumps & dashes etc.

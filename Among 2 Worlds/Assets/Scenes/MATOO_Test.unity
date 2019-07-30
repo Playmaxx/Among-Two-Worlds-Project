@@ -533,7 +533,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2096489840}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: abf354f1c0870b14284ba1955f6d4b54, type: 3}
   m_Name: 
@@ -542,7 +542,7 @@ MonoBehaviour:
   isGrounded: 0
   isWalled: 0
   Jumps: 2
-  speedMultiplier: 10
+  speedMultiplier: 0.15
   jumpforce: 7
   longJumpMultiplier: 2
   gravityMultiplier: 2.5
@@ -551,8 +551,8 @@ MonoBehaviour:
   glidespeed: 2
   wallSlideSpeed: 2
   rigidRef: {fileID: 0}
-  galeRef: {fileID: 0}
-  lilianRef: {fileID: 0}
+  galeRef: {fileID: 2096489843}
+  lilianRef: {fileID: 2096489844}
   renderRef: {fileID: 0}
   moveRef: {x: 0, y: 0}
   dashTimer: 10

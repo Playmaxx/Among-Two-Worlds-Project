@@ -12,65 +12,28 @@ public class Lilian : MonoBehaviour, IChar        //manages abilities for Lilian
         playerRef = GetComponent<Player>();
     }
 
-    public void movement(Vector2 moveVector)     //handles basic movement
+    public void movement()     //handles basic movement
     {
-        playerRef.rigidRef.velocity = (new Vector2(moveVector.x * playerRef.speedMultiplier, playerRef.rigidRef.velocity.y));
+        
     }
 
     public void jump()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            switch (playerRef.Jumps)
-            {
-                case (2):
-                    if (playerRef.isGrounded == true)
-                    {
-                        playerRef.rigidRef.velocity = new Vector2(playerRef.rigidRef.velocity.x, 0);
-                        playerRef.rigidRef.velocity += Vector2.up * playerRef.jumpforce;
-                        playerRef.Jumps -= 2;
-                    }
-                    break;
-
-                default:
-                    break;
-            }
-        }
-
-        if (playerRef.rigidRef.velocity.y < 0)
-        {
-            playerRef.rigidRef.velocity += Vector2.up * Physics2D.gravity.y * (playerRef.gravityMultiplier) * Time.deltaTime;
-        }
-
+        throw new System.NotImplementedException();
     }
 
-    public void dash(Vector2 moveVector)     //dash
+    public void dash()
     {
-        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D))
-        {
-            if (Input.GetKey(KeyCode.LeftShift) && playerRef.dashused == false)        //press shift + a||d to trigger
-            {
-                playerRef.rigidRef.velocity = Vector2.zero;
-                playerRef.rigidRef.velocity = new Vector2(-moveVector.x * playerRef.dashspeed, 0);
-                //playerRef.dashused = true;
-            }
-        }
+        throw new System.NotImplementedException();
     }
 
-    public void glide()     //glide
+    public void glide()
     {
-        if (Input.GetKey(KeyCode.Space) && playerRef.isGrounded == false && playerRef.rigidRef.velocity.y < 0)
-        {
-            playerRef.rigidRef.velocity = new Vector2(playerRef.rigidRef.velocity.x, -playerRef.glidespeed);
-
-        }
+        throw new System.NotImplementedException();
     }
 
     public void wallaction()
     {
-        if (playerRef.isWalled == true)
-        {
-            playerRef.rigidRef.velocity = new Vector2(playerRef.rigidRef.velocity.x, -playerRef.wallSlideSpeed);
-        }
+        throw new System.NotImplementedException();
     }
 }
