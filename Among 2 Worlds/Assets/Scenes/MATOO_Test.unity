@@ -539,13 +539,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerdirection: 0
+  playerMoveState: 0
   isGrounded: 0
   isWalled: 0
   Jumps: 2
-  speedMultiplier: 0.15
+  speedMultiplier: 0.13
   jumpforce: 7
-  longJumpMultiplier: 2
-  gravityMultiplier: 2.5
   dashspeed: 300
   dashused: 0
   glidespeed: 2

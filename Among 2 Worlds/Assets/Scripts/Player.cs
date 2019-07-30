@@ -6,7 +6,7 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
 {
     public enum direction { Left, Right }       // variables
     public direction playerdirection;
-    public enum moveState { Grounded, Airborne, Dashing, Gliding, Walled, Other }
+    public enum moveState { Grounded, Jumping, Falling, Dashing, Gliding, Walled, Other }
     public moveState playerMoveState = moveState.Grounded;
 
     float playerheight = 3.943503f;
@@ -14,7 +14,7 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
     public bool isGrounded;
     public bool isWalled;
     public int Jumps = 2;
-    public float speedMultiplier = 0.15f;
+    public float speedMultiplier = 0.13f;
     public int jumpforce = 7;
     public int dashspeed = 300;
     public bool dashused = false;
@@ -83,7 +83,13 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
 
     void checkGroundState()     //checks if the player is grounded
     {
-
+        RaycastHit2D[] downResult = new RaycastHit2D[1];
+        Collider2D colliderRef = GetComponent<CapsuleCollider2D>();
+        int hit = (colliderRef.Cast(Vector2.down, downResult, playerheight/2, true));
+        if (hit != 0)
+        {
+            Debug.Log("test");
+        }
     }
 
     void refreshAbilities()     //refreshes jumps & dashes etc.
