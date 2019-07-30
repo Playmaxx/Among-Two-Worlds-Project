@@ -23,7 +23,6 @@ public class SFXManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             p_audio.clip = Jump;
-            p_audio.volume = 1.0f;
             p_audio.Play();
         }
 

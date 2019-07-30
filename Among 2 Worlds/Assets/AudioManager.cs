@@ -15,7 +15,7 @@ public class AudioManager : MonoBehaviour
     void Start()
     {
         GTD = GetComponent<AudioSource>();
-        GTD.volume = 0.1f;
+        GTD.volume = 0.8f;
         GTD.clip = CuteGiana;
         GTD.Play();
         
