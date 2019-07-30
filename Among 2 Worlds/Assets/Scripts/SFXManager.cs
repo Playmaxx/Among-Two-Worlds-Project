@@ -8,13 +8,17 @@ public class SFXManager : MonoBehaviour
     public AudioSource p_audio;
     public AudioClip Jump;
     public AudioClip Dash;
+    Player playerRef;
+
 
     // Start is called before the first frame update
     void Start()
     {
         p_audio = GetComponent<AudioSource>();
-        p_audio.volume = 0.5f;
+        p_audio.volume = 1.0f;
         p_audio.clip = null;
+        playerRef = GetComponent<Player>();
+
     }
 
     // Update is called once per frame
@@ -26,10 +30,18 @@ public class SFXManager : MonoBehaviour
             p_audio.Play();
         }
 
-        if (Input.GetKeyDown(KeyCode.LeftShift) && (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.A)))
+        if (GameManager.GMInstance.currentdim == GameManager.dimension.Dark)
         {
-            p_audio.clip = Dash;
-            p_audio.Play();
+            if ((Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D)) && Input.GetKey(KeyCode.LeftShift))
+            {
+                if (playerRef.dashused == false)        //press shift + a||d to trigger
+                {
+                    p_audio.clip = Dash;
+                    p_audio.Play();
+                }
+
+            }
         }
+        
     }
 }
