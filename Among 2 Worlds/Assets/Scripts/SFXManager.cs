@@ -32,13 +32,17 @@ public class SFXManager : MonoBehaviour
 
         if (GameManager.GMInstance.currentdim == GameManager.dimension.Dark)
         {
-            if ((Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D)) && Input.GetKey(KeyCode.LeftShift))
+            if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D))
             {
-                if (playerRef.dashused == false)        //press shift + a||d to trigger
+                if (Input.GetKey(KeyCode.LeftShift))
                 {
-                    p_audio.clip = Dash;
-                    p_audio.Play();
+                    if (playerRef.dashused == false)        //press shift + a||d to trigger
+                    {
+                        p_audio.clip = Dash;
+                        p_audio.Play();
+                    }
                 }
+                
 
             }
         }
