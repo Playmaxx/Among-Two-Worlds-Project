@@ -18,23 +18,36 @@ public class Gale : MonoBehaviour, IChar     //manages abilities for Gale
         {
             if (Input.GetKey(KeyCode.A))
             {
-                playerRef.transform.Translate(Vector2.left * playerRef.speedMultiplier);
+                playerRef.rigidRef.velocity = new Vector2(-playerRef.moveSpeed, playerRef.rigidRef.velocity.y);
             }
             if (Input.GetKey(KeyCode.D))
             {
-                playerRef.transform.Translate(Vector2.right * playerRef.speedMultiplier);
+                playerRef.rigidRef.velocity = new Vector2(playerRef.moveSpeed, playerRef.rigidRef.velocity.y);
             }
-            if (!Input.anyKey)
+
+            if (Input.GetAxis("MoveHorizontal") < 0)
             {
-                Vector2 moveVector = new Vector2(Input.GetAxis("MoveHorizontal"), 0);
-                playerRef.transform.Translate(moveVector * playerRef.speedMultiplier);
+                playerRef.rigidRef.velocity = new Vector2(-playerRef.moveSpeed, playerRef.rigidRef.velocity.y);
+            }
+            if (Input.GetAxis("MoveHorizontal") > 0)
+            {
+                playerRef.rigidRef.velocity = new Vector2(playerRef.moveSpeed, playerRef.rigidRef.velocity.y);
+            }
+
+            if (!Input.anyKey && Input.GetAxis("MoveHorizontal")==0)
+            {
+                playerRef.rigidRef.velocity = new Vector2(0, playerRef.rigidRef.velocity.y);
             }
         }
     }
 
     public void jump()
     {
-        throw new System.NotImplementedException();
+        if (Input.GetKeyDown(KeyCode.Space) || Input.GetButtonDown("Jump") && playerRef.playerMoveState == Player.moveState.Grounded)
+        {
+            playerRef.playerMoveState = Player.moveState.Jumping;
+            playerRef.rigidRef.velocity = new Vector2(playerRef.rigidRef.velocity.x, playerRef.jumpforce);
+        }
     }
 
     public void dash()

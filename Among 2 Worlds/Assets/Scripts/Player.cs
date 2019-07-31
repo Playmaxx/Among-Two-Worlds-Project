@@ -14,21 +14,19 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
     public bool isGrounded;
     public bool isWalled;
     public int Jumps = 2;
-    public float speedMultiplier = 0.13f;
-    public int jumpforce = 7;
+    public float moveSpeed = 7.5f;
+    public int jumpforce = 20;
     public int dashspeed = 300;
     public bool dashused = false;
     public int glidespeed = 2;
     public int wallSlideSpeed = 2;
+    public float playerGravity = 10;
 
     public Rigidbody2D rigidRef;        //ref types
     public Gale galeRef;
     public Lilian lilianRef;
     public SpriteRenderer renderRef;
     public Vector2 moveRef;
-
-
-    public int dashTimer = 10;
 
 
     private void Awake()
@@ -41,20 +39,21 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
     void Start()
     {
         playerdirection = direction.Right;
+        rigidRef.gravityScale = 20;
     }
 
     // Update is called once per frame
     void Update()
     {
         //general functions
-        checkGroundState();
         refreshVariables();
+        matchMoveState();
 
         //handles character specific functions 
         switch (GameManager.GMInstance.currentdim)
         {
             case (GameManager.dimension.Light):
-                lilianRef.movement();
+                //lilianRef.movement();
                 //lilianRef.jump();
                 //lilianRef.dash();
                 //lilianRef.glide();
@@ -62,34 +61,22 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
                 break;
             case (GameManager.dimension.Dark):
                 galeRef.movement();
-                //galeRef.jump();
+                galeRef.jump();
                 //galeRef.dash();
                 break;
 
         }
 
         //tests
+        Debug.Log(playerMoveState);
 
     }
 
     void refreshVariables()     //For variables that need to update every frame
     {
-        float x = Input.GetAxis("Horizontal");
-        float y = 0;
-        moveRef = new Vector2(x, y);
         if (moveRef.x > 0) { playerdirection = direction.Right; }
         if (moveRef.x < 0) { playerdirection = direction.Left; }
-    }
 
-    void checkGroundState()     //checks if the player is grounded
-    {
-        RaycastHit2D[] downResult = new RaycastHit2D[1];
-        Collider2D colliderRef = GetComponent<CapsuleCollider2D>();
-        int hit = (colliderRef.Cast(Vector2.down, downResult, playerheight/2, true));
-        if (hit != 0)
-        {
-            Debug.Log("test");
-        }
     }
 
     void refreshAbilities()     //refreshes jumps & dashes etc.
@@ -98,4 +85,52 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
         dashused = false;
     }
 
+    //checks ground state
+    void OnTriggerEnter2D(Collider2D collision)     //checks if player is grounded
+    {
+        if (collision.tag == "Platform")
+        {
+            playerMoveState = moveState.Grounded;
+            isGrounded = true;
+            refreshAbilities();
+        }
+    }
+
+    //matches velocities and variables to current movestate, eg falling speed
+    void matchMoveState()
+    {
+        if(rigidRef.velocity.y < 0)
+        {
+            //playerMoveState = moveState.Falling;
+        }
+
+        switch (playerMoveState)    //movestates: Grounded, Jumping, Falling, Dashing, Gliding, Walled, Other
+        {
+            case (moveState.Grounded):
+                rigidRef.gravityScale = 0;
+                rigidRef.velocity = new Vector2(rigidRef.velocity.x, 0);
+                break;
+
+            case (moveState.Jumping):
+                //rigidRef.gravityScale = 10;
+                rigidRef.velocity = new Vector2(rigidRef.velocity.x, rigidRef.velocity.y - 1);
+                break;
+
+            case (moveState.Falling):
+                rigidRef.velocity = new Vector2(rigidRef.velocity.x, rigidRef.velocity.y - 1);
+                break;
+
+            case (moveState.Dashing):
+                break;
+
+            case (moveState.Gliding):
+                break;
+
+            case (moveState.Walled):
+                break;
+
+            case (moveState.Other):
+                break;
+        }
+    }
 }
