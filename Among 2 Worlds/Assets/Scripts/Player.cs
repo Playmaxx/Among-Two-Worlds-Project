@@ -7,7 +7,7 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
     public enum direction { Left, Right }       // variables
     public direction playerdirection;
     public enum moveState { Grounded, Jumping, Falling, Dashing, Gliding, Walled, Other }
-    public moveState playerMoveState = moveState.Grounded;
+    public moveState playerMoveState;
 
     float playerheight = 3.943503f;
     float playerwidth = 0.7109921f;
@@ -40,6 +40,7 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
     {
         playerdirection = direction.Right;
         rigidRef.gravityScale = 20;
+        playerMoveState = moveState.Falling;
     }
 
     // Update is called once per frame
@@ -74,8 +75,6 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
 
     void refreshVariables()     //For variables that need to update every frame
     {
-        if (moveRef.x > 0) { playerdirection = direction.Right; }
-        if (moveRef.x < 0) { playerdirection = direction.Left; }
 
     }
 
@@ -101,7 +100,8 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
     {
         if(rigidRef.velocity.y < 0)
         {
-            //playerMoveState = moveState.Falling;
+            playerMoveState = moveState.Falling;
+            Debug.Log(rigidRef.velocity.y);
         }
 
         switch (playerMoveState)    //movestates: Grounded, Jumping, Falling, Dashing, Gliding, Walled, Other
@@ -112,7 +112,6 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
                 break;
 
             case (moveState.Jumping):
-                //rigidRef.gravityScale = 10;
                 rigidRef.velocity = new Vector2(rigidRef.velocity.x, rigidRef.velocity.y - 1);
                 break;
 
