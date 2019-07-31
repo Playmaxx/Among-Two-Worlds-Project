@@ -38,7 +38,7 @@ public class Gale : MonoBehaviour, IChar     //manages abilities for Gale
                 playerRef.playerdirection = Player.direction.Right;
             }
 
-            if (!Input.anyKey && Input.GetAxis("MoveHorizontal")==0)
+            if (!Input.anyKey && Input.GetAxis("MoveHorizontal") == 0)
             {
                 playerRef.rigidRef.velocity = new Vector2(0, playerRef.rigidRef.velocity.y);
             }
@@ -47,10 +47,32 @@ public class Gale : MonoBehaviour, IChar     //manages abilities for Gale
 
     public void jump()
     {
-        if (Input.GetKeyDown(KeyCode.Space) || Input.GetButtonDown("Jump") && playerRef.playerMoveState == Player.moveState.Grounded)
+        if (Input.GetKeyDown(KeyCode.Space) || Input.GetButtonDown("Jump"))
         {
-            playerRef.playerMoveState = Player.moveState.Jumping;
-            playerRef.rigidRef.velocity = new Vector2(playerRef.rigidRef.velocity.x, playerRef.jumpforce);
+            switch (playerRef.Jumps)
+            {
+                case (2):
+                    if (playerRef.playerMoveState == Player.moveState.Grounded)
+                    {
+                        playerRef.playerMoveState = Player.moveState.Jumping;
+                        playerRef.rigidRef.velocity = new Vector2(playerRef.rigidRef.velocity.x, playerRef.jumpforce);
+                        playerRef.Jumps--;
+                    }
+                    else
+                    {
+                        playerRef.playerMoveState = Player.moveState.Jumping;
+                        playerRef.rigidRef.velocity = new Vector2(playerRef.rigidRef.velocity.x, playerRef.jumpforce);
+                        playerRef.Jumps-=2;
+                    }
+                    break;
+                case (1):
+                        playerRef.playerMoveState = Player.moveState.Jumping;
+                        playerRef.rigidRef.velocity = new Vector2(playerRef.rigidRef.velocity.x, playerRef.jumpforce);
+                        playerRef.Jumps--;
+                    break;
+                default:
+                    break;
+            }
         }
     }
 

@@ -54,8 +54,8 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
         switch (GameManager.GMInstance.currentdim)
         {
             case (GameManager.dimension.Light):
-                //lilianRef.movement();
-                //lilianRef.jump();
+                lilianRef.movement();
+                lilianRef.jump();
                 //lilianRef.dash();
                 //lilianRef.glide();
                 //lilianRef.wallaction();
@@ -90,18 +90,24 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
         if (collision.tag == "Platform")
         {
             playerMoveState = moveState.Grounded;
-            isGrounded = true;
             refreshAbilities();
+        }
+    }
+    //checks if player walked off edge
+    void OnTriggerExit2D(Collider2D collision)     //checks if player is grounded
+    {
+        if (collision.tag == "Platform")
+        {
+            playerMoveState = moveState.Falling;
         }
     }
 
     //matches velocities and variables to current movestate, eg falling speed
     void matchMoveState()
     {
-        if(rigidRef.velocity.y < 0)
+        if(rigidRef.velocity.y < 0 && playerMoveState == moveState.Jumping)
         {
             playerMoveState = moveState.Falling;
-            Debug.Log(rigidRef.velocity.y);
         }
 
         switch (playerMoveState)    //movestates: Grounded, Jumping, Falling, Dashing, Gliding, Walled, Other
