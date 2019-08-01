@@ -71,13 +71,14 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
 
         //tests
         Debug.Log(playerMoveState);
-        Debug.DrawRay(transform.position, Vector2.down*(playerheight/2), Color.green);
+        Debug.DrawRay(transform.position, Vector2.down * playerheight / 2, Color.green);
+        Debug.Log(Physics2D.Raycast(transform.position, Vector2.down * playerheight / 2));
 
     }
 
     void refreshVariables()     //For variables that need to update every frame
     {
-        
+
     }
 
     void refreshAbilities()     //refreshes jumps & dashes etc.
@@ -108,6 +109,11 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
     void matchMoveState()
     {
         if (rigidRef.velocity.y < 0 && Physics2D.Raycast(transform.position, Vector2.down, playerheight / 2) == false && playerMoveState != Player.moveState.Gliding)
+        {
+            playerMoveState = moveState.Falling;
+        }
+
+        if (playerMoveState == moveState.Gliding && Physics2D.Raycast(transform.position, Vector2.down * playerheight / 2) == true)
         {
             playerMoveState = moveState.Falling;
         }
