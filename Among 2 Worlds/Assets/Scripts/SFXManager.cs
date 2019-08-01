@@ -36,7 +36,7 @@ public class SFXManager : MonoBehaviour
             {
                 if (Input.GetKey(KeyCode.LeftShift))
                 {
-                    if (playerRef.dashused == false)        //press shift + a||d to trigger
+                    if (playerRef.dashused == false)        
                     {
                         p_audio.clip = Dash;
                         p_audio.Play();

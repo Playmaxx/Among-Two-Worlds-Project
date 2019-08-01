@@ -5,12 +5,15 @@ using UnityEngine;
 public class PopUpPanels : MonoBehaviour
 {
     public RectTransform panel_jump;
+    public RectTransform panel_worldshifting;
     public CanvasGroup canvasGroup;
     // Start is called before the first frame update
     void Awake()
     {
         //canvasGroup = GetComponent<CanvasGroup>
         panel_jump = GetComponent<RectTransform>();
+        panel_worldshifting = GetComponent<RectTransform>();
+        canvasGroup = GetComponent<CanvasGroup>();
     }
 
     void Hide()
