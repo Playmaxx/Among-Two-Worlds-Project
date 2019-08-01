@@ -1,0 +1,437 @@
+fileFormatVersion: 2
+guid: 49084d422f5963141b5351eee45a7c7d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2638484966130525012
+    second: "Lilian run_Sprite Sheet vergr\xF6\xDFert_0"
+  - first:
+      213: 6611954729789533210
+    second: "Lilian run_Sprite Sheet vergr\xF6\xDFert_1"
+  - first:
+      213: 4643482147044400054
+    second: "Lilian run_Sprite Sheet vergr\xF6\xDFert_2"
+  - first:
+      213: 658913534659878941
+    second: "Lilian run_Sprite Sheet vergr\xF6\xDFert_3"
+  - first:
+      213: 4286972127036860156
+    second: "Lilian run_Sprite Sheet vergr\xF6\xDFert_4"
+  - first:
+      213: -6986945484214930631
+    second: "Lilian run_Sprite Sheet vergr\xF6\xDFert_5"
+  - first:
+      213: 1235099979306738614
+    second: "Lilian run_Sprite Sheet vergr\xF6\xDFert_6"
+  - first:
+      213: -714272132750077937
+    second: "Lilian run_Sprite Sheet vergr\xF6\xDFert_7"
+  - first:
+      213: 5585374382428314943
+    second: "Lilian run_Sprite Sheet vergr\xF6\xDFert_8"
+  - first:
+      213: -8885387593304692329
+    second: "Lilian run_Sprite Sheet vergr\xF6\xDFert_9"
+  - first:
+      213: 2396948593813207543
+    second: "Lilian run_Sprite Sheet vergr\xF6\xDFert_10"
+  - first:
+      213: -2832529239778834925
+    second: "Lilian run_Sprite Sheet vergr\xF6\xDFert_11"
+  - first:
+      213: -728186580579352829
+    second: "Lilian run_Sprite Sheet vergr\xF6\xDFert_12"
+  - first:
+      213: 1545218962924146451
+    second: "Lilian run_Sprite Sheet vergr\xF6\xDFert_13"
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Lilian run_Sprite Sheet vergr\xF6\xDFert_0"
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 370
+        width: 248
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d585b2f83f4388418b4c22c2e882fac
+      internalID: -2638484966130525012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Lilian run_Sprite Sheet vergr\xF6\xDFert_1"
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 368
+        width: 256
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4e9a75707405034d83537b1e41642f4
+      internalID: 6611954729789533210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Lilian run_Sprite Sheet vergr\xF6\xDFert_2"
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 370
+        width: 192
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0211d92962629094783a0de28e183d18
+      internalID: 4643482147044400054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Lilian run_Sprite Sheet vergr\xF6\xDFert_3"
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 368
+        width: 124
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c671fb9cf1a3edd439a17419d7f2e912
+      internalID: 658913534659878941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Lilian run_Sprite Sheet vergr\xF6\xDFert_4"
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 370
+        width: 174
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07334d454989c75459edf8948c60f972
+      internalID: 4286972127036860156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Lilian run_Sprite Sheet vergr\xF6\xDFert_5"
+      rect:
+        serializedVersion: 2
+        x: 1346
+        y: 410
+        width: 220
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 883eb9a787f26d14aa4da10121f23513
+      internalID: -6986945484214930631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Lilian run_Sprite Sheet vergr\xF6\xDFert_6"
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 394
+        width: 244
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9306ae7248137e048969341aa344839f
+      internalID: 1235099979306738614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Lilian run_Sprite Sheet vergr\xF6\xDFert_7"
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 8
+        width: 246
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27368388a19cdb340b33b15e8e8a5be2
+      internalID: -714272132750077937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Lilian run_Sprite Sheet vergr\xF6\xDFert_8"
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 2
+        width: 218
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 523f45392db03854f9dcefe097fdbef5
+      internalID: 5585374382428314943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Lilian run_Sprite Sheet vergr\xF6\xDFert_9"
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 2
+        width: 172
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faa836dca1278764bb470885733e07b0
+      internalID: -8885387593304692329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Lilian run_Sprite Sheet vergr\xF6\xDFert_10"
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 0
+        width: 130
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68ba004d81446a24ba3e87791ab74527
+      internalID: 2396948593813207543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Lilian run_Sprite Sheet vergr\xF6\xDFert_11"
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 6
+        width: 168
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16ec8579074dff54480e5efc754636db
+      internalID: -2832529239778834925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Lilian run_Sprite Sheet vergr\xF6\xDFert_12"
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 44
+        width: 234
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0af6bd0e754c8aa489d8fc814bae5621
+      internalID: -728186580579352829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Lilian run_Sprite Sheet vergr\xF6\xDFert_13"
+      rect:
+        serializedVersion: 2
+        x: 1586
+        y: 18
+        width: 258
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2115c59640d54f49862715c921c0e4c
+      internalID: 1545218962924146451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 2fc9a91b19129f044813ff25bdd21fd0
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
