@@ -9,8 +9,8 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
     public enum moveState { Grounded, Jumping, Falling, Dashing, Gliding, Walled, Other }
     public moveState playerMoveState;
 
-    float playerheight = 3.943503f;
-    float playerwidth = 0.7109921f;
+    public float playerheight = 3.943503f;
+    public float playerwidth = 0.7109921f;
     public bool isGrounded;
     public bool isWalled;
     public int Jumps = 2;
@@ -105,7 +105,7 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
     //matches velocities and variables to current movestate, eg falling speed
     void matchMoveState()
     {
-        if(rigidRef.velocity.y < 0 && playerMoveState == moveState.Jumping)
+        if (rigidRef.velocity.y < 0 && Physics2D.Raycast(transform.position, Vector2.down, playerheight / 2) == false)
         {
             playerMoveState = moveState.Falling;
         }
