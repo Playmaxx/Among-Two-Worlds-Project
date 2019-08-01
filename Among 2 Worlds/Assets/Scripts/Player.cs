@@ -6,28 +6,27 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
 {
     public enum direction { Left, Right }       // variables
     public direction playerdirection;
-    float playerheight = 3.943503f;
-    float playerwidth = 0.7109921f;
+    public enum moveState { Grounded, Jumping, Falling, Dashing, Gliding, Walled, Other }
+    public moveState playerMoveState;
+
+    public float playerheight = 3.943503f;
+    public float playerwidth = 0.7109921f;
     public bool isGrounded;
     public bool isWalled;
     public int Jumps = 2;
-    public int speedMultiplier = 10;
-    public int jumpforce = 7;
-    public float longJumpMultiplier = 2f;
-    public float gravityMultiplier = 2.5f;
+    public float moveSpeed = 7.5f;
+    public int jumpforce = 20;
     public int dashspeed = 300;
     public bool dashused = false;
     public int glidespeed = 2;
     public int wallSlideSpeed = 2;
+    public float playerGravity = 10;
 
     public Rigidbody2D rigidRef;        //ref types
     public Gale galeRef;
     public Lilian lilianRef;
     public SpriteRenderer renderRef;
     public Vector2 moveRef;
-
-
-    public int dashTimer = 10;
 
 
     private void Awake()
@@ -40,70 +39,43 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
     void Start()
     {
         playerdirection = direction.Right;
+        rigidRef.gravityScale = 20;
+        playerMoveState = moveState.Falling;
     }
 
     // Update is called once per frame
     void Update()
     {
         //general functions
-        checkGroundState();
         refreshVariables();
+        matchMoveState();
 
         //handles character specific functions 
         switch (GameManager.GMInstance.currentdim)
         {
             case (GameManager.dimension.Light):
-                lilianRef.movement(moveRef);
+                lilianRef.movement();
                 lilianRef.jump();
-                lilianRef.dash(moveRef);
-                lilianRef.glide();
-                lilianRef.wallaction();
+                //lilianRef.dash();
+                //lilianRef.glide();
+                //lilianRef.wallaction();
                 break;
             case (GameManager.dimension.Dark):
-                galeRef.movement(moveRef);
+                galeRef.movement();
                 galeRef.jump();
-                galeRef.dash(moveRef);
+                //galeRef.dash();
                 break;
 
         }
 
         //tests
+        Debug.Log(playerMoveState);
 
     }
 
     void refreshVariables()     //For variables that need to update every frame
     {
-        float x = Input.GetAxis("Horizontal");
-        float y = 0;
-        moveRef = new Vector2(x, y);
-        if (moveRef.x > 0) { playerdirection = direction.Right; }
-        if (moveRef.x < 0) { playerdirection = direction.Left; }
-    }
 
-    void checkGroundState()     //checks if the player is grounded
-    {
-
-        if (Physics2D.Raycast(rigidRef.position, Vector2.down, playerheight / 2))
-        {
-            refreshAbilities();
-            isGrounded = true;
-        }
-        else
-        {
-            if (isGrounded == true)
-            {
-                Jumps--;
-            }
-            isGrounded = false;
-        }
-        if (Physics2D.Raycast(rigidRef.position, Vector2.left, playerwidth / 2) || Physics2D.Raycast(rigidRef.position, Vector2.right, playerwidth / 2))
-        {
-            isWalled = true;
-        }
-        else
-        {
-            isWalled = false;
-        }
     }
 
     void refreshAbilities()     //refreshes jumps & dashes etc.
@@ -112,4 +84,58 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
         dashused = false;
     }
 
+    //checks ground state
+    void OnTriggerEnter2D(Collider2D collision)     //checks if player is grounded
+    {
+        if (collision.tag == "Platform")
+        {
+            playerMoveState = moveState.Grounded;
+            refreshAbilities();
+        }
+    }
+    //checks if player walked off edge
+    void OnTriggerExit2D(Collider2D collision)     //checks if player is grounded
+    {
+        if (collision.tag == "Platform")
+        {
+            playerMoveState = moveState.Falling;
+        }
+    }
+
+    //matches velocities and variables to current movestate, eg falling speed
+    void matchMoveState()
+    {
+        if (rigidRef.velocity.y < 0 && Physics2D.Raycast(transform.position, Vector2.down, playerheight / 2) == false)
+        {
+            playerMoveState = moveState.Falling;
+        }
+
+        switch (playerMoveState)    //movestates: Grounded, Jumping, Falling, Dashing, Gliding, Walled, Other
+        {
+            case (moveState.Grounded):
+                rigidRef.gravityScale = 0;
+                rigidRef.velocity = new Vector2(rigidRef.velocity.x, 0);
+                break;
+
+            case (moveState.Jumping):
+                rigidRef.velocity = new Vector2(rigidRef.velocity.x, rigidRef.velocity.y - 1);
+                break;
+
+            case (moveState.Falling):
+                rigidRef.velocity = new Vector2(rigidRef.velocity.x, rigidRef.velocity.y - 1);
+                break;
+
+            case (moveState.Dashing):
+                break;
+
+            case (moveState.Gliding):
+                break;
+
+            case (moveState.Walled):
+                break;
+
+            case (moveState.Other):
+                break;
+        }
+    }
 }
