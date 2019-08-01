@@ -42,7 +42,7 @@ public class GameManager : MonoBehaviour    //manages central aspects such as wo
 
     public void switchDimension()      //reverses current dimension and switches active scripts
     {
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.E) || Input.GetButtonDown("Worldshift"))
         {
             switch (currentdim)
             {
