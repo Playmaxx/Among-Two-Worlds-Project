@@ -9,8 +9,8 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
     public enum moveState { Grounded, Jumping, Falling, Dashing, Gliding, Walled, Other }
     public moveState playerMoveState;
 
-    public float playerheight = 3.943503f;
-    public float playerwidth = 0.7109921f;
+    public float playerheight = 2;
+    public float playerwidth = 1;
     public bool isGrounded;
     public bool isWalled;
     public int Jumps = 2;
@@ -57,25 +57,27 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
                 lilianRef.movement();
                 lilianRef.jump();
                 //lilianRef.dash();
-                //lilianRef.glide();
+                lilianRef.glide();
                 //lilianRef.wallaction();
                 break;
             case (GameManager.dimension.Dark):
                 galeRef.movement();
                 galeRef.jump();
                 //galeRef.dash();
+                galeRef.glide();
                 break;
 
         }
 
         //tests
         Debug.Log(playerMoveState);
+        Debug.DrawRay(transform.position, Vector2.down*(playerheight/2), Color.green);
 
     }
 
     void refreshVariables()     //For variables that need to update every frame
     {
-
+        
     }
 
     void refreshAbilities()     //refreshes jumps & dashes etc.
@@ -105,7 +107,7 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
     //matches velocities and variables to current movestate, eg falling speed
     void matchMoveState()
     {
-        if (rigidRef.velocity.y < 0 && Physics2D.Raycast(transform.position, Vector2.down, playerheight / 2) == false)
+        if (rigidRef.velocity.y < 0 && Physics2D.Raycast(transform.position, Vector2.down, playerheight / 2) == false && playerMoveState != Player.moveState.Gliding)
         {
             playerMoveState = moveState.Falling;
         }

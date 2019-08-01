@@ -665,6 +665,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerdirection: 0
   playerMoveState: 0
+  playerheight: 2
+  playerwidth: 1
   isGrounded: 0
   isWalled: 0
   Jumps: 2
