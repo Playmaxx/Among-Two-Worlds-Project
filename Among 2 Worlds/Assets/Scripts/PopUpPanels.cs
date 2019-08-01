@@ -4,27 +4,32 @@ using UnityEngine;
 
 public class PopUpPanels : MonoBehaviour
 {
-    public RectTransform panel_jump;
-    public RectTransform panel_worldshifting;
+    public GameObject panel_jump;
     public CanvasGroup canvasGroup;
+    bool state;
     // Start is called before the first frame update
     void Awake()
     {
-        //canvasGroup = GetComponent<CanvasGroup>
-        panel_jump = GetComponent<RectTransform>();
-        panel_worldshifting = GetComponent<RectTransform>();
-        canvasGroup = GetComponent<CanvasGroup>();
+        panel_jump = GetComponent<GameObject>();
     }
 
-    void Hide()
+    public void SwitchHideShow()
     {
-        canvasGroup.alpha = 0f; //this makes everything transparent
-        canvasGroup.blocksRaycasts = false; //this prevents the UI element to receive input events
+        state = !state;
+        panel_jump.gameObject.SetActive(state);
+    }
+
+    void Start()
+    {
+        state = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKey(KeyCode.P))
+        {
+            SwitchHideShow();
+        }
     }
 }
