@@ -9,10 +9,14 @@ public class GameManager : MonoBehaviour    //manages central aspects such as wo
 
     public enum dimension { None, Light, Dark }
     public dimension currentdim;
+    public enum level {Tutorial, Eingang, Haupthalle, Keller, Türme, Boss}
+    public level currentlvl;
 
     private void Awake()
     {
         currentdim = dimension.Light;
+        currentlvl = level.Tutorial;
+
         if (GMInstance == null)
         {
             DontDestroyOnLoad(gameObject);
@@ -38,7 +42,7 @@ public class GameManager : MonoBehaviour    //manages central aspects such as wo
 
     public void switchDimension()      //reverses current dimension and switches active scripts
     {
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.E) || Input.GetButtonDown("Worldshift"))
         {
             switch (currentdim)
             {
@@ -50,6 +54,15 @@ public class GameManager : MonoBehaviour    //manages central aspects such as wo
                     currentdim = dimension.Light;
                     break;
             }
+        }
+    }
+
+    void updateDimensions()     //updates dimensions for all platforms and backgrounds
+    {
+        Platform[] AllPlatforms = FindObjectsOfType(typeof(Platform)) as Platform[];
+        foreach(Platform item in AllPlatforms)
+        {
+            //item.gameObject.updateDimensions();
         }
     }
 }
