@@ -9,18 +9,18 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
     public enum moveState { Grounded, Jumping, Falling, Dashing, Gliding, Walled, Other }
     public moveState playerMoveState;
 
-    public float playerheight = 3.943503f;
-    public float playerwidth = 0.7109921f;
-    public bool isGrounded;
-    public bool isWalled;
+    public float playerheight = 2;
+    public float playerwidth = 1;
     public int Jumps = 2;
     public float moveSpeed = 7.5f;
     public int jumpforce = 20;
     public int dashspeed = 300;
     public bool dashused = false;
     public int glidespeed = 2;
-    public int wallSlideSpeed = 2;
+    public float wallSlideSpeed = 0.1f;
     public float playerGravity = 10;
+    int platformMask = 1 << 10;
+
 
     public Rigidbody2D rigidRef;        //ref types
     public Gale galeRef;
@@ -57,19 +57,24 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
                 lilianRef.movement();
                 lilianRef.jump();
                 //lilianRef.dash();
-                //lilianRef.glide();
+                lilianRef.glide();
                 //lilianRef.wallaction();
                 break;
             case (GameManager.dimension.Dark):
                 galeRef.movement();
                 galeRef.jump();
                 //galeRef.dash();
+                galeRef.glide();
+                galeRef.wallaction();
                 break;
 
         }
 
         //tests
         Debug.Log(playerMoveState);
+        Debug.DrawRay(transform.position, Vector2.down * playerheight / 2, Color.green);
+        Debug.DrawRay(transform.position, Vector2.left * playerwidth / 2, Color.green);
+        Debug.DrawRay(transform.position, Vector2.right * playerwidth / 2, Color.green);
 
     }
 
@@ -102,10 +107,14 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
         }
     }
 
-    //matches velocities and variables to current movestate, eg falling speed
     void matchMoveState()
     {
-        if (rigidRef.velocity.y < 0 && Physics2D.Raycast(transform.position, Vector2.down, playerheight / 2) == false)
+        if (rigidRef.velocity.y < 0 && Physics2D.Raycast(transform.position, Vector2.down, playerheight / 2, GameManager.GMInstance.platformMask) == false && playerMoveState != Player.moveState.Gliding)
+        {
+            playerMoveState = moveState.Falling;
+        }
+
+        if (playerMoveState == moveState.Gliding && Physics2D.Raycast(transform.position, Vector2.down, playerheight / 2, GameManager.GMInstance.platformMask) == true)
         {
             playerMoveState = moveState.Falling;
         }
@@ -132,6 +141,7 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
                 break;
 
             case (moveState.Walled):
+                rigidRef.velocity = new Vector2(rigidRef.velocity.x, -wallSlideSpeed);
                 break;
 
             case (moveState.Other):
