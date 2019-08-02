@@ -21,6 +21,7 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
     public int glidespeed = 2;
     public int wallSlideSpeed = 2;
     public float playerGravity = 10;
+    int platformMask = 1 << 10;
 
     public Rigidbody2D rigidRef;        //ref types
     public Gale galeRef;
@@ -71,8 +72,11 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
 
         //tests
         Debug.Log(playerMoveState);
-        Debug.DrawRay(transform.position, Vector2.down * playerheight / 2, Color.green);
-        Debug.Log(Physics2D.Raycast(transform.position, Vector2.down * playerheight / 2));
+        Debug.DrawRay(transform.position, Vector2.down* playerheight / 2, Color.green);
+        if(Physics2D.Raycast(transform.position, Vector2.down, playerheight / 2, platformMask) == true)
+        {
+            Debug.Log("hitting ground");
+        }
 
     }
 
@@ -108,12 +112,12 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
     //matches velocities and variables to current movestate, eg falling speed
     void matchMoveState()
     {
-        if (rigidRef.velocity.y < 0 && Physics2D.Raycast(transform.position, Vector2.down, playerheight / 2) == false && playerMoveState != Player.moveState.Gliding)
+        if (rigidRef.velocity.y < 0 && Physics2D.Raycast(transform.position, Vector2.down, playerheight / 2, platformMask) == false && playerMoveState != Player.moveState.Gliding)
         {
             playerMoveState = moveState.Falling;
         }
 
-        if (playerMoveState == moveState.Gliding && Physics2D.Raycast(transform.position, Vector2.down * playerheight / 2) == true)
+        if (playerMoveState == moveState.Gliding && Physics2D.Raycast(transform.position, Vector2.down, playerheight / 2, platformMask) == true)
         {
             playerMoveState = moveState.Falling;
         }
