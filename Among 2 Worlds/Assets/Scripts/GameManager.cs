@@ -8,6 +8,10 @@ public class GameManager : MonoBehaviour    //manages central aspects such as wo
     public static GameManager GMInstance;
     Player playerRef;
 
+    public int playerMask = 1 << 8;
+    public int enemyMask = 1 << 9;
+    public int platformMask = 1 << 10;
+
     public enum dimension { None, Light, Dark }
     public dimension currentdim;
     public enum level {Tutorial, Eingang, Haupthalle, Keller, Türme, Boss}

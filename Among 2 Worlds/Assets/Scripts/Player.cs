@@ -73,10 +73,6 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
         //tests
         Debug.Log(playerMoveState);
         Debug.DrawRay(transform.position, Vector2.down* playerheight / 2, Color.green);
-        if(Physics2D.Raycast(transform.position, Vector2.down, playerheight / 2, platformMask) == true)
-        {
-            Debug.Log("hitting ground");
-        }
 
     }
 
@@ -109,15 +105,15 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
         }
     }
 
-    //matches velocities and variables to current movestate, eg falling speed
+    //matches velocities and variables to current movestate, (eg falling speed) if required
     void matchMoveState()
     {
-        if (rigidRef.velocity.y < 0 && Physics2D.Raycast(transform.position, Vector2.down, playerheight / 2, platformMask) == false && playerMoveState != Player.moveState.Gliding)
+        if (rigidRef.velocity.y < 0 && Physics2D.Raycast(transform.position, Vector2.down, playerheight / 2, GameManager.GMInstance.platformMask) == false && playerMoveState != Player.moveState.Gliding)
         {
             playerMoveState = moveState.Falling;
         }
 
-        if (playerMoveState == moveState.Gliding && Physics2D.Raycast(transform.position, Vector2.down, playerheight / 2, platformMask) == true)
+        if (playerMoveState == moveState.Gliding && Physics2D.Raycast(transform.position, Vector2.down, playerheight / 2, GameManager.GMInstance.platformMask) == true)
         {
             playerMoveState = moveState.Falling;
         }
