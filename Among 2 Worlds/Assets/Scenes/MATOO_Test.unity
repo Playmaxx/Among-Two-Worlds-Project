@@ -309,6 +309,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: testplatform
       objectReference: {fileID: 0}
+    - target: {fileID: 1981518019388325337, guid: 2c2e7effd6de585498b8c37708299d2d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: -5822052340017951075, guid: 2c2e7effd6de585498b8c37708299d2d,
         type: 3}
       propertyPath: m_Size.x
@@ -471,6 +476,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: testplatform (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1981518019388325337, guid: 2c2e7effd6de585498b8c37708299d2d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: -5822052340017951075, guid: 2c2e7effd6de585498b8c37708299d2d,
         type: 3}
@@ -644,7 +654,7 @@ GameObject:
   - component: {fileID: 2096489844}
   - component: {fileID: 2096489843}
   - component: {fileID: 2096489847}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -665,6 +675,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerdirection: 0
   playerMoveState: 0
+  playerheight: 2
+  playerwidth: 1
   isGrounded: 0
   isWalled: 0
   Jumps: 2

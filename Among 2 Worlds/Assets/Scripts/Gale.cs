@@ -62,13 +62,13 @@ public class Gale : MonoBehaviour, IChar     //manages abilities for Gale
                     {
                         playerRef.playerMoveState = Player.moveState.Jumping;
                         playerRef.rigidRef.velocity = new Vector2(playerRef.rigidRef.velocity.x, playerRef.jumpforce);
-                        playerRef.Jumps-=2;
+                        playerRef.Jumps -= 2;
                     }
                     break;
                 case (1):
-                        playerRef.playerMoveState = Player.moveState.Jumping;
-                        playerRef.rigidRef.velocity = new Vector2(playerRef.rigidRef.velocity.x, playerRef.jumpforce);
-                        playerRef.Jumps--;
+                    playerRef.playerMoveState = Player.moveState.Jumping;
+                    playerRef.rigidRef.velocity = new Vector2(playerRef.rigidRef.velocity.x, playerRef.jumpforce);
+                    playerRef.Jumps--;
                     break;
                 default:
                     break;
@@ -83,7 +83,10 @@ public class Gale : MonoBehaviour, IChar     //manages abilities for Gale
 
     public void glide()
     {
-        throw new System.NotImplementedException();
+        if (playerRef.playerMoveState == Player.moveState.Gliding)
+        {
+            playerRef.playerMoveState = Player.moveState.Falling;
+        }
     }
 
     public void wallaction()

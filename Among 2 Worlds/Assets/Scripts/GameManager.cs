@@ -6,6 +6,7 @@ public class GameManager : MonoBehaviour    //manages central aspects such as wo
 {
 
     public static GameManager GMInstance;
+    Player playerRef;
 
     public enum dimension { None, Light, Dark }
     public dimension currentdim;
@@ -16,6 +17,7 @@ public class GameManager : MonoBehaviour    //manages central aspects such as wo
     {
         currentdim = dimension.Light;
         currentlvl = level.Tutorial;
+        playerRef = GetComponent<Player>();
 
         if (GMInstance == null)
         {

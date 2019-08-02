@@ -72,7 +72,15 @@ public class Lilian : MonoBehaviour, IChar        //manages abilities for Lilian
 
     public void glide()
     {
-        throw new System.NotImplementedException();
+        if ((Input.GetKey(KeyCode.Space) || Input.GetButton("Jump")) && playerRef.rigidRef.velocity.y < 0 && playerRef.playerMoveState == Player.moveState.Falling)
+        {
+            playerRef.playerMoveState = Player.moveState.Gliding;
+            playerRef.rigidRef.velocity = new Vector2(playerRef.rigidRef.velocity.x, -playerRef.glidespeed);
+        }
+        if ((Input.GetKeyUp(KeyCode.Space) || Input.GetButtonUp("Jump")) && playerRef.playerMoveState == Player.moveState.Gliding)
+        {
+            playerRef.playerMoveState = Player.moveState.Falling;
+        }
     }
 
     public void wallaction()
