@@ -38,9 +38,10 @@ public class Gale : MonoBehaviour, IChar     //manages abilities for Gale
                 playerRef.playerdirection = Player.direction.Right;
             }
 
-            if (!Input.anyKey && Input.GetAxis("MoveHorizontal") == 0)
+            if (!Input.GetKey(KeyCode.A) && !Input.GetKey(KeyCode.D) && Input.GetAxis("MoveHorizontal") == 0)
             {
                 playerRef.rigidRef.velocity = new Vector2(0, playerRef.rigidRef.velocity.y);
+                Debug.Log("stopping movement");
             }
         }
     }
@@ -78,17 +79,20 @@ public class Gale : MonoBehaviour, IChar     //manages abilities for Gale
 
     public void dash()
     {
-        if(Input.GetKey(KeyCode.LeftShift) || Input.GetButton("Dash"))
+        if ((Input.GetKey(KeyCode.LeftShift) || Input.GetButton("Dash")) && playerRef.dashused == false)
         {
             playerRef.playerMoveState = Player.moveState.Dashing;
-            if(playerRef.playerdirection == Player.direction.Left)
+            if (playerRef.playerdirection == Player.direction.Left)
             {
                 playerRef.rigidRef.velocity = new Vector2(-playerRef.dashspeed, 0);
+                playerRef.dashused = true;
             }
             if (playerRef.playerdirection == Player.direction.Right)
             {
                 playerRef.rigidRef.velocity = new Vector2(playerRef.dashspeed, 0);
+                playerRef.dashused = true;
             }
+            playerRef.playerMoveState = Player.moveState.Falling;
         }
     }
 
@@ -102,7 +106,7 @@ public class Gale : MonoBehaviour, IChar     //manages abilities for Gale
 
     public void wallaction()
     {
-        if((Physics2D.Raycast(transform.position, Vector2.left, playerRef.playerwidth / 2, GameManager.GMInstance.platformMask) == true ) && playerRef.playerMoveState != Player.moveState.Grounded)
+        if ((Physics2D.Raycast(transform.position, Vector2.left, playerRef.playerwidth / 2, GameManager.GMInstance.platformMask) == true) && playerRef.playerMoveState != Player.moveState.Grounded)
         {
             playerRef.playerMoveState = Player.moveState.Walled;
         }

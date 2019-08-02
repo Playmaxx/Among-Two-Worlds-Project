@@ -80,7 +80,14 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
 
     void refreshVariables()     //For variables that need to update every frame
     {
-
+        if (playerdirection == direction.Right)
+        {
+            renderRef.flipX = true;
+        }
+        if (playerdirection == direction.Left)
+        {
+            renderRef.flipX = false;
+        }
     }
 
     void refreshAbilities()     //refreshes jumps & dashes etc.
