@@ -62,15 +62,6 @@ public class Gale : MonoBehaviour, IChar     //manages abilities for Gale
                     {
                         playerRef.playerMoveState = Player.moveState.Jumping;
                         playerRef.rigidRef.velocity = new Vector2(playerRef.rigidRef.velocity.x, playerRef.jumpforce);
-<<<<<<< HEAD
-                        playerRef.Jumps-=2;
-                    }
-                    break;
-                case (1):
-                        playerRef.playerMoveState = Player.moveState.Jumping;
-                        playerRef.rigidRef.velocity = new Vector2(playerRef.rigidRef.velocity.x, playerRef.jumpforce);
-                        playerRef.Jumps--;
-=======
                         playerRef.Jumps -= 2;
                     }
                     break;
@@ -78,7 +69,6 @@ public class Gale : MonoBehaviour, IChar     //manages abilities for Gale
                     playerRef.playerMoveState = Player.moveState.Jumping;
                     playerRef.rigidRef.velocity = new Vector2(playerRef.rigidRef.velocity.x, playerRef.jumpforce);
                     playerRef.Jumps--;
->>>>>>> FileShare
                     break;
                 default:
                     break;

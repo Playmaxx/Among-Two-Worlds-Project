@@ -9,13 +9,8 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
     public enum moveState { Grounded, Jumping, Falling, Dashing, Gliding, Walled, Other }
     public moveState playerMoveState;
 
-<<<<<<< HEAD
-    float playerheight = 3.943503f;
-    float playerwidth = 0.7109921f;
-=======
     public float playerheight = 2;
     public float playerwidth = 1;
->>>>>>> FileShare
     public bool isGrounded;
     public bool isWalled;
     public int Jumps = 2;
@@ -26,10 +21,7 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
     public int glidespeed = 2;
     public int wallSlideSpeed = 2;
     public float playerGravity = 10;
-<<<<<<< HEAD
-=======
     int platformMask = 1 << 10;
->>>>>>> FileShare
 
     public Rigidbody2D rigidRef;        //ref types
     public Gale galeRef;
@@ -66,31 +58,21 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
                 lilianRef.movement();
                 lilianRef.jump();
                 //lilianRef.dash();
-<<<<<<< HEAD
-                //lilianRef.glide();
-=======
                 lilianRef.glide();
->>>>>>> FileShare
                 //lilianRef.wallaction();
                 break;
             case (GameManager.dimension.Dark):
                 galeRef.movement();
                 galeRef.jump();
                 //galeRef.dash();
-<<<<<<< HEAD
-=======
                 galeRef.glide();
->>>>>>> FileShare
                 break;
 
         }
 
         //tests
         Debug.Log(playerMoveState);
-<<<<<<< HEAD
-=======
         Debug.DrawRay(transform.position, Vector2.down* playerheight / 2, Color.green);
->>>>>>> FileShare
 
     }
 
@@ -123,30 +105,14 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
         }
     }
 
-<<<<<<< HEAD
-    //matches velocities and variables to current movestate, eg falling speed
-    void matchMoveState()
-    {
-        if(rigidRef.velocity.y < 0 && playerMoveState == moveState.Jumping)
-=======
     //matches velocities and variables to current movestate, (eg falling speed) if required
     void matchMoveState()
     {
         if (rigidRef.velocity.y < 0 && Physics2D.Raycast(transform.position, Vector2.down, playerheight / 2, GameManager.GMInstance.platformMask) == false && playerMoveState != Player.moveState.Gliding)
->>>>>>> FileShare
         {
             playerMoveState = moveState.Falling;
         }
 
-<<<<<<< HEAD
-        switch (playerMoveState)    //movestates: Grounded, Jumping, Falling, Dashing, Gliding, Walled, Other
-        {
-            case (moveState.Grounded):
-                rigidRef.gravityScale = 0;
-                rigidRef.velocity = new Vector2(rigidRef.velocity.x, 0);
-                break;
-
-=======
         if (playerMoveState == moveState.Gliding && Physics2D.Raycast(transform.position, Vector2.down, playerheight / 2, GameManager.GMInstance.platformMask) == true)
         {
             playerMoveState = moveState.Falling;
@@ -159,7 +125,6 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
                 rigidRef.velocity = new Vector2(rigidRef.velocity.x, 0);
                 break;
 
->>>>>>> FileShare
             case (moveState.Jumping):
                 rigidRef.velocity = new Vector2(rigidRef.velocity.x, rigidRef.velocity.y - 1);
                 break;
