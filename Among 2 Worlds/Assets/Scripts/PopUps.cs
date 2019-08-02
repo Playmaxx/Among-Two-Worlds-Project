@@ -4,35 +4,41 @@ using UnityEngine;
 
 public class PopUps : MonoBehaviour
 {
-    GameObject[] panels;
-    public GameObject panelRef;
-    bool state = false;
+    public GameObject[] panels = new GameObject[2];
+    //public GameObject panelRef;
+    Player playerRef;
+    //bool state = false;
 
-    void Awake()
+    void Start()
     {
-        panels = new GameObject[2];
         panels[0] = gameObject.transform.Find("Panel(Jump)").gameObject;
         panels[1] = gameObject.transform.Find("Panel(Worldshifting)").gameObject;
 
         foreach(GameObject panel in panels)
         {
-            panel.SetActive(state);
+            panel.SetActive(false);
         }
     }
     
     void Update()
     {
         //panelRef.SetActive(state);
-        if (Input.GetKeyDown(KeyCode.P))
+        if (playerRef.transform.position.x < -1.5)
         {
-            panelRef = gameObject.transform.Find("Panel(Jump)").gameObject;
-            state = !state;
+            Debug.Log("player is on dis position");
+            panels[0].SetActive(true);
+            //state = !state;
         }
 
-        if (Input.GetKeyDown(KeyCode.O))
-        {
-            panelRef = gameObject.transform.Find("Panel(Worldshifting)").gameObject;
-            state = !state;
-        }
+        //if (Input.GetKeyDown(KeyCode.Space))
+        //{
+            //panels[0].SetActive(false);
+        //}
+
+        //if (Input.GetKeyDown(KeyCode.O))
+        //{
+            //panelRef = gameObject.transform.Find("Panel(Worldshifting)").gameObject;
+            //state = !state;
+        //}
     }
 }
