@@ -63,7 +63,7 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
             case (GameManager.dimension.Dark):
                 galeRef.movement();
                 galeRef.jump();
-                //galeRef.dash();
+                galeRef.dash();
                 galeRef.glide();
                 galeRef.wallaction();
                 break;
@@ -141,7 +141,7 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
                 break;
 
             case (moveState.Walled):
-                rigidRef.velocity = new Vector2(rigidRef.velocity.x, -wallSlideSpeed);
+                rigidRef.velocity = new Vector2(rigidRef.velocity.x, -0.01f);
                 break;
 
             case (moveState.Other):
