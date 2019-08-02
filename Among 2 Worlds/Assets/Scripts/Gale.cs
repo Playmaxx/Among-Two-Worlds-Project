@@ -91,6 +91,13 @@ public class Gale : MonoBehaviour, IChar     //manages abilities for Gale
 
     public void wallaction()
     {
-        throw new System.NotImplementedException();
+        if((Physics2D.Raycast(transform.position, Vector2.left, playerRef.playerwidth / 2, GameManager.GMInstance.platformMask) == true ) && playerRef.playerMoveState != Player.moveState.Grounded)
+        {
+            playerRef.playerMoveState = Player.moveState.Walled;
+        }
+        if ((Physics2D.Raycast(transform.position, Vector2.right, playerRef.playerwidth / 2, GameManager.GMInstance.platformMask) == true) && playerRef.playerMoveState != Player.moveState.Grounded)
+        {
+            playerRef.playerMoveState = Player.moveState.Walled;
+        }
     }
 }
