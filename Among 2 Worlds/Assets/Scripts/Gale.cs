@@ -78,7 +78,18 @@ public class Gale : MonoBehaviour, IChar     //manages abilities for Gale
 
     public void dash()
     {
-        throw new System.NotImplementedException();
+        if(Input.GetKey(KeyCode.LeftShift) || Input.GetButton("Dash"))
+        {
+            playerRef.playerMoveState = Player.moveState.Dashing;
+            if(playerRef.playerdirection == Player.direction.Left)
+            {
+                playerRef.rigidRef.velocity = new Vector2(-playerRef.dashspeed, 0);
+            }
+            if (playerRef.playerdirection == Player.direction.Right)
+            {
+                playerRef.rigidRef.velocity = new Vector2(playerRef.dashspeed, 0);
+            }
+        }
     }
 
     public void glide()
