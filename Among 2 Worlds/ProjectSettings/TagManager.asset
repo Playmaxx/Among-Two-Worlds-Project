@@ -8,6 +8,7 @@ TagManager:
   - TriggerBox
   - TriggerBox-Jump
   - TriggerBox-Worldshift
+  - Textbox
   layers:
   - Default
   - TransparentFX
