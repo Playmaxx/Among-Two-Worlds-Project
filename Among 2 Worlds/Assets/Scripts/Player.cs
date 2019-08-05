@@ -108,7 +108,7 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
     //checks if player walked off edge
     void OnTriggerExit2D(Collider2D collision)     //checks if player is grounded
     {
-        if (collision.tag == "Platform")
+        if (collision.tag == "Platform" && playerMoveState != moveState.Jumping)
         {
             playerMoveState = moveState.Falling;
         }
@@ -148,7 +148,7 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
                 break;
 
             case (moveState.Walled):
-                rigidRef.velocity = new Vector2(rigidRef.velocity.x, -0.01f);
+                rigidRef.velocity = new Vector2(rigidRef.velocity.x, 0);
                 break;
 
             case (moveState.Other):

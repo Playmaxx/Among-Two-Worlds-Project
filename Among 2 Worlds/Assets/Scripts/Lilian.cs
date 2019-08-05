@@ -38,7 +38,7 @@ public class Lilian : MonoBehaviour, IChar        //manages abilities for Lilian
                 playerRef.playerdirection = Player.direction.Right;
             }
 
-            if (!Input.anyKey && Input.GetAxis("MoveHorizontal") == 0)
+            if (!Input.GetKey(KeyCode.A) && !Input.GetKey(KeyCode.D) && Input.GetAxis("MoveHorizontal") == 0)
             {
                 playerRef.rigidRef.velocity = new Vector2(0, playerRef.rigidRef.velocity.y);
             }
