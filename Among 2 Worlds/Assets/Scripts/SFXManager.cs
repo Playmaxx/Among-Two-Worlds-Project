@@ -18,6 +18,7 @@ public class SFXManager : MonoBehaviour
         p_audio.volume = 1.0f;
         p_audio.clip = null;
         playerRef = GetComponent<Player>();
+        Debug.Log(playerRef);
 
     }
 
@@ -40,6 +41,7 @@ public class SFXManager : MonoBehaviour
                     {
                         p_audio.clip = Dash;
                         p_audio.Play();
+                        Debug.Log("sound test");
                     }
                 }
                 
