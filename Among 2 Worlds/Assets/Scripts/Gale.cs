@@ -47,7 +47,7 @@ public class Gale : MonoBehaviour, IChar     //manages abilities for Gale
 
     public void jump()
     {
-        if (Input.GetKeyDown(KeyCode.Space) || Input.GetButtonDown("Jump"))
+        if (Input.GetKeyDown(KeyCode.Space) || Input.GetButtonDown("Jump") && playerRef.playerMoveState != Player.moveState.Walled)
         {
             switch (playerRef.Jumps)
             {
