@@ -85,9 +85,10 @@ public class AnimationController : MonoBehaviour
             isFalling = false;
         }
         animator.SetBool("isFalling", isFalling);
-        
 
 
+        int NumberOfJumps = playerRef.Jumps;   //Check needed for doublejumping
+        animator.SetInteger("NumberOfJumps", NumberOfJumps);
 
         //Checks if the character is moving
         float characterSpeed = Mathf.Abs(playerRef.rigidRef.velocity.x);
