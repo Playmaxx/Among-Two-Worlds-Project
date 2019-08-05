@@ -11,17 +11,16 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
 
     public float playerheight = 2;
     public float playerwidth = 1;
-    public bool isGrounded;
-    public bool isWalled;
     public int Jumps = 2;
     public float moveSpeed = 7.5f;
     public int jumpforce = 20;
     public int dashspeed = 300;
     public bool dashused = false;
     public int glidespeed = 2;
-    public int wallSlideSpeed = 2;
+    public float wallSlideSpeed = 0.1f;
     public float playerGravity = 10;
     int platformMask = 1 << 10;
+
 
     public Rigidbody2D rigidRef;        //ref types
     public Gale galeRef;
@@ -64,21 +63,31 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
             case (GameManager.dimension.Dark):
                 galeRef.movement();
                 galeRef.jump();
-                //galeRef.dash();
+                galeRef.dash();
                 galeRef.glide();
+                galeRef.wallaction();
                 break;
 
         }
 
         //tests
         Debug.Log(playerMoveState);
-        Debug.DrawRay(transform.position, Vector2.down* playerheight / 2, Color.green);
+        Debug.DrawRay(transform.position, Vector2.down * playerheight / 2, Color.green);
+        Debug.DrawRay(transform.position, Vector2.left * playerwidth / 2, Color.green);
+        Debug.DrawRay(transform.position, Vector2.right * playerwidth / 2, Color.green);
 
     }
 
     void refreshVariables()     //For variables that need to update every frame
     {
-
+        if (playerdirection == direction.Right)
+        {
+            renderRef.flipX = true;
+        }
+        if (playerdirection == direction.Left)
+        {
+            renderRef.flipX = false;
+        }
     }
 
     void refreshAbilities()     //refreshes jumps & dashes etc.
@@ -105,7 +114,6 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
         }
     }
 
-    //matches velocities and variables to current movestate, (eg falling speed) if required
     void matchMoveState()
     {
         if (rigidRef.velocity.y < 0 && Physics2D.Raycast(transform.position, Vector2.down, playerheight / 2, GameManager.GMInstance.platformMask) == false && playerMoveState != Player.moveState.Gliding)
@@ -140,6 +148,7 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
                 break;
 
             case (moveState.Walled):
+                rigidRef.velocity = new Vector2(rigidRef.velocity.x, -0.01f);
                 break;
 
             case (moveState.Other):
