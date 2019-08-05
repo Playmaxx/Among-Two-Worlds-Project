@@ -57,7 +57,7 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
                 lilianRef.jump();
                 //lilianRef.dash();
                 lilianRef.glide();
-                //lilianRef.wallaction();
+                lilianRef.wallaction();
                 break;
             case (GameManager.dimension.Dark):
                 galeRef.movement();
