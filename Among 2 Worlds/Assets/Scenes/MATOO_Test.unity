@@ -582,11 +582,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: testblock
       objectReference: {fileID: 0}
+<<<<<<< HEAD
+=======
     - target: {fileID: 1981518019388325337, guid: 2c2e7effd6de585498b8c37708299d2d,
         type: 3}
       propertyPath: m_Layer
       value: 10
       objectReference: {fileID: 0}
+>>>>>>> FileShare
     - target: {fileID: -5822052340017951075, guid: 2c2e7effd6de585498b8c37708299d2d,
         type: 3}
       propertyPath: m_Size.x
@@ -886,3 +889,4 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f7a7dff0c399b394cafa177555ea1cc5, type: 3}
+>>>>>>> FileShare
