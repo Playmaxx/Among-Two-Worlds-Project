@@ -7,7 +7,6 @@ public class PopUps : MonoBehaviour
     public GameObject[] panels = new GameObject[2];
     //public GameObject panelRef;
     Player playerRef;
-    //bool state = false;
 
     void Start()
     {
@@ -22,23 +21,44 @@ public class PopUps : MonoBehaviour
     
     void Update()
     {
-        //panelRef.SetActive(state);
-        if (playerRef.transform.position.x < -1.5)
-        {
-            Debug.Log("player is on dis position");
-            panels[0].SetActive(true);
-            //state = !state;
-        }
 
-        //if (Input.GetKeyDown(KeyCode.Space))
+        //if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.W))
         //{
             //panels[0].SetActive(false);
+            //transform.gameObject.tag = "TriggerBox-Worldshift";
         //}
+    }
 
-        //if (Input.GetKeyDown(KeyCode.O))
-        //{
-            //panelRef = gameObject.transform.Find("Panel(Worldshifting)").gameObject;
-            //state = !state;
-        //}
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.tag == "TriggerBox-Jump")
+        {
+            panels[0].SetActive(true);
+            Debug.Log("Display Jump-PopUp");
+        }
+
+        if (collision.tag == "TriggerBox-Worldshift")
+        {
+            panels[1].SetActive(true);
+            panels[0].SetActive(false);
+            Debug.Log("Display Worldshift-PopUp");
+        }
+        
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.tag == "TriggerBox-Jump")
+        {
+            panels[0].SetActive(false);
+            //transform.gameObject.tag = "TriggerBox-Worldshift";
+            Debug.Log("Hide Jump-PopUp");
+        }
+
+        if (collision.tag == "TriggerBox-Worldshift")
+        {
+            panels[1].SetActive(false);
+            Debug.Log("Hide Jump-PopUp");
+        }
     }
 }
