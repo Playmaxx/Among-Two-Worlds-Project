@@ -4,9 +4,9 @@ using UnityEngine;
 
 public interface IChar
 {
-    void movement(Vector2 moveVector);
+    void movement();
     void jump();
-    void dash(Vector2 moveVector);
+    void dash();
     void glide();
     void wallaction();
 }
