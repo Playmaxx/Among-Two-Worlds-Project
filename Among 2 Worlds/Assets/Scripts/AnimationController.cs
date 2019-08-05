@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class AnimationController : MonoBehaviour
 {
-    GameManager gameManagerRef;
+   
     Player playerRef;
-    private Animator animator;
+    public Animator animator;
 
     //Awake is called before Start.
     private void Awake()
     {
-        gameManagerRef = GetComponent<GameManager>();
+       
         playerRef = GetComponent<Player>();
         animator = GetComponent<Animator>();
     }
@@ -29,6 +29,17 @@ public class AnimationController : MonoBehaviour
 
     void CheckState() //Checks the different Variables necessery for Animations
     {
+        bool LightDimension;   //Checks which Dimension is active right now
+        if (GameManager.GMInstance.currentdim == GameManager.dimension.Light)
+        {
+            LightDimension = true;
+        }
+        else
+        {
+            LightDimension = false;
+        }
+        animator.SetBool("LightDimension", LightDimension);
+
 
         bool isGrounded;  //Checks if player is Grounded
         if (playerRef.playerMoveState == Player.moveState.Grounded)
@@ -63,16 +74,18 @@ public class AnimationController : MonoBehaviour
         }
         animator.SetBool("isGliding", isGliding);
 
-        bool LightDimension;   //Checks which Dimension is active right now
-        if (gameManagerRef.currentdim == GameManager.dimension.Light)
+
+        bool isFalling;    //Checks if player is falling down
+        if (playerRef.playerMoveState == Player.moveState.Falling)
         {
-            LightDimension = true;
+            isFalling = true;
         }
         else
         {
-            LightDimension = false;
+            isFalling = false;
         }
-        animator.SetBool("LightDimension", LightDimension);
+        animator.SetBool("isFalling", isFalling);
+        
 
 
 
