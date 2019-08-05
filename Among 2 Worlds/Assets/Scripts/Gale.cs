@@ -113,5 +113,19 @@ public class Gale : MonoBehaviour, IChar     //manages abilities for Gale
         {
             playerRef.playerMoveState = Player.moveState.Walled;
         }
+        if (Physics2D.Raycast(transform.position, Vector2.right, playerRef.playerwidth / 2, GameManager.GMInstance.platformMask) == false)
+        {
+            if (Physics2D.Raycast(transform.position, Vector2.left, playerRef.playerwidth / 2, GameManager.GMInstance.platformMask) == false)
+            {
+                if (playerRef.playerMoveState == Player.moveState.Walled)
+                {
+                    playerRef.playerMoveState = Player.moveState.Falling;
+                }
+            }
+        }
+        if (playerRef.playerMoveState == Player.moveState.Walled)
+        {
+            playerRef.rigidRef.velocity = new Vector2(playerRef.rigidRef.velocity.x, -playerRef.wallSlideSpeed);
+        }
     }
 }
