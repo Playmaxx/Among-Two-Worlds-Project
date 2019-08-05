@@ -148,7 +148,7 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
                 break;
 
             case (moveState.Walled):
-                rigidRef.velocity = new Vector2(rigidRef.velocity.x, 0);
+                Debug.Log("Wall test");
                 break;
 
             case (moveState.Other):

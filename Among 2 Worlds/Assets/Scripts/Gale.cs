@@ -41,7 +41,6 @@ public class Gale : MonoBehaviour, IChar     //manages abilities for Gale
             if (!Input.GetKey(KeyCode.A) && !Input.GetKey(KeyCode.D) && Input.GetAxis("MoveHorizontal") == 0)
             {
                 playerRef.rigidRef.velocity = new Vector2(0, playerRef.rigidRef.velocity.y);
-                Debug.Log("stopping movement");
             }
         }
     }
