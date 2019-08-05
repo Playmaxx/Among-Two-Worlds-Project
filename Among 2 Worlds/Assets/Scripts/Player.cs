@@ -19,7 +19,6 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
     public int glidespeed = 2;
     public float wallSlideSpeed = 0.1f;
     public float playerGravity = 10;
-    int platformMask = 1 << 10;
 
 
     public Rigidbody2D rigidRef;        //ref types
@@ -58,7 +57,7 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
                 lilianRef.jump();
                 //lilianRef.dash();
                 lilianRef.glide();
-                //lilianRef.wallaction();
+                lilianRef.wallaction();
                 break;
             case (GameManager.dimension.Dark):
                 galeRef.movement();
@@ -108,7 +107,7 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
     //checks if player walked off edge
     void OnTriggerExit2D(Collider2D collision)     //checks if player is grounded
     {
-        if (collision.tag == "Platform")
+        if (collision.tag == "Platform" && playerMoveState != moveState.Jumping)
         {
             playerMoveState = moveState.Falling;
         }
@@ -148,7 +147,8 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
                 break;
 
             case (moveState.Walled):
-                rigidRef.velocity = new Vector2(rigidRef.velocity.x, -0.01f);
+                Debug.Log("Wall test");
+                rigidRef.velocity = new Vector2(rigidRef.velocity.x, -glidespeed);
                 break;
 
             case (moveState.Other):

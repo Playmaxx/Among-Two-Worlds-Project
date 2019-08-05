@@ -38,7 +38,7 @@ public class Lilian : MonoBehaviour, IChar        //manages abilities for Lilian
                 playerRef.playerdirection = Player.direction.Right;
             }
 
-            if (!Input.anyKey && Input.GetAxis("MoveHorizontal") == 0)
+            if (!Input.GetKey(KeyCode.A) && !Input.GetKey(KeyCode.D) && Input.GetAxis("MoveHorizontal") == 0)
             {
                 playerRef.rigidRef.velocity = new Vector2(0, playerRef.rigidRef.velocity.y);
             }
@@ -85,6 +85,38 @@ public class Lilian : MonoBehaviour, IChar        //manages abilities for Lilian
 
     public void wallaction()
     {
-        throw new System.NotImplementedException();
+        if ((Physics2D.Raycast(transform.position, Vector2.left, playerRef.playerwidth / 2, GameManager.GMInstance.platformMask) == true))
+        {
+            if (playerRef.playerMoveState != Player.moveState.Grounded && playerRef.playerMoveState != Player.moveState.Jumping)
+            {
+                playerRef.playerMoveState = Player.moveState.Walled;
+            }
+        }
+        if ((Physics2D.Raycast(transform.position, Vector2.right, playerRef.playerwidth / 2, GameManager.GMInstance.platformMask) == true))
+        {
+            if (playerRef.playerMoveState != Player.moveState.Grounded && playerRef.playerMoveState != Player.moveState.Jumping)
+            {
+                playerRef.playerMoveState = Player.moveState.Walled;
+            }
+        }
+        if (Physics2D.Raycast(transform.position, Vector2.right, playerRef.playerwidth / 2, GameManager.GMInstance.platformMask) == false)
+        {
+            if (Physics2D.Raycast(transform.position, Vector2.left, playerRef.playerwidth / 2, GameManager.GMInstance.platformMask) == false)
+            {
+                if (playerRef.playerMoveState == Player.moveState.Walled)
+                {
+                    playerRef.playerMoveState = Player.moveState.Falling;
+                }
+            }
+        }
+        if (playerRef.playerMoveState == Player.moveState.Walled)
+        {
+            playerRef.rigidRef.velocity = new Vector2(playerRef.rigidRef.velocity.x, -playerRef.wallSlideSpeed);
+            if (Input.GetKeyDown(KeyCode.Space) || Input.GetButtonDown("Jump"))
+            {
+                playerRef.playerMoveState = Player.moveState.Jumping;
+                playerRef.rigidRef.velocity = new Vector2(playerRef.rigidRef.velocity.x, playerRef.jumpforce);
+            }
+        }
     }
 }

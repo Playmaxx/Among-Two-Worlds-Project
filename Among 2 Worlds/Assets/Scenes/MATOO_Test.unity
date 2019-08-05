@@ -642,6 +642,11 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: -0.045476437
       objectReference: {fileID: 0}
+    - target: {fileID: -5822052340017951075, guid: 2c2e7effd6de585498b8c37708299d2d,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 8fde8fcef9ec8db4a99683dbcd6ecd2f, type: 2}
     - target: {fileID: 396247199399757968, guid: 2c2e7effd6de585498b8c37708299d2d,
         type: 3}
       propertyPath: LightSprite
@@ -758,12 +763,12 @@ PrefabInstance:
     - target: {fileID: 1308331966336715481, guid: 0c29196364b4bd146acefde38bcf54b4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.29
+      value: 0.299
       objectReference: {fileID: 0}
     - target: {fileID: 1308331966336715481, guid: 0c29196364b4bd146acefde38bcf54b4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.02
+      value: -0.185
       objectReference: {fileID: 0}
     - target: {fileID: 1308331966336715481, guid: 0c29196364b4bd146acefde38bcf54b4,
         type: 3}
