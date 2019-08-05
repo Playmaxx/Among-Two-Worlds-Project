@@ -63,7 +63,7 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
             case (GameManager.dimension.Dark):
                 galeRef.movement();
                 galeRef.jump();
-                //galeRef.dash();
+                galeRef.dash();
                 galeRef.glide();
                 galeRef.wallaction();
                 break;
@@ -80,7 +80,14 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
 
     void refreshVariables()     //For variables that need to update every frame
     {
-
+        if (playerdirection == direction.Right)
+        {
+            renderRef.flipX = true;
+        }
+        if (playerdirection == direction.Left)
+        {
+            renderRef.flipX = false;
+        }
     }
 
     void refreshAbilities()     //refreshes jumps & dashes etc.
@@ -101,7 +108,7 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
     //checks if player walked off edge
     void OnTriggerExit2D(Collider2D collision)     //checks if player is grounded
     {
-        if (collision.tag == "Platform")
+        if (collision.tag == "Platform" && playerMoveState != moveState.Jumping)
         {
             playerMoveState = moveState.Falling;
         }
@@ -141,7 +148,7 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
                 break;
 
             case (moveState.Walled):
-                rigidRef.velocity = new Vector2(rigidRef.velocity.x, -wallSlideSpeed);
+                Debug.Log("Wall test");
                 break;
 
             case (moveState.Other):

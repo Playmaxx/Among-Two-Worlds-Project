@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: -5822052340017951075}
   - component: {fileID: 6820236638522437775}
   - component: {fileID: 396247199399757968}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Master
   m_TagString: Platform
   m_Icon: {fileID: 0}
@@ -91,7 +91,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1981518019388325337}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 8fde8fcef9ec8db4a99683dbcd6ecd2f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -115,9 +115,9 @@ PolygonCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1981518019388325337}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 8fde8fcef9ec8db4a99683dbcd6ecd2f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
