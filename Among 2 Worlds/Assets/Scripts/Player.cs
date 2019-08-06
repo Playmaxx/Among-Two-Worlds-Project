@@ -14,6 +14,7 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
     public float playerheight = 2;
     public float playerwidth = 1;
     public int Jumps = 2;
+    public int health;
     public float moveSpeed = 7.5f;
     public int jumpforce = 20;
     public int dashdistance = 5;
@@ -157,5 +158,14 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
             case (moveState.Other):
                 break;
         }
+    }
+
+    void Damage(int amount)
+    {
+        health -= amount;
+    }
+    void Heal(int amount)
+    {
+        health += amount;
     }
 }

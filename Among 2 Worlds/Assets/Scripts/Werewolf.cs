@@ -48,7 +48,7 @@ public class Werewolf : MonoBehaviour
     {
         if(playerTargeted == true)
         {
-
+            //if(playerRef.transform.x <)
         }
     }
 }
