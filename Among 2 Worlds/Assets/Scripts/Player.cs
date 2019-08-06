@@ -19,6 +19,7 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
     public int glidespeed = 2;
     public float wallSlideSpeed = 0.1f;
     public float playerGravity = 10;
+    public bool DeathSequenceIsPlaying = false;
 
 
     public Rigidbody2D rigidRef;        //ref types
@@ -105,6 +106,13 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
             playerMoveState = moveState.Grounded;
             refreshAbilities();
         }
+
+        if (collision.tag == "OutOfMap-border")
+        {
+            DeathSequenceIsPlaying = true;
+            Debug.Log("player ded boi");
+            StartCoroutine(RespawnPlayerAfterTime(1));
+        }
     }
     //checks if player walked off edge
     void OnTriggerExit2D(Collider2D collision)     //checks if player is grounded
@@ -160,8 +168,9 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
 
     void DeathSequence()
     {
-        if (Input.GetKey(KeyCode.F))
+        if (Input.GetKey(KeyCode.F) && DeathSequenceIsPlaying == false)
         {
+            DeathSequenceIsPlaying = true;
             Debug.Log("player ded boi");
             StartCoroutine(RespawnPlayerAfterTime(3));
         }
@@ -171,5 +180,7 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
     {
         yield return new WaitForSeconds(time);
         transform.position = new Vector2(0.299f, 2f);
+        DeathSequenceIsPlaying = false;
+        rigidRef.velocity = new Vector2(0, 0);
     }
 }
