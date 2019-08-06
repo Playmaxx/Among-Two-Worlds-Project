@@ -69,6 +69,8 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
 
         }
 
+        DeathSequence();
+
         //tests
         Debug.Log(playerMoveState);
         Debug.DrawRay(transform.position, Vector2.down * playerheight / 2, Color.green);
@@ -154,5 +156,20 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
             case (moveState.Other):
                 break;
         }
+    }
+
+    void DeathSequence()
+    {
+        if (Input.GetKey(KeyCode.F))
+        {
+            Debug.Log("player ded boi");
+            StartCoroutine(RespawnPlayerAfterTime(3));
+        }
+    }
+
+    IEnumerator RespawnPlayerAfterTime(float time)
+    {
+        yield return new WaitForSeconds(time);
+        transform.position = new Vector2(0.299f, 2f);
     }
 }

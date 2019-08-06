@@ -27,7 +27,7 @@ public class PopUps : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         {
-            if (collision.tag == "Textbox")
+            if (collision.tag == "Player")
             {
                 panel.SetActive(true);
                 Debug.Log("Display panel");
@@ -40,7 +40,7 @@ public class PopUps : MonoBehaviour
     private void OnTriggerExit2D(Collider2D collision)
     {
         {
-            if (collision.tag == "Textbox")
+            if (collision.tag == "Player")
             {
                 panel.SetActive(false);
                 Debug.Log("Hide panel");
