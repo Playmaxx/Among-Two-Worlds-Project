@@ -4,50 +4,65 @@ using UnityEngine;
 
 public class SFXManager : MonoBehaviour
 {
-
-    public AudioSource p_audio;
-    public AudioClip Jump;
-    public AudioClip Dash;
+    [SerializeField]
     Player playerRef;
 
+    public AudioSource current_audioclip;
+    public AudioClip Jump;
+    public AudioClip Dash;
 
+    //Awake is called before start
+    void Awake()
+    {
+        playerRef = FindObjectOfType<Player>();
+        current_audioclip = GetComponent<AudioSource>();
+    }
     // Start is called before the first frame update
     void Start()
     {
-        p_audio = GetComponent<AudioSource>();
-        p_audio.volume = 1.0f;
-        p_audio.clip = null;
-        playerRef = GetComponent<Player>();
-        Debug.Log(playerRef);
-
+        current_audioclip.volume = 1.0f;
+        current_audioclip.clip = null;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            p_audio.clip = Jump;
-            p_audio.Play();
-        }
-
-        if (GameManager.GMInstance.currentdim == GameManager.dimension.Dark)
-        {
-            if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D))
-            {
-                if (Input.GetKey(KeyCode.LeftShift))
-                {
-                    if (playerRef.dashused == false)        
-                    {
-                        p_audio.clip = Dash;
-                        p_audio.Play();
-                        Debug.Log("sound test");
-                    }
-                }
-                
-
-            }
-        }
         
+    }
+
+    public void playJumpSound()
+    {
+
+        switch (GameManager.GMInstance.currentdim)
+        {
+            case (GameManager.dimension.Light):
+                if (playerRef.Jumps == 2)
+                {
+                    current_audioclip.clip = Jump;
+                    current_audioclip.Play();
+                    Debug.Log("Jump-Sound-test");
+                }
+                break;
+
+            case (GameManager.dimension.Dark):
+                if (playerRef.Jumps != 0)
+                {
+                    current_audioclip.clip = Jump;
+                    current_audioclip.Play();
+                    Debug.Log("Jump-Sound-test");
+                }
+                break;
+        }
+    }
+
+
+    public void playDashSound()
+    {
+        if ((GameManager.GMInstance.currentdim == GameManager.dimension.Dark))
+        {
+            current_audioclip.clip = Dash;
+            current_audioclip.Play();
+            Debug.Log("dash sound test");
+        }
     }
 }

@@ -9,6 +9,7 @@ TagManager:
   - TriggerBox-Jump
   - TriggerBox-Worldshift
   - Textbox
+  - OutOfMap-border
   layers:
   - Default
   - TransparentFX
