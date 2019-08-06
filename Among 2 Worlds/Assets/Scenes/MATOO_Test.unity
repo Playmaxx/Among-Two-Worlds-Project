@@ -120,6 +120,31 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &575014153 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8512939797471212462, guid: 0c29196364b4bd146acefde38bcf54b4,
+    type: 3}
+  m_PrefabInstance: {fileID: 4720164235716138186}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &575014154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 575014153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3dbe26a70406794dab8ca341a9f8c68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 575014155}
+--- !u!95 &575014155 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 8512939797471212468, guid: 0c29196364b4bd146acefde38bcf54b4,
+    type: 3}
+  m_PrefabInstance: {fileID: 4720164235716138186}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &918450261
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -212,7 +237,7 @@ PrefabInstance:
     - target: {fileID: 396247199399757968, guid: 2c2e7effd6de585498b8c37708299d2d,
         type: 3}
       propertyPath: ownDimension
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 940345181611897415, guid: 2c2e7effd6de585498b8c37708299d2d,
         type: 3}
@@ -755,6 +780,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8512939797471212470, guid: 0c29196364b4bd146acefde38bcf54b4,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8512939797471212458, guid: 0c29196364b4bd146acefde38bcf54b4,
+        type: 3}
+      propertyPath: wallJumpSpeed
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 8512939797471212458, guid: 0c29196364b4bd146acefde38bcf54b4,
+        type: 3}
+      propertyPath: dashdistance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8512939797471212458, guid: 0c29196364b4bd146acefde38bcf54b4,
+        type: 3}
+      propertyPath: dashspeed
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 1308331966336715483, guid: 0c29196364b4bd146acefde38bcf54b4,
         type: 3}
       propertyPath: m_Name
@@ -820,7 +865,8 @@ PrefabInstance:
       propertyPath: m_Material
       value: 
       objectReference: {fileID: 6200000, guid: 8fde8fcef9ec8db4a99683dbcd6ecd2f, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8512939797471212469, guid: 0c29196364b4bd146acefde38bcf54b4, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 0c29196364b4bd146acefde38bcf54b4, type: 3}
 --- !u!1001 &8007864667080333542
 PrefabInstance:
