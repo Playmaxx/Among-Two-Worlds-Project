@@ -86,6 +86,17 @@ public class AnimationController : MonoBehaviour
         }
         animator.SetBool("isFalling", isFalling);
 
+        bool isWalled;
+        if(playerRef.playerMoveState == Player.moveState.Walled)
+        {
+            isWalled = true;
+        }
+        else
+        {
+            isWalled = false;
+        }
+        animator.SetBool("isWalled", isWalled);
+
 
         int NumberOfJumps = playerRef.Jumps;   //Check needed for doublejumping
         animator.SetInteger("NumberOfJumps", NumberOfJumps);

@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Lilian Falling
+  m_Name: Gale Walljumping
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,7 +20,7 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: 8238423798803346967, guid: f41e863f1a5be6643b1fa46f4f0e5a5d,
+      value: {fileID: 3232756641825815706, guid: f41e863f1a5be6643b1fa46f4f0e5a5d,
         type: 3}
     attribute: m_Sprite
     path: 
@@ -41,7 +41,7 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: 8238423798803346967, guid: f41e863f1a5be6643b1fa46f4f0e5a5d, type: 3}
+    - {fileID: 3232756641825815706, guid: f41e863f1a5be6643b1fa46f4f0e5a5d, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
