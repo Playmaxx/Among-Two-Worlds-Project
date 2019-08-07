@@ -6,14 +6,18 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
 {
     public enum direction { Left, Right }       // variables
     public direction playerdirection;
+    public enum wallSide { Left, Right }
+    public wallSide playerWallSide;
     public enum moveState { Grounded, Jumping, Falling, Dashing, Gliding, Walled, Other }
     public moveState playerMoveState;
 
     public float playerheight = 2;
     public float playerwidth = 1;
     public int Jumps = 2;
+    public int health;
     public float moveSpeed = 7.5f;
     public int jumpforce = 20;
+    public int dashdistance = 5;
     public int dashspeed = 300;
     public bool dashused = false;
     public int glidespeed = 2;
@@ -141,18 +145,27 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
                 break;
 
             case (moveState.Dashing):
+                rigidRef.velocity = new Vector2(rigidRef.velocity.x, 0);
                 break;
 
             case (moveState.Gliding):
                 break;
 
             case (moveState.Walled):
-                Debug.Log("Wall test");
                 rigidRef.velocity = new Vector2(rigidRef.velocity.x, -glidespeed);
                 break;
 
             case (moveState.Other):
                 break;
         }
+    }
+
+    void Damage(int amount)
+    {
+        health -= amount;
+    }
+    void Heal(int amount)
+    {
+        health += amount;
     }
 }
