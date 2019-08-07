@@ -47,70 +47,52 @@ public class Gale : MonoBehaviour, IChar     //manages abilities for Gale
 
     public void jump()
     {
-        if ((Input.GetKeyDown(KeyCode.Space) || Input.GetButtonDown("Jump")))
+        if (Input.GetKeyDown(KeyCode.Space) || Input.GetButtonDown("Jump") && playerRef.playerMoveState != Player.moveState.Walled)
         {
-            if (Physics2D.Raycast(transform.position, Vector2.left, playerRef.playerwidth / 2, GameManager.GMInstance.platformMask) == false)
+            switch (playerRef.Jumps)
             {
-                if (Physics2D.Raycast(transform.position, Vector2.right, playerRef.playerwidth / 2, GameManager.GMInstance.platformMask) == false)
-                {
-
-
-
-                    switch (playerRef.Jumps)
+                case (2):
+                    if (playerRef.playerMoveState == Player.moveState.Grounded)
                     {
-                        case (2):
-                            if (playerRef.playerMoveState == Player.moveState.Grounded)
-                            {
-                                playerRef.playerMoveState = Player.moveState.Jumping;
-                                playerRef.rigidRef.velocity = new Vector2(playerRef.rigidRef.velocity.x, playerRef.jumpforce);
-                                playerRef.Jumps--;
-                            }
-                            else
-                            {
-                                playerRef.playerMoveState = Player.moveState.Jumping;
-                                playerRef.rigidRef.velocity = new Vector2(playerRef.rigidRef.velocity.x, playerRef.jumpforce);
-                                playerRef.Jumps -= 2;
-                            }
-                            break;
-                        case (1):
-                            playerRef.playerMoveState = Player.moveState.Jumping;
-                            playerRef.rigidRef.velocity = new Vector2(playerRef.rigidRef.velocity.x, playerRef.jumpforce);
-                            playerRef.Jumps--;
-                            break;
-                        default:
-                            break;
+                        playerRef.playerMoveState = Player.moveState.Jumping;
+                        playerRef.rigidRef.velocity = new Vector2(playerRef.rigidRef.velocity.x, playerRef.jumpforce);
+                        playerRef.Jumps--;
                     }
-                }
+                    else
+                    {
+                        playerRef.playerMoveState = Player.moveState.Jumping;
+                        playerRef.rigidRef.velocity = new Vector2(playerRef.rigidRef.velocity.x, playerRef.jumpforce);
+                        playerRef.Jumps -= 2;
+                    }
+                    break;
+                case (1):
+                    playerRef.playerMoveState = Player.moveState.Jumping;
+                    playerRef.rigidRef.velocity = new Vector2(playerRef.rigidRef.velocity.x, playerRef.jumpforce);
+                    playerRef.Jumps--;
+                    break;
+                default:
+                    break;
             }
         }
     }
 
     public void dash()
     {
-        if ((Input.GetKeyDown(KeyCode.LeftShift) || Input.GetButtonDown("Dash")) && playerRef.dashused == false)
+        if ((Input.GetKey(KeyCode.LeftShift) || Input.GetButton("Dash")) && playerRef.dashused == false)
         {
             playerRef.playerMoveState = Player.moveState.Dashing;
             if (playerRef.playerdirection == Player.direction.Left)
             {
-                float dashend = playerRef.transform.position.x - playerRef.dashdistance;
-                for (float i = playerRef.transform.position.x; i > dashend; i--)
-                {
-                    playerRef.rigidRef.velocity = new Vector2(-playerRef.dashspeed, 0);
-                }
+                playerRef.rigidRef.velocity = new Vector2(-playerRef.dashspeed, 0);
                 playerRef.dashused = true;
             }
             if (playerRef.playerdirection == Player.direction.Right)
             {
-                float dashend = playerRef.transform.position.x + playerRef.dashdistance;
-                for (float i = playerRef.transform.position.x; i < dashend; i++)
-                {
-                    playerRef.rigidRef.velocity = new Vector2(playerRef.dashspeed, 0);
-                }
+                playerRef.rigidRef.velocity = new Vector2(playerRef.dashspeed, 0);
                 playerRef.dashused = true;
             }
             playerRef.playerMoveState = Player.moveState.Falling;
         }
-        //GetComponent<SFXManager>().playDashSound();
     }
 
     public void glide()
@@ -128,7 +110,6 @@ public class Gale : MonoBehaviour, IChar     //manages abilities for Gale
             if (playerRef.playerMoveState != Player.moveState.Grounded && playerRef.playerMoveState != Player.moveState.Jumping)
             {
                 playerRef.playerMoveState = Player.moveState.Walled;
-                playerRef.playerWallSide = Player.wallSide.Left;
             }
         }
         if ((Physics2D.Raycast(transform.position, Vector2.right, playerRef.playerwidth / 2, GameManager.GMInstance.platformMask) == true))
@@ -136,7 +117,6 @@ public class Gale : MonoBehaviour, IChar     //manages abilities for Gale
             if (playerRef.playerMoveState != Player.moveState.Grounded && playerRef.playerMoveState != Player.moveState.Jumping)
             {
                 playerRef.playerMoveState = Player.moveState.Walled;
-                playerRef.playerWallSide = Player.wallSide.Right;
             }
         }
         if (Physics2D.Raycast(transform.position, Vector2.right, playerRef.playerwidth / 2, GameManager.GMInstance.platformMask) == false)
@@ -152,25 +132,10 @@ public class Gale : MonoBehaviour, IChar     //manages abilities for Gale
         if (playerRef.playerMoveState == Player.moveState.Walled)
         {
             playerRef.rigidRef.velocity = new Vector2(playerRef.rigidRef.velocity.x, -playerRef.wallSlideSpeed);
-
             if (Input.GetKeyDown(KeyCode.Space) || Input.GetButtonDown("Jump"))
             {
-                if (playerRef.playerWallSide == Player.wallSide.Left)
-                {
-                    if (Input.GetKey(KeyCode.D) || Input.GetAxis("MoveHorizontal") > 0)
-                    {
-                        playerRef.playerMoveState = Player.moveState.Jumping;
-                        playerRef.rigidRef.velocity = new Vector2(0, playerRef.jumpforce);
-                    }
-                }
-                if (playerRef.playerWallSide == Player.wallSide.Right)
-                {
-                    if (Input.GetKey(KeyCode.A) || Input.GetAxis("MoveHorizontal") < 0)
-                    {
-                        playerRef.playerMoveState = Player.moveState.Jumping;
-                        playerRef.rigidRef.velocity = new Vector2(0, playerRef.jumpforce);
-                    }
-                }
+                playerRef.playerMoveState = Player.moveState.Jumping;
+                playerRef.rigidRef.velocity = new Vector2(playerRef.rigidRef.velocity.x, playerRef.jumpforce);
             }
         }
     }

@@ -74,26 +74,12 @@ public class Lilian : MonoBehaviour, IChar        //manages abilities for Lilian
     {
         if ((Input.GetKey(KeyCode.Space) || Input.GetButton("Jump")) && playerRef.rigidRef.velocity.y < 0 && playerRef.playerMoveState == Player.moveState.Falling)
         {
-            if (playerRef.playerMoveState != Player.moveState.Walled)
-            {
-                playerRef.playerMoveState = Player.moveState.Gliding;
-                playerRef.rigidRef.velocity = new Vector2(playerRef.rigidRef.velocity.x, -playerRef.glidespeed);
-            }
+            playerRef.playerMoveState = Player.moveState.Gliding;
+            playerRef.rigidRef.velocity = new Vector2(playerRef.rigidRef.velocity.x, -playerRef.glidespeed);
         }
         if ((Input.GetKeyUp(KeyCode.Space) || Input.GetButtonUp("Jump")) && playerRef.playerMoveState == Player.moveState.Gliding)
         {
             playerRef.playerMoveState = Player.moveState.Falling;
-        }
-        if (playerRef.playerMoveState == Player.moveState.Gliding)
-        {
-            if (Physics2D.Raycast(transform.position, Vector2.right, playerRef.playerwidth / 2, GameManager.GMInstance.platformMask) == true)
-            {
-                playerRef.playerMoveState = Player.moveState.Falling;
-            }
-            if (Physics2D.Raycast(transform.position, Vector2.right, playerRef.playerwidth / 2, GameManager.GMInstance.platformMask) == true)
-            {
-                playerRef.playerMoveState = Player.moveState.Falling;
-            }
         }
     }
 
@@ -104,7 +90,6 @@ public class Lilian : MonoBehaviour, IChar        //manages abilities for Lilian
             if (playerRef.playerMoveState != Player.moveState.Grounded && playerRef.playerMoveState != Player.moveState.Jumping)
             {
                 playerRef.playerMoveState = Player.moveState.Walled;
-                playerRef.playerWallSide = Player.wallSide.Left;
             }
         }
         if ((Physics2D.Raycast(transform.position, Vector2.right, playerRef.playerwidth / 2, GameManager.GMInstance.platformMask) == true))
@@ -112,7 +97,6 @@ public class Lilian : MonoBehaviour, IChar        //manages abilities for Lilian
             if (playerRef.playerMoveState != Player.moveState.Grounded && playerRef.playerMoveState != Player.moveState.Jumping)
             {
                 playerRef.playerMoveState = Player.moveState.Walled;
-                playerRef.playerWallSide = Player.wallSide.Right;
             }
         }
         if (Physics2D.Raycast(transform.position, Vector2.right, playerRef.playerwidth / 2, GameManager.GMInstance.platformMask) == false)
@@ -128,25 +112,10 @@ public class Lilian : MonoBehaviour, IChar        //manages abilities for Lilian
         if (playerRef.playerMoveState == Player.moveState.Walled)
         {
             playerRef.rigidRef.velocity = new Vector2(playerRef.rigidRef.velocity.x, -playerRef.wallSlideSpeed);
-
             if (Input.GetKeyDown(KeyCode.Space) || Input.GetButtonDown("Jump"))
             {
-                if (playerRef.playerWallSide == Player.wallSide.Left)
-                {
-                    if (Input.GetKey(KeyCode.D) || Input.GetAxis("MoveHorizontal") > 0)
-                    {
-                        playerRef.playerMoveState = Player.moveState.Jumping;
-                        playerRef.rigidRef.velocity = new Vector2(0, playerRef.jumpforce);
-                    }
-                }
-                if (playerRef.playerWallSide == Player.wallSide.Right)
-                {
-                    if (Input.GetKey(KeyCode.A) || Input.GetAxis("MoveHorizontal") < 0)
-                    {
-                        playerRef.playerMoveState = Player.moveState.Jumping;
-                        playerRef.rigidRef.velocity = new Vector2(0, playerRef.jumpforce);
-                    }
-                }
+                playerRef.playerMoveState = Player.moveState.Jumping;
+                playerRef.rigidRef.velocity = new Vector2(playerRef.rigidRef.velocity.x, playerRef.jumpforce);
             }
         }
     }
