@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ArmorSound : MonoBehaviour
+public class ArmorRattle : MonoBehaviour
 {
     [SerializeField]
     AudioSource current_audioclip;
-    public AudioClip ArmorSoundWhileRunning;
+    public AudioClip rattle;
 
     private void Awake()
     {
@@ -24,26 +24,26 @@ public class ArmorSound : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.D))
         {
-            playArmorSound();
-            Debug.Log("armor sound played");
+            playRattleSound();
+            Debug.Log("rattle sound played");
         }
 
         if ((Input.GetKeyUp(KeyCode.A) && !Input.GetKey(KeyCode.D)) || (Input.GetKeyUp(KeyCode.D) && !Input.GetKey(KeyCode.D)))
         {
-            stopArmorSound();
-            Debug.Log("armor sound stopped");
+            stopRattleSound();
+            Debug.Log("rattle sound stopped");
         }
     }
 
-    public void playArmorSound()
+    public void playRattleSound()
     {
-        current_audioclip.clip = ArmorSoundWhileRunning;
+        current_audioclip.clip = rattle;
         current_audioclip.Play();
     }
 
-    public void stopArmorSound()
+    public void stopRattleSound()
     {
-        current_audioclip.clip = ArmorSoundWhileRunning;
+        current_audioclip.clip = rattle;
         current_audioclip.Stop();
     }
 }
