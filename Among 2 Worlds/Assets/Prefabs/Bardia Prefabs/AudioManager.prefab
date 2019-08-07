@@ -41,8 +41,7 @@ AudioSource:
   m_GameObject: {fileID: 3113599809965218878}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 24300002, guid: 0931a7c576e1eb440b5d230ea1a7db85,
-    type: 2}
+  OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: e1174b7b486910048bfbba5687f93d30, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
@@ -141,7 +140,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b57812834f45e2440b595a030066c57d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GTD: {fileID: 3113599809965218876}
+  current_track: {fileID: 3113599809965218876}
   CuteGiana: {fileID: 8300000, guid: e1174b7b486910048bfbba5687f93d30, type: 3}
   DarkGiana: {fileID: 8300000, guid: 264016eb45d7068448e12a1d3ea91c1d, type: 3}
   timecode1: 0
