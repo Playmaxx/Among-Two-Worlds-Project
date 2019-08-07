@@ -10,6 +10,7 @@ TagManager:
   - TriggerBox-Worldshift
   - Textbox
   - OutOfMap-border
+  - scoreSource
   layers:
   - Default
   - TransparentFX

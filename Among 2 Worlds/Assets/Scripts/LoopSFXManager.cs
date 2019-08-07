@@ -25,13 +25,11 @@ public class LoopSFXManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.D))
         {
             playStepSound();
-            Debug.Log("step sound played");
         }
 
         if ((Input.GetKeyUp(KeyCode.A) && !Input.GetKey(KeyCode.D)) || (Input.GetKeyUp(KeyCode.D) && !Input.GetKey(KeyCode.D)))
         {
             stopStepSound();
-            Debug.Log("step sound stopped");
         }
     }
 
