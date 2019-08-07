@@ -4,22 +4,24 @@ using UnityEngine;
 
 public class Knight : MonoBehaviour
 {
-    public int leftPatrolX;
-    public int rightPatrolX;
-    public int attackRange;
-    public int patrolSpeed;
-    public int attackSpeed;
-    public int health;
-    public int damage;
-    float playerDistance;
-    bool playerTargeted = false;
+    enum enemyState { Patrolling, Following, Attacking}
+    enemyState knightMoveState;
 
-    Player playerRef;
+    public float leftPatrolX;
+    public float rightPatrolX;
+    public float attackRange;
+    public float patrolSpeed;
+    public float attackSpeed;
+    public float health;
+    public float damage;
+    float playerDistance;
+
+    GameObject playerRef;
     Rigidbody2D rigidRef;
 
     void Awake()
     {
-        playerRef = GetComponent<Player>();
+        playerRef = GameObject.FindWithTag("Player");
         rigidRef = GetComponent<Rigidbody2D>();
     }
 
@@ -32,6 +34,8 @@ public class Knight : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        closeDistance();
+
         playerDistance = Mathf.Abs(playerRef.transform.position.x - transform.position.x);
     }
 
@@ -39,7 +43,7 @@ public class Knight : MonoBehaviour
     {
         if (collision.tag == "Player")
         {
-            playerTargeted = true;
+            //play;
         }
     }
 
