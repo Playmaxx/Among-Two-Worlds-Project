@@ -17,13 +17,16 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
     public int health;
     public float moveSpeed = 7.5f;
     public int jumpforce = 20;
-    public int dashdistance = 5;
     public int dashspeed = 300;
+    public int dashtime = 10;
     public bool dashused = false;
     public int glidespeed = 2;
     public float wallSlideSpeed = 0.1f;
     public float playerGravity = 10;
-
+    public float maxGlideTime = 5;
+    public float currentGlideTime = 0;
+    public float maxDashTime = 1;
+    public float currentDashTime = 0;
 
     public Rigidbody2D rigidRef;        //ref types
     public Gale galeRef;
@@ -91,6 +94,14 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
         {
             renderRef.flipX = false;
         }
+        if(playerMoveState == moveState.Gliding)
+        {
+            currentGlideTime -= 1 * Time.deltaTime;
+        }
+        if (playerMoveState == moveState.Dashing)
+        {
+            currentDashTime -= 1 * Time.deltaTime;
+        }
     }
 
     void refreshAbilities()     //refreshes jumps & dashes etc.
@@ -102,10 +113,14 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
     //checks ground state
     void OnTriggerEnter2D(Collider2D collision)     //checks if player is grounded
     {
-        if (collision.tag == "Platform")
+        if (collision.tag == "Platform" && playerMoveState != moveState.Dashing)
         {
             playerMoveState = moveState.Grounded;
             refreshAbilities();
+        }
+        if (collision.tag == "Enemy" && playerMoveState == moveState.Dashing)
+        {
+            //aa
         }
     }
     //checks if player walked off edge
@@ -119,12 +134,12 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
 
     void matchMoveState()
     {
-        if (rigidRef.velocity.y < 0 && Physics2D.Raycast(transform.position, Vector2.down, playerheight / 2, GameManager.GMInstance.platformMask) == false && playerMoveState != Player.moveState.Gliding)
+        if (rigidRef.velocity.y < 0 && !Physics2D.Raycast(transform.position, Vector2.down, playerheight / 2, GameManager.GMInstance.platformMask) && playerMoveState != Player.moveState.Gliding)
         {
             playerMoveState = moveState.Falling;
         }
 
-        if (playerMoveState == moveState.Gliding && Physics2D.Raycast(transform.position, Vector2.down, playerheight / 2, GameManager.GMInstance.platformMask) == true)
+        if (playerMoveState == moveState.Gliding && Physics2D.Raycast(transform.position, Vector2.down, playerheight / 2, GameManager.GMInstance.platformMask))
         {
             playerMoveState = moveState.Falling;
         }

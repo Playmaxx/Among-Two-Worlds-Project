@@ -4,8 +4,11 @@ using UnityEngine;
 
 public class Knight : MonoBehaviour
 {
-    enum enemyState { Patrolling, Following, Attacking}
-    enemyState knightMoveState;
+    enum enemyState { Patrolling, Following, Attacking }
+    enemyState knightState;
+
+    enum patrolPoint { Left, Right }
+    patrolPoint nextPatrolPoint;
 
     public float leftPatrolX;
     public float rightPatrolX;
@@ -15,6 +18,8 @@ public class Knight : MonoBehaviour
     public float health;
     public float damage;
     float playerDistance;
+    float knightHeight;
+    float knightWidth;
 
     GameObject playerRef;
     Rigidbody2D rigidRef;
@@ -28,22 +33,28 @@ public class Knight : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        knightState = enemyState.Patrolling;
+        knightHeight = GetComponent<CapsuleCollider2D>().size.y;
+        knightWidth = GetComponent<CapsuleCollider2D>().size.x;
+        //rigidRef.gravityScale = 0;
     }
 
     // Update is called once per frame
     void Update()
     {
-        closeDistance();
+        matchState();
 
         playerDistance = Mathf.Abs(playerRef.transform.position.x - transform.position.x);
+
+        Debug.DrawRay(new Vector2(transform.position.x - knightWidth / 2, transform.position.y), Vector2.down * knightHeight / 2, Color.green);
+        Debug.DrawRay(new Vector2(transform.position.x + knightWidth / 2, transform.position.y), Vector2.down * knightHeight / 2, Color.green);
     }
 
     void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "Player")
         {
-            //play;
+            knightState = enemyState.Following;
         }
     }
 
@@ -51,7 +62,41 @@ public class Knight : MonoBehaviour
     {
         if (collision.tag == "Player")
         {
-            playerTargeted = false;
+            knightState = enemyState.Patrolling;
+        }
+    }
+
+    void patrol()
+    {
+        if (Physics2D.Raycast(new Vector2(transform.position.x - knightWidth / 2, transform.position.y), Vector2.down, knightHeight / 2, GameManager.GMInstance.platformMask))
+        {
+            if (Physics2D.Raycast(new Vector2(transform.position.x + knightWidth / 2, transform.position.y), Vector2.down, knightHeight / 2, GameManager.GMInstance.platformMask))
+            {
+                switch (nextPatrolPoint)
+                {
+                    case (patrolPoint.Left):
+                        if(transform.position.x > leftPatrolX)
+                        {
+                            rigidRef.velocity = new Vector2(-patrolSpeed, 0);
+                        }
+                        if (transform.position.x <= leftPatrolX)
+                        {
+                            nextPatrolPoint = patrolPoint.Right;
+                        }
+                        break;
+
+                    case (patrolPoint.Right):
+                        if (transform.position.x > leftPatrolX)
+                        {
+                            rigidRef.velocity = new Vector2(-patrolSpeed, 0);
+                        }
+                        if (transform.position.x <= leftPatrolX)
+                        {
+                            nextPatrolPoint = patrolPoint.Right;
+                        }
+                        break;
+                }
+            }
         }
     }
 
@@ -67,7 +112,7 @@ public class Knight : MonoBehaviour
         }
         if (playerDistance < attackRange)
         {
-            //playerRef.GetComponent<Player>().damage(2);
+            knightState = enemyState.Attacking;
         }
     }
 
@@ -79,5 +124,23 @@ public class Knight : MonoBehaviour
     void Heal(int amount)
     {
         health += amount;
+    }
+
+    void matchState()
+    {
+        switch (knightState)
+        {
+            case (enemyState.Patrolling):
+                patrol();
+                break;
+
+            case (enemyState.Following):
+                closeDistance();
+                break;
+
+            case (enemyState.Attacking):
+                //damage player
+                break;
+        }
     }
 }
