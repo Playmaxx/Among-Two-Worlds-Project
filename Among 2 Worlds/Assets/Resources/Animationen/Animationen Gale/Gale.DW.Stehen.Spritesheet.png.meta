@@ -1,103 +1,106 @@
 fileFormatVersion: 2
-guid: 26f1b7ffd6139604a86c13f7193e7580
+guid: ecadf07823ca3ea4e9cfc439803f7d23
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3595500587808035091
-    second: Gale.DW.Springen_0
+      213: 6910456617235351059
+    second: Gale.DW.Stehen.Spritesheet_0
   - first:
-      213: 2676586854535387699
-    second: Gale.DW.Springen_1
+      213: 5262136159515113164
+    second: Gale.DW.Stehen.Spritesheet_1
   - first:
-      213: 1164467460375938476
-    second: Gale.DW.Springen_2
+      213: 3511030158692859121
+    second: Gale.DW.Stehen.Spritesheet_2
   - first:
-      213: -8293600442903820555
-    second: Gale.DW.Springen_3
+      213: -8094136259760416905
+    second: Gale.DW.Stehen.Spritesheet_3
   - first:
-      213: -8041310742925328123
-    second: Gale.DW.Springen_4
+      213: 2961876380961248369
+    second: Gale.DW.Stehen.Spritesheet_4
   - first:
-      213: 22281058971792190
-    second: Gale.DW.Springen_5
+      213: 3561414099783761116
+    second: Gale.DW.Stehen.Spritesheet_5
   - first:
-      213: -8522531621924519343
-    second: Gale.DW.Springen_6
+      213: 521823214964891710
+    second: Gale.DW.Stehen.Spritesheet_6
   - first:
-      213: -2421198851362349175
-    second: Gale.DW.Springen_7
+      213: -3301693221535357722
+    second: Gale.DW.Stehen.Spritesheet_7
   - first:
-      213: -8383846786695557128
-    second: Gale.DW.Springen_8
+      213: 11837242397898958
+    second: Gale.DW.Stehen.Spritesheet_8
   - first:
-      213: -2653984450115607448
-    second: Gale.DW.Springen_9
+      213: 5948688217940241594
+    second: Gale.DW.Stehen.Spritesheet_9
   - first:
-      213: 7181652095081382823
-    second: Gale.DW.Springen_10
+      213: -5231028444175127485
+    second: Gale.DW.Stehen.Spritesheet_10
   - first:
-      213: -245267459455179387
-    second: Gale.DW.Springen_11
+      213: -1800617893823663124
+    second: Gale.DW.Stehen.Spritesheet_11
   - first:
-      213: 5229163918685077193
-    second: Gale.DW.Springen_12
+      213: 1119365264179227100
+    second: Gale.DW.Stehen.Spritesheet_12
   - first:
-      213: 466610031339296950
-    second: Gale.DW.Springen_13
+      213: 1742285809814811976
+    second: Gale.DW.Stehen.Spritesheet_13
   - first:
-      213: -8111885806233079228
-    second: Gale.DW.Springen_14
+      213: -7980944382126580615
+    second: Gale.DW.Stehen.Spritesheet_14
   - first:
-      213: 9159764701511932955
-    second: Gale.DW.Springen_15
+      213: -5456544119024568198
+    second: Gale.DW.Stehen.Spritesheet_15
   - first:
-      213: 5432832619633226709
-    second: Gale.DW.Springen_16
+      213: -6173346222316014656
+    second: Gale.DW.Stehen.Spritesheet_16
   - first:
-      213: -1597453934149781945
-    second: Gale.DW.Springen_17
+      213: -8739776952985600779
+    second: Gale.DW.Stehen.Spritesheet_17
   - first:
-      213: -306235751723311621
-    second: Gale.DW.Springen_18
+      213: -3839817000748801301
+    second: Gale.DW.Stehen.Spritesheet_18
   - first:
-      213: -7411122468738201734
-    second: Gale.DW.Springen_19
+      213: -8561086326470002699
+    second: Gale.DW.Stehen.Spritesheet_19
   - first:
-      213: 6038365360835494823
-    second: Gale.DW.Springen_20
+      213: -344174654618525865
+    second: Gale.DW.Stehen.Spritesheet_20
   - first:
-      213: 2846614891433158690
-    second: Gale.DW.Springen_21
+      213: -2721070796538789211
+    second: Gale.DW.Stehen.Spritesheet_21
   - first:
-      213: -7140307999486836752
-    second: Gale.DW.Springen_22
+      213: 7926260804046608890
+    second: Gale.DW.Stehen.Spritesheet_22
   - first:
-      213: 925192312259095677
-    second: Gale.DW.Springen_23
+      213: 7967433740145214699
+    second: Gale.DW.Stehen.Spritesheet_23
   - first:
-      213: -3170378939633251739
-    second: Gale.DW.Springen_24
+      213: -4848540215466039557
+    second: Gale.DW.Stehen.Spritesheet_24
   - first:
-      213: 2310150662616919541
-    second: Gale.DW.Springen_25
+      213: 2640024825541663308
+    second: Gale.DW.Stehen.Spritesheet_25
   - first:
-      213: -4118038595148452762
-    second: Gale.DW.Springen_26
+      213: -3435313166551553790
+    second: Gale.DW.Stehen.Spritesheet_26
   - first:
-      213: -8292035624750846059
-    second: Gale.DW.Springen_27
+      213: 6228458353975707858
+    second: Gale.DW.Stehen.Spritesheet_27
   - first:
-      213: -3604523732709217911
-    second: Gale.DW.Springen_28
+      213: -197840437757036347
+    second: Gale.DW.Stehen.Spritesheet_28
   - first:
-      213: 5618016939295879996
-    second: Gale.DW.Springen_29
+      213: 7989139418329768338
+    second: Gale.DW.Stehen.Spritesheet_29
   - first:
-      213: -1246516322032566908
-    second: Gale.DW.Springen_30
+      213: 6110275969668197644
+    second: Gale.DW.Stehen.Spritesheet_30
   - first:
-      213: 6951724015044062170
-    second: Gale.DW.Springen_31
+      213: 9214123202852889700
+    second: Gale.DW.Stehen.Spritesheet_31
+  - first:
+      213: 7899554226873802704
+    second: Gale.DW.Stehen.Spritesheet_32
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -180,54 +183,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Gale.DW.Springen_0
+      name: Gale.DW.Stehen.Spritesheet_0
       rect:
         serializedVersion: 2
-        x: 19
-        y: 1061
-        width: 160
-        height: 210
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: eb1c9900732192c47a8c4542b944c04a
-      internalID: 3595500587808035091
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Gale.DW.Springen_1
-      rect:
-        serializedVersion: 2
-        x: 244
-        y: 1059
-        width: 160
-        height: 230
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 60cf2f14a480709478316d3510403d1c
-      internalID: 2676586854535387699
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Gale.DW.Springen_2
-      rect:
-        serializedVersion: 2
-        x: 484
-        y: 1059
-        width: 137
+        x: 3
+        y: 1006
+        width: 93
         height: 242
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -236,397 +197,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c33b042f443502949933517a0daca84c
-      internalID: 1164467460375938476
+      spriteID: 27abe5b7f7c8bad46840ada1c2169ad6
+      internalID: 6910456617235351059
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gale.DW.Springen_3
+      name: Gale.DW.Stehen.Spritesheet_1
       rect:
         serializedVersion: 2
-        x: 717
-        y: 1059
-        width: 123
-        height: 269
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 75a89d564481c6f46b5c95b4ec34896a
-      internalID: -8293600442903820555
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Gale.DW.Springen_4
-      rect:
-        serializedVersion: 2
-        x: 927
-        y: 1063
-        width: 128
-        height: 272
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ae696898edb614c4e85e1c365c857972
-      internalID: -8041310742925328123
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Gale.DW.Springen_5
-      rect:
-        serializedVersion: 2
-        x: 1150
-        y: 1071
-        width: 124
-        height: 268
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c160b516ab90c0e498e60163c0a55ec4
-      internalID: 22281058971792190
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Gale.DW.Springen_6
-      rect:
-        serializedVersion: 2
-        x: 1365
-        y: 1081
-        width: 130
-        height: 265
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1a16986749d9ab641a68927eec3cb1a3
-      internalID: -8522531621924519343
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Gale.DW.Springen_7
-      rect:
-        serializedVersion: 2
-        x: 1576
-        y: 1094
-        width: 136
-        height: 259
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 32f3b01a35718c941837f0cc62073b44
-      internalID: -2421198851362349175
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Gale.DW.Springen_8
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 753
-        width: 134
-        height: 252
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 983ce3ce02d76ca4b817b4f70ef083e1
-      internalID: -8383846786695557128
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Gale.DW.Springen_9
-      rect:
-        serializedVersion: 2
-        x: 271
-        y: 764
-        width: 132
-        height: 245
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 797536f2108808145bf10880e65582ad
-      internalID: -2653984450115607448
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Gale.DW.Springen_10
-      rect:
-        serializedVersion: 2
-        x: 483
-        y: 775
-        width: 130
-        height: 238
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 39fef7b3f8a46494c851e228491c3d58
-      internalID: 7181652095081382823
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Gale.DW.Springen_11
-      rect:
-        serializedVersion: 2
-        x: 700
-        y: 787
-        width: 128
-        height: 231
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 51f18e84ceefab04db057b17c1f52b7d
-      internalID: -245267459455179387
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Gale.DW.Springen_12
-      rect:
-        serializedVersion: 2
-        x: 916
-        y: 800
-        width: 126
-        height: 225
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7c1b1676028e43e488c42d852acb7e4b
-      internalID: 5229163918685077193
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Gale.DW.Springen_13
-      rect:
-        serializedVersion: 2
-        x: 1136
-        y: 814
-        width: 127
-        height: 218
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 08c80c30b0d51d347b6ca7202bc036d1
-      internalID: 466610031339296950
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Gale.DW.Springen_14
-      rect:
-        serializedVersion: 2
-        x: 1356
-        y: 827
-        width: 128
-        height: 211
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6d336f6e3a516c4409d7ed65cd23af4f
-      internalID: -8111885806233079228
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Gale.DW.Springen_15
-      rect:
-        serializedVersion: 2
-        x: 1574
-        y: 840
-        width: 129
-        height: 205
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3685e5e9ff4a9dd4aa1e80ca6fd43457
-      internalID: 9159764701511932955
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Gale.DW.Springen_16
-      rect:
-        serializedVersion: 2
-        x: 47
-        y: 500
-        width: 130
-        height: 197
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 886faff7293cd504096de34f5679efc6
-      internalID: 5432832619633226709
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Gale.DW.Springen_17
-      rect:
-        serializedVersion: 2
-        x: 277
-        y: 482
-        width: 128
-        height: 218
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3026e1b20814d2e47a74a7236d16971b
-      internalID: -1597453934149781945
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Gale.DW.Springen_18
-      rect:
-        serializedVersion: 2
-        x: 492
-        y: 467
-        width: 123
-        height: 232
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 89cfd8c004c623f439ac11456ea9c160
-      internalID: -306235751723311621
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Gale.DW.Springen_19
-      rect:
-        serializedVersion: 2
-        x: 715
-        y: 452
-        width: 120
-        height: 244
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dec8edf5f1b60cb438e7d888c0330ddd
-      internalID: -7411122468738201734
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Gale.DW.Springen_20
-      rect:
-        serializedVersion: 2
-        x: 942
-        y: 435
-        width: 130
-        height: 240
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cedf180ca325b144fb51f7e8488c3490
-      internalID: 6038365360835494823
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Gale.DW.Springen_21
-      rect:
-        serializedVersion: 2
-        x: 1172
-        y: 428
-        width: 131
+        x: 120
+        y: 1006
+        width: 91
         height: 242
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -635,20 +218,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c40ddeb8407b9af489f20b21e829bdc6
-      internalID: 2846614891433158690
+      spriteID: 56158c14891e709449ff1603197574d4
+      internalID: 5262136159515113164
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gale.DW.Springen_22
+      name: Gale.DW.Stehen.Spritesheet_2
       rect:
         serializedVersion: 2
-        x: 1390
-        y: 420
-        width: 136
-        height: 257
+        x: 236
+        y: 1006
+        width: 89
+        height: 242
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -656,166 +239,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d0866f7c50c420742903d72e4d475330
-      internalID: -7140307999486836752
+      spriteID: ca33f178d194fc54e8ddb1da29cfb623
+      internalID: 3511030158692859121
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gale.DW.Springen_23
+      name: Gale.DW.Stehen.Spritesheet_3
       rect:
         serializedVersion: 2
-        x: 1608
-        y: 404
-        width: 133
-        height: 262
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cffd3762882cc7a4385ef20805583b0f
-      internalID: 925192312259095677
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Gale.DW.Springen_24
-      rect:
-        serializedVersion: 2
-        x: 61
-        y: 25
-        width: 125
-        height: 249
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 54cb28da210e8d149b4bcffe528e1253
-      internalID: -3170378939633251739
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Gale.DW.Springen_25
-      rect:
-        serializedVersion: 2
-        x: 291
-        y: 19
-        width: 117
-        height: 265
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e2597545d7cda8b44b0d84f5261bf373
-      internalID: 2310150662616919541
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Gale.DW.Springen_26
-      rect:
-        serializedVersion: 2
-        x: 506
-        y: 16
-        width: 117
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ab5c345bf2b54954594d1953e844885e
-      internalID: -4118038595148452762
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Gale.DW.Springen_27
-      rect:
-        serializedVersion: 2
-        x: 712
-        y: 10
-        width: 124
-        height: 233
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5c4c6cdfa490c334db39fa54b8e769aa
-      internalID: -8292035624750846059
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Gale.DW.Springen_28
-      rect:
-        serializedVersion: 2
-        x: 896
-        y: 10
-        width: 159
-        height: 210
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7bbd26db261c713438999532e5fb9482
-      internalID: -3604523732709217911
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Gale.DW.Springen_29
-      rect:
-        serializedVersion: 2
-        x: 1112
-        y: 13
-        width: 159
-        height: 229
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 95a5527b8291593468b572f5c22fde82
-      internalID: 5618016939295879996
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Gale.DW.Springen_30
-      rect:
-        serializedVersion: 2
-        x: 1321
-        y: 10
-        width: 169
+        x: 353
+        y: 1006
+        width: 88
         height: 243
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -824,20 +260,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d7be1ded261af1a47a16d6682092676f
-      internalID: -1246516322032566908
+      spriteID: 5a893a03d84d6f6468b9ad6d422346ee
+      internalID: -8094136259760416905
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gale.DW.Springen_31
+      name: Gale.DW.Stehen.Spritesheet_4
       rect:
         serializedVersion: 2
-        x: 1530
-        y: 10
-        width: 177
-        height: 247
+        x: 467
+        y: 1006
+        width: 85
+        height: 243
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -845,8 +281,596 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3f4c1183951350a49bd9ae1a39901b11
-      internalID: 6951724015044062170
+      spriteID: 2fe7a110af6f72842ae3acebe21e637f
+      internalID: 2961876380961248369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale.DW.Stehen.Spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 1006
+        width: 83
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39df212e2a66a2048b0b14f9249ffc4f
+      internalID: 3561414099783761116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale.DW.Stehen.Spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 1007
+        width: 82
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf72c009d9b85814194e6edae4025046
+      internalID: 521823214964891710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale.DW.Stehen.Spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 1007
+        width: 82
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 078557bb86e352f43a27fbe4a9dd9842
+      internalID: -3301693221535357722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale.DW.Stehen.Spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 756
+        width: 82
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08041e62245deaf41b3bb852fbf9f844
+      internalID: 11837242397898958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale.DW.Stehen.Spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 755
+        width: 81
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d9dd354f634a7f4281605d0c8ab9815
+      internalID: 5948688217940241594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale.DW.Stehen.Spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 755
+        width: 80
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d10b36e1f73c1e4087099bd8550d7ba
+      internalID: -5231028444175127485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale.DW.Stehen.Spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 755
+        width: 81
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 218befde397a17f45a3acf4722410210
+      internalID: -1800617893823663124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale.DW.Stehen.Spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 755
+        width: 83
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00995088e8edcf64b8860476fc8a9333
+      internalID: 1119365264179227100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale.DW.Stehen.Spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 756
+        width: 85
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebd85729a5980194ca52060f13af6038
+      internalID: 1742285809814811976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale.DW.Stehen.Spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 756
+        width: 87
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f186eef81d67d647a6f5182336d6e19
+      internalID: -7980944382126580615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale.DW.Stehen.Spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 756
+        width: 88
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77651f64850aa394a86f4e4e771dd715
+      internalID: -5456544119024568198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale.DW.Stehen.Spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 506
+        width: 89
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7885c7bd3b062443abd3f9090fffdd3
+      internalID: -6173346222316014656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale.DW.Stehen.Spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 506
+        width: 88
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8e0a1bae27a340429d915e894272757
+      internalID: -8739776952985600779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale.DW.Stehen.Spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 506
+        width: 87
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a7fc77d8a64d4f4fa8f5a562a08bdf1
+      internalID: -3839817000748801301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale.DW.Stehen.Spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 506
+        width: 85
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b07b7b2c7a1cdcc43935854b1aaa599e
+      internalID: -8561086326470002699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale.DW.Stehen.Spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 505
+        width: 83
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b849968cf55a2374e8e06a4c65fcf853
+      internalID: -344174654618525865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale.DW.Stehen.Spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 505
+        width: 81
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06d9bb3d155eded478591b61b107dc2f
+      internalID: -2721070796538789211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale.DW.Stehen.Spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 505
+        width: 80
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 693b7742bceb5ec45823ac6497d8d3f8
+      internalID: 7926260804046608890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale.DW.Stehen.Spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 505
+        width: 81
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5125f62db000aa04d834edc6bbaf4280
+      internalID: 7967433740145214699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale.DW.Stehen.Spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 257
+        width: 82
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5a6dfdab4e68b9469fbca249c7b6e00
+      internalID: -4848540215466039557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale.DW.Stehen.Spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 257
+        width: 82
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfc4d140e5c35574d8ab390fb6c9031f
+      internalID: 2640024825541663308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale.DW.Stehen.Spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 257
+        width: 82
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0b9d7bb9a790f541a2d87fe06082802
+      internalID: -3435313166551553790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale.DW.Stehen.Spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 256
+        width: 83
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85bfd8d5f4f570647991644f76b526e5
+      internalID: 6228458353975707858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale.DW.Stehen.Spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 256
+        width: 85
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bc4b0df72b984648a330edb3c1a503a
+      internalID: -197840437757036347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale.DW.Stehen.Spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 256
+        width: 88
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a220643e4ecf1c4418d6fe04a06fe450
+      internalID: 7989139418329768338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale.DW.Stehen.Spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 256
+        width: 89
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 389300d927b99094b98a2dfe3edf64a5
+      internalID: 6110275969668197644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale.DW.Stehen.Spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 256
+        width: 91
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61c065fe4df84e84c9cf52381f850b31
+      internalID: 9214123202852889700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale.DW.Stehen.Spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 6
+        width: 93
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcd08c0ab77c3e24aab299f45e1484ed
+      internalID: 7899554226873802704
       vertices: []
       indices: 
       edges: []
@@ -854,7 +878,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 7df4b514751847941830ac2631fd8c04
+    spriteID: a66729da18a3d2c408b8689073d002d4
     internalID: 0
     vertices: []
     indices: 
