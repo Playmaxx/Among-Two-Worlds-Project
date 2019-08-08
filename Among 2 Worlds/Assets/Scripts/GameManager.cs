@@ -66,9 +66,9 @@ public class GameManager : MonoBehaviour    //manages central aspects such as wo
     void updateDimensions()     //updates dimensions for all platforms and backgrounds
     {
         Platform[] AllPlatforms = FindObjectsOfType(typeof(Platform)) as Platform[];
-        foreach(Platform currentPlat in AllPlatforms)
+        foreach(Platform item in AllPlatforms)
         {
-            //currentPlat.GetComponent<Platform>().updateDimensions();
+            //item.gameObject.updateDimensions();
         }
     }
 }

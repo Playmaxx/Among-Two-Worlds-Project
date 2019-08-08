@@ -6,15 +6,13 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
 {
     public enum direction { Left, Right }       // variables
     public direction playerdirection;
-    public enum wallSide { Left, Right }
-    public wallSide playerWallSide;
     public enum moveState { Grounded, Jumping, Falling, Dashing, Gliding, Walled, Other }
     public moveState playerMoveState;
 
     public float playerheight = 2;
     public float playerwidth = 1;
     public int Jumps = 2;
-    public int health;
+    public float health;
     public float moveSpeed = 7.5f;
     public int jumpforce = 20;
     public int dashspeed = 300;
@@ -27,6 +25,7 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
     public float currentGlideTime = 0;
     public float maxDashTime = 1;
     public float currentDashTime = 0;
+    public bool DeathSequenceIsPlaying = false;
 
     public Rigidbody2D rigidRef;        //ref types
     public Gale galeRef;
@@ -76,6 +75,8 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
 
         }
 
+        DeathSequence();
+
         //tests
         Debug.Log(playerMoveState);
         Debug.DrawRay(transform.position, Vector2.down * playerheight / 2, Color.green);
@@ -122,6 +123,13 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
         {
             //aa
         }
+
+        if (collision.tag == "OutOfMap-border")
+        {
+            DeathSequenceIsPlaying = true;
+            Debug.Log("player ded boi");
+            StartCoroutine(RespawnPlayerAfterTime(1));
+        }
     }
     //checks if player walked off edge
     void OnTriggerExit2D(Collider2D collision)     //checks if player is grounded
@@ -160,13 +168,13 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
                 break;
 
             case (moveState.Dashing):
-                rigidRef.velocity = new Vector2(rigidRef.velocity.x, 0);
                 break;
 
             case (moveState.Gliding):
                 break;
 
             case (moveState.Walled):
+                Debug.Log("Wall test");
                 rigidRef.velocity = new Vector2(rigidRef.velocity.x, -glidespeed);
                 break;
 
@@ -182,5 +190,23 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
     void Heal(int amount)
     {
         health += amount;
+    }
+
+    void DeathSequence()
+    {
+        if (Input.GetKey(KeyCode.F) && DeathSequenceIsPlaying == false)
+        {
+            DeathSequenceIsPlaying = true;
+            Debug.Log("player ded boi");
+            StartCoroutine(RespawnPlayerAfterTime(3));
+        }
+    }
+
+    IEnumerator RespawnPlayerAfterTime(float time)
+    {
+        yield return new WaitForSeconds(time);
+        transform.position = new Vector2(0.299f, 2f);
+        DeathSequenceIsPlaying = false;
+        rigidRef.velocity = new Vector2(0, 0);
     }
 }
