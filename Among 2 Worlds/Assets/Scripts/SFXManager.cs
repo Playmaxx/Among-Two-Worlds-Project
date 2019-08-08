@@ -10,6 +10,7 @@ public class SFXManager : MonoBehaviour
     public AudioSource current_audioclip;
     public AudioClip Jump;
     public AudioClip Dash;
+    public AudioClip KnightGettingHit;
 
     //Awake is called before start
     void Awake()
@@ -27,7 +28,10 @@ public class SFXManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKey(KeyCode.X))
+        {
+            playKnightGettingHitSound();
+        }
     }
 
     public void playJumpSound()
@@ -36,10 +40,10 @@ public class SFXManager : MonoBehaviour
         switch (GameManager.GMInstance.currentdim)
         {
             case (GameManager.dimension.Light):
-                if (playerRef.Jumps > 0)
+                if (playerRef.Jumps >= 1)
                 {
                     current_audioclip.clip = Jump;
-                    current_audioclip.Play();
+                    current_audioclip.PlayOneShot(Jump, 1.0f);
                     Debug.Log("Jump-Sound-test");
                 }
                 break;
@@ -48,7 +52,7 @@ public class SFXManager : MonoBehaviour
                 if (playerRef.Jumps != 0)
                 {
                     current_audioclip.clip = Jump;
-                    current_audioclip.Play();
+                    current_audioclip.PlayOneShot(Jump, 1.0f);
                     Debug.Log("Jump-Sound-test");
                 }
                 break;
@@ -64,5 +68,11 @@ public class SFXManager : MonoBehaviour
             current_audioclip.Play();
             Debug.Log("dash sound test");
         }
+    }
+
+    public void playKnightGettingHitSound()
+    {
+        current_audioclip.clip = KnightGettingHit;
+        current_audioclip.Play();
     }
 }
