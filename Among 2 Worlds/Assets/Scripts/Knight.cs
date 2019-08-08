@@ -12,11 +12,11 @@ public class Knight : MonoBehaviour
 
     public float leftPatrolX;
     public float rightPatrolX;
-    public float attackRange;
-    public float patrolSpeed;
-    public float attackSpeed;
-    public float health;
-    public float damage;
+    public int attackRange;
+    public int patrolSpeed;
+    public int attackSpeed;
+    public int health;
+    public int damage;
     float playerDistance;
     float knightHeight;
     float knightWidth;
@@ -139,7 +139,7 @@ public class Knight : MonoBehaviour
                 break;
 
             case (enemyState.Attacking):
-                //damage player
+                playerRef.GetComponent<Player>().damage(damage);
                 break;
         }
     }
