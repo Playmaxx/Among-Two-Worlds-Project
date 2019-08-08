@@ -16,28 +16,31 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
     public float moveSpeed = 7.5f;
     public int jumpforce = 20;
     public int dashspeed = 300;
-    public int dashtime = 10;
     public bool dashused = false;
     public int glidespeed = 2;
     public float wallSlideSpeed = 0.1f;
     public float playerGravity = 10;
     public float maxGlideTime = 5;
     public float currentGlideTime = 0;
-    public float maxDashTime = 1;
+    public float dashtime = 0.5f;
     public float currentDashTime = 0;
     public bool DeathSequenceIsPlaying = false;
 
-    public Rigidbody2D rigidRef;        //ref types
-    public Gale galeRef;
-    public Lilian lilianRef;
+    //ref types
+    Gale galeRef;
+    Lilian lilianRef;
+    public Rigidbody2D rigidRef;
     public SpriteRenderer renderRef;
-    public Vector2 moveRef;
 
 
-    private void Awake()
+    private void Awake() //is called before start, catch references here
     {
         rigidRef = GetComponent<Rigidbody2D>();
         renderRef = GetComponent<SpriteRenderer>();
+        galeRef = GetComponent<Gale>();
+        lilianRef = GetComponent<Lilian>();
+        playerheight = GetComponent<CapsuleCollider2D>().size.y;
+        playerheight = GetComponent<CapsuleCollider2D>().size.x;
     }
 
     // Start is called before the first frame update
@@ -61,7 +64,7 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
             case (GameManager.dimension.Light):
                 lilianRef.movement();
                 lilianRef.jump();
-                //lilianRef.dash();
+                lilianRef.dash();
                 lilianRef.glide();
                 lilianRef.wallaction();
                 break;
@@ -69,7 +72,6 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
                 galeRef.movement();
                 galeRef.jump();
                 galeRef.dash();
-                galeRef.glide();
                 galeRef.wallaction();
                 break;
 
@@ -95,17 +97,9 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
         {
             renderRef.flipX = false;
         }
-        if(playerMoveState == moveState.Gliding)
-        {
-            currentGlideTime -= 1 * Time.deltaTime;
-        }
-        if (playerMoveState == moveState.Dashing)
-        {
-            currentDashTime -= 1 * Time.deltaTime;
-        }
     }
 
-    void refreshAbilities()     //refreshes jumps & dashes etc.
+    public void refreshAbilities()     //refreshes jumps & dashes etc.
     {
         Jumps = 2;
         dashused = false;
@@ -127,7 +121,6 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
         if (collision.tag == "OutOfMap-border")
         {
             DeathSequenceIsPlaying = true;
-            Debug.Log("player ded boi");
             StartCoroutine(RespawnPlayerAfterTime(1));
         }
     }
@@ -152,6 +145,16 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
             playerMoveState = moveState.Falling;
         }
 
+        if (playerMoveState == moveState.Dashing && Physics2D.Raycast(transform.position, Vector2.left, playerwidth / 2, GameManager.GMInstance.platformMask))
+        {
+            if (playerMoveState == moveState.Dashing && Physics2D.Raycast(transform.position, Vector2.right, playerwidth / 2, GameManager.GMInstance.platformMask))
+            {
+                playerMoveState = moveState.Walled;
+                currentDashTime = 0;
+                rigidRef.velocity = Vector2.zero;
+            }
+        }
+
         switch (playerMoveState)    //movestates: Grounded, Jumping, Falling, Dashing, Gliding, Walled, Other
         {
             case (moveState.Grounded):
@@ -168,13 +171,14 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
                 break;
 
             case (moveState.Dashing):
+                currentDashTime -= 1 * Time.deltaTime;
                 break;
 
             case (moveState.Gliding):
+                currentGlideTime += 1 * Time.deltaTime;
                 break;
 
             case (moveState.Walled):
-                Debug.Log("Wall test");
                 rigidRef.velocity = new Vector2(rigidRef.velocity.x, -glidespeed);
                 break;
 
@@ -187,6 +191,7 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
     {
         health -= amount;
     }
+
     void Heal(int amount)
     {
         health += amount;
@@ -197,7 +202,6 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
         if (Input.GetKey(KeyCode.F) && DeathSequenceIsPlaying == false)
         {
             DeathSequenceIsPlaying = true;
-            Debug.Log("player ded boi");
             StartCoroutine(RespawnPlayerAfterTime(3));
         }
     }

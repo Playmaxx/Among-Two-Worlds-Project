@@ -40,7 +40,6 @@ public class SFXManager : MonoBehaviour
                 {
                     current_audioclip.clip = Jump;
                     current_audioclip.Play();
-                    Debug.Log("Jump-Sound-test");
                 }
                 break;
 
@@ -49,7 +48,6 @@ public class SFXManager : MonoBehaviour
                 {
                     current_audioclip.clip = Jump;
                     current_audioclip.Play();
-                    Debug.Log("Jump-Sound-test");
                 }
                 break;
         }
@@ -62,7 +60,6 @@ public class SFXManager : MonoBehaviour
         {
             current_audioclip.clip = Dash;
             current_audioclip.Play();
-            Debug.Log("dash sound test");
         }
     }
 }

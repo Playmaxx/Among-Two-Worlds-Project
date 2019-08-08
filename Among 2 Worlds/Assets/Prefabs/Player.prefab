@@ -172,15 +172,14 @@ MonoBehaviour:
   health: 0
   moveSpeed: 7.5
   jumpforce: 18
-  dashspeed: 10
-  dashtime: 10
+  dashspeed: 40
   dashused: 0
   glidespeed: 2
   wallSlideSpeed: 2
   playerGravity: 10
   maxGlideTime: 5
   currentGlideTime: 0
-  maxDashTime: 1
+  dashtime: 0.1
   currentDashTime: 0
   DeathSequenceIsPlaying: 0
   rigidRef: {fileID: 0}
@@ -200,6 +199,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da9595c727578264d8474abc80cf6cf9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerRef: {fileID: 5718854610222730107}
 --- !u!114 &139541529738114717
 MonoBehaviour:
   m_ObjectHideFlags: 0
