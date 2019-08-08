@@ -766,7 +766,7 @@ PrefabInstance:
     - target: {fileID: 396247199399757968, guid: 2c2e7effd6de585498b8c37708299d2d,
         type: 3}
       propertyPath: ownDimension
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 940345181611897415, guid: 2c2e7effd6de585498b8c37708299d2d,
         type: 3}
