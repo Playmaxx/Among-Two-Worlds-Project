@@ -26,17 +26,21 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
     public float currentDashTime = 0;
     public bool DeathSequenceIsPlaying = false;
 
-    public Rigidbody2D rigidRef;        //ref types
-    public Gale galeRef;
-    public Lilian lilianRef;
+    //ref types
+    Gale galeRef;
+    Lilian lilianRef;
+    public Rigidbody2D rigidRef;
     public SpriteRenderer renderRef;
-    public Vector2 moveRef;
 
 
-    private void Awake()
+    private void Awake() //is called before start, catch references here
     {
         rigidRef = GetComponent<Rigidbody2D>();
         renderRef = GetComponent<SpriteRenderer>();
+        galeRef = GetComponent<Gale>();
+        lilianRef = GetComponent<Lilian>();
+        playerheight = GetComponent<CapsuleCollider2D>().size.y;
+        playerheight = GetComponent<CapsuleCollider2D>().size.x;
     }
 
     // Start is called before the first frame update
@@ -139,6 +143,16 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
         if (playerMoveState == moveState.Gliding && Physics2D.Raycast(transform.position, Vector2.down, playerheight / 2, GameManager.GMInstance.platformMask))
         {
             playerMoveState = moveState.Falling;
+        }
+
+        if (playerMoveState == moveState.Dashing && Physics2D.Raycast(transform.position, Vector2.left, playerwidth / 2, GameManager.GMInstance.platformMask))
+        {
+            if (playerMoveState == moveState.Dashing && Physics2D.Raycast(transform.position, Vector2.right, playerwidth / 2, GameManager.GMInstance.platformMask))
+            {
+                playerMoveState = moveState.Walled;
+                currentDashTime = 0;
+                rigidRef.velocity = Vector2.zero;
+            }
         }
 
         switch (playerMoveState)    //movestates: Grounded, Jumping, Falling, Dashing, Gliding, Walled, Other
