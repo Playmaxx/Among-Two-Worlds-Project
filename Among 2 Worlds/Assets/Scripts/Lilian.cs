@@ -108,6 +108,10 @@ public class Lilian : MonoBehaviour      //manages abilities for Lilian
             {
                 playerRef.playerMoveState = Player.moveState.Gliding;
             }
+            else
+            {
+                playerRef.playerMoveState = Player.moveState.Falling;
+            }
         }
         if ((Input.GetKeyUp(KeyCode.Space) || Input.GetButtonUp("Jump")) && playerRef.playerMoveState == Player.moveState.Gliding)
         {
