@@ -105,6 +105,7 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
     {
         Jumps = 2;
         dashused = false;
+        currentGlideTime = 0;
     }
 
     //checks ground state
@@ -177,6 +178,7 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
                 break;
 
             case (moveState.Gliding):
+                rigidRef.velocity = new Vector2(rigidRef.velocity.x, -glidespeed);
                 currentGlideTime += 1 * Time.deltaTime;
                 break;
 
