@@ -12,6 +12,7 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
     public float playerheight = 2;
     public float playerwidth = 1;
     public int Jumps = 2;
+    public float health;
     public float moveSpeed = 7.5f;
     public int jumpforce = 20;
     public int dashspeed = 300;

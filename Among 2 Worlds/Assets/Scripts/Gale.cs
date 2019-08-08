@@ -55,24 +55,29 @@ public class Gale : MonoBehaviour, IChar     //manages abilities for Gale
                 {
                     switch (playerRef.Jumps)
                     {
-                        playerRef.playerMoveState = Player.moveState.Jumping;
-                        playerRef.rigidRef.velocity = new Vector2(playerRef.rigidRef.velocity.x, playerRef.jumpforce);
-                        playerRef.Jumps--;
+                        case (2):
+                            if (playerRef.playerMoveState == Player.moveState.Grounded)
+                            {
+                                playerRef.playerMoveState = Player.moveState.Jumping;
+                                playerRef.rigidRef.velocity = new Vector2(playerRef.rigidRef.velocity.x, playerRef.jumpforce);
+                                playerRef.Jumps--;
+                            }
+                            else
+                            {
+                                playerRef.playerMoveState = Player.moveState.Jumping;
+                                playerRef.rigidRef.velocity = new Vector2(playerRef.rigidRef.velocity.x, playerRef.jumpforce);
+                                playerRef.Jumps -= 2;
+                            }
+                            break;
+                        case (1):
+                            playerRef.playerMoveState = Player.moveState.Jumping;
+                            playerRef.rigidRef.velocity = new Vector2(playerRef.rigidRef.velocity.x, playerRef.jumpforce);
+                            playerRef.Jumps--;
+                            break;
+                        default:
+                            break;
                     }
-                    else
-                    {
-                        playerRef.playerMoveState = Player.moveState.Jumping;
-                        playerRef.rigidRef.velocity = new Vector2(playerRef.rigidRef.velocity.x, playerRef.jumpforce);
-                        playerRef.Jumps -= 2;
-                    }
-                    break;
-                case (1):
-                    playerRef.playerMoveState = Player.moveState.Jumping;
-                    playerRef.rigidRef.velocity = new Vector2(playerRef.rigidRef.velocity.x, playerRef.jumpforce);
-                    playerRef.Jumps--;
-                    break;
-                default:
-                    break;
+                }
             }
         }
     }
@@ -115,9 +120,7 @@ public class Gale : MonoBehaviour, IChar     //manages abilities for Gale
             }
         }
     }
-
-
-
+    
     public void glide()
     {
         if (playerRef.playerMoveState == Player.moveState.Gliding)
