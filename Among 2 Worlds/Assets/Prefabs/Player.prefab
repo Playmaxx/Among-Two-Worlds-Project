@@ -173,14 +173,13 @@ MonoBehaviour:
   moveSpeed: 7.5
   jumpforce: 18
   dashspeed: 10
-  dashtime: 10
   dashused: 0
   glidespeed: 2
   wallSlideSpeed: 2
   playerGravity: 10
   maxGlideTime: 5
   currentGlideTime: 0
-  maxDashTime: 1
+  dashtime: 0.5
   currentDashTime: 0
   DeathSequenceIsPlaying: 0
   rigidRef: {fileID: 0}

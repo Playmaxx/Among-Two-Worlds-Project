@@ -25,13 +25,11 @@ public class ArmorRattle : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.D))
         {
             playRattleSound();
-            Debug.Log("rattle sound played");
         }
 
         if ((Input.GetKeyUp(KeyCode.A) && !Input.GetKey(KeyCode.D)) || (Input.GetKeyUp(KeyCode.D) && !Input.GetKey(KeyCode.D)))
         {
             stopRattleSound();
-            Debug.Log("rattle sound stopped");
         }
     }
 

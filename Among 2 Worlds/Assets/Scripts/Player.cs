@@ -16,14 +16,13 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
     public float moveSpeed = 7.5f;
     public int jumpforce = 20;
     public int dashspeed = 300;
-    public int dashtime = 10;
     public bool dashused = false;
     public int glidespeed = 2;
     public float wallSlideSpeed = 0.1f;
     public float playerGravity = 10;
     public float maxGlideTime = 5;
     public float currentGlideTime = 0;
-    public float maxDashTime = 1;
+    public float dashtime = 0.5f;
     public float currentDashTime = 0;
     public bool DeathSequenceIsPlaying = false;
 
@@ -127,7 +126,6 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
         if (collision.tag == "OutOfMap-border")
         {
             DeathSequenceIsPlaying = true;
-            Debug.Log("player ded boi");
             StartCoroutine(RespawnPlayerAfterTime(1));
         }
     }
@@ -174,7 +172,6 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
                 break;
 
             case (moveState.Walled):
-                Debug.Log("Wall test");
                 rigidRef.velocity = new Vector2(rigidRef.velocity.x, -glidespeed);
                 break;
 
@@ -197,7 +194,6 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
         if (Input.GetKey(KeyCode.F) && DeathSequenceIsPlaying == false)
         {
             DeathSequenceIsPlaying = true;
-            Debug.Log("player ded boi");
             StartCoroutine(RespawnPlayerAfterTime(3));
         }
     }

@@ -32,8 +32,6 @@ public class AudioTest : MonoBehaviour
             StartCoroutine(SilenceMusic(0.1f));
             //StartCoroutine(SwitchMusicAfterTime(3f));
         }
-
-        Debug.Log(current_track.clip);
     }
 
     IEnumerator SwitchMusicAfterTime(float time)
@@ -46,20 +44,8 @@ public class AudioTest : MonoBehaviour
             current_track.volume = 0.0f;
             current_track.time = timecode1;
             current_track.Play();
-            Debug.Log("CuteGiana switched to DarkGiana");
             current_track.volume = current_track.volume + 0.02f;
         }
-
-        //if (current_track.clip == DarkGiana)
-        //{
-            //current_track.Stop();
-            //current_track.clip = CuteGiana;
-            //current_track.volume = 0.3f;
-            //current_track.time = timecode1;
-            //current_track.Play();
-            //Debug.Log("DarkGiana switched do CuteGiana");
-            //current_track.volume = current_track.volume + 0.02f;
-        //}
     }
 
     IEnumerator SilenceMusic(float time)
@@ -68,7 +54,6 @@ public class AudioTest : MonoBehaviour
         while (current_track.volume < 1.0f)
         {
             current_track.volume = current_track.volume - 0.002f;
-            Debug.Log("vol not 0 yet");
         }
     }
 }
