@@ -4,32 +4,65 @@ using UnityEngine;
 
 public class SFXManager : MonoBehaviour
 {
+    [SerializeField]
+    Player playerRef;
 
-    public AudioSource p_audio;
+    public AudioSource current_audioclip;
     public AudioClip Jump;
     public AudioClip Dash;
 
+    //Awake is called before start
+    void Awake()
+    {
+        playerRef = FindObjectOfType<Player>();
+        current_audioclip = GetComponent<AudioSource>();
+    }
     // Start is called before the first frame update
     void Start()
     {
-        p_audio = GetComponent<AudioSource>();
-        p_audio.volume = 0.5f;
-        p_audio.clip = null;
+        current_audioclip.volume = 1.0f;
+        current_audioclip.clip = null;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            p_audio.clip = Jump;
-            p_audio.Play();
-        }
+        
+    }
 
-        if (Input.GetKeyDown(KeyCode.LeftShift) && (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.A)))
+    public void playJumpSound()
+    {
+
+        switch (GameManager.GMInstance.currentdim)
         {
-            p_audio.clip = Dash;
-            p_audio.Play();
+            case (GameManager.dimension.Light):
+                if (playerRef.Jumps == 2)
+                {
+                    current_audioclip.clip = Jump;
+                    current_audioclip.Play();
+                    Debug.Log("Jump-Sound-test");
+                }
+                break;
+
+            case (GameManager.dimension.Dark):
+                if (playerRef.Jumps != 0)
+                {
+                    current_audioclip.clip = Jump;
+                    current_audioclip.Play();
+                    Debug.Log("Jump-Sound-test");
+                }
+                break;
+        }
+    }
+
+
+    public void playDashSound()
+    {
+        if ((GameManager.GMInstance.currentdim == GameManager.dimension.Dark))
+        {
+            current_audioclip.clip = Dash;
+            current_audioclip.Play();
+            Debug.Log("dash sound test");
         }
     }
 }

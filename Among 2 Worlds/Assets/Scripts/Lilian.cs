@@ -81,27 +81,38 @@ public class Lilian : MonoBehaviour, IChar        //manages abilities for Lilian
         {
             playerRef.playerMoveState = Player.moveState.Falling;
         }
+        if (playerRef.playerMoveState == Player.moveState.Gliding)
+        {
+            if (Physics2D.Raycast(transform.position, Vector2.right, playerRef.playerwidth / 2, GameManager.GMInstance.platformMask))
+            {
+                playerRef.playerMoveState = Player.moveState.Falling;
+            }
+            if (Physics2D.Raycast(transform.position, Vector2.right, playerRef.playerwidth / 2, GameManager.GMInstance.platformMask))
+            {
+                playerRef.playerMoveState = Player.moveState.Falling;
+            }
+        }
     }
 
     public void wallaction()
     {
-        if ((Physics2D.Raycast(transform.position, Vector2.left, playerRef.playerwidth / 2, GameManager.GMInstance.platformMask) == true))
+        if ((Physics2D.Raycast(transform.position, Vector2.left, playerRef.playerwidth / 2, GameManager.GMInstance.platformMask)))
         {
             if (playerRef.playerMoveState != Player.moveState.Grounded && playerRef.playerMoveState != Player.moveState.Jumping)
             {
                 playerRef.playerMoveState = Player.moveState.Walled;
             }
         }
-        if ((Physics2D.Raycast(transform.position, Vector2.right, playerRef.playerwidth / 2, GameManager.GMInstance.platformMask) == true))
+        if ((Physics2D.Raycast(transform.position, Vector2.right, playerRef.playerwidth / 2, GameManager.GMInstance.platformMask)))
         {
             if (playerRef.playerMoveState != Player.moveState.Grounded && playerRef.playerMoveState != Player.moveState.Jumping)
             {
                 playerRef.playerMoveState = Player.moveState.Walled;
             }
         }
-        if (Physics2D.Raycast(transform.position, Vector2.right, playerRef.playerwidth / 2, GameManager.GMInstance.platformMask) == false)
+        if (!Physics2D.Raycast(transform.position, Vector2.right, playerRef.playerwidth / 2, GameManager.GMInstance.platformMask))
         {
-            if (Physics2D.Raycast(transform.position, Vector2.left, playerRef.playerwidth / 2, GameManager.GMInstance.platformMask) == false)
+            if (!Physics2D.Raycast(transform.position, Vector2.left, playerRef.playerwidth / 2, GameManager.GMInstance.platformMask))
             {
                 if (playerRef.playerMoveState == Player.moveState.Walled)
                 {
