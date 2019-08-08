@@ -5,7 +5,12 @@ TagManager:
   serializedVersion: 2
   tags:
   - Platform
-  - Enemy
+  - TriggerBox
+  - TriggerBox-Jump
+  - TriggerBox-Worldshift
+  - Textbox
+  - OutOfMap-border
+  - scoreSource
   layers:
   - Default
   - TransparentFX
@@ -15,9 +20,9 @@ TagManager:
   - UI
   - 
   - 
-  - PlayerLayer
-  - EnemyLayer
-  - PlatformLayer
+  - playerLayer
+  - enemyLayer
+  - platformLayer
   - 
   - 
   - 
