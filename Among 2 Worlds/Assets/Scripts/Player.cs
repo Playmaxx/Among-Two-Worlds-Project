@@ -94,17 +94,9 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
         {
             renderRef.flipX = false;
         }
-        if(playerMoveState == moveState.Gliding)
-        {
-            currentGlideTime -= 1 * Time.deltaTime;
-        }
-        if (playerMoveState == moveState.Dashing)
-        {
-            currentDashTime -= 1 * Time.deltaTime;
-        }
     }
 
-    void refreshAbilities()     //refreshes jumps & dashes etc.
+    public void refreshAbilities()     //refreshes jumps & dashes etc.
     {
         Jumps = 2;
         dashused = false;
@@ -166,9 +158,11 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
                 break;
 
             case (moveState.Dashing):
+                currentDashTime -= 1 * Time.deltaTime;
                 break;
 
             case (moveState.Gliding):
+                currentGlideTime += 1 * Time.deltaTime;
                 break;
 
             case (moveState.Walled):
@@ -184,6 +178,7 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
     {
         health -= amount;
     }
+
     void Heal(int amount)
     {
         health += amount;
