@@ -2,15 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Gale : MonoBehaviour, IChar     //manages abilities for Gale
+public class Gale : MonoBehaviour     //manages abilities for Gale
 {
-    public Player playerRef;
-    
+    Player playerRef;
+
 
     //Awake is called before Start
     void Awake()
     {
-
+        playerRef = GetComponent<Player>();
     }
 
     public void movement()     //handles basic movement
@@ -110,14 +110,6 @@ public class Gale : MonoBehaviour, IChar     //manages abilities for Gale
             {
                 playerRef.playerMoveState = Player.moveState.Falling;
             }
-        }
-    }
-
-    public void glide()
-    {
-        if (playerRef.playerMoveState == Player.moveState.Gliding)
-        {
-            playerRef.playerMoveState = Player.moveState.Falling;
         }
     }
 
