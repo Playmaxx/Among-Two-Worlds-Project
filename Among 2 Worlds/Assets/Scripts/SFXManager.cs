@@ -36,7 +36,7 @@ public class SFXManager : MonoBehaviour
         switch (GameManager.GMInstance.currentdim)
         {
             case (GameManager.dimension.Light):
-                if (playerRef.Jumps == 2)
+                if (playerRef.Jumps > 0)
                 {
                     current_audioclip.clip = Jump;
                     current_audioclip.Play();

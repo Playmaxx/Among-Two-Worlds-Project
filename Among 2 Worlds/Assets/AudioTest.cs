@@ -4,12 +4,16 @@ using UnityEngine;
 
 public class AudioTest : MonoBehaviour
 {
-
-    public AudioSource current_track;
-    public AudioClip CuteGiana;
-    public AudioClip DarkGiana;
-    public float timecode1;
-    public float timecode2;
+    [SerializeField]
+    AudioSource current_track;
+    [SerializeField]
+    AudioClip CuteGiana;
+    [SerializeField]
+    AudioClip DarkGiana;
+    [SerializeField]
+    float timecode1;
+    [SerializeField]
+    float timecode2;
 
     // Start is called before the first frame update
     void Start()
@@ -29,8 +33,16 @@ public class AudioTest : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.E))
         {
             current_track.volume = current_track.volume - 0.02f;
-            StartCoroutine(SilenceMusic(0.1f));
+
+            //SilenceMusic();
+            //StartCoroutine(SilenceMusic(0.1f));
             //StartCoroutine(SwitchMusicAfterTime(3f));
+        }
+
+        if (current_track.volume < 1.0f)
+        {
+            current_track.volume -= 0.02f;
+            Debug.Log("vol not 0 yet");
         }
 
         Debug.Log(current_track.clip);
@@ -62,13 +74,13 @@ public class AudioTest : MonoBehaviour
         //}
     }
 
-    IEnumerator SilenceMusic(float time)
-    {
-        yield return new WaitForSeconds(time);
-        while (current_track.volume < 1.0f)
-        {
-            current_track.volume = current_track.volume - 0.002f;
-            Debug.Log("vol not 0 yet");
-        }
-    }
+    //IEnumerator SilenceMusic(float time)
+    //{
+        //yield return new WaitForSeconds(time);
+        //for (float i = current_track.volume; i > 0; i--) 
+        //{
+            //current_track.volume -= 0.002f;
+            //Debug.Log("vol not 0 yet");
+        //}
+    //}
 }
