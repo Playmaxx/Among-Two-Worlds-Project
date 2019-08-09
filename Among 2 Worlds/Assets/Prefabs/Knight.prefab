@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 7392733376194073881}
   - component: {fileID: 8523568382031950946}
   - component: {fileID: 8881481582634569992}
-  - component: {fileID: 3323243979060340374}
-  - component: {fileID: 6344310771504700624}
   - component: {fileID: 2466375852799618370}
+  - component: {fileID: 3323243979060340374}
+  - component: {fileID: 8971175256194178493}
   m_Layer: 9
   m_Name: Knight
   m_TagString: Enemy
@@ -71,7 +71,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: 4f731a33f19813b4a88a36bdbdb47663, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -104,6 +104,29 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &2466375852799618370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7392733376194073880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 861a45bc81d53604faaa8b2b6ce55e25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  knightState: 0
+  nextPatrolPoint: 0
+  knightDirection: 0
+  leftPatrolX: 0
+  rightPatrolX: 0
+  attackRange: 1
+  patrolSpeed: 1
+  attackSpeed: 1
+  health: 0
+  damage: 0
+  trackingdistance: 7.5
 --- !u!70 &3323243979060340374
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -120,7 +143,7 @@ CapsuleCollider2D:
   m_Offset: {x: 0.0026667118, y: -0.028470993}
   m_Size: {x: 0.77585936, y: 3.0754209}
   m_Direction: 0
---- !u!61 &6344310771504700624
+--- !u!61 &8971175256194178493
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -133,7 +156,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -3.9418182, y: -0.041417718}
+  m_Offset: {x: -3.3615613, y: -0.025582552}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -144,24 +167,5 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 8.033632, y: 3.0831697}
+  m_Size: {x: 7.3800707, y: 3.0469704}
   m_EdgeRadius: 0
---- !u!114 &2466375852799618370
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7392733376194073880}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 861a45bc81d53604faaa8b2b6ce55e25, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  leftPatrolX: 0
-  rightPatrolX: 0
-  attackRange: 1
-  patrolSpeed: 1
-  attackSpeed: 1
-  health: 0
-  damage: 0
