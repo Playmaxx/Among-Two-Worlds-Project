@@ -10,6 +10,9 @@ public class Knight : MonoBehaviour
     enum patrolPoint { Left, Right }
     patrolPoint nextPatrolPoint;
 
+    enum enemyDirection { Left, Right }
+    enemyDirection knightDirection;
+
     public float leftPatrolX;
     public float rightPatrolX;
     public int attackRange;
@@ -54,6 +57,23 @@ public class Knight : MonoBehaviour
     {
         if (collision.tag == "Player")
         {
+            switch (knightDirection)
+            {
+                case (enemyDirection.Right):
+                    Vector2 start = rigidRef.transform.position;
+                    Vector2 direction = Vector2.right;
+                    float distance = GetComponent<BoxCollider2D>().size.x;
+                    RaycastHit2D Hit;
+                    //if (Physics2D.Raycast(start, direction, distance,out Hit))
+                    //{
+                    //
+                    //}
+                    break;
+
+                case (enemyDirection.Left):
+
+                    break;
+            }
             knightState = enemyState.Following;
         }
     }
@@ -75,7 +95,7 @@ public class Knight : MonoBehaviour
                 switch (nextPatrolPoint)
                 {
                     case (patrolPoint.Left):
-                        if(transform.position.x > leftPatrolX)
+                        if (transform.position.x > leftPatrolX)
                         {
                             rigidRef.velocity = new Vector2(-patrolSpeed, 0);
                         }
@@ -128,6 +148,15 @@ public class Knight : MonoBehaviour
 
     void matchState()
     {
+        if (rigidRef.velocity.x > 0)
+        {
+            knightDirection = enemyDirection.Right;
+        }
+        else
+        {
+            knightDirection = enemyDirection.Left;
+        }
+
         switch (knightState)
         {
             case (enemyState.Patrolling):
