@@ -33,7 +33,6 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
     public SpriteRenderer renderRef;
     public Vector2 moveRef;
 
-
     private void Awake()
     {
         rigidRef = GetComponent<Rigidbody2D>();
@@ -128,7 +127,7 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
         {
             DeathSequenceIsPlaying = true;
             Debug.Log("player ded boi");
-            StartCoroutine(RespawnPlayerAfterTime(1));
+            RespawnPlayer();
         }
     }
     //checks if player walked off edge
@@ -160,7 +159,6 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
                 break;
 
             case (moveState.Jumping):
-                
                 rigidRef.velocity = new Vector2(rigidRef.velocity.x, rigidRef.velocity.y - 1);
                 break;
 
@@ -199,13 +197,12 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
         {
             DeathSequenceIsPlaying = true;
             Debug.Log("player ded boi");
-            StartCoroutine(RespawnPlayerAfterTime(3));
+            RespawnPlayer();
         }
     }
 
-    IEnumerator RespawnPlayerAfterTime(float time)
+    void RespawnPlayer()
     {
-        yield return new WaitForSeconds(time);
         transform.position = new Vector2(0.299f, 2f);
         DeathSequenceIsPlaying = false;
         rigidRef.velocity = new Vector2(0, 0);
