@@ -100,13 +100,18 @@ public class Lilian : MonoBehaviour      //manages abilities for Lilian
         }
     }
 
-
     public void glide()
     {
         if ((Input.GetKey(KeyCode.Space) || Input.GetButton("Jump")) && playerRef.rigidRef.velocity.y < 0 && playerRef.playerMoveState == Player.moveState.Falling)
         {
-            playerRef.playerMoveState = Player.moveState.Gliding;
-            playerRef.rigidRef.velocity = new Vector2(playerRef.rigidRef.velocity.x, -playerRef.glidespeed);
+            if (playerRef.currentGlideTime < playerRef.maxGlideTime)
+            {
+                playerRef.playerMoveState = Player.moveState.Gliding;
+            }
+            else
+            {
+                playerRef.playerMoveState = Player.moveState.Falling;
+            }
         }
         if ((Input.GetKeyUp(KeyCode.Space) || Input.GetButtonUp("Jump")) && playerRef.playerMoveState == Player.moveState.Gliding)
         {

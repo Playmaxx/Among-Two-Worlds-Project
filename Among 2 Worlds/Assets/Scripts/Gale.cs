@@ -99,7 +99,7 @@ public class Gale : MonoBehaviour     //manages abilities for Gale
                     break;
             }
         }
-        else if (playerRef.playerMoveState == Player.moveState.Dashing)
+        if (playerRef.currentDashTime < 0)
         {
             if (Physics2D.Raycast(transform.position, Vector2.down, playerRef.playerheight / 2, GameManager.GMInstance.platformMask))
             {

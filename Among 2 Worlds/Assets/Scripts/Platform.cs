@@ -27,10 +27,11 @@ public class Platform : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        updateDimensions();
+
+
     }
 
-    void updateDimensions()
+    public void updateDimensions()
     {
         if (ownDimension == GameManager.GMInstance.currentdim || ownDimension == GameManager.dimension.None)
         {

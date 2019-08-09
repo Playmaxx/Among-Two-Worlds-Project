@@ -9,10 +9,12 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
     public enum moveState { Grounded, Jumping, Falling, Dashing, Gliding, Walled, Other }
     public moveState playerMoveState;
 
-    public float playerheight = 2;
-    public float playerwidth = 1;
+    [HideInInspector]
+    public float playerheight;
+    [HideInInspector]
+    public float playerwidth;
     public int Jumps = 2;
-    public float health;
+    public int health = 100;
     public float moveSpeed = 7.5f;
     public int jumpforce = 20;
     public int dashspeed = 300;
@@ -40,7 +42,7 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
         galeRef = GetComponent<Gale>();
         lilianRef = GetComponent<Lilian>();
         playerheight = GetComponent<CapsuleCollider2D>().size.y;
-        playerheight = GetComponent<CapsuleCollider2D>().size.x;
+        playerwidth = GetComponent<CapsuleCollider2D>().size.x + 0.5f;
     }
 
     // Start is called before the first frame update
@@ -103,6 +105,7 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
     {
         Jumps = 2;
         dashused = false;
+        currentGlideTime = 0;
     }
 
     //checks ground state
@@ -175,6 +178,7 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
                 break;
 
             case (moveState.Gliding):
+                rigidRef.velocity = new Vector2(rigidRef.velocity.x, -glidespeed);
                 currentGlideTime += 1 * Time.deltaTime;
                 break;
 
@@ -187,12 +191,12 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
         }
     }
 
-    void Damage(int amount)
+    public void damage(int amount)
     {
         health -= amount;
     }
 
-    void Heal(int amount)
+    public void heal(int amount)
     {
         health += amount;
     }

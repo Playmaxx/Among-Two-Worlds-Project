@@ -16,10 +16,10 @@ public class Background : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        updateDimensions();
+
     }
 
-    void updateDimensions()
+    public void updateDimensions()
     {
         switch (GameManager.GMInstance.currentdim)
         {
