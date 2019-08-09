@@ -13,11 +13,12 @@ public class LoopSFXManager : MonoBehaviour
     Player playerRef;
     [SerializeField]
     Rigidbody2D rigRef;
-    // Start is called before the first frame update
+
     void Awake()
     {
         current_audioclip = GetComponent<AudioSource>();
     }
+
     void Start()
     {
         current_audioclip.volume = 1.0f;

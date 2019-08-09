@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3113599809965218877}
   - component: {fileID: 3113599809965218876}
   - component: {fileID: 3113599809965218879}
+  - component: {fileID: 2201931644480204445}
   m_Layer: 0
   m_Name: AudioManager
   m_TagString: Untagged
@@ -145,3 +146,15 @@ MonoBehaviour:
   DarkGiana: {fileID: 8300000, guid: 264016eb45d7068448e12a1d3ea91c1d, type: 3}
   timecode1: 0
   timecode2: 0
+--- !u!114 &2201931644480204445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3113599809965218878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e92704ae18f72954795eff7348ce0b65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
