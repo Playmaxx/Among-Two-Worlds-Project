@@ -26,6 +26,8 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
     public float currentGlideTime = 0;
     public float dashtime = 0.5f;
     public float currentDashTime = 0;
+    public float wallJumpCD = 0.5f;
+    public float currentWallJump = 0;
     public bool DeathSequenceIsPlaying = false;
 
     //ref types
@@ -178,7 +180,10 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
                 break;
 
             case (moveState.Gliding):
-                rigidRef.velocity = new Vector2(rigidRef.velocity.x, -glidespeed);
+                if (currentGlideTime < maxGlideTime)
+                {
+                    rigidRef.velocity = new Vector2(rigidRef.velocity.x, -glidespeed);
+                }
                 currentGlideTime += 1 * Time.deltaTime;
                 break;
 
