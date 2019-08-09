@@ -25,7 +25,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6579882629214977918}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2.9553995, y: -2.5156496, z: -1563.9395}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -143,3 +143,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   current_audioclip: {fileID: 6579882629214977916}
   rattle: {fileID: 8300000, guid: b5dbacc6f6efdc347ba7908ce61a0e61, type: 3}
+  playerRef: {fileID: 0}
+  rigidRef: {fileID: 0}

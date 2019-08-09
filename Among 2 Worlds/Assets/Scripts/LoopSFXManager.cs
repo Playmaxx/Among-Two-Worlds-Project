@@ -7,7 +7,12 @@ public class LoopSFXManager : MonoBehaviour
     [SerializeField]
     AudioSource current_audioclip;
     public AudioClip Step;
-    public AudioClip ArmorSoundWhileRunning;
+    bool StepPlayed = false;
+
+    [SerializeField]
+    Player playerRef;
+    [SerializeField]
+    Rigidbody2D rigRef;
     // Start is called before the first frame update
     void Awake()
     {
@@ -22,14 +27,20 @@ public class LoopSFXManager : MonoBehaviour
     // Update is called once per frame
     void Update() //Inhalt ist nur für mich zum testen und kann gelöscht werden
     {
-        if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.D))
+        if ((Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.D)) || playerRef.playerMoveState == Player.moveState.Grounded && rigRef.velocity != new Vector2(0, 0))
         {
-            playStepSound();
+            if (StepPlayed == false)
+            {
+                playStepSound();
+                StepPlayed = true;
+                Debug.Log("playin");
+            }
         }
 
-        if ((Input.GetKeyUp(KeyCode.A) && !Input.GetKey(KeyCode.D)) || (Input.GetKeyUp(KeyCode.D) && !Input.GetKey(KeyCode.D)))
+        if ((Input.GetKeyUp(KeyCode.A) && !Input.GetKey(KeyCode.D)) || (Input.GetKeyUp(KeyCode.D) && !Input.GetKey(KeyCode.A)) || playerRef.playerMoveState != Player.moveState.Grounded)
         {
             stopStepSound();
+            StepPlayed = false;
         }
     }
 
