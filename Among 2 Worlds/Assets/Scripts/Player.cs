@@ -101,6 +101,7 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
         {
             renderRef.flipX = false;
         }
+        currentDashTime -= 1 * Time.deltaTime;
     }
 
     public void refreshAbilities()     //refreshes jumps & dashes etc.
@@ -132,7 +133,7 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
     //checks if player walked off edge
     void OnTriggerExit2D(Collider2D collision)     //checks if player is grounded
     {
-        if (collision.tag == "Platform" && playerMoveState != moveState.Jumping)
+        if (collision.tag == "Platform" && playerMoveState != moveState.Jumping && playerMoveState != moveState.Dashing && currentDashTime < 0)
         {
             playerMoveState = moveState.Falling;
         }
@@ -152,12 +153,15 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
 
         if (playerMoveState == moveState.Dashing && Physics2D.Raycast(transform.position, Vector2.left, playerwidth / 2, GameManager.GMInstance.platformMask))
         {
-            if (playerMoveState == moveState.Dashing && Physics2D.Raycast(transform.position, Vector2.right, playerwidth / 2, GameManager.GMInstance.platformMask))
-            {
-                playerMoveState = moveState.Walled;
-                currentDashTime = 0;
-                rigidRef.velocity = Vector2.zero;
-            }
+            playerMoveState = moveState.Walled;
+            currentDashTime = -1;
+            rigidRef.velocity = Vector2.zero;
+        }
+        if (playerMoveState == moveState.Dashing && Physics2D.Raycast(transform.position, Vector2.right, playerwidth / 2, GameManager.GMInstance.platformMask))
+        {
+            playerMoveState = moveState.Walled;
+            currentDashTime = -1;
+            rigidRef.velocity = Vector2.zero;
         }
 
         switch (playerMoveState)    //movestates: Grounded, Jumping, Falling, Dashing, Gliding, Walled, Other
@@ -176,7 +180,6 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
                 break;
 
             case (moveState.Dashing):
-                currentDashTime -= 1 * Time.deltaTime;
                 break;
 
             case (moveState.Gliding):

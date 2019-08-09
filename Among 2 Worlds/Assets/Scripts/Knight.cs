@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Knight : MonoBehaviour
 {
-    public enum enemyState { Patrolling, Following, Attacking }
+    public enum enemyState { Patrolling, Following, Attacking, Death }
     public enemyState knightState;
 
     enum patrolPoint { Left, Right }
@@ -21,7 +21,7 @@ public class Knight : MonoBehaviour
     public int attackSpeed;
     public int health;
     public int damage;
-    public float trackingdistance;
+    float trackingdistance;
     float playerDistance;
     float knightHeight;
     float knightWidth;
@@ -42,6 +42,7 @@ public class Knight : MonoBehaviour
         knightDirection = enemyDirection.Left;
         knightHeight = GetComponent<CapsuleCollider2D>().size.y;
         knightWidth = GetComponent<CapsuleCollider2D>().size.x;
+        trackingdistance = GetComponent<BoxCollider2D>().size.x;
         //rigidRef.gravityScale = 0;
     }
 
@@ -49,50 +50,73 @@ public class Knight : MonoBehaviour
     void Update()
     {
         matchState();
-        trackPlayer();
 
         playerDistance = Mathf.Abs(playerRef.transform.position.x - transform.position.x);
 
         Debug.DrawRay(new Vector2(transform.position.x - knightWidth / 2, transform.position.y), Vector2.down * knightHeight / 2, Color.green);
         Debug.DrawRay(new Vector2(transform.position.x + knightWidth / 2, transform.position.y), Vector2.down * knightHeight / 2, Color.green);
 
-        Debug.DrawRay(new Vector2(transform.position.x, transform.position.y + knightHeight / 2), Vector2.left * trackingdistance, Color.red);
         Debug.DrawRay(transform.position, Vector2.left * trackingdistance, Color.red);
-        Debug.DrawRay(new Vector2(transform.position.x, transform.position.y - knightHeight / 2), Vector2.left * trackingdistance, Color.red);
+    }
+
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (knightState == enemyState.Patrolling && !Physics2D.Raycast(transform.position, Vector2.right, trackingdistance, GameManager.GMInstance.platformMask) && collision.tag == "Player")
+        {
+            knightState = enemyState.Following;
+        }
+    }
+
+    void OnTriggerStay2D(Collider2D collision)
+    {
+
+    }
+
+    void OnTriggerExit2D(Collider2D collision)
+    {
+        if (knightState == enemyState.Following && collision.tag == "Player")
+        {
+            knightState = enemyState.Patrolling;
+        }
     }
 
     void patrol()
     {
-        if (Physics2D.Raycast(new Vector2(transform.position.x - knightWidth / 2, transform.position.y), Vector2.down, knightHeight / 2, GameManager.GMInstance.platformMask))
+        //Physics2D.Raycast(new Vector2(transform.position.x - knightWidth / 2, transform.position.y), Vector2.down, knightHeight / 2, GameManager.GMInstance.platformMask)
+        //Physics2D.Raycast(new Vector2(transform.position.x + knightWidth / 2, transform.position.y), Vector2.down, knightHeight / 2, GameManager.GMInstance.platformMask))
+        switch (nextPatrolPoint)
         {
-            if (Physics2D.Raycast(new Vector2(transform.position.x + knightWidth / 2, transform.position.y), Vector2.down, knightHeight / 2, GameManager.GMInstance.platformMask))
-            {
-                switch (nextPatrolPoint)
+            case (patrolPoint.Left):
+                if (transform.position.x > leftPatrolX)
                 {
-                    case (patrolPoint.Left):
-                        if (transform.position.x > leftPatrolX)
-                        {
-                            rigidRef.velocity = new Vector2(-patrolSpeed, 0);
-                        }
-                        if (transform.position.x <= leftPatrolX)
-                        {
-                            nextPatrolPoint = patrolPoint.Right;
-                        }
-                        break;
+                    rigidRef.velocity = new Vector2(-patrolSpeed, 0);
 
-                    case (patrolPoint.Right):
-                        if (transform.position.x > leftPatrolX)
-                        {
-                            rigidRef.velocity = new Vector2(-patrolSpeed, 0);
-                        }
-                        if (transform.position.x <= leftPatrolX)
-                        {
-                            nextPatrolPoint = patrolPoint.Right;
-                        }
-                        break;
                 }
-            }
+                if (transform.position.x <= leftPatrolX)
+                {
+                    rigidRef.velocity = Vector2.zero;
+                    nextPatrolPoint = patrolPoint.Right;
+                    knightDirection = enemyDirection.Right;
+                    flipX();
+                }
+                break;
+
+            case (patrolPoint.Right):
+                if (transform.position.x < rightPatrolX)
+                {
+                    rigidRef.velocity = new Vector2(patrolSpeed, 0);
+                }
+                if (transform.position.x >= rightPatrolX)
+                {
+                    rigidRef.velocity = Vector2.zero;
+                    nextPatrolPoint = patrolPoint.Left;
+                    knightDirection = enemyDirection.Left;
+                    flipX();
+                }
+                break;
         }
+
+
     }
 
     void closeDistance()
@@ -116,17 +140,20 @@ public class Knight : MonoBehaviour
         health -= amount;
     }
 
+    void flipX()
+    {
+        if (knightDirection == enemyDirection.Left)
+        {
+            transform.localScale = new Vector2(1, 1);
+        }
+        if (knightDirection == enemyDirection.Right)
+        {
+            transform.localScale = new Vector2(-1, 1);
+        }
+    }
+
     void matchState()
     {
-        if (rigidRef.velocity.x > 0)
-        {
-            knightDirection = enemyDirection.Right;
-        }
-        else
-        {
-            knightDirection = enemyDirection.Left;
-        }
-
         switch (knightState)
         {
             case (enemyState.Patrolling):
@@ -139,73 +166,8 @@ public class Knight : MonoBehaviour
 
             case (enemyState.Attacking):
                 playerRef.GetComponent<Player>().damage(damage);
+                knightState = enemyState.Following;
                 break;
-        }
-    }
-
-    void trackPlayer()
-    {
-        Vector2 topVector = new Vector2(transform.position.x, transform.position.y + knightHeight / 2);
-        Vector2 middleVector = transform.position;
-        Vector2 bottomVector = new Vector2(transform.position.x, transform.position.y - knightHeight / 2);
-
-        if (knightState == enemyState.Patrolling)
-        {
-            switch (knightDirection)
-            {
-                case (enemyDirection.Left):
-                    if (Physics2D.Raycast(topVector, Vector2.right, trackingdistance, GameManager.GMInstance.playerMask))
-                    {
-                        if (!Physics2D.Raycast(topVector, Vector2.right, trackingdistance, GameManager.GMInstance.platformMask))
-                        {
-                            knightState = enemyState.Following;
-                        }
-                    }
-                    if (Physics2D.Raycast(middleVector, Vector2.right, trackingdistance, GameManager.GMInstance.playerMask))
-                    {
-                        if (!Physics2D.Raycast(middleVector, Vector2.right, trackingdistance, GameManager.GMInstance.platformMask))
-                        {
-                            knightState = enemyState.Following;
-                        }
-                    }
-                    if (Physics2D.Raycast(middleVector, Vector2.right, trackingdistance, GameManager.GMInstance.playerMask))
-                    {
-                        if (!Physics2D.Raycast(middleVector, Vector2.right, trackingdistance, GameManager.GMInstance.platformMask))
-                        {
-                            knightState = enemyState.Following;
-                        }
-                    }
-                    break;
-
-                case (enemyDirection.Right):
-                    if (Physics2D.Raycast(topVector, Vector2.right, trackingdistance, GameManager.GMInstance.playerMask))
-                    {
-                        if (!Physics2D.Raycast(topVector, Vector2.right, trackingdistance, GameManager.GMInstance.platformMask))
-                        {
-                            knightState = enemyState.Following;
-                        }
-                    }
-                    if (Physics2D.Raycast(middleVector, Vector2.right, trackingdistance, GameManager.GMInstance.playerMask))
-                    {
-                        if (!Physics2D.Raycast(middleVector, Vector2.right, trackingdistance, GameManager.GMInstance.platformMask))
-                        {
-                            knightState = enemyState.Following;
-                        }
-                    }
-                    if (Physics2D.Raycast(middleVector, Vector2.right, trackingdistance, GameManager.GMInstance.playerMask))
-                    {
-                        if (!Physics2D.Raycast(middleVector, Vector2.right, trackingdistance, GameManager.GMInstance.platformMask))
-                        {
-                            knightState = enemyState.Following;
-                        }
-                    }
-                    break;
-            }
-        }
-
-        if (knightState == enemyState.Following)
-        {
-            
         }
     }
 }
