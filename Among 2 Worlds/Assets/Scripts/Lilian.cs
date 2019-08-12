@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Lilian : MonoBehaviour, IChar        //manages abilities for Lilian
+public class Lilian : MonoBehaviour      //manages abilities for Lilian
 {
     Player playerRef;
 
@@ -64,18 +64,54 @@ public class Lilian : MonoBehaviour, IChar        //manages abilities for Lilian
             }
         }
     }
-
     public void dash()
     {
-        throw new System.NotImplementedException();
+        if ((Input.GetKey(KeyCode.LeftShift) || Input.GetButton("Dash")) && playerRef.dashused == false && playerRef.playerMoveState != Player.moveState.Walled)
+        {
+            playerRef.dashused = true;
+            playerRef.playerMoveState = Player.moveState.Dashing;
+            playerRef.currentDashTime = playerRef.dashtime;
+        }
+
+        if (playerRef.currentDashTime > 0)
+        {
+            switch (playerRef.playerdirection)
+            {
+                case (Player.direction.Left):
+                    playerRef.rigidRef.velocity = new Vector2(+playerRef.dashspeed, 0);
+                    break;
+
+                case (Player.direction.Right):
+                    playerRef.rigidRef.velocity = new Vector2(-playerRef.dashspeed, 0);
+                    break;
+            }
+        }
+        else if (playerRef.playerMoveState == Player.moveState.Dashing)
+        {
+            if (Physics2D.Raycast(transform.position, Vector2.down, playerRef.playerheight / 2, GameManager.GMInstance.platformMask))
+            {
+                playerRef.playerMoveState = Player.moveState.Grounded;
+                playerRef.refreshAbilities();
+            }
+            else
+            {
+                playerRef.playerMoveState = Player.moveState.Falling;
+            }
+        }
     }
 
     public void glide()
     {
         if ((Input.GetKey(KeyCode.Space) || Input.GetButton("Jump")) && playerRef.rigidRef.velocity.y < 0 && playerRef.playerMoveState == Player.moveState.Falling)
         {
-            playerRef.playerMoveState = Player.moveState.Gliding;
-            playerRef.rigidRef.velocity = new Vector2(playerRef.rigidRef.velocity.x, -playerRef.glidespeed);
+            if (playerRef.currentGlideTime < playerRef.maxGlideTime)
+            {
+                playerRef.playerMoveState = Player.moveState.Gliding;
+            }
+            else
+            {
+                playerRef.playerMoveState = Player.moveState.Falling;
+            }
         }
         if ((Input.GetKeyUp(KeyCode.Space) || Input.GetButtonUp("Jump")) && playerRef.playerMoveState == Player.moveState.Gliding)
         {
