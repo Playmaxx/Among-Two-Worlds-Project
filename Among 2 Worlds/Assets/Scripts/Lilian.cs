@@ -64,6 +64,7 @@ public class Lilian : MonoBehaviour      //manages abilities for Lilian
             }
         }
     }
+
     public void dash()
     {
         if ((Input.GetKey(KeyCode.LeftShift) || Input.GetButton("Dash")) && playerRef.dashused == false && playerRef.playerMoveState != Player.moveState.Walled)

@@ -6,7 +6,11 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
 {
     public enum direction { Left, Right }       // variables
     public direction playerdirection;
-    public enum moveState { Grounded, Jumping, Falling, Dashing, Gliding, Walled, Other }
+
+    public enum wallDirection { Left, Right }
+    public wallDirection lastWallDirection;
+
+    public enum moveState { Grounded, Jumping, Falling, Dashing, Gliding, Walled, Walljumping, Other }
     public moveState playerMoveState;
 
     [HideInInspector]
@@ -114,7 +118,7 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
     //checks ground state
     void OnTriggerEnter2D(Collider2D collision)     //checks if player is grounded
     {
-        if (collision.tag == "Platform" && playerMoveState != moveState.Dashing)
+        if (collision.tag == "Platform" && playerMoveState != moveState.Dashing && playerMoveState != moveState.Jumping)
         {
             playerMoveState = moveState.Grounded;
             refreshAbilities();
@@ -192,6 +196,10 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
 
             case (moveState.Walled):
                 rigidRef.velocity = new Vector2(rigidRef.velocity.x, -glidespeed);
+                break;
+
+            case (moveState.Walljumping):
+                rigidRef.velocity = new Vector2(rigidRef.velocity.x, rigidRef.velocity.y - 1);
                 break;
 
             case (moveState.Other):
