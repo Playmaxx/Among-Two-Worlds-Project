@@ -42,9 +42,6 @@ public class AudioManager : MonoBehaviour
                 current_track.time = timecode1;
                 current_track.Play();
             }
-
-            Debug.Log(current_track.time);
-            Debug.Log(current_track.clip);
         }
     }
 }

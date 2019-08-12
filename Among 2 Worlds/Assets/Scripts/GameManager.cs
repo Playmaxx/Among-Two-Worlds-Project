@@ -14,7 +14,7 @@ public class GameManager : MonoBehaviour    //manages central aspects such as wo
 
     public enum dimension { None, Light, Dark }
     public dimension currentdim;
-    public enum level {Tutorial, Eingang, Haupthalle, Keller, Türme, Boss}
+    public enum level { Tutorial, Eingang, Haupthalle, Keller, Türme, Boss }
     public level currentlvl;
 
     private void Awake()
@@ -60,15 +60,21 @@ public class GameManager : MonoBehaviour    //manages central aspects such as wo
                     currentdim = dimension.Light;
                     break;
             }
+            updateDimensions();
         }
     }
 
     void updateDimensions()     //updates dimensions for all platforms and backgrounds
     {
         Platform[] AllPlatforms = FindObjectsOfType(typeof(Platform)) as Platform[];
-        foreach(Platform item in AllPlatforms)
+        foreach (Platform item in AllPlatforms)
         {
-            //item.gameObject.updateDimensions();
+            item.updateDimensions();
+        }
+        Background[] AllBackgrounds = FindObjectsOfType(typeof(Background)) as Background[];
+        foreach (Background item in AllBackgrounds)
+        {
+            item.updateDimensions();
         }
     }
 }

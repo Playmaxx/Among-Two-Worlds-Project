@@ -20,7 +20,7 @@ public class ScoreCounter : MonoBehaviour
         {
             score++;
             scoreText.text = "Score: " + score;
-            Debug.Log(score);
+            Destroy(this.gameObject);
         }
     }
 }

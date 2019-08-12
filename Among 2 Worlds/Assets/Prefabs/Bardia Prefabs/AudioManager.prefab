@@ -141,7 +141,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   current_track: {fileID: 3113599809965218876}
-  CuteGiana: {fileID: 8300000, guid: e1174b7b486910048bfbba5687f93d30, type: 3}
-  DarkGiana: {fileID: 8300000, guid: 264016eb45d7068448e12a1d3ea91c1d, type: 3}
+  CuteGiana: {fileID: 8300000, guid: e329f129abf2fd840a49e523dd0c64c0, type: 3}
+  DarkGiana: {fileID: 8300000, guid: cbe6a8b29104d7245bc03956357a7341, type: 3}
   timecode1: 0
   timecode2: 0
