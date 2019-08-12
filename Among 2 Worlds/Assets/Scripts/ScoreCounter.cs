@@ -20,6 +20,7 @@ public class ScoreCounter : MonoBehaviour
         {
             score++;
             scoreText.text = "Score: " + score;
+            Destroy(this.gameObject);
         }
     }
 }

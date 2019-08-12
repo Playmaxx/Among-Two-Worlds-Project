@@ -25,6 +25,7 @@ public class Knight : MonoBehaviour
     float playerDistance;
     float knightHeight;
     float knightWidth;
+    public float deathdistance;
 
     GameObject playerRef;
     Rigidbody2D rigidRef;
@@ -57,6 +58,7 @@ public class Knight : MonoBehaviour
         Debug.DrawRay(new Vector2(transform.position.x + knightWidth / 2, transform.position.y), Vector2.down * knightHeight / 2, Color.green);
 
         Debug.DrawRay(transform.position, Vector2.left * trackingdistance, Color.red);
+        death();
     }
 
     void OnTriggerEnter2D(Collider2D collision)
@@ -165,9 +167,17 @@ public class Knight : MonoBehaviour
                 break;
 
             case (enemyState.Attacking):
-                playerRef.GetComponent<Player>().damage(damage);
                 knightState = enemyState.Following;
                 break;
+        }
+    }
+
+    void death()
+    {
+        if(playerDistance < deathdistance && playerRef.GetComponent<Player>().playerMoveState == Player.moveState.Dashing)
+        {
+            knightState = enemyState.Death;
+            Destroy(this.gameObject);
         }
     }
 }
