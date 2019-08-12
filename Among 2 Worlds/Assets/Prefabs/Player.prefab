@@ -35,7 +35,7 @@ Transform:
   m_GameObject: {fileID: 724354089239550867}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.29, y: -0.02, z: 0}
-  m_LocalScale: {x: 0.9151, y: 0.9151, z: 0.9151}
+  m_LocalScale: {x: 0.82423055, y: 0.82423055, z: 0.82423055}
   m_Children:
   - {fileID: 5465161164545281335}
   m_Father: {fileID: 0}
@@ -169,7 +169,7 @@ MonoBehaviour:
   playerheight: 2
   playerwidth: 1
   Jumps: 2
-  health: 0
+  health: 100
   moveSpeed: 7.5
   jumpforce: 18
   dashspeed: 40
@@ -181,12 +181,11 @@ MonoBehaviour:
   currentGlideTime: 0
   dashtime: 0.1
   currentDashTime: 0
+  wallJumpCD: 0.5
+  currentWallJump: 0
   DeathSequenceIsPlaying: 0
   rigidRef: {fileID: 0}
-  galeRef: {fileID: 2085399992994487765}
-  lilianRef: {fileID: 139541529738114717}
   renderRef: {fileID: 0}
-  moveRef: {x: 0, y: 0}
 --- !u!114 &2085399992994487765
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -199,7 +198,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da9595c727578264d8474abc80cf6cf9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerRef: {fileID: 5718854610222730107}
 --- !u!114 &139541529738114717
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -324,7 +322,7 @@ Camera:
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 1847
+    m_Bits: 10039
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -370,7 +368,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7920835624458161447}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.29, y: 2, z: -11}
+  m_LocalPosition: {x: 0.02, y: -0.02, z: -11}
   m_LocalScale: {x: 1.0927768, y: 1.0927768, z: 1.0927768}
   m_Children: []
   m_Father: {fileID: 5465161164545281335}
@@ -407,7 +405,7 @@ Camera:
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 14336
+    m_Bits: 6144
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
