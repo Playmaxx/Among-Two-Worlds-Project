@@ -5,14 +5,18 @@ using UnityEngine.SceneManagement;
 
 public class MenuManager : MonoBehaviour
 {
+    public GameObject mainMenuPanel;
+    public GameObject creditsPanel;
+    
     public void StartGame()
     {
         SceneManager.LoadScene("Level 1");
     }
 
-    public void QuitGame()
+    public void LoadCredits()
     {
-        Application.Quit();
-        Debug.Log("Quit");
+        Debug.Log("oi");
+        mainMenuPanel.SetActive(false);
+        creditsPanel.SetActive(true);
     }
 }

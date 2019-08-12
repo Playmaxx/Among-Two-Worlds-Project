@@ -7,8 +7,6 @@ public class SceneMngr : MonoBehaviour
 {
     public enum targetScene { Haupthalle, Keller, Türme, Boss, Gang }
     public targetScene t_Scene;
-    [SerializeField]
-    Player playerRef;
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "Player")
@@ -28,6 +26,7 @@ public class SceneMngr : MonoBehaviour
                     SceneManager.LoadScene("Level 4");
                     break;
                 case (targetScene.Gang):
+                    //GameManager.GMInstance.currentlvl = GameManager.level.Gang;
                     SceneManager.LoadScene("Level 5");
                     break;
                 case (targetScene.Boss):
