@@ -1,70 +1,58 @@
 fileFormatVersion: 2
-guid: 9f8aacde97b179a4db4119939b2936d4
+guid: 01c5d3e2c4740b04d86a9f630c2129b8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5164680674025253770
-    second: Gale.DW.Hochspringen.Spritesheet_0
+      213: 1810260658704677820
+    second: Lilian_EW_Laufen_SpriteSheet_0
   - first:
-      213: 7884859727162728212
-    second: Gale.DW.Hochspringen.Spritesheet_1
+      213: -2860693163374855190
+    second: Lilian_EW_Laufen_SpriteSheet_1
   - first:
-      213: -7832555832492565250
-    second: Gale.DW.Hochspringen.Spritesheet_2
+      213: -8316682174212632332
+    second: Lilian_EW_Laufen_SpriteSheet_2
   - first:
-      213: 4533022062212746473
-    second: Gale.DW.Hochspringen.Spritesheet_3
+      213: 3877761609720901355
+    second: Lilian_EW_Laufen_SpriteSheet_3
   - first:
-      213: -2844186198980080818
-    second: Gale.DW.Hochspringen.Spritesheet_4
+      213: 2569353069027648882
+    second: Lilian_EW_Laufen_SpriteSheet_4
   - first:
-      213: -8787246335454061122
-    second: Gale.DW.Hochspringen.Spritesheet_5
+      213: 1812493314974548714
+    second: Lilian_EW_Laufen_SpriteSheet_5
   - first:
-      213: 5584903232590038056
-    second: Gale.DW.Hochspringen.Spritesheet_6
+      213: 498373188613024047
+    second: Lilian_EW_Laufen_SpriteSheet_6
   - first:
-      213: -9178965168977948478
-    second: Gale.DW.Hochspringen.Spritesheet_7
+      213: -6188315543890933592
+    second: Lilian_EW_Laufen_SpriteSheet_7
   - first:
-      213: 6147624694891939991
-    second: Gale.DW.Hochspringen.Spritesheet_8
+      213: 1515366505370087538
+    second: Lilian_EW_Laufen_SpriteSheet_8
   - first:
-      213: 1810887642718882747
-    second: Gale.DW.Hochspringen.Spritesheet_9
+      213: 2358467275570166700
+    second: Lilian_EW_Laufen_SpriteSheet_9
   - first:
-      213: 5186797062379374349
-    second: Gale.DW.Hochspringen.Spritesheet_10
+      213: 789399376215424665
+    second: Lilian_EW_Laufen_SpriteSheet_10
   - first:
-      213: -2040879275740427974
-    second: Gale.DW.Hochspringen.Spritesheet_11
+      213: -3864209358981027942
+    second: Lilian_EW_Laufen_SpriteSheet_11
   - first:
-      213: 3866766854148193301
-    second: Gale.DW.Hochspringen.Spritesheet_12
+      213: 8482589715474918227
+    second: Lilian_EW_Laufen_SpriteSheet_12
   - first:
-      213: -5765617790446371288
-    second: Gale.DW.Hochspringen.Spritesheet_13
+      213: -6691651052686277129
+    second: Lilian_EW_Laufen_SpriteSheet_13
   - first:
-      213: -1001039667192878421
-    second: Gale.DW.Hochspringen.Spritesheet_14
+      213: 3510823077413174476
+    second: Lilian_EW_Laufen_SpriteSheet_14
   - first:
-      213: 2235748348217701724
-    second: Gale.DW.Hochspringen.Spritesheet_15
+      213: 3597466241179154580
+    second: Lilian_EW_Laufen_SpriteSheet_15
   - first:
-      213: -5403059771956351410
-    second: Gale.DW.Hochspringen.Spritesheet_16
-  - first:
-      213: 4444400819136927849
-    second: Gale.DW.Hochspringen.Spritesheet_17
-  - first:
-      213: 7187088958090462535
-    second: Gale.DW.Hochspringen.Spritesheet_18
-  - first:
-      213: 245700706901794979
-    second: Gale.DW.Hochspringen.Spritesheet_19
-  - first:
-      213: 7389937521650266227
-    second: Gale.DW.Hochspringen.Spritesheet_20
+      213: -849946217025370199
+    second: Lilian_EW_Laufen_SpriteSheet_16
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -147,13 +135,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Gale.DW.Hochspringen.Spritesheet_0
+      name: Lilian_EW_Laufen_SpriteSheet_0
       rect:
         serializedVersion: 2
-        x: 56
-        y: 747
-        width: 86
-        height: 242
+        x: 7
+        y: 504
+        width: 205
+        height: 231
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -161,292 +149,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 328c4ee19341c4f4baf0f990134f2f37
-      internalID: 5164680674025253770
+      spriteID: e0f2e9e3442b9c847b76a8a8ea9b52d0
+      internalID: 1810260658704677820
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gale.DW.Hochspringen.Spritesheet_1
+      name: Lilian_EW_Laufen_SpriteSheet_1
       rect:
         serializedVersion: 2
-        x: 204
-        y: 743
-        width: 101
-        height: 229
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 62c657d0eae59e449b81d80e163f5797
-      internalID: 7884859727162728212
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Gale.DW.Hochspringen.Spritesheet_2
-      rect:
-        serializedVersion: 2
-        x: 362
-        y: 748
-        width: 101
-        height: 223
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 461eda009597fdf4c8772a40dc9dd676
-      internalID: -7832555832492565250
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Gale.DW.Hochspringen.Spritesheet_3
-      rect:
-        serializedVersion: 2
-        x: 517
-        y: 748
-        width: 106
-        height: 239
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 78986b6a19f770f46837c9373c1cf282
-      internalID: 4533022062212746473
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Gale.DW.Hochspringen.Spritesheet_4
-      rect:
-        serializedVersion: 2
-        x: 672
-        y: 747
-        width: 116
-        height: 248
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9d5e6dcb8f216d840a57ba4c51b3b685
-      internalID: -2844186198980080818
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Gale.DW.Hochspringen.Spritesheet_5
-      rect:
-        serializedVersion: 2
-        x: 820
-        y: 749
-        width: 122
-        height: 258
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bca38c8418b5f33478f43f93f9ab9473
-      internalID: -8787246335454061122
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Gale.DW.Hochspringen.Spritesheet_6
-      rect:
-        serializedVersion: 2
-        x: 978
-        y: 755
-        width: 121
-        height: 261
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5c045970a3bb3ac4f88023b2e19552ba
-      internalID: 5584903232590038056
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Gale.DW.Hochspringen.Spritesheet_7
-      rect:
-        serializedVersion: 2
-        x: 28
-        y: 392
-        width: 124
-        height: 259
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fd4033f980e0030488554ab6b64b7f95
-      internalID: -9178965168977948478
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Gale.DW.Hochspringen.Spritesheet_8
-      rect:
-        serializedVersion: 2
-        x: 174
-        y: 405
-        width: 137
-        height: 251
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cd5aecd0b8cf33b48b29865e5c67784d
-      internalID: 6147624694891939991
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Gale.DW.Hochspringen.Spritesheet_9
-      rect:
-        serializedVersion: 2
-        x: 326
-        y: 416
-        width: 140
-        height: 247
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2ff2a2b1c9212a242bbed5b1c6820f5b
-      internalID: 1810887642718882747
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Gale.DW.Hochspringen.Spritesheet_10
-      rect:
-        serializedVersion: 2
-        x: 481
-        y: 426
-        width: 139
-        height: 244
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7ccfe0e07bfabd5428a98c0c9ae0c730
-      internalID: 5186797062379374349
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Gale.DW.Hochspringen.Spritesheet_11
-      rect:
-        serializedVersion: 2
-        x: 640
-        y: 438
-        width: 139
-        height: 239
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3f14a844b8ce99641aa84fbe9cb41375
-      internalID: -2040879275740427974
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Gale.DW.Hochspringen.Spritesheet_12
-      rect:
-        serializedVersion: 2
-        x: 794
-        y: 449
-        width: 137
-        height: 234
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3e48566b5a792c54ca429a5c537694ea
-      internalID: 3866766854148193301
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Gale.DW.Hochspringen.Spritesheet_13
-      rect:
-        serializedVersion: 2
-        x: 951
-        y: 461
-        width: 136
-        height: 229
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ebcb634d620112c498346285f650e284
-      internalID: -5765617790446371288
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Gale.DW.Hochspringen.Spritesheet_14
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 103
-        width: 135
+        x: 219
+        y: 497
+        width: 194
         height: 222
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -455,20 +170,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 34f4c4b727a761b4c80556adaece899d
-      internalID: -1001039667192878421
+      spriteID: 069dd1ba085a4bc42a1b85fd162a298a
+      internalID: -2860693163374855190
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gale.DW.Hochspringen.Spritesheet_15
+      name: Lilian_EW_Laufen_SpriteSheet_2
       rect:
         serializedVersion: 2
-        x: 160
-        y: 117
-        width: 135
-        height: 214
+        x: 447
+        y: 496
+        width: 153
+        height: 226
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -476,20 +191,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 96476a0400b627f4d8836a86f9ff96d4
-      internalID: 2235748348217701724
+      spriteID: f7f019a2c617ed64ab518cf0ea89f51e
+      internalID: -8316682174212632332
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gale.DW.Hochspringen.Spritesheet_16
+      name: Lilian_EW_Laufen_SpriteSheet_3
       rect:
         serializedVersion: 2
-        x: 318
-        y: 130
-        width: 134
-        height: 208
+        x: 683
+        y: 496
+        width: 93
+        height: 235
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -497,20 +212,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c8d8bb5801826e4469407c9c4cbda2b2
-      internalID: -5403059771956351410
+      spriteID: dd1a1b572af25f04499b2e908b20b7b4
+      internalID: 3877761609720901355
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gale.DW.Hochspringen.Spritesheet_17
+      name: Lilian_EW_Laufen_SpriteSheet_4
       rect:
         serializedVersion: 2
-        x: 477
-        y: 141
-        width: 133
-        height: 202
+        x: 888
+        y: 498
+        width: 125
+        height: 239
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -518,20 +233,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 958802b6f33f907448714975b7e9545b
-      internalID: 4444400819136927849
+      spriteID: b7f4774085d1af44081ed683850374f4
+      internalID: 2569353069027648882
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gale.DW.Hochspringen.Spritesheet_18
+      name: Lilian_EW_Laufen_SpriteSheet_5
       rect:
         serializedVersion: 2
-        x: 654
-        y: 134
-        width: 116
-        height: 217
+        x: 1097
+        y: 498
+        width: 146
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -539,20 +254,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fd6e6a24cdcdb5d499900fcb854b10fb
-      internalID: 7187088958090462535
+      spriteID: 1e37b84cc01f236479dd475dc8f8f8a6
+      internalID: 1812493314974548714
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gale.DW.Hochspringen.Spritesheet_19
+      name: Lilian_EW_Laufen_SpriteSheet_6
       rect:
         serializedVersion: 2
-        x: 836
-        y: 118
-        width: 91
-        height: 241
+        x: 14
+        y: 267
+        width: 181
+        height: 220
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -560,20 +275,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cfde44dc1c4b6d040bca51abb04a541b
-      internalID: 245700706901794979
+      spriteID: 7c91ef9a3f3e8d64eb12aaa2acb591dc
+      internalID: 498373188613024047
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gale.DW.Hochspringen.Spritesheet_20
+      name: Lilian_EW_Laufen_SpriteSheet_7
       rect:
         serializedVersion: 2
-        x: 1012
-        y: 109
-        width: 78
-        height: 255
+        x: 230
+        y: 267
+        width: 190
+        height: 219
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -581,8 +296,197 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 044bb215c003b2140b3ae52015d6205b
-      internalID: 7389937521650266227
+      spriteID: f6eeefa89a0e74a459621f09380e9ea7
+      internalID: -6188315543890933592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lilian_EW_Laufen_SpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 254
+        width: 201
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77e83db58bdddcd4da8a922678fd0402
+      internalID: 1515366505370087538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lilian_EW_Laufen_SpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 249
+        width: 186
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0f552aa401015b42962c2438bf4656e
+      internalID: 2358467275570166700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lilian_EW_Laufen_SpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 249
+        width: 139
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a1128b54ae5d4545aa0ace00b6ad7ed
+      internalID: 789399376215424665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lilian_EW_Laufen_SpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 250
+        width: 97
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 426757b90dba2f240a7510eaa3844b05
+      internalID: -3864209358981027942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lilian_EW_Laufen_SpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 3
+        width: 126
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99115fb4b874b4344b9359726da96832
+      internalID: 8482589715474918227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lilian_EW_Laufen_SpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 3
+        width: 156
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b947a0b09a7f064ca77c808474e244b
+      internalID: -6691651052686277129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lilian_EW_Laufen_SpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 19
+        width: 177
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17a9ced4199528346a8eca6b15bd62c3
+      internalID: 3510823077413174476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lilian_EW_Laufen_SpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 29
+        width: 201
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5dbfefe99aa1404588494ebf08da387
+      internalID: 3597466241179154580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lilian_EW_Laufen_SpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 5
+        width: 206
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20f7999bd3110d14781feab7dcb842e5
+      internalID: -849946217025370199
       vertices: []
       indices: 
       edges: []
@@ -590,7 +494,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: fea2c0f9925e82e47b372aa446af4853
+    spriteID: 4ef3b8c9cb181ff42b9711d9dc6e390e
     internalID: 0
     vertices: []
     indices: 

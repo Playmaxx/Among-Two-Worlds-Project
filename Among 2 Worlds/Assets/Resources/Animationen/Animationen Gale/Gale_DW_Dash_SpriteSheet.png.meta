@@ -1,22 +1,22 @@
 fileFormatVersion: 2
-guid: 164fd4277c746b244994870f66f57015
+guid: 1c2a9ee5bce39a1448e9c3e87b14d688
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3543254281952206776
-    second: Gale.DW.Wandhalt.Spritesheet_0
+      213: -5586828133243787610
+    second: Gale_DW_Dash_SpriteSheet_0
   - first:
-      213: -3524879222332573139
-    second: Gale.DW.Wandhalt.Spritesheet_1
+      213: -4679963092862453632
+    second: Gale_DW_Dash_SpriteSheet_1
   - first:
-      213: 7276970126915500981
-    second: Gale.DW.Wandhalt.Spritesheet_2
+      213: 2118954907179971916
+    second: Gale_DW_Dash_SpriteSheet_2
   - first:
-      213: 5554665832240078196
-    second: Gale.DW.Wandhalt.Spritesheet_3
+      213: -7831897280283434577
+    second: Gale_DW_Dash_SpriteSheet_3
   - first:
-      213: -6584740275500145730
-    second: Gale.DW.Wandhalt.Spritesheet_4
+      213: 8360619628559732320
+    second: Gale_DW_Dash_SpriteSheet_4
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -99,54 +99,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Gale.DW.Wandhalt.Spritesheet_0
+      name: Gale_DW_Dash_SpriteSheet_0
       rect:
         serializedVersion: 2
-        x: 43
-        y: 38
-        width: 77
-        height: 248
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 230031dd5bffc0145bbd42c84026da52
-      internalID: -3543254281952206776
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Gale.DW.Wandhalt.Spritesheet_1
-      rect:
-        serializedVersion: 2
-        x: 138
-        y: 25
-        width: 102
-        height: 247
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7bf1fc97b1d08f048b06afb7ffb1b73c
-      internalID: -3524879222332573139
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Gale.DW.Wandhalt.Spritesheet_2
-      rect:
-        serializedVersion: 2
-        x: 255
-        y: 15
-        width: 109
+        x: 39
+        y: 3
+        width: 91
         height: 243
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -155,19 +113,82 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0ded0182985175442b42f5a3bab03084
-      internalID: 7276970126915500981
+      spriteID: 374fe06ffe24b584c94e61fd83ad1324
+      internalID: -5586828133243787610
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gale.DW.Wandhalt.Spritesheet_3
+      name: Gale_DW_Dash_SpriteSheet_1
       rect:
         serializedVersion: 2
-        x: 397
-        y: 6
-        width: 102
+        x: 203
+        y: 10
+        width: 138
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f78687559a3fb545bb0d617ea44adc3
+      internalID: -4679963092862453632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale_DW_Dash_SpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 25
+        width: 166
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49aa04afd2a3a94469f403f983e8373c
+      internalID: 2118954907179971916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale_DW_Dash_SpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 10
+        width: 143
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54bf5f37b6b650b47a5a08f4d97ae98e
+      internalID: -7831897280283434577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale_DW_Dash_SpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 3
+        width: 105
         height: 242
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -176,29 +197,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c4bbec6a5ef3ba46a772c96ba0a54e6
-      internalID: 5554665832240078196
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Gale.DW.Wandhalt.Spritesheet_4
-      rect:
-        serializedVersion: 2
-        x: 518
-        y: 4
-        width: 99
-        height: 240
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 920108f94bc94fc49bdf5129b297d31a
-      internalID: -6584740275500145730
+      spriteID: 92775b151348834438a363049f219d37
+      internalID: 8360619628559732320
       vertices: []
       indices: 
       edges: []
@@ -206,7 +206,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 495d68906691b084186f61240381a39d
+    spriteID: db515c2f7a5de214387207d04dccf2bf
     internalID: 0
     vertices: []
     indices: 

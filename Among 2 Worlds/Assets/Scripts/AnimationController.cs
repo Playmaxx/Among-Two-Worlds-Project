@@ -97,6 +97,17 @@ public class AnimationController : MonoBehaviour
         }
         animator.SetBool("isWalled", isWalled);
 
+        bool isDashing;
+        if(playerRef.playerMoveState == Player.moveState.Dashing)
+        {
+            isDashing = true;
+        }
+        else
+        {
+            isDashing = false;
+        }
+        animator.SetBool("isDashing", isDashing);
+
 
         int NumberOfJumps = playerRef.Jumps;   //Check needed for doublejumping
         animator.SetInteger("NumberOfJumps", NumberOfJumps);

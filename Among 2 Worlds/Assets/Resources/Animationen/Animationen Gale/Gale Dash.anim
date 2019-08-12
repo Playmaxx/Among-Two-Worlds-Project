@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Lilian Wallgliding
+  m_Name: Gale Dash
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,13 +20,13 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: -7874075143423966142, guid: 2732e3afd1df4584493940b7fa2efae8,
+      value: {fileID: -4679963092862453632, guid: 1c2a9ee5bce39a1448e9c3e87b14d688,
         type: 3}
     - time: 0.05
-      value: {fileID: 5865249858584190155, guid: 2732e3afd1df4584493940b7fa2efae8,
+      value: {fileID: 2118954907179971916, guid: 1c2a9ee5bce39a1448e9c3e87b14d688,
         type: 3}
-    - time: 5
-      value: {fileID: 5865249858584190155, guid: 2732e3afd1df4584493940b7fa2efae8,
+    - time: 0.23333333
+      value: {fileID: 2118954907179971916, guid: 1c2a9ee5bce39a1448e9c3e87b14d688,
         type: 3}
     attribute: m_Sprite
     path: 
@@ -47,15 +47,15 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: -7874075143423966142, guid: 2732e3afd1df4584493940b7fa2efae8, type: 3}
-    - {fileID: 5865249858584190155, guid: 2732e3afd1df4584493940b7fa2efae8, type: 3}
-    - {fileID: 5865249858584190155, guid: 2732e3afd1df4584493940b7fa2efae8, type: 3}
+    - {fileID: -4679963092862453632, guid: 1c2a9ee5bce39a1448e9c3e87b14d688, type: 3}
+    - {fileID: 2118954907179971916, guid: 1c2a9ee5bce39a1448e9c3e87b14d688, type: 3}
+    - {fileID: 2118954907179971916, guid: 1c2a9ee5bce39a1448e9c3e87b14d688, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 5.016667
+    m_StopTime: 0.25
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
