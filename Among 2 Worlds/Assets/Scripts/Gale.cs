@@ -59,7 +59,7 @@ public class Gale : MonoBehaviour     //manages abilities for Gale
                         playerRef.rigidRef.velocity = new Vector2(playerRef.rigidRef.velocity.x, playerRef.jumpforce);
                         playerRef.Jumps--;
                     }
-                    else
+                    else if (playerRef.playerMoveState != Player.moveState.Walled)
                     {
                         playerRef.playerMoveState = Player.moveState.Jumping;
                         playerRef.rigidRef.velocity = new Vector2(playerRef.rigidRef.velocity.x, playerRef.jumpforce);
@@ -119,6 +119,7 @@ public class Gale : MonoBehaviour     //manages abilities for Gale
         {
             if (playerRef.playerMoveState != Player.moveState.Grounded && playerRef.playerMoveState != Player.moveState.Jumping)
             {
+                playerRef.lastWallDirection = Player.wallDirection.Left;
                 playerRef.playerMoveState = Player.moveState.Walled;
             }
         }
@@ -126,6 +127,7 @@ public class Gale : MonoBehaviour     //manages abilities for Gale
         {
             if (playerRef.playerMoveState != Player.moveState.Grounded && playerRef.playerMoveState != Player.moveState.Jumping)
             {
+                playerRef.lastWallDirection = Player.wallDirection.Right;
                 playerRef.playerMoveState = Player.moveState.Walled;
             }
         }
@@ -144,8 +146,17 @@ public class Gale : MonoBehaviour     //manages abilities for Gale
             playerRef.rigidRef.velocity = new Vector2(playerRef.rigidRef.velocity.x, -playerRef.wallSlideSpeed);
             if (Input.GetKeyDown(KeyCode.Space) || Input.GetButtonDown("Jump"))
             {
-                playerRef.playerMoveState = Player.moveState.Jumping;
-                playerRef.rigidRef.velocity = new Vector2(playerRef.rigidRef.velocity.x, playerRef.jumpforce);
+                playerRef.playerMoveState = Player.moveState.Walljumping;
+
+                if (playerRef.lastWallDirection == Player.wallDirection.Left)
+                {
+                    playerRef.rigidRef.velocity = new Vector2(playerRef.rigidRef.velocity.x, playerRef.jumpforce);
+                }
+
+                if (playerRef.lastWallDirection == Player.wallDirection.Left)
+                {
+                    playerRef.rigidRef.velocity = new Vector2(playerRef.rigidRef.velocity.x, playerRef.jumpforce);
+                }
             }
         }
     }

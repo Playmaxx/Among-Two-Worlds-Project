@@ -122,6 +122,7 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
         {
             playerMoveState = moveState.Grounded;
             refreshAbilities();
+            Debug.Log("refreshing sip");
         }
         if (collision.tag == "Enemy" && playerMoveState == moveState.Dashing)
         {
@@ -157,12 +158,15 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
 
         if (playerMoveState == moveState.Dashing && Physics2D.Raycast(transform.position, Vector2.left, playerwidth / 2, GameManager.GMInstance.platformMask))
         {
+            lastWallDirection = wallDirection.Left;
             playerMoveState = moveState.Walled;
             currentDashTime = -1;
             rigidRef.velocity = Vector2.zero;
         }
+
         if (playerMoveState == moveState.Dashing && Physics2D.Raycast(transform.position, Vector2.right, playerwidth / 2, GameManager.GMInstance.platformMask))
         {
+            lastWallDirection = wallDirection.Right;
             playerMoveState = moveState.Walled;
             currentDashTime = -1;
             rigidRef.velocity = Vector2.zero;

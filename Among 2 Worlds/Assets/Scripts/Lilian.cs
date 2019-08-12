@@ -47,7 +47,7 @@ public class Lilian : MonoBehaviour      //manages abilities for Lilian
 
     public void jump()
     {
-        if (Input.GetKeyDown(KeyCode.Space) || Input.GetButtonDown("Jump"))
+        if (Input.GetKeyDown(KeyCode.Space) || Input.GetButtonDown("Jump") && playerRef.playerMoveState != Player.moveState.Walled)
         {
             switch (playerRef.Jumps)
             {
@@ -59,6 +59,7 @@ public class Lilian : MonoBehaviour      //manages abilities for Lilian
                         playerRef.Jumps--;
                     }
                     break;
+
                 default:
                     break;
             }
@@ -137,6 +138,7 @@ public class Lilian : MonoBehaviour      //manages abilities for Lilian
         {
             if (playerRef.playerMoveState != Player.moveState.Grounded && playerRef.playerMoveState != Player.moveState.Jumping)
             {
+                playerRef.lastWallDirection = Player.wallDirection.Left;
                 playerRef.playerMoveState = Player.moveState.Walled;
             }
         }
@@ -144,6 +146,7 @@ public class Lilian : MonoBehaviour      //manages abilities for Lilian
         {
             if (playerRef.playerMoveState != Player.moveState.Grounded && playerRef.playerMoveState != Player.moveState.Jumping)
             {
+                playerRef.lastWallDirection = Player.wallDirection.Right;
                 playerRef.playerMoveState = Player.moveState.Walled;
             }
         }
@@ -162,7 +165,7 @@ public class Lilian : MonoBehaviour      //manages abilities for Lilian
             playerRef.rigidRef.velocity = new Vector2(playerRef.rigidRef.velocity.x, -playerRef.wallSlideSpeed);
             if (Input.GetKeyDown(KeyCode.Space) || Input.GetButtonDown("Jump"))
             {
-                playerRef.playerMoveState = Player.moveState.Jumping;
+                playerRef.playerMoveState = Player.moveState.Walljumping;
                 playerRef.rigidRef.velocity = new Vector2(playerRef.rigidRef.velocity.x, playerRef.jumpforce);
             }
         }
