@@ -43,7 +43,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: e1174b7b486910048bfbba5687f93d30, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 62318c20c03b40144b0e770a3490479c, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -142,8 +142,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   current_track: {fileID: 3113599809965218876}
-  CuteGiana: {fileID: 8300000, guid: e1174b7b486910048bfbba5687f93d30, type: 3}
-  DarkGiana: {fileID: 8300000, guid: 264016eb45d7068448e12a1d3ea91c1d, type: 3}
+  CuteGiana: {fileID: 8300000, guid: 62318c20c03b40144b0e770a3490479c, type: 3}
+  DarkGiana: {fileID: 8300000, guid: bbb6c75b17b60a14b806ae80a2c3e3fd, type: 3}
   timecode1: 0
   timecode2: 0
 --- !u!114 &2201931644480204445
