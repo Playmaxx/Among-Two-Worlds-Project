@@ -119,17 +119,6 @@ public class Lilian : MonoBehaviour      //manages abilities for Lilian
         {
             playerRef.playerMoveState = Player.moveState.Falling;
         }
-        if (playerRef.playerMoveState == Player.moveState.Gliding)
-        {
-            if (Physics2D.Raycast(transform.position, Vector2.right, playerRef.playerwidth / 2, GameManager.GMInstance.platformMask))
-            {
-                playerRef.playerMoveState = Player.moveState.Falling;
-            }
-            if (Physics2D.Raycast(transform.position, Vector2.right, playerRef.playerwidth / 2, GameManager.GMInstance.platformMask))
-            {
-                playerRef.playerMoveState = Player.moveState.Falling;
-            }
-        }
     }
 
     public void wallaction()

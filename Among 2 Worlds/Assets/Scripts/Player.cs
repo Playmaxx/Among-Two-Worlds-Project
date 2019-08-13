@@ -59,8 +59,15 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
         rigidRef.gravityScale = 20;
         playerMoveState = moveState.Falling;
         downVector = new Vector2(Vector2.down.x, Vector2.down.y + 0.15f) * playerheight / 2;
+        Debug.Log(downVector);
         Debug.Log(downVector.y);
-        Debug.Log(playerheight / 2);
+        downVector = Vector2.down * playerheight / 2;
+        Debug.Log(downVector);
+        Debug.Log(downVector.y);
+        downVector = new Vector2(Vector2.down.x, Vector2.down.y) * playerheight / 2;
+        downVector = new Vector2(downVector.x, downVector.y + 0.15f);
+        Debug.Log(downVector);
+        Debug.Log(downVector.y);
     }
 
     // Update is called once per frame
@@ -71,7 +78,7 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
         refreshVariables();
         matchMoveState();
 
-        //handles character specific functions 
+        //handles character specific functions
         switch (GameManager.GMInstance.currentdim)
         {
             case (GameManager.dimension.Light):
@@ -93,11 +100,15 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
         DeathSequence();
 
         //tests
-        Debug.Log(playerMoveState);
         Debug.DrawRay(new Vector2(transform.position.x + (playerwidth / 2) - 0.05f, transform.position.y), downVector, Color.green);
         Debug.DrawRay(new Vector2(transform.position.x - (playerwidth / 2) + 0.05f, transform.position.y), downVector, Color.green);
         Debug.DrawRay(transform.position, Vector2.left * playerwidth / 2, Color.green);
         Debug.DrawRay(transform.position, Vector2.right * playerwidth / 2, Color.green);
+        //utilized raycast overload: origin, direction, distance, layermask
+        //origin is transform.position +/- playerwidth/2 for x
+        // direction is downwards
+        //distance is playerheight/2
+        //layermask is gamemanager.platformmask
     }
 
     void refreshVariables()     //For variables that need to update every frame
@@ -129,6 +140,7 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
             {
                 playerMoveState = moveState.Grounded;
                 refreshAbilities();
+                Debug.Log("rightray");
             }
         }
         if (Physics2D.Raycast(new Vector2(transform.position.x - (playerwidth / 2) + 0.05f, transform.position.y), Vector2.down, playerheight / 2, GameManager.GMInstance.platformMask))
@@ -137,6 +149,7 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
             {
                 playerMoveState = moveState.Grounded;
                 refreshAbilities();
+                Debug.Log("leftray");
             }
         }
         if (!Physics2D.Raycast(new Vector2(transform.position.x + (playerwidth / 2) - 0.05f, transform.position.y), Vector2.down, playerheight / 2, GameManager.GMInstance.platformMask))
@@ -148,10 +161,12 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
                     if (rigidRef.velocity.y > 0)
                     {
                         playerMoveState = moveState.Jumping;
+                        Debug.Log("jumping");
                     }
-                    if (rigidRef.velocity.y < 0 && playerMoveState != moveState.Gliding)
+                    else if (playerMoveState != moveState.Gliding)
                     {
                         playerMoveState = moveState.Falling;
+                        Debug.Log("falling");
                     }
                 }
             }
@@ -160,14 +175,16 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
 
     void matchMoveState()
     {
-        if (rigidRef.velocity.y < 0 && !Physics2D.Raycast(transform.position, Vector2.down, playerheight / 2, GameManager.GMInstance.platformMask) && playerMoveState != Player.moveState.Gliding)
+        if (playerMoveState == moveState.Gliding)
         {
-            playerMoveState = moveState.Falling;
-        }
-
-        if (playerMoveState == moveState.Gliding && Physics2D.Raycast(transform.position, Vector2.down, playerheight / 2, GameManager.GMInstance.platformMask))
-        {
-            playerMoveState = moveState.Falling;
+            if (Physics2D.Raycast(new Vector2(transform.position.x - (playerwidth / 2) + 0.05f, transform.position.y), Vector2.down, playerheight / 2, GameManager.GMInstance.platformMask))
+            {
+                playerMoveState = moveState.Falling;
+            }
+            if (Physics2D.Raycast(new Vector2(transform.position.x + (playerwidth / 2) - 0.05f, transform.position.y), Vector2.down, playerheight / 2, GameManager.GMInstance.platformMask))
+            {
+                playerMoveState = moveState.Falling;
+            }
         }
 
         if (playerMoveState == moveState.Dashing && Physics2D.Raycast(transform.position, Vector2.left, playerwidth / 2, GameManager.GMInstance.platformMask))
