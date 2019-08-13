@@ -39,6 +39,7 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
     Lilian lilianRef;
     public Rigidbody2D rigidRef;
     public SpriteRenderer renderRef;
+    Vector2 downVector;
 
 
     private void Awake() //is called before start, catch references here
@@ -48,7 +49,7 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
         galeRef = GetComponent<Gale>();
         lilianRef = GetComponent<Lilian>();
         playerheight = GetComponent<CapsuleCollider2D>().size.y;
-        playerwidth = GetComponent<CapsuleCollider2D>().size.x + 0.5f;
+        playerwidth = GetComponent<CapsuleCollider2D>().size.x;
     }
 
     // Start is called before the first frame update
@@ -57,12 +58,16 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
         playerdirection = direction.Right;
         rigidRef.gravityScale = 20;
         playerMoveState = moveState.Falling;
+        downVector = new Vector2(Vector2.down.x, Vector2.down.y + 0.15f) * playerheight / 2;
+        Debug.Log(downVector.y);
+        Debug.Log(playerheight / 2);
     }
 
     // Update is called once per frame
     void Update()
     {
         //general functions
+        groundCheck();
         refreshVariables();
         matchMoveState();
 
@@ -89,10 +94,10 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
 
         //tests
         Debug.Log(playerMoveState);
-        Debug.DrawRay(transform.position, Vector2.down * playerheight / 2, Color.green);
+        Debug.DrawRay(new Vector2(transform.position.x + (playerwidth / 2) - 0.05f, transform.position.y), downVector, Color.green);
+        Debug.DrawRay(new Vector2(transform.position.x - (playerwidth / 2) + 0.05f, transform.position.y), downVector, Color.green);
         Debug.DrawRay(transform.position, Vector2.left * playerwidth / 2, Color.green);
         Debug.DrawRay(transform.position, Vector2.right * playerwidth / 2, Color.green);
-
     }
 
     void refreshVariables()     //For variables that need to update every frame
@@ -116,31 +121,40 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
     }
 
     //checks ground state
-    void OnTriggerEnter2D(Collider2D collision)     //checks if player is grounded
+    void groundCheck()
     {
-        if (collision.tag == "Platform" && playerMoveState != moveState.Dashing && playerMoveState != moveState.Jumping)
+        if (Physics2D.Raycast(new Vector2(transform.position.x + (playerwidth / 2) - 0.15f, transform.position.y), Vector2.down, playerheight / 2, GameManager.GMInstance.platformMask))
         {
-            playerMoveState = moveState.Grounded;
-            refreshAbilities();
-            Debug.Log("refreshing sip");
+            if (playerMoveState != moveState.Dashing)
+            {
+                playerMoveState = moveState.Grounded;
+                refreshAbilities();
+            }
         }
-        if (collision.tag == "Enemy" && playerMoveState == moveState.Dashing)
+        if (Physics2D.Raycast(new Vector2(transform.position.x - (playerwidth / 2) + 0.05f, transform.position.y), Vector2.down, playerheight / 2, GameManager.GMInstance.platformMask))
         {
-            //aa
+            if (playerMoveState != moveState.Dashing)
+            {
+                playerMoveState = moveState.Grounded;
+                refreshAbilities();
+            }
         }
-
-        if (collision.tag == "OutOfMap-border")
+        if (!Physics2D.Raycast(new Vector2(transform.position.x + (playerwidth / 2) - 0.05f, transform.position.y), Vector2.down, playerheight / 2, GameManager.GMInstance.platformMask))
         {
-            DeathSequenceIsPlaying = true;
-            StartCoroutine(RespawnPlayerAfterTime(1));
-        }
-    }
-    //checks if player walked off edge
-    void OnTriggerExit2D(Collider2D collision)     //checks if player is grounded
-    {
-        if (collision.tag == "Platform" && playerMoveState != moveState.Jumping && playerMoveState != moveState.Dashing && currentDashTime < 0)
-        {
-            playerMoveState = moveState.Falling;
+            if (!Physics2D.Raycast(new Vector2(transform.position.x - (playerwidth / 2) + 0.05f, transform.position.y), Vector2.down, playerheight / 2, GameManager.GMInstance.platformMask))
+            {
+                if (playerMoveState != moveState.Dashing)
+                {
+                    if (rigidRef.velocity.y > 0)
+                    {
+                        playerMoveState = moveState.Jumping;
+                    }
+                    if (rigidRef.velocity.y < 0 && playerMoveState != moveState.Gliding)
+                    {
+                        playerMoveState = moveState.Falling;
+                    }
+                }
+            }
         }
     }
 
