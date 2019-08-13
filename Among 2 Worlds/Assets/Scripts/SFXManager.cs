@@ -6,13 +6,17 @@ public class SFXManager : MonoBehaviour
 {
     [SerializeField]
     Player playerRef;
+    [SerializeField]
+    Rigidbody2D rigidRef;
 
     public AudioSource current_audioclip;
     public AudioClip Jump;
     public AudioClip Dash;
     public AudioClip KnightGettingHit;
 
+    [SerializeField]
     bool JumpPlayed = false;
+    [SerializeField]
     bool DashPlayed = false;
 
     //Awake is called before start
@@ -44,12 +48,26 @@ public class SFXManager : MonoBehaviour
 
     public void Call_PlayJumpSound()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && JumpPlayed == false)
+        if (GameManager.GMInstance.currentdim == GameManager.dimension.Dark)
         {
-            playJumpSound();
-            JumpPlayed = true;
+            if (Input.GetKeyDown(KeyCode.Space) && JumpPlayed == false)
+            {
+                playJumpSound();
+                JumpPlayed = true;
+                Debug.Log(JumpPlayed);
+            }
         }
 
+        if (GameManager.GMInstance.currentdim == GameManager.dimension.Light)
+        {
+            if (rigidRef.velocity.y > 0 && JumpPlayed == false)
+            {
+                playJumpSound();
+                JumpPlayed = true;
+                Debug.Log(JumpPlayed);
+            }
+        }
+        
         if (playerRef.playerMoveState == Player.moveState.Grounded)
         {
             JumpPlayed = false;

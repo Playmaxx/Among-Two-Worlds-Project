@@ -5,14 +5,41 @@ using UnityEngine.SceneManagement;
 
 public class SceneMngr : MonoBehaviour
 {
-    public enum targetScene { Haupthalle, Keller, Türme, Boss, Gang }
+    public enum targetScene { Eingang, Haupthalle, Keller, Türme, Gang, Boss }
     public targetScene t_Scene;
+    public enum currentScene { Eingang, Haupthalle, Keller, Türme, Gang, Boss }
+    public currentScene c_Scene;
+
+    bool colliding = false;
+
+    [SerializeField]
+    Player playerRef;
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag == "Player")
+        colliding = true;
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        colliding = false;
+    }
+
+    private void Update()
+    {
+        if (colliding && Input.GetKey(KeyCode.Q))
         {
             switch (t_Scene)
             {
+                case (targetScene.Eingang):
+                    GameManager.GMInstance.currentlvl = GameManager.level.Eingang;
+                    SceneManager.LoadScene("Level 1");
+                    if (c_Scene == currentScene.Haupthalle)
+                    {
+                        playerRef.transform.position = new Vector2(70, 23.28661f);
+                        Debug.Log("transform on dis position plz");
+                    }
+                    break;
                 case (targetScene.Haupthalle):
                     GameManager.GMInstance.currentlvl = GameManager.level.Haupthalle;
                     SceneManager.LoadScene("Level 2");

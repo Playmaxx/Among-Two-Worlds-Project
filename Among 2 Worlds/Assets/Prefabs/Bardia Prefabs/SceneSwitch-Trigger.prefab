@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4909642407985451405}
   - component: {fileID: 4909642407985451404}
   m_Layer: 0
-  m_Name: LvL-1-Trigger
+  m_Name: SceneSwitch-Trigger
   m_TagString: SceneSwitcher
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -70,3 +70,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec75af0b843f1da48a08b2176f941787, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  t_Scene: 0
+  c_Scene: 0
+  playerRef: {fileID: 0}

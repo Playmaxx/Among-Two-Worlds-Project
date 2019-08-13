@@ -15,7 +15,9 @@ AudioMixerController:
   m_SuspendThreshold: -80
   m_EnableSuspend: 1
   m_UpdateMode: 0
-  m_ExposedParameters: []
+  m_ExposedParameters:
+  - guid: 574c3e8417004ad438e97b5ad9efae87
+    name: RattleVolume
   m_AudioMixerGroupViews:
   - guids:
     - ed8f9007067a1c341895ce2576dd9067

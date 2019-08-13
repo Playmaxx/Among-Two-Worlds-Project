@@ -28,7 +28,7 @@ public class LoopSFXManager : MonoBehaviour
     // Update is called once per frame
     void Update() //Inhalt ist nur für mich zum testen und kann gelöscht werden
     {
-        if ((Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.D)) || playerRef.playerMoveState == Player.moveState.Grounded && rigRef.velocity != new Vector2(0, 0))
+        if (playerRef.playerMoveState == Player.moveState.Grounded && rigRef.velocity != new Vector2(0, 0))
         {
             if (StepPlayed == false)
             {
@@ -38,7 +38,7 @@ public class LoopSFXManager : MonoBehaviour
             }
         }
 
-        if ((Input.GetKeyUp(KeyCode.A) && !Input.GetKey(KeyCode.D)) || (Input.GetKeyUp(KeyCode.D) && !Input.GetKey(KeyCode.A)) || playerRef.playerMoveState != Player.moveState.Grounded)
+        if (rigRef.velocity == new Vector2(0, 0) || playerRef.playerMoveState != Player.moveState.Grounded)
         {
             stopStepSound();
             StepPlayed = false;

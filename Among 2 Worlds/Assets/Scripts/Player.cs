@@ -25,7 +25,7 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
     public float currentGlideTime = 0;
     public float maxDashTime = 1;
     public float currentDashTime = 0;
-    public bool DeathSequenceIsPlaying = false;
+    
 
     public Rigidbody2D rigidRef;        //ref types
     public Gale galeRef;
@@ -74,7 +74,6 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
 
         }
 
-        DeathSequence();
 
         //tests
         Debug.Log(playerMoveState);
@@ -121,13 +120,6 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
         if (collision.tag == "Enemy" && playerMoveState == moveState.Dashing)
         {
             //aa
-        }
-
-        if (collision.tag == "OutOfMap-border")
-        {
-            DeathSequenceIsPlaying = true;
-            Debug.Log("player ded boi");
-            RespawnPlayer();
         }
     }
     //checks if player walked off edge
@@ -189,22 +181,5 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
     void Heal(int amount)
     {
         health += amount;
-    }
-
-    void DeathSequence()
-    {
-        if (Input.GetKey(KeyCode.F) && DeathSequenceIsPlaying == false)
-        {
-            DeathSequenceIsPlaying = true;
-            Debug.Log("player ded boi");
-            RespawnPlayer();
-        }
-    }
-
-    void RespawnPlayer()
-    {
-        transform.position = new Vector2(0.299f, 2f);
-        DeathSequenceIsPlaying = false;
-        rigidRef.velocity = new Vector2(0, 0);
     }
 }
