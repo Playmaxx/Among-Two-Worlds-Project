@@ -6,38 +6,50 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
 {
     public enum direction { Left, Right }       // variables
     public direction playerdirection;
-    public enum moveState { Grounded, Jumping, Falling, Dashing, Gliding, Walled, Other }
+
+    public enum wallDirection { Left, Right }
+    public wallDirection lastWallDirection;
+
+    public enum moveState { Grounded, Jumping, Falling, Dashing, Gliding, Walled, Walljumping, Other }
     public moveState playerMoveState;
 
-    public float playerheight = 2;
-    public float playerwidth = 1;
+    [HideInInspector]
+    public float playerheight;
+    [HideInInspector]
+    public float playerwidth;
     public int Jumps = 2;
-    public float health;
+    public int health = 100;
     public float moveSpeed = 7.5f;
     public int jumpforce = 20;
     public int dashspeed = 300;
-    public int dashtime = 10;
     public bool dashused = false;
     public int glidespeed = 2;
     public float wallSlideSpeed = 0.1f;
     public float playerGravity = 10;
     public float maxGlideTime = 5;
     public float currentGlideTime = 0;
-    public float maxDashTime = 1;
+    public float dashtime = 0.5f;
     public float currentDashTime = 0;
+    public float wallJumpCD = 0.5f;
+    public float currentWallJump = 0;
     public bool DeathSequenceIsPlaying = false;
 
-    public Rigidbody2D rigidRef;        //ref types
-    public Gale galeRef;
-    public Lilian lilianRef;
+    //ref types
+    Gale galeRef;
+    Lilian lilianRef;
+    public Rigidbody2D rigidRef;
     public SpriteRenderer renderRef;
-    public Vector2 moveRef;
+    Vector2 downVector;
 
 
-    private void Awake()
+    private void Awake() //is called before start, catch references here
     {
         rigidRef = GetComponent<Rigidbody2D>();
         renderRef = GetComponent<SpriteRenderer>();
+        galeRef = GetComponent<Gale>();
+        lilianRef = GetComponent<Lilian>();
+        playerheight = GetComponent<CapsuleCollider2D>().size.y;
+        playerwidth = GetComponent<CapsuleCollider2D>().size.x;
     }
 
     // Start is called before the first frame update
@@ -46,22 +58,33 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
         playerdirection = direction.Right;
         rigidRef.gravityScale = 20;
         playerMoveState = moveState.Falling;
+        downVector = new Vector2(Vector2.down.x, Vector2.down.y + 0.15f) * playerheight / 2;
+        Debug.Log(downVector);
+        Debug.Log(downVector.y);
+        downVector = Vector2.down * playerheight / 2;
+        Debug.Log(downVector);
+        Debug.Log(downVector.y);
+        downVector = new Vector2(Vector2.down.x, Vector2.down.y) * playerheight / 2;
+        downVector = new Vector2(downVector.x, downVector.y + 0.15f);
+        Debug.Log(downVector);
+        Debug.Log(downVector.y);
     }
 
     // Update is called once per frame
     void Update()
     {
         //general functions
+        groundCheck();
         refreshVariables();
         matchMoveState();
 
-        //handles character specific functions 
+        //handles character specific functions
         switch (GameManager.GMInstance.currentdim)
         {
             case (GameManager.dimension.Light):
                 lilianRef.movement();
                 lilianRef.jump();
-                //lilianRef.dash();
+                lilianRef.dash();
                 lilianRef.glide();
                 lilianRef.wallaction();
                 break;
@@ -69,7 +92,6 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
                 galeRef.movement();
                 galeRef.jump();
                 galeRef.dash();
-                galeRef.glide();
                 galeRef.wallaction();
                 break;
 
@@ -78,11 +100,15 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
         DeathSequence();
 
         //tests
-        Debug.Log(playerMoveState);
-        Debug.DrawRay(transform.position, Vector2.down * playerheight / 2, Color.green);
+        Debug.DrawRay(new Vector2(transform.position.x + (playerwidth / 2) - 0.05f, transform.position.y), downVector, Color.green);
+        Debug.DrawRay(new Vector2(transform.position.x - (playerwidth / 2) + 0.05f, transform.position.y), downVector, Color.green);
         Debug.DrawRay(transform.position, Vector2.left * playerwidth / 2, Color.green);
         Debug.DrawRay(transform.position, Vector2.right * playerwidth / 2, Color.green);
-
+        //utilized raycast overload: origin, direction, distance, layermask
+        //origin is transform.position +/- playerwidth/2 for x
+        // direction is downwards
+        //distance is playerheight/2
+        //layermask is gamemanager.platformmask
     }
 
     void refreshVariables()     //For variables that need to update every frame
@@ -95,61 +121,86 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
         {
             renderRef.flipX = false;
         }
-        if(playerMoveState == moveState.Gliding)
-        {
-            currentGlideTime -= 1 * Time.deltaTime;
-        }
-        if (playerMoveState == moveState.Dashing)
-        {
-            currentDashTime -= 1 * Time.deltaTime;
-        }
+        currentDashTime -= 1 * Time.deltaTime;
     }
 
-    void refreshAbilities()     //refreshes jumps & dashes etc.
+    public void refreshAbilities()     //refreshes jumps & dashes etc.
     {
         Jumps = 2;
         dashused = false;
+        currentGlideTime = 0;
     }
 
     //checks ground state
-    void OnTriggerEnter2D(Collider2D collision)     //checks if player is grounded
+    void groundCheck()
     {
-        if (collision.tag == "Platform" && playerMoveState != moveState.Dashing)
+        if (Physics2D.Raycast(new Vector2(transform.position.x + (playerwidth / 2) - 0.15f, transform.position.y), Vector2.down, playerheight / 2, GameManager.GMInstance.platformMask))
         {
-            playerMoveState = moveState.Grounded;
-            refreshAbilities();
+            if (playerMoveState != moveState.Dashing)
+            {
+                playerMoveState = moveState.Grounded;
+                refreshAbilities();
+                Debug.Log("rightray");
+            }
         }
-        if (collision.tag == "Enemy" && playerMoveState == moveState.Dashing)
+        if (Physics2D.Raycast(new Vector2(transform.position.x - (playerwidth / 2) + 0.05f, transform.position.y), Vector2.down, playerheight / 2, GameManager.GMInstance.platformMask))
         {
-            //aa
+            if (playerMoveState != moveState.Dashing)
+            {
+                playerMoveState = moveState.Grounded;
+                refreshAbilities();
+                Debug.Log("leftray");
+            }
         }
-
-        if (collision.tag == "OutOfMap-border")
+        if (!Physics2D.Raycast(new Vector2(transform.position.x + (playerwidth / 2) - 0.05f, transform.position.y), Vector2.down, playerheight / 2, GameManager.GMInstance.platformMask))
         {
-            DeathSequenceIsPlaying = true;
-            Debug.Log("player ded boi");
-            StartCoroutine(RespawnPlayerAfterTime(1));
-        }
-    }
-    //checks if player walked off edge
-    void OnTriggerExit2D(Collider2D collision)     //checks if player is grounded
-    {
-        if (collision.tag == "Platform" && playerMoveState != moveState.Jumping)
-        {
-            playerMoveState = moveState.Falling;
+            if (!Physics2D.Raycast(new Vector2(transform.position.x - (playerwidth / 2) + 0.05f, transform.position.y), Vector2.down, playerheight / 2, GameManager.GMInstance.platformMask))
+            {
+                if (playerMoveState != moveState.Dashing)
+                {
+                    if (rigidRef.velocity.y > 0)
+                    {
+                        playerMoveState = moveState.Jumping;
+                        Debug.Log("jumping");
+                    }
+                    else if (playerMoveState != moveState.Gliding)
+                    {
+                        playerMoveState = moveState.Falling;
+                        Debug.Log("falling");
+                    }
+                }
+            }
         }
     }
 
     void matchMoveState()
     {
-        if (rigidRef.velocity.y < 0 && !Physics2D.Raycast(transform.position, Vector2.down, playerheight / 2, GameManager.GMInstance.platformMask) && playerMoveState != Player.moveState.Gliding)
+        if (playerMoveState == moveState.Gliding)
         {
-            playerMoveState = moveState.Falling;
+            if (Physics2D.Raycast(new Vector2(transform.position.x - (playerwidth / 2) + 0.05f, transform.position.y), Vector2.down, playerheight / 2, GameManager.GMInstance.platformMask))
+            {
+                playerMoveState = moveState.Falling;
+            }
+            if (Physics2D.Raycast(new Vector2(transform.position.x + (playerwidth / 2) - 0.05f, transform.position.y), Vector2.down, playerheight / 2, GameManager.GMInstance.platformMask))
+            {
+                playerMoveState = moveState.Falling;
+            }
         }
 
-        if (playerMoveState == moveState.Gliding && Physics2D.Raycast(transform.position, Vector2.down, playerheight / 2, GameManager.GMInstance.platformMask))
+        if (playerMoveState == moveState.Dashing && Physics2D.Raycast(transform.position, Vector2.left, playerwidth / 2, GameManager.GMInstance.platformMask))
         {
-            playerMoveState = moveState.Falling;
+            lastWallDirection = wallDirection.Left;
+            playerMoveState = moveState.Walled;
+            currentDashTime = -1;
+            rigidRef.velocity = Vector2.zero;
+        }
+
+        if (playerMoveState == moveState.Dashing && Physics2D.Raycast(transform.position, Vector2.right, playerwidth / 2, GameManager.GMInstance.platformMask))
+        {
+            lastWallDirection = wallDirection.Right;
+            playerMoveState = moveState.Walled;
+            currentDashTime = -1;
+            rigidRef.velocity = Vector2.zero;
         }
 
         switch (playerMoveState)    //movestates: Grounded, Jumping, Falling, Dashing, Gliding, Walled, Other
@@ -171,11 +222,19 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
                 break;
 
             case (moveState.Gliding):
+                if (currentGlideTime < maxGlideTime)
+                {
+                    rigidRef.velocity = new Vector2(rigidRef.velocity.x, -glidespeed);
+                }
+                currentGlideTime += 1 * Time.deltaTime;
                 break;
 
             case (moveState.Walled):
-                Debug.Log("Wall test");
                 rigidRef.velocity = new Vector2(rigidRef.velocity.x, -glidespeed);
+                break;
+
+            case (moveState.Walljumping):
+                rigidRef.velocity = new Vector2(rigidRef.velocity.x, rigidRef.velocity.y - 1);
                 break;
 
             case (moveState.Other):
@@ -183,11 +242,12 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
         }
     }
 
-    void Damage(int amount)
+    public void damage(int amount)
     {
         health -= amount;
     }
-    void Heal(int amount)
+
+    public void heal(int amount)
     {
         health += amount;
     }
@@ -197,7 +257,6 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
         if (Input.GetKey(KeyCode.F) && DeathSequenceIsPlaying == false)
         {
             DeathSequenceIsPlaying = true;
-            Debug.Log("player ded boi");
             StartCoroutine(RespawnPlayerAfterTime(3));
         }
     }

@@ -7,19 +7,25 @@ public class Background : MonoBehaviour
     public Sprite LightSprite, DarkSprite;
     SpriteRenderer renderRef;
 
+    private void Awake()
+    {
+        renderRef = GetComponent<SpriteRenderer>();
+        updateDimensions();
+    }
+
     // Start is called before the first frame update
     void Start()
     {
-        renderRef = GetComponent<SpriteRenderer>();
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        updateDimensions();
+
     }
 
-    void updateDimensions()
+    public void updateDimensions()
     {
         switch (GameManager.GMInstance.currentdim)
         {

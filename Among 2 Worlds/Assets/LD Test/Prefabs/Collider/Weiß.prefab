@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 5978509165149534905}
   - component: {fileID: 2549702873359565995}
   - component: {fileID: 8699763628207733940}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: "Wei\xDF"
-  m_TagString: Untagged
+  m_TagString: Platform
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
