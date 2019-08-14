@@ -1,16 +1,22 @@
 fileFormatVersion: 2
-guid: 6220bd0c60d53634abb63edc50b8f2fb
+guid: abe640e29d0fc28478088d348589e68c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4556834875285497605
-    second: Gale.DW.Wandsprung.Spritesheet_0
+      213: 2503389327405966016
+    second: Gale_DW_Wandhalt_SpriteSheet_0
   - first:
-      213: -7130650273664723392
-    second: Gale.DW.Wandsprung.Spritesheet_1
+      213: 213479485896358558
+    second: Gale_DW_Wandhalt_SpriteSheet_1
   - first:
-      213: -891736578283097407
-    second: Gale.DW.Wandsprung.Spritesheet_2
+      213: 4184639367140949678
+    second: Gale_DW_Wandhalt_SpriteSheet_2
+  - first:
+      213: 8093090488276067599
+    second: Gale_DW_Wandhalt_SpriteSheet_3
+  - first:
+      213: -1452806585698716070
+    second: Gale_DW_Wandhalt_SpriteSheet_4
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -93,13 +99,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Gale.DW.Wandsprung.Spritesheet_0
+      name: Gale_DW_Wandhalt_SpriteSheet_0
       rect:
         serializedVersion: 2
-        x: 17
-        y: 4
-        width: 99
-        height: 240
+        x: 36
+        y: 32
+        width: 78
+        height: 248
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -107,20 +113,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a4b6cd68de239a64cb39911fbb50fd6e
-      internalID: 4556834875285497605
+      spriteID: 2478c2707a997294db5e2a0ca38f7d7f
+      internalID: 2503389327405966016
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gale.DW.Wandsprung.Spritesheet_1
+      name: Gale_DW_Wandhalt_SpriteSheet_1
       rect:
         serializedVersion: 2
-        x: 144
-        y: 22
-        width: 114
-        height: 235
+        x: 126
+        y: 21
+        width: 105
+        height: 246
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,20 +134,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cb33647e0c5886046b58f8a46609fbdb
-      internalID: -7130650273664723392
+      spriteID: f74e059b6a3e2784e92c21f634de4ecc
+      internalID: 213479485896358558
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gale.DW.Wandsprung.Spritesheet_2
+      name: Gale_DW_Wandhalt_SpriteSheet_2
       rect:
         serializedVersion: 2
-        x: 329
-        y: 24
-        width: 83
-        height: 253
+        x: 237
+        y: 12
+        width: 112
+        height: 241
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -149,8 +155,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 48fd3db9438cfee43bcf1ffd6f2f8b48
-      internalID: -891736578283097407
+      spriteID: 07b372a32614e0d40930a88fbfd29f24
+      internalID: 4184639367140949678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale_DW_Wandhalt_SpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 3
+        width: 106
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf51897f64d7a2745aa09727034676b0
+      internalID: 8093090488276067599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale_DW_Wandhalt_SpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 1
+        width: 107
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df26defca3086dc4b9ee8278580b6ce2
+      internalID: -1452806585698716070
       vertices: []
       indices: 
       edges: []
@@ -158,7 +206,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 8c97a6b30c3e9934282b80d0aa4af38e
+    spriteID: 171d05941661e3744a42ea409c3b580b
     internalID: 0
     vertices: []
     indices: 

@@ -1,58 +1,58 @@
 fileFormatVersion: 2
-guid: e221d1e58fbe57e439d665021d4d22be
+guid: 0f8e04f7a9ffad24aaadfce2d4e27b61
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5240790616426698861
-    second: Gale.DW.Laufen.Spritesheet_0
+      213: -2845650496672250590
+    second: Gale_DW_Laufen_SpriteSheet_0
   - first:
-      213: 2260675810684787504
-    second: Gale.DW.Laufen.Spritesheet_1
+      213: -3661427914400040042
+    second: Gale_DW_Laufen_SpriteSheet_1
   - first:
-      213: 2370646739006677289
-    second: Gale.DW.Laufen.Spritesheet_2
+      213: 2089799272308359923
+    second: Gale_DW_Laufen_SpriteSheet_2
   - first:
-      213: 2260660151633454448
-    second: Gale.DW.Laufen.Spritesheet_3
+      213: -7874023588464778693
+    second: Gale_DW_Laufen_SpriteSheet_3
   - first:
-      213: -6708998120802442983
-    second: Gale.DW.Laufen.Spritesheet_4
+      213: 8601442290881678735
+    second: Gale_DW_Laufen_SpriteSheet_4
   - first:
-      213: -2049728790487150188
-    second: Gale.DW.Laufen.Spritesheet_5
+      213: 1059219760424593037
+    second: Gale_DW_Laufen_SpriteSheet_5
   - first:
-      213: -5343808722905120162
-    second: Gale.DW.Laufen.Spritesheet_6
+      213: 2114606948432377030
+    second: Gale_DW_Laufen_SpriteSheet_6
   - first:
-      213: -7708825237180413321
-    second: Gale.DW.Laufen.Spritesheet_7
+      213: 5165352852398696283
+    second: Gale_DW_Laufen_SpriteSheet_7
   - first:
-      213: 8305000479301802047
-    second: Gale.DW.Laufen.Spritesheet_8
+      213: 555248234575962680
+    second: Gale_DW_Laufen_SpriteSheet_8
   - first:
-      213: 4572756759108015356
-    second: Gale.DW.Laufen.Spritesheet_9
+      213: 2954457126432513189
+    second: Gale_DW_Laufen_SpriteSheet_9
   - first:
-      213: -5780066837356907111
-    second: Gale.DW.Laufen.Spritesheet_10
+      213: 4173491405497571689
+    second: Gale_DW_Laufen_SpriteSheet_10
   - first:
-      213: 6583144709930251290
-    second: Gale.DW.Laufen.Spritesheet_11
+      213: -2129078626429450363
+    second: Gale_DW_Laufen_SpriteSheet_11
   - first:
-      213: -8596115049966650480
-    second: Gale.DW.Laufen.Spritesheet_12
+      213: 6426102609467605423
+    second: Gale_DW_Laufen_SpriteSheet_12
   - first:
-      213: 6400709585408156498
-    second: Gale.DW.Laufen.Spritesheet_13
+      213: -1301944104730927394
+    second: Gale_DW_Laufen_SpriteSheet_13
   - first:
-      213: -1422801626835469444
-    second: Gale.DW.Laufen.Spritesheet_14
+      213: 1188233957910528973
+    second: Gale_DW_Laufen_SpriteSheet_14
   - first:
-      213: 8647431202952019964
-    second: Gale.DW.Laufen.Spritesheet_15
+      213: 3022138644958287141
+    second: Gale_DW_Laufen_SpriteSheet_15
   - first:
-      213: -3337858857489667510
-    second: Gale.DW.Laufen.Spritesheet_16
+      213: -5316521485294193449
+    second: Gale_DW_Laufen_SpriteSheet_16
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -135,13 +135,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Gale.DW.Laufen.Spritesheet_0
+      name: Gale_DW_Laufen_SpriteSheet_0
       rect:
         serializedVersion: 2
-        x: 16
-        y: 506
-        width: 202
-        height: 234
+        x: 21
+        y: 509
+        width: 201
+        height: 231
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -149,144 +149,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 648b7fea484aeda48b0bcdf010ed8b22
-      internalID: -5240790616426698861
+      spriteID: 2604261dc8917454996d6c9c6bd29342
+      internalID: -2845650496672250590
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gale.DW.Laufen.Spritesheet_1
+      name: Gale_DW_Laufen_SpriteSheet_1
       rect:
         serializedVersion: 2
-        x: 233
-        y: 501
-        width: 194
-        height: 222
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f926980a2ba88c24387998fb4886d38c
-      internalID: 2260675810684787504
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Gale.DW.Laufen.Spritesheet_2
-      rect:
-        serializedVersion: 2
-        x: 458
-        y: 501
-        width: 159
-        height: 225
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0dd0b4a9d79d1d242984725e99c917d7
-      internalID: 2370646739006677289
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Gale.DW.Laufen.Spritesheet_3
-      rect:
-        serializedVersion: 2
-        x: 712
-        y: 501
-        width: 100
-        height: 235
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 89599b4466edfd8428ea2d1ae886eeda
-      internalID: 2260660151633454448
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Gale.DW.Laufen.Spritesheet_4
-      rect:
-        serializedVersion: 2
-        x: 937
-        y: 503
-        width: 127
-        height: 238
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c4c1858fadb48314db53ee93dd5cc669
-      internalID: -6708998120802442983
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Gale.DW.Laufen.Spritesheet_5
-      rect:
-        serializedVersion: 2
-        x: 1151
-        y: 503
-        width: 149
-        height: 238
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 92026957bd475c243bcf8b818caed480
-      internalID: -2049728790487150188
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Gale.DW.Laufen.Spritesheet_6
-      rect:
-        serializedVersion: 2
-        x: 1352
-        y: 521
-        width: 185
-        height: 220
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fe61e0e67786d2f4dbd397dc820a1e95
-      internalID: -5343808722905120162
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Gale.DW.Laufen.Spritesheet_7
-      rect:
-        serializedVersion: 2
-        x: 13
-        y: 271
+        x: 240
+        y: 504
         width: 193
         height: 220
       alignment: 0
@@ -296,20 +170,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cbdc9e9ae9f337b45bfda5b8a83c86f0
-      internalID: -7708825237180413321
+      spriteID: 0bdba9badcd273c4b9f76101b1d56054
+      internalID: -3661427914400040042
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gale.DW.Laufen.Spritesheet_8
+      name: Gale_DW_Laufen_SpriteSheet_2
       rect:
         serializedVersion: 2
-        x: 237
-        y: 258
-        width: 200
-        height: 228
+        x: 473
+        y: 503
+        width: 157
+        height: 224
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -317,166 +191,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6af230d7323a6024d8e1b9648e081227
-      internalID: 8305000479301802047
+      spriteID: a005b60e341b74e4e9e9a349149b3910
+      internalID: 2089799272308359923
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gale.DW.Laufen.Spritesheet_9
+      name: Gale_DW_Laufen_SpriteSheet_3
       rect:
         serializedVersion: 2
-        x: 457
-        y: 254
-        width: 183
-        height: 217
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ef241e2e66d7002499c969b07ab273f7
-      internalID: 4572756759108015356
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Gale.DW.Laufen.Spritesheet_10
-      rect:
-        serializedVersion: 2
-        x: 701
-        y: 254
-        width: 142
-        height: 223
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b7db51d554a413c44864c592894b3d22
-      internalID: -5780066837356907111
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Gale.DW.Laufen.Spritesheet_11
-      rect:
-        serializedVersion: 2
-        x: 935
-        y: 253
-        width: 99
-        height: 232
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d8a1843304ae27b408e088902ed51734
-      internalID: 6583144709930251290
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Gale.DW.Laufen.Spritesheet_12
-      rect:
-        serializedVersion: 2
-        x: 1153
-        y: 254
-        width: 127
-        height: 233
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b803fa9207647ac4ca26385a2f176743
-      internalID: -8596115049966650480
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Gale.DW.Laufen.Spritesheet_13
-      rect:
-        serializedVersion: 2
-        x: 1363
-        y: 253
-        width: 155
-        height: 238
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c0361d4b3bb3c4246848304ea7598bdd
-      internalID: 6400709585408156498
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Gale.DW.Laufen.Spritesheet_14
-      rect:
-        serializedVersion: 2
-        x: 17
-        y: 17
-        width: 174
-        height: 226
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 35ae58d089361564ba0fe201960befd4
-      internalID: -1422801626835469444
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Gale.DW.Laufen.Spritesheet_15
-      rect:
-        serializedVersion: 2
-        x: 227
-        y: 31
-        width: 204
-        height: 212
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6b4a9c43d7951ec418b789bdbd41aea6
-      internalID: 8647431202952019964
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Gale.DW.Laufen.Spritesheet_16
-      rect:
-        serializedVersion: 2
-        x: 457
-        y: 6
-        width: 202
+        x: 716
+        y: 503
+        width: 100
         height: 234
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -485,8 +212,281 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f187141a5077c5948ac48381efead192
-      internalID: -3337858857489667510
+      spriteID: 2ed38f8421be7454c833fcdbdf45801f
+      internalID: -7874023588464778693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale_DW_Laufen_SpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 504
+        width: 127
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05b82ca5cf5871f40a2f7debbc26ed04
+      internalID: 8601442290881678735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale_DW_Laufen_SpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 503
+        width: 149
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc160dc2f761a4245b54b47979091f93
+      internalID: 1059219760424593037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale_DW_Laufen_SpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 270
+        width: 186
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cf69fcb32e22834dafd20f87df19b91
+      internalID: 2114606948432377030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale_DW_Laufen_SpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 272
+        width: 196
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c0ca2cc62d593d47ad2729db8cc6fb9
+      internalID: 5165352852398696283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale_DW_Laufen_SpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 259
+        width: 203
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53f24821759b91e4ebd724a33b41cb32
+      internalID: 555248234575962680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale_DW_Laufen_SpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 254
+        width: 187
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99d11f6e2b8959c48bd4f96c00b78ade
+      internalID: 2954457126432513189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale_DW_Laufen_SpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 254
+        width: 145
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac2e05d9a7599e942866ae8d94e71681
+      internalID: 4173491405497571689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale_DW_Laufen_SpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 254
+        width: 99
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1c05e3c91c209341b42083a28a9e258
+      internalID: -2129078626429450363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale_DW_Laufen_SpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 4
+        width: 125
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6604720a75fb9f4584676db007f6bb9
+      internalID: 6426102609467605423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale_DW_Laufen_SpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 4
+        width: 151
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4fa521d7c39e2a46ba877f7a08e1c6d
+      internalID: -1301944104730927394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale_DW_Laufen_SpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 17
+        width: 178
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e3625c14ec903040bb2fe914ec8bb82
+      internalID: 1188233957910528973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale_DW_Laufen_SpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 33
+        width: 207
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6e929f644bcb3d41b5fa367e02612c2
+      internalID: 3022138644958287141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale_DW_Laufen_SpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 8
+        width: 202
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49de5520342a81042ac6eec6913ed1d7
+      internalID: -5316521485294193449
       vertices: []
       indices: 
       edges: []
@@ -494,7 +494,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 79fa049b04020a2459e624023567620f
+    spriteID: 3ae840e5d82a4334dbd8b2edda25e909
     internalID: 0
     vertices: []
     indices: 

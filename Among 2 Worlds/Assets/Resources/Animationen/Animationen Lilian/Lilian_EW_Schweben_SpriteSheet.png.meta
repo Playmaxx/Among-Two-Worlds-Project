@@ -1,103 +1,106 @@
 fileFormatVersion: 2
-guid: 7347805b9698352428901a657b74841f
+guid: 3aa4df16991faee4a8edf9c9329e3ed8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7126553475338085775
-    second: Lilian.LW.Stehen_0
+      213: -3186810257598647897
+    second: Lilian_EW_Schweben_SpriteSheet_0
   - first:
-      213: -4831209452729695983
-    second: Lilian.LW.Stehen_1
+      213: 4334653031507692349
+    second: Lilian_EW_Schweben_SpriteSheet_1
   - first:
-      213: -4472921799770028935
-    second: Lilian.LW.Stehen_2
+      213: -5778207555598231554
+    second: Lilian_EW_Schweben_SpriteSheet_2
   - first:
-      213: 9007577111400900531
-    second: Lilian.LW.Stehen_3
+      213: -3836949591665079167
+    second: Lilian_EW_Schweben_SpriteSheet_3
   - first:
-      213: -444383535533606100
-    second: Lilian.LW.Stehen_4
+      213: -1743295947086012084
+    second: Lilian_EW_Schweben_SpriteSheet_4
   - first:
-      213: 7236095261935467690
-    second: Lilian.LW.Stehen_5
+      213: -2776946902741824313
+    second: Lilian_EW_Schweben_SpriteSheet_5
   - first:
-      213: -1918141465233702862
-    second: Lilian.LW.Stehen_6
+      213: -6208110127775223718
+    second: Lilian_EW_Schweben_SpriteSheet_6
   - first:
-      213: -3914508386280378603
-    second: Lilian.LW.Stehen_7
+      213: -7233912423362825409
+    second: Lilian_EW_Schweben_SpriteSheet_7
   - first:
-      213: 593379994142043137
-    second: Lilian.LW.Stehen_8
+      213: 4763945035526612882
+    second: Lilian_EW_Schweben_SpriteSheet_8
   - first:
-      213: 9020744554761729733
-    second: Lilian.LW.Stehen_9
+      213: 5629387030932180161
+    second: Lilian_EW_Schweben_SpriteSheet_9
   - first:
-      213: 4831921151403897069
-    second: Lilian.LW.Stehen_10
+      213: 1761004381209355652
+    second: Lilian_EW_Schweben_SpriteSheet_10
   - first:
-      213: 2510684481489296505
-    second: Lilian.LW.Stehen_11
+      213: 4123928563655741983
+    second: Lilian_EW_Schweben_SpriteSheet_11
   - first:
-      213: 2205616821955303486
-    second: Lilian.LW.Stehen_12
+      213: -3659878775127104510
+    second: Lilian_EW_Schweben_SpriteSheet_12
   - first:
-      213: 1013222063966728749
-    second: Lilian.LW.Stehen_13
+      213: -9011172567655598854
+    second: Lilian_EW_Schweben_SpriteSheet_13
   - first:
-      213: -2281638658407263997
-    second: Lilian.LW.Stehen_14
+      213: 3727187938936904338
+    second: Lilian_EW_Schweben_SpriteSheet_14
   - first:
-      213: -3948891194281435869
-    second: Lilian.LW.Stehen_15
+      213: 4215272519724677034
+    second: Lilian_EW_Schweben_SpriteSheet_15
   - first:
-      213: -363404218658652315
-    second: Lilian.LW.Stehen_16
+      213: -5545809785744074027
+    second: Lilian_EW_Schweben_SpriteSheet_16
   - first:
-      213: -4604190204474436148
-    second: Lilian.LW.Stehen_17
+      213: -7097421333894082830
+    second: Lilian_EW_Schweben_SpriteSheet_17
   - first:
-      213: 8849963758554779682
-    second: Lilian.LW.Stehen_18
+      213: 7459014265220611562
+    second: Lilian_EW_Schweben_SpriteSheet_18
   - first:
-      213: 7474538425360715830
-    second: Lilian.LW.Stehen_19
+      213: -8731995937830457843
+    second: Lilian_EW_Schweben_SpriteSheet_19
   - first:
-      213: -421956063314791014
-    second: Lilian.LW.Stehen_20
+      213: 5864920080951327749
+    second: Lilian_EW_Schweben_SpriteSheet_20
   - first:
-      213: -516584924336772356
-    second: Lilian.LW.Stehen_21
+      213: 4326728946519300144
+    second: Lilian_EW_Schweben_SpriteSheet_21
   - first:
-      213: -2839202784817842846
-    second: Lilian.LW.Stehen_22
+      213: -3791509922472571744
+    second: Lilian_EW_Schweben_SpriteSheet_22
   - first:
-      213: 2756572614976705199
-    second: Lilian.LW.Stehen_23
+      213: 2035833618239729804
+    second: Lilian_EW_Schweben_SpriteSheet_23
   - first:
-      213: -7023030799682626736
-    second: Lilian.LW.Stehen_24
+      213: 7843754752446224345
+    second: Lilian_EW_Schweben_SpriteSheet_24
   - first:
-      213: -1456362922367601181
-    second: Lilian.LW.Stehen_25
+      213: 1935859097533105436
+    second: Lilian_EW_Schweben_SpriteSheet_25
   - first:
-      213: -5715226140346838612
-    second: Lilian.LW.Stehen_26
+      213: -2944258030606367452
+    second: Lilian_EW_Schweben_SpriteSheet_26
   - first:
-      213: -3213184275905781251
-    second: Lilian.LW.Stehen_27
+      213: 4512403351635174322
+    second: Lilian_EW_Schweben_SpriteSheet_27
   - first:
-      213: 3844103092177769027
-    second: Lilian.LW.Stehen_28
+      213: -9198149026286218579
+    second: Lilian_EW_Schweben_SpriteSheet_28
   - first:
-      213: -4437732609505113502
-    second: Lilian.LW.Stehen_29
+      213: 3011001891073584819
+    second: Lilian_EW_Schweben_SpriteSheet_29
   - first:
-      213: 4607097170133020678
-    second: Lilian.LW.Stehen_30
+      213: -4060464609763965401
+    second: Lilian_EW_Schweben_SpriteSheet_30
   - first:
-      213: -2795640225903414222
-    second: Lilian.LW.Stehen_31
+      213: -8582820948481581508
+    second: Lilian_EW_Schweben_SpriteSheet_31
+  - first:
+      213: 1924643884100755072
+    second: Lilian_EW_Schweben_SpriteSheet_32
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -180,12 +183,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Lilian.LW.Stehen_0
+      name: Lilian_EW_Schweben_SpriteSheet_0
       rect:
         serializedVersion: 2
-        x: 7
-        y: 768
-        width: 83
+        x: 2
+        y: 501
+        width: 86
         height: 242
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -194,19 +197,40 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a9cbf633784ee3849a786b406697d4ff
-      internalID: 7126553475338085775
+      spriteID: 46fcddcd4dfe60e4ea62548a425f210a
+      internalID: -3186810257598647897
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lilian.LW.Stehen_1
+      name: Lilian_EW_Schweben_SpriteSheet_1
       rect:
         serializedVersion: 2
-        x: 135
-        y: 768
-        width: 81
+        x: 110
+        y: 501
+        width: 84
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfa64a44ead5a434293bf8964400f4b5
+      internalID: 4334653031507692349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lilian_EW_Schweben_SpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 501
+        width: 82
         height: 243
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -215,19 +239,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 00b68e1fe6266314891364700827b3fa
-      internalID: -4831209452729695983
+      spriteID: 7f374b87099327a408175ee4861de230
+      internalID: -5778207555598231554
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lilian.LW.Stehen_2
+      name: Lilian_EW_Schweben_SpriteSheet_3
       rect:
         serializedVersion: 2
-        x: 252
-        y: 768
-        width: 79
+        x: 324
+        y: 501
+        width: 80
         height: 243
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -236,18 +260,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e3a9edcef897434fa46681299fd8115
-      internalID: -4472921799770028935
+      spriteID: fb7bfa2fe1e6e244da64f0e08e36c387
+      internalID: -3836949591665079167
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lilian.LW.Stehen_3
+      name: Lilian_EW_Schweben_SpriteSheet_4
       rect:
         serializedVersion: 2
-        x: 374
-        y: 768
+        x: 432
+        y: 501
         width: 78
         height: 243
       alignment: 0
@@ -257,61 +281,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bcf9ae671429ecb40859c984c7fcfe2a
-      internalID: 9007577111400900531
+      spriteID: 07206f1cd2dc5a14fb800405dfd15dbe
+      internalID: -1743295947086012084
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lilian.LW.Stehen_4
+      name: Lilian_EW_Schweben_SpriteSheet_5
       rect:
         serializedVersion: 2
-        x: 491
-        y: 768
-        width: 77
-        height: 244
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 73383c623356d914fbba1622ff02799e
-      internalID: -444383535533606100
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Lilian.LW.Stehen_5
-      rect:
-        serializedVersion: 2
-        x: 615
-        y: 768
+        x: 538
+        y: 501
         width: 76
-        height: 244
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dec2e4dc20fb71d46a0b59cb92563617
-      internalID: 7236095261935467690
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Lilian.LW.Stehen_6
-      rect:
-        serializedVersion: 2
-        x: 735
-        y: 768
-        width: 75
         height: 245
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -320,39 +302,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ea01afc359aac844be2fca0e25a5c8d
-      internalID: -1918141465233702862
+      spriteID: 373f9ebaee615fe4fa3dc7599bf3f483
+      internalID: -2776946902741824313
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lilian.LW.Stehen_7
+      name: Lilian_EW_Schweben_SpriteSheet_6
       rect:
         serializedVersion: 2
-        x: 849
-        y: 768
-        width: 73
-        height: 245
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2afaf6a113b63c84cb8602019e41434b
-      internalID: -3914508386280378603
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Lilian.LW.Stehen_8
-      rect:
-        serializedVersion: 2
-        x: 22
-        y: 513
+        x: 645
+        y: 501
         width: 74
         height: 245
       alignment: 0
@@ -362,18 +323,123 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 02fe71523f2acb6428e1394b63fe9c4d
-      internalID: 593379994142043137
+      spriteID: b64ea963a819e9d49b1f1b36072c4c78
+      internalID: -6208110127775223718
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lilian.LW.Stehen_9
+      name: Lilian_EW_Schweben_SpriteSheet_7
       rect:
         serializedVersion: 2
-        x: 148
-        y: 513
+        x: 753
+        y: 501
+        width: 71
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c2027f5a3c978a4f803c35f4ccb897c
+      internalID: -7233912423362825409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lilian_EW_Schweben_SpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 502
+        width: 71
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0208747e28b3b73408cb118e540d7129
+      internalID: 4763945035526612882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lilian_EW_Schweben_SpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 502
+        width: 71
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84fde4a2cb6f2d6449862006688287d9
+      internalID: 5629387030932180161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lilian_EW_Schweben_SpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 502
+        width: 72
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63a8e640fecad4c45a1758409b923b21
+      internalID: 1761004381209355652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lilian_EW_Schweben_SpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 253
+        width: 74
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b859e5df982079408e337e9d0fd8ca9
+      internalID: 4123928563655741983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lilian_EW_Schweben_SpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 253
         width: 75
         height: 245
       alignment: 0
@@ -383,39 +449,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ecd5d335c6bb39b48804fe842f63d509
-      internalID: 9020744554761729733
+      spriteID: 637ca38ac6cb0414abec358aa1f1db1e
+      internalID: -3659878775127104510
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lilian.LW.Stehen_10
+      name: Lilian_EW_Schweben_SpriteSheet_13
       rect:
         serializedVersion: 2
-        x: 263
-        y: 513
-        width: 76
-        height: 245
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 394704ee2c3dbae4eb99e837413a6790
-      internalID: 4831921151403897069
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Lilian.LW.Stehen_11
-      rect:
-        serializedVersion: 2
-        x: 382
-        y: 513
+        x: 231
+        y: 253
         width: 77
         height: 246
       alignment: 0
@@ -425,39 +470,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4debddbd43f51814cbb129e8c62e5184
-      internalID: 2510684481489296505
+      spriteID: 985f215bd75ee3746a05acbb4008cefb
+      internalID: -9011172567655598854
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lilian.LW.Stehen_12
+      name: Lilian_EW_Schweben_SpriteSheet_14
       rect:
         serializedVersion: 2
-        x: 498
-        y: 513
-        width: 78
-        height: 246
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c513bb0ceb14830408c97415bb84d0b9
-      internalID: 2205616821955303486
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Lilian.LW.Stehen_13
-      rect:
-        serializedVersion: 2
-        x: 620
-        y: 513
+        x: 335
+        y: 253
         width: 79
         height: 246
       alignment: 0
@@ -467,18 +491,39 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b12a87de7f9dead40a55214e345531bd
-      internalID: 1013222063966728749
+      spriteID: 0305140fd93c7da4f8b06d4badfdbb6a
+      internalID: 3727187938936904338
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lilian.LW.Stehen_14
+      name: Lilian_EW_Schweben_SpriteSheet_15
       rect:
         serializedVersion: 2
-        x: 737
-        y: 514
+        x: 441
+        y: 253
+        width: 81
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a6e14dcd0d38bd4dafe5e2d168b7de9
+      internalID: 4215272519724677034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lilian_EW_Schweben_SpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 253
         width: 83
         height: 246
       alignment: 0
@@ -488,19 +533,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa1e9abfa9f90484b8a80e876176c4c7
-      internalID: -2281638658407263997
+      spriteID: c83c11891d0cbe1428cfb034a4c9e924
+      internalID: -5545809785744074027
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lilian.LW.Stehen_15
+      name: Lilian_EW_Schweben_SpriteSheet_17
       rect:
         serializedVersion: 2
-        x: 848
-        y: 514
-        width: 84
+        x: 650
+        y: 253
+        width: 81
         height: 246
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -509,20 +554,314 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2a0cb27f7cffde94bb995a1ff2f9c929
-      internalID: -3948891194281435869
+      spriteID: d2ed1d5d773009141bb3242ac1405e73
+      internalID: -7097421333894082830
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lilian.LW.Stehen_16
+      name: Lilian_EW_Schweben_SpriteSheet_18
       rect:
         serializedVersion: 2
-        x: 21
-        y: 261
+        x: 755
+        y: 253
+        width: 79
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d80799998a850394ba26b275e82267e6
+      internalID: 7459014265220611562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lilian_EW_Schweben_SpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 253
+        width: 77
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a92d40e67bf43214bb7184743f11e6b7
+      internalID: -8731995937830457843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lilian_EW_Schweben_SpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 253
+        width: 75
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba93409730ae2dc4e9cb47e218498ad6
+      internalID: 5864920080951327749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lilian_EW_Schweben_SpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 253
+        width: 74
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04c3da2a45724b34b9640ea52e5c41ab
+      internalID: 4326728946519300144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lilian_EW_Schweben_SpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 2
+        width: 72
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71fabdc25f24ed9498c6cd0eaa222b04
+      internalID: -3791509922472571744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lilian_EW_Schweben_SpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 2
+        width: 71
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 944c4aca40965ef4695386afe5c8e831
+      internalID: 2035833618239729804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lilian_EW_Schweben_SpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 2
+        width: 71
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4de1a957d9251104da4cbc88bbd7dd50
+      internalID: 7843754752446224345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lilian_EW_Schweben_SpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1
+        width: 71
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7473f8964f9d9d44a55c7edc63236c7
+      internalID: 1935859097533105436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lilian_EW_Schweben_SpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 1
+        width: 74
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dfac37c08416bd418dda628d0b93651
+      internalID: -2944258030606367452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lilian_EW_Schweben_SpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 1
+        width: 76
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db7c898ae67d8d84bab17eb9ced37ece
+      internalID: 4512403351635174322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lilian_EW_Schweben_SpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 1
+        width: 78
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bf98beac4f9496459cbd0c9e5cf1004
+      internalID: -9198149026286218579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lilian_EW_Schweben_SpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 1
+        width: 80
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdc2c1dc254c8984d89319d91403897b
+      internalID: 3011001891073584819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lilian_EW_Schweben_SpriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 1
+        width: 82
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d4789869f4a2764ba40a0fb5f502f13
+      internalID: -4060464609763965401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lilian_EW_Schweben_SpriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 1
+        width: 84
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3473abf6d5d6721468181035a187f626
+      internalID: -8582820948481581508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lilian_EW_Schweben_SpriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 1
         width: 86
-        height: 246
+        height: 242
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -530,323 +869,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1f03e4f6478f97c4ba4507a8617e0e10
-      internalID: -363404218658652315
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Lilian.LW.Stehen_17
-      rect:
-        serializedVersion: 2
-        x: 147
-        y: 261
-        width: 84
-        height: 246
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0cec5c2c32e40014caf596a5b5d43983
-      internalID: -4604190204474436148
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Lilian.LW.Stehen_18
-      rect:
-        serializedVersion: 2
-        x: 262
-        y: 261
-        width: 83
-        height: 246
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a58a3bbdce978024d8c2998af530cde1
-      internalID: 8849963758554779682
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Lilian.LW.Stehen_19
-      rect:
-        serializedVersion: 2
-        x: 382
-        y: 260
-        width: 79
-        height: 246
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a9e417a294b72104580c33f9aece00d3
-      internalID: 7474538425360715830
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Lilian.LW.Stehen_20
-      rect:
-        serializedVersion: 2
-        x: 498
-        y: 260
-        width: 78
-        height: 246
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7efc871e39454a348ac584b6e50f4667
-      internalID: -421956063314791014
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Lilian.LW.Stehen_21
-      rect:
-        serializedVersion: 2
-        x: 620
-        y: 260
-        width: 77
-        height: 246
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 35611f5ffdbe1d24d822bf5923b4ecbc
-      internalID: -516584924336772356
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Lilian.LW.Stehen_22
-      rect:
-        serializedVersion: 2
-        x: 738
-        y: 260
-        width: 76
-        height: 245
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 83d367fa5e4a75343ba9adb5b01ffae9
-      internalID: -2839202784817842846
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Lilian.LW.Stehen_23
-      rect:
-        serializedVersion: 2
-        x: 849
-        y: 260
-        width: 75
-        height: 245
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ea426ac4f01185a48be0f14914a0e23b
-      internalID: 2756572614976705199
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Lilian.LW.Stehen_24
-      rect:
-        serializedVersion: 2
-        x: 22
-        y: 6
-        width: 74
-        height: 245
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c43c0ba5bc1661b42b35957056c57277
-      internalID: -7023030799682626736
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Lilian.LW.Stehen_25
-      rect:
-        serializedVersion: 2
-        x: 148
-        y: 6
-        width: 73
-        height: 245
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 94109930809984b4fa3c662e2a3032c9
-      internalID: -1456362922367601181
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Lilian.LW.Stehen_26
-      rect:
-        serializedVersion: 2
-        x: 260
-        y: 6
-        width: 75
-        height: 245
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9ea73ad0ea0452d46b84859d4e803f66
-      internalID: -5715226140346838612
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Lilian.LW.Stehen_27
-      rect:
-        serializedVersion: 2
-        x: 377
-        y: 6
-        width: 76
-        height: 244
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 58d57f1441bcf314890c9d1c14cdeb45
-      internalID: -3213184275905781251
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Lilian.LW.Stehen_28
-      rect:
-        serializedVersion: 2
-        x: 491
-        y: 6
-        width: 77
-        height: 244
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dcd87cefc7929a348bb3af407974a8a3
-      internalID: 3844103092177769027
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Lilian.LW.Stehen_29
-      rect:
-        serializedVersion: 2
-        x: 611
-        y: 6
-        width: 78
-        height: 243
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f87035203a279ac4a8741d30dad3e107
-      internalID: -4437732609505113502
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Lilian.LW.Stehen_30
-      rect:
-        serializedVersion: 2
-        x: 727
-        y: 6
-        width: 79
-        height: 243
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 035ab1aa04227a042ad073a7dc1bd226
-      internalID: 4607097170133020678
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Lilian.LW.Stehen_31
-      rect:
-        serializedVersion: 2
-        x: 836
-        y: 6
-        width: 81
-        height: 243
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a50a065012d6fb14b80c1e48114c3fc6
-      internalID: -2795640225903414222
+      spriteID: d9f0e0f732afa9341ae3a3aaa4b8d055
+      internalID: 1924643884100755072
       vertices: []
       indices: 
       edges: []
@@ -854,7 +878,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 3e2a6ac02f78e3547a3cd712d09b7384
+    spriteID: e3444a9f201ba0f4a9799fc67fe86f04
     internalID: 0
     vertices: []
     indices: 
