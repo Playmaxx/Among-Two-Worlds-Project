@@ -6,8 +6,12 @@ public class LoopSFXManager : MonoBehaviour
 {
     [SerializeField]
     AudioSource current_audioclip;
+    [SerializeField]
+    AudioSource current_audioclip2;
+
+    public AudioClip rattle;
     public AudioClip Step;
-    bool StepPlayed = false;
+    bool soundPlayed = false;
 
     [SerializeField]
     Player playerRef;
@@ -23,6 +27,8 @@ public class LoopSFXManager : MonoBehaviour
     {
         current_audioclip.volume = 1.0f;
         current_audioclip.clip = null;
+        current_audioclip2.volume = 1.0f;
+        current_audioclip2.clip = null;
     }
 
     // Update is called once per frame
@@ -30,18 +36,19 @@ public class LoopSFXManager : MonoBehaviour
     {
         if (playerRef.playerMoveState == Player.moveState.Grounded && rigRef.velocity != new Vector2(0, 0))
         {
-            if (StepPlayed == false)
+            if (soundPlayed == false)
             {
                 playStepSound();
-                StepPlayed = true;
-                Debug.Log("playin");
+                playRattleSound();
+                soundPlayed = true;
             }
         }
 
         if (rigRef.velocity == new Vector2(0, 0) || playerRef.playerMoveState != Player.moveState.Grounded)
         {
             stopStepSound();
-            StepPlayed = false;
+            stopRattleSound();
+            soundPlayed = false;
         }
     }
 
@@ -55,5 +62,17 @@ public class LoopSFXManager : MonoBehaviour
     {
         current_audioclip.clip = Step;
         current_audioclip.Stop();
+    }
+
+    public void playRattleSound()
+    {
+        current_audioclip2.clip = rattle;
+        current_audioclip2.Play();
+    }
+
+    public void stopRattleSound()
+    {
+        current_audioclip2.clip = rattle;
+        current_audioclip2.Stop();
     }
 }

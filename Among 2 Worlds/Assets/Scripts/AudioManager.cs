@@ -18,7 +18,6 @@ public class AudioManager : MonoBehaviour
         current_track.volume = 1.0f;
         current_track.clip = CuteGiana;
         current_track.Play();
-        
     }
     // Update is called once per frame
     void Update()
@@ -42,8 +41,7 @@ public class AudioManager : MonoBehaviour
                 current_track.time = timecode1;
                 current_track.Play();
             }
-
-            Debug.Log(current_track.time);
+ 
             Debug.Log(current_track.clip);
         }
     }

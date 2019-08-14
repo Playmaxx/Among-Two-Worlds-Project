@@ -10,6 +10,7 @@ public class SFXManager : MonoBehaviour
     Rigidbody2D rigidRef;
 
     public AudioSource current_audioclip;
+    public AudioSource current_audioclip2;
     public AudioClip Jump;
     public AudioClip Dash;
     public AudioClip KnightGettingHit;
@@ -41,8 +42,8 @@ public class SFXManager : MonoBehaviour
 
     public void playJumpSound()
     {
-        current_audioclip.clip = Jump;
-        current_audioclip.Play();
+        current_audioclip2.clip = Jump;
+        current_audioclip2.Play();
         Debug.Log("Jump-Sound-test");
     }
 

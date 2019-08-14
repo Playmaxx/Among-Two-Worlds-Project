@@ -413,6 +413,11 @@ PrefabInstance:
       propertyPath: Jump
       value: 
       objectReference: {fileID: 8300000, guid: decd1de694216a744a8956b1bbb19b81, type: 3}
+    - target: {fileID: 7444067849374996312, guid: 700821c4e137bc543b2ebeb3a05ed67d,
+        type: 3}
+      propertyPath: rigidRef
+      value: 
+      objectReference: {fileID: 147119360}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 700821c4e137bc543b2ebeb3a05ed67d, type: 3}
 --- !u!1001 &335192196
