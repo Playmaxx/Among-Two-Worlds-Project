@@ -982,6 +982,11 @@ PrefabInstance:
       propertyPath: scoreText
       value: 
       objectReference: {fileID: 936442216}
+    - target: {fileID: 2834990282323481380, guid: 07ce35b0cf99a1547baf5c9f4df21908,
+        type: 3}
+      propertyPath: rootCanvas
+      value: 
+      objectReference: {fileID: 373503551}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07ce35b0cf99a1547baf5c9f4df21908, type: 3}
 --- !u!4 &87232954 stripped
@@ -5179,6 +5184,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9c1a9fa7c956f74e9555e2299364317, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scoreText: {fileID: 0}
+  rootCanvas: {fileID: 0}
+--- !u!223 &373503551 stripped
+Canvas:
+  m_CorrespondingSourceObject: {fileID: 1626453452627187150, guid: 52065ba6e27bb524587fb839e2507423,
+    type: 3}
+  m_PrefabInstance: {fileID: 936442215}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &374561509
 PrefabInstance:
   m_ObjectHideFlags: 0
