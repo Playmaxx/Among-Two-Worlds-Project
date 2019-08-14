@@ -30,8 +30,9 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
     public float currentGlideTime = 0;
     public float dashtime = 0.5f;
     public float currentDashTime = 0;
-    public float wallJumpCD = 0.5f;
+    public float wallJumpCcoolDown = 0.5f;
     public float currentWallJump = 0;
+    public float wallJumpXSpeed = 5;
     public bool DeathSequenceIsPlaying = false;
 
     //ref types
@@ -56,8 +57,9 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
     void Start()
     {
         playerdirection = direction.Right;
-        rigidRef.gravityScale = 20;
+        rigidRef.gravityScale = 0;
         playerMoveState = moveState.Falling;
+        /*
         downVector = new Vector2(Vector2.down.x, Vector2.down.y + 0.15f) * playerheight / 2;
         Debug.Log(downVector);
         Debug.Log(downVector.y);
@@ -68,10 +70,11 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
         downVector = new Vector2(downVector.x, downVector.y + 0.15f);
         Debug.Log(downVector);
         Debug.Log(downVector.y);
+        */
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         //general functions
         groundCheck();
@@ -92,6 +95,7 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
                 galeRef.movement();
                 galeRef.jump();
                 galeRef.dash();
+                galeRef.cancelGlide();
                 galeRef.wallaction();
                 break;
 
@@ -102,6 +106,8 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
         //tests
         Debug.DrawRay(new Vector2(transform.position.x + (playerwidth / 2) - 0.05f, transform.position.y), downVector, Color.green);
         Debug.DrawRay(new Vector2(transform.position.x - (playerwidth / 2) + 0.05f, transform.position.y), downVector, Color.green);
+        Debug.DrawRay(transform.position, Vector2.left * playerwidth, Color.red);
+        Debug.DrawRay(transform.position, Vector2.right * playerwidth, Color.red);
         Debug.DrawRay(transform.position, Vector2.left * playerwidth / 2, Color.green);
         Debug.DrawRay(transform.position, Vector2.right * playerwidth / 2, Color.green);
         //utilized raycast overload: origin, direction, distance, layermask
@@ -109,6 +115,8 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
         // direction is downwards
         //distance is playerheight/2
         //layermask is gamemanager.platformmask
+
+        //walljump cast is made with double length of walledstate cast
     }
 
     void refreshVariables()     //For variables that need to update every frame
@@ -121,7 +129,6 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
         {
             renderRef.flipX = false;
         }
-        currentDashTime -= 1 * Time.deltaTime;
     }
 
     public void refreshAbilities()     //refreshes jumps & dashes etc.
@@ -160,13 +167,18 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
                 {
                     if (rigidRef.velocity.y > 0)
                     {
-                        playerMoveState = moveState.Jumping;
-                        Debug.Log("jumping");
+                        if (playerMoveState == moveState.Walled)
+                        {
+                            playerMoveState = moveState.Walljumping;
+                        }
+                        else if (playerMoveState != moveState.Walljumping)
+                        {
+                            playerMoveState = moveState.Jumping;
+                        }
                     }
                     else if (playerMoveState != moveState.Gliding)
                     {
                         playerMoveState = moveState.Falling;
-                        Debug.Log("falling");
                     }
                 }
             }
@@ -219,6 +231,7 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
                 break;
 
             case (moveState.Dashing):
+                currentDashTime -= 1 * Time.deltaTime;
                 break;
 
             case (moveState.Gliding):

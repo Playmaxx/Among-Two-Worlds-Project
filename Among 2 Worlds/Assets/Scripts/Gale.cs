@@ -17,23 +17,13 @@ public class Gale : MonoBehaviour     //manages abilities for Gale
     {
         if (playerRef.playerMoveState != Player.moveState.Other)
         {
-            if (Input.GetKey(KeyCode.A))
+            if (Input.GetKey(KeyCode.A) || Input.GetAxis("MoveHorizontal") < 0)
             {
                 playerRef.rigidRef.velocity = new Vector2(-playerRef.moveSpeed, playerRef.rigidRef.velocity.y);
                 playerRef.playerdirection = Player.direction.Left;
-            }
-            if (Input.GetKey(KeyCode.D))
-            {
-                playerRef.rigidRef.velocity = new Vector2(playerRef.moveSpeed, playerRef.rigidRef.velocity.y);
-                playerRef.playerdirection = Player.direction.Right;
             }
 
-            if (Input.GetAxis("MoveHorizontal") < 0)
-            {
-                playerRef.rigidRef.velocity = new Vector2(-playerRef.moveSpeed, playerRef.rigidRef.velocity.y);
-                playerRef.playerdirection = Player.direction.Left;
-            }
-            if (Input.GetAxis("MoveHorizontal") > 0)
+            if (Input.GetKey(KeyCode.D) || Input.GetAxis("MoveHorizontal") > 0)
             {
                 playerRef.rigidRef.velocity = new Vector2(playerRef.moveSpeed, playerRef.rigidRef.velocity.y);
                 playerRef.playerdirection = Player.direction.Right;
@@ -59,18 +49,26 @@ public class Gale : MonoBehaviour     //manages abilities for Gale
                         playerRef.rigidRef.velocity = new Vector2(playerRef.rigidRef.velocity.x, playerRef.jumpforce);
                         playerRef.Jumps--;
                     }
-                    else if (playerRef.playerMoveState != Player.moveState.Walled)
+                    else
                     {
                         playerRef.playerMoveState = Player.moveState.Jumping;
                         playerRef.rigidRef.velocity = new Vector2(playerRef.rigidRef.velocity.x, playerRef.jumpforce);
                         playerRef.Jumps -= 2;
                     }
                     break;
+
                 case (1):
-                    playerRef.playerMoveState = Player.moveState.Jumping;
-                    playerRef.rigidRef.velocity = new Vector2(playerRef.rigidRef.velocity.x, playerRef.jumpforce);
-                    playerRef.Jumps--;
+                    if (!Physics2D.Raycast(transform.position, Vector2.left, playerRef.playerwidth, GameManager.GMInstance.platformMask))
+                    {
+                        if (!Physics2D.Raycast(transform.position, Vector2.right, playerRef.playerwidth, GameManager.GMInstance.platformMask))
+                        {
+                            playerRef.playerMoveState = Player.moveState.Jumping;
+                            playerRef.rigidRef.velocity = new Vector2(playerRef.rigidRef.velocity.x, playerRef.jumpforce);
+                            playerRef.Jumps--;
+                        }
+                    }
                     break;
+
                 default:
                     break;
             }
@@ -99,13 +97,11 @@ public class Gale : MonoBehaviour     //manages abilities for Gale
                     break;
             }
         }
-
-        if (playerRef.currentDashTime < 0)
+        else if (playerRef.playerMoveState == Player.moveState.Dashing)
         {
             if (Physics2D.Raycast(transform.position, Vector2.down, playerRef.playerheight / 2, GameManager.GMInstance.platformMask))
             {
                 playerRef.playerMoveState = Player.moveState.Grounded;
-                playerRef.refreshAbilities();
             }
             else
             {
@@ -114,9 +110,17 @@ public class Gale : MonoBehaviour     //manages abilities for Gale
         }
     }
 
+    public void cancelGlide()
+    {
+        if (playerRef.playerMoveState == Player.moveState.Gliding)
+        {
+            playerRef.playerMoveState = Player.moveState.Falling;
+        }
+    }
+
     public void wallaction()
     {
-        if ((Physics2D.Raycast(transform.position, Vector2.left, playerRef.playerwidth / 2, GameManager.GMInstance.platformMask) == true))
+        if ((Physics2D.Raycast(transform.position, Vector2.left, playerRef.playerwidth / 2, GameManager.GMInstance.platformMask)))
         {
             if (playerRef.playerMoveState != Player.moveState.Grounded && playerRef.playerMoveState != Player.moveState.Jumping)
             {
@@ -124,7 +128,7 @@ public class Gale : MonoBehaviour     //manages abilities for Gale
                 playerRef.playerMoveState = Player.moveState.Walled;
             }
         }
-        if ((Physics2D.Raycast(transform.position, Vector2.right, playerRef.playerwidth / 2, GameManager.GMInstance.platformMask) == true))
+        if ((Physics2D.Raycast(transform.position, Vector2.right, playerRef.playerwidth / 2, GameManager.GMInstance.platformMask)))
         {
             if (playerRef.playerMoveState != Player.moveState.Grounded && playerRef.playerMoveState != Player.moveState.Jumping)
             {
@@ -132,9 +136,9 @@ public class Gale : MonoBehaviour     //manages abilities for Gale
                 playerRef.playerMoveState = Player.moveState.Walled;
             }
         }
-        if (Physics2D.Raycast(transform.position, Vector2.right, playerRef.playerwidth / 2, GameManager.GMInstance.platformMask) == false)
+        if (!Physics2D.Raycast(transform.position, Vector2.right, playerRef.playerwidth / 2, GameManager.GMInstance.platformMask))
         {
-            if (Physics2D.Raycast(transform.position, Vector2.left, playerRef.playerwidth / 2, GameManager.GMInstance.platformMask) == false)
+            if (!Physics2D.Raycast(transform.position, Vector2.left, playerRef.playerwidth / 2, GameManager.GMInstance.platformMask))
             {
                 if (playerRef.playerMoveState == Player.moveState.Walled)
                 {
@@ -145,18 +149,27 @@ public class Gale : MonoBehaviour     //manages abilities for Gale
         if (playerRef.playerMoveState == Player.moveState.Walled)
         {
             playerRef.rigidRef.velocity = new Vector2(playerRef.rigidRef.velocity.x, -playerRef.wallSlideSpeed);
+        }
+        if (Physics2D.Raycast(transform.position, Vector2.left, playerRef.playerwidth, GameManager.GMInstance.platformMask))
+        {
             if (Input.GetKeyDown(KeyCode.Space) || Input.GetButtonDown("Jump"))
             {
-                playerRef.playerMoveState = Player.moveState.Walljumping;
-
-                if (playerRef.lastWallDirection == Player.wallDirection.Left)
+                if (Input.GetAxis("MoveHorizontal") > 0)
                 {
                     playerRef.rigidRef.velocity = new Vector2(playerRef.rigidRef.velocity.x, playerRef.jumpforce);
+                    playerRef.playerMoveState = Player.moveState.Walljumping;
                 }
 
-                if (playerRef.lastWallDirection == Player.wallDirection.Left)
+            }
+        }
+        if (Physics2D.Raycast(transform.position, Vector2.right, playerRef.playerwidth, GameManager.GMInstance.platformMask))
+        {
+            if (Input.GetKeyDown(KeyCode.Space) || Input.GetButtonDown("Jump"))
+            {
+                if (Input.GetAxis("MoveHorizontal") < 0)
                 {
                     playerRef.rigidRef.velocity = new Vector2(playerRef.rigidRef.velocity.x, playerRef.jumpforce);
+                    playerRef.playerMoveState = Player.moveState.Walljumping;
                 }
             }
         }
