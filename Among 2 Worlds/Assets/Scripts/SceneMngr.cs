@@ -7,22 +7,36 @@ public class SceneMngr : MonoBehaviour
 {
     public enum targetScene { Eingang, Haupthalle, Keller, Türme, Gang, Boss }
     public targetScene t_Scene;
-    public enum currentScene { Eingang, Haupthalle, Keller, Türme, Gang, Boss }
-    public currentScene c_Scene;
+    Scene currentScene;
+    string sceneName;
 
     bool colliding = false;
 
     [SerializeField]
     Player playerRef;
 
+    private void Start()
+    {
+        currentScene = SceneManager.GetActiveScene();
+        sceneName = currentScene.name;
+        playerRef = GameObject.Find("Player").GetComponent<Player>();
+        //DontDestroyOnLoad(playerRef);
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        colliding = true;
+        if (collision.tag == "SceneSwitcher")
+        {
+            colliding = true;
+        }
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        colliding = false;
+        if (collision.tag == "SceneSwitcher")
+        {
+            colliding = false;
+        }
     }
 
     private void Update()
@@ -34,13 +48,10 @@ public class SceneMngr : MonoBehaviour
                 case (targetScene.Eingang):
                     GameManager.GMInstance.currentlvl = GameManager.level.Eingang;
                     SceneManager.LoadScene("Level 1");
-                    if (c_Scene == currentScene.Haupthalle)
-                    {
-                        playerRef.transform.position = new Vector2(70, 23.28661f);
-                        Debug.Log("transform on dis position plz");
-                    }
+                    StartCoroutine(HandlePlayerPosition());
                     break;
                 case (targetScene.Haupthalle):
+                    PlayerIsSwitchingScene();
                     GameManager.GMInstance.currentlvl = GameManager.level.Haupthalle;
                     SceneManager.LoadScene("Level 2");
                     break;
@@ -62,6 +73,33 @@ public class SceneMngr : MonoBehaviour
                     break;
             }
         }
+        if (Input.GetKey(KeyCode.P))
+        {
+            Debug.Log(PlayerPrefs.GetFloat("X"));
+            Debug.Log(PlayerPrefs.GetFloat("Y"));
+            Debug.Log(playerRef.transform.position);
+        }
     }
 
+    void PlayerIsSwitchingScene()
+    {
+        PlayerPrefs.SetFloat("X", playerRef.transform.position.x);
+        PlayerPrefs.SetFloat("Y", playerRef.transform.position.y);
+        Debug.Log(PlayerPrefs.GetFloat("X"));
+        Debug.Log(PlayerPrefs.GetFloat("Y"));
+    }
+    void PlayerIsComingBack()
+    {
+        Debug.Log(PlayerPrefs.GetFloat("X"));
+        Debug.Log(PlayerPrefs.GetFloat("Y"));
+        playerRef.transform.position = new Vector2(PlayerPrefs.GetFloat("X"), PlayerPrefs.GetFloat("Y")); //vll ned die richtige schreibweise
+        Debug.Log(playerRef.transform.position);
+    }
+
+    IEnumerator HandlePlayerPosition()
+    {
+        yield return SceneManager.LoadSceneAsync("Level 1");
+        Debug.Log(SceneManager.LoadSceneAsync("Level 1"));
+        PlayerIsComingBack();
+    }
 }

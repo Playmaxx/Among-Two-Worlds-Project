@@ -5,26 +5,25 @@ using UnityEngine.UI;
 
 public class ScoreCounter : MonoBehaviour
 {
-    public static int score;
     public Text scoreText;
     public Canvas rootCanvas;
+    [SerializeField]
+    Player playerRef;
 
     // Use this for initialization
     void Start()
     {
         rootCanvas = GameObject.Find("Canvas_ScoreUI").GetComponent<Canvas>();
         scoreText = GameObject.Find("ScoreText").GetComponent<Text>();
-        score = 0;
-        DontDestroyOnLoad(this.rootCanvas);
+        playerRef = GetComponent<Player>();
     }
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag == "Player")
+        if (collision.tag == "scoreSource")
         {
-            score++;
-            scoreText.text = "Score: " + score;
-            Destroy(this.gameObject);
+            GameManager.score++;
+            scoreText.text = "Score: " + GameManager.score;
         }
     }
 }

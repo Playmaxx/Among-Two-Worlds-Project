@@ -19,6 +19,8 @@ GameObject:
   - component: {fileID: 3836792459312206446}
   - component: {fileID: 2387440381360717383}
   - component: {fileID: 6966199790888462164}
+  - component: {fileID: 836612721}
+  - component: {fileID: 836612722}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -182,7 +184,6 @@ MonoBehaviour:
   currentGlideTime: 0
   maxDashTime: 1
   currentDashTime: 0
-  DeathSequenceIsPlaying: 0
   rigidRef: {fileID: 0}
   galeRef: {fileID: 2085399992994487765}
   lilianRef: {fileID: 139541529738114717}
@@ -260,6 +261,35 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.7
+--- !u!114 &836612721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 724354089239550867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81027b8bdffc4024892fba1581124e3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreText: {fileID: 0}
+  rootCanvas: {fileID: 0}
+  playerRef: {fileID: 0}
+--- !u!114 &836612722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 724354089239550867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec75af0b843f1da48a08b2176f941787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  t_Scene: 0
+  playerRef: {fileID: 0}
 --- !u!1 &892352203031666132
 GameObject:
   m_ObjectHideFlags: 0

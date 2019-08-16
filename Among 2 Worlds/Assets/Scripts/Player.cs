@@ -25,7 +25,6 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
     public float currentGlideTime = 0;
     public float maxDashTime = 1;
     public float currentDashTime = 0;
-    
 
     public Rigidbody2D rigidRef;        //ref types
     public Gale galeRef;

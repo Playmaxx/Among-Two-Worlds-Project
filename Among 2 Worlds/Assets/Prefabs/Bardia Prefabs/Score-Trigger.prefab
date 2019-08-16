@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2834990282323481381}
   - component: {fileID: 2834990282323481378}
   - component: {fileID: 2834990282323481383}
-  - component: {fileID: 2834990282323481380}
+  - component: {fileID: 2011455195133622459}
   m_Layer: 0
   m_Name: Score-Trigger
   m_TagString: scoreSource
@@ -70,7 +70,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &2834990282323481380
+--- !u!114 &2011455195133622459
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -79,7 +79,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 2834990282323481379}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 81027b8bdffc4024892fba1581124e3a, type: 3}
+  m_Script: {fileID: 11500000, guid: 58dd76e4bd6d1d84593f0274cf4def50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 0}
