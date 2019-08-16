@@ -22,16 +22,14 @@ public class DimensionAnimation : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        bool LightDimension;
         if(GameManager.GMInstance.currentdim == GameManager.dimension.Light)
         {
-            LightDimension = true;
+            animator.SetBool("LightDimension", true);
         }
         else
         {
-            LightDimension = false;
+            animator.SetBool("LightDimension", false);
         }
 
-        animator.SetBool("LightDimension", LightDimension);
     }
 }
