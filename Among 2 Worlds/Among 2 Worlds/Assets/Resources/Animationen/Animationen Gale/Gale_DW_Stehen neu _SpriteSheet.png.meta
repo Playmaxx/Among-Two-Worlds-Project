@@ -1,0 +1,893 @@
+fileFormatVersion: 2
+guid: 58ced3c7a559d6a4880beb20274ac695
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3929464453458765961
+    second: Gale_DW_Stehen neu _SpriteSheet_0
+  - first:
+      213: -4309994890862997421
+    second: Gale_DW_Stehen neu _SpriteSheet_1
+  - first:
+      213: -348450642297359946
+    second: Gale_DW_Stehen neu _SpriteSheet_2
+  - first:
+      213: 6153923081137751632
+    second: Gale_DW_Stehen neu _SpriteSheet_3
+  - first:
+      213: -7378409651527225334
+    second: Gale_DW_Stehen neu _SpriteSheet_4
+  - first:
+      213: -8638752617460416205
+    second: Gale_DW_Stehen neu _SpriteSheet_5
+  - first:
+      213: 8083429948799965637
+    second: Gale_DW_Stehen neu _SpriteSheet_6
+  - first:
+      213: 4465950748049789728
+    second: Gale_DW_Stehen neu _SpriteSheet_7
+  - first:
+      213: -5918819386080499886
+    second: Gale_DW_Stehen neu _SpriteSheet_8
+  - first:
+      213: 2684305304208584723
+    second: Gale_DW_Stehen neu _SpriteSheet_9
+  - first:
+      213: -432294170526425655
+    second: Gale_DW_Stehen neu _SpriteSheet_10
+  - first:
+      213: -7495347027400910522
+    second: Gale_DW_Stehen neu _SpriteSheet_11
+  - first:
+      213: 8663853677877173082
+    second: Gale_DW_Stehen neu _SpriteSheet_12
+  - first:
+      213: -3559519959533692967
+    second: Gale_DW_Stehen neu _SpriteSheet_13
+  - first:
+      213: -6799422271679239796
+    second: Gale_DW_Stehen neu _SpriteSheet_14
+  - first:
+      213: 5631148837884044517
+    second: Gale_DW_Stehen neu _SpriteSheet_15
+  - first:
+      213: -7879675022344369702
+    second: Gale_DW_Stehen neu _SpriteSheet_16
+  - first:
+      213: 6992253162721255213
+    second: Gale_DW_Stehen neu _SpriteSheet_17
+  - first:
+      213: -4043179229373880659
+    second: Gale_DW_Stehen neu _SpriteSheet_18
+  - first:
+      213: 2444716414061059205
+    second: Gale_DW_Stehen neu _SpriteSheet_19
+  - first:
+      213: -3158819280565937644
+    second: Gale_DW_Stehen neu _SpriteSheet_20
+  - first:
+      213: -3418755643860181449
+    second: Gale_DW_Stehen neu _SpriteSheet_21
+  - first:
+      213: -3681286032382569871
+    second: Gale_DW_Stehen neu _SpriteSheet_22
+  - first:
+      213: -354927674572641912
+    second: Gale_DW_Stehen neu _SpriteSheet_23
+  - first:
+      213: -5615689985852468611
+    second: Gale_DW_Stehen neu _SpriteSheet_24
+  - first:
+      213: -4097441628127200286
+    second: Gale_DW_Stehen neu _SpriteSheet_25
+  - first:
+      213: -6282015078205232109
+    second: Gale_DW_Stehen neu _SpriteSheet_26
+  - first:
+      213: 1664407075324293693
+    second: Gale_DW_Stehen neu _SpriteSheet_27
+  - first:
+      213: 1722793047751172692
+    second: Gale_DW_Stehen neu _SpriteSheet_28
+  - first:
+      213: 1180326927721477359
+    second: Gale_DW_Stehen neu _SpriteSheet_29
+  - first:
+      213: -4157695827628584262
+    second: Gale_DW_Stehen neu _SpriteSheet_30
+  - first:
+      213: 3456527918118689227
+    second: Gale_DW_Stehen neu _SpriteSheet_31
+  - first:
+      213: -91885645320033313
+    second: Gale_DW_Stehen neu _SpriteSheet_32
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Gale_DW_Stehen neu _SpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1242
+        width: 94
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5434791, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ec5125c6c003f047a19a1dd301c3747
+      internalID: -3929464453458765961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale_DW_Stehen neu _SpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 1242
+        width: 92
+        height: 241
+      alignment: 9
+      pivot: {x: 0.53464955, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a99ced769199dd74d9649948da0bfea8
+      internalID: -4309994890862997421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale_DW_Stehen neu _SpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 1242
+        width: 91
+        height: 241
+      alignment: 9
+      pivot: {x: 0.5280242, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6e68f3b8626cb24785768e7e4d26737
+      internalID: -348450642297359946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale_DW_Stehen neu _SpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 1242
+        width: 89
+        height: 241
+      alignment: 9
+      pivot: {x: 0.51671505, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b88a912e05c864469f889c6fd9cbc1c
+      internalID: 6153923081137751632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale_DW_Stehen neu _SpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 1242
+        width: 87
+        height: 241
+      alignment: 9
+      pivot: {x: 0.50732845, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d503de7795de7045b72483dddc8ac42
+      internalID: -7378409651527225334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale_DW_Stehen neu _SpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 1242
+        width: 104
+        height: 241
+      alignment: 9
+      pivot: {x: 0.41417634, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e75a5e1b58fe0894b9e990a6d513b33c
+      internalID: -8638752617460416205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale_DW_Stehen neu _SpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 995
+        width: 84
+        height: 241
+      alignment: 9
+      pivot: {x: 0.4873502, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85911ed259117c14ebca132cc6b5785d
+      internalID: 8083429948799965637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale_DW_Stehen neu _SpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 995
+        width: 82
+        height: 241
+      alignment: 9
+      pivot: {x: 0.4766751, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97a524f4cff67264892851f893a14e77
+      internalID: 4465950748049789728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale_DW_Stehen neu _SpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 995
+        width: 83
+        height: 242
+      alignment: 9
+      pivot: {x: 0.45647275, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7d9b6f38a5a1434480398269291ec11
+      internalID: -5918819386080499886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale_DW_Stehen neu _SpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 995
+        width: 82
+        height: 242
+      alignment: 9
+      pivot: {x: 0.45075879, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0f944dce3bf6d346a78f430b1b20e41
+      internalID: 2684305304208584723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale_DW_Stehen neu _SpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 995
+        width: 83
+        height: 242
+      alignment: 9
+      pivot: {x: 0.43342903, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e83ac51b51601dd47bf081020f26b04b
+      internalID: -432294170526425655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale_DW_Stehen neu _SpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 995
+        width: 85
+        height: 242
+      alignment: 9
+      pivot: {x: 0.42499426, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67378ffa69cdaa349b735063707934d4
+      internalID: -7495347027400910522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale_DW_Stehen neu _SpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 746
+        width: 85
+        height: 243
+      alignment: 9
+      pivot: {x: 0.41499344, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b9421760ed29614f83ace7208aac585
+      internalID: 8663853677877173082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale_DW_Stehen neu _SpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 746
+        width: 85
+        height: 243
+      alignment: 9
+      pivot: {x: 0.39749217, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24f96117bf8263947a0fa5d07ae1267f
+      internalID: -3559519959533692967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale_DW_Stehen neu _SpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 746
+        width: 87
+        height: 243
+      alignment: 9
+      pivot: {x: 0.39007813, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51a39568c67e79c4290e14d9e05e0b36
+      internalID: -6799422271679239796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale_DW_Stehen neu _SpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 745
+        width: 88
+        height: 243
+      alignment: 9
+      pivot: {x: 0.35993263, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26493214a399a0f42814f4ad1bfae50f
+      internalID: 5631148837884044517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale_DW_Stehen neu _SpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 746
+        width: 90
+        height: 243
+      alignment: 9
+      pivot: {x: 0.35832283, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b7d054cbc5ba2e46832deac7517715e
+      internalID: -7879675022344369702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale_DW_Stehen neu _SpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 746
+        width: 88
+        height: 243
+      alignment: 9
+      pivot: {x: 0.36476275, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb1fc60f78748484c92de044b18f648f
+      internalID: 6992253162721255213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale_DW_Stehen neu _SpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 498
+        width: 87
+        height: 243
+      alignment: 9
+      pivot: {x: 0.37542138, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e19ee724d7cdcf4194181ce1986df7b
+      internalID: -4043179229373880659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale_DW_Stehen neu _SpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 498
+        width: 85
+        height: 243
+      alignment: 9
+      pivot: {x: 0.38749138, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c438b4b16aaa0440b4073710c17e009
+      internalID: 2444716414061059205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale_DW_Stehen neu _SpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 498
+        width: 85
+        height: 243
+      alignment: 9
+      pivot: {x: 0.40749297, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a32c0f38096dd2342a4523b07bda6904
+      internalID: -3158819280565937644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale_DW_Stehen neu _SpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 498
+        width: 85
+        height: 242
+      alignment: 9
+      pivot: {x: 0.42499462, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e6d35f721e572d45953f6a9dc4c0b59
+      internalID: -3418755643860181449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale_DW_Stehen neu _SpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 498
+        width: 83
+        height: 242
+      alignment: 9
+      pivot: {x: 0.42830795, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dae4a623aa2b0c74286784a5d799b1c1
+      internalID: -3681286032382569871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale_DW_Stehen neu _SpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 498
+        width: 82
+        height: 242
+      alignment: 9
+      pivot: {x: 0.45075879, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83cfdd922ab512f4da6904a4dc8a3eeb
+      internalID: -354927674572641912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale_DW_Stehen neu _SpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 250
+        width: 83
+        height: 242
+      alignment: 9
+      pivot: {x: 0.45647252, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1cd65ffe3d89d742b394d27d471e024
+      internalID: -5615689985852468611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale_DW_Stehen neu _SpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 250
+        width: 82
+        height: 241
+      alignment: 9
+      pivot: {x: 0.4766751, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 481107a6751a18c4ebd9bc688317b8e1
+      internalID: -4097441628127200286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale_DW_Stehen neu _SpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 250
+        width: 84
+        height: 241
+      alignment: 9
+      pivot: {x: 0.47976068, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d6b01c7a6e60bf4191e386601ab1257
+      internalID: -6282015078205232109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale_DW_Stehen neu _SpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 250
+        width: 86
+        height: 241
+      alignment: 9
+      pivot: {x: 0.49752915, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a018c9a02e68ac468a8e963a38c20b2
+      internalID: 1664407075324293693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale_DW_Stehen neu _SpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 250
+        width: 91
+        height: 241
+      alignment: 9
+      pivot: {x: 0.5280242, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8d6dc3aca0dd614eae93aa2021909af
+      internalID: 1722793047751172692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale_DW_Stehen neu _SpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 250
+        width: 89
+        height: 241
+      alignment: 9
+      pivot: {x: 0.51432747, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccf1251774065334f85fbe628816d469
+      internalID: 1180326927721477359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale_DW_Stehen neu _SpriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 4
+        width: 91
+        height: 241
+      alignment: 9
+      pivot: {x: 0.5233535, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a12ccf06077e14043971b3ff85de0ff3
+      internalID: -4157695827628584262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale_DW_Stehen neu _SpriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 4
+        width: 92
+        height: 241
+      alignment: 9
+      pivot: {x: 0.52309966, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c0410530dc29a644ada0c2c06f1dc6d
+      internalID: 3456527918118689227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale_DW_Stehen neu _SpriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 4
+        width: 94
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5271298, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f5293c190baab4eb07f13461ea76bf
+      internalID: -91885645320033313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 1b9fd3deef8bb5640a81eb2fa78969b4
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

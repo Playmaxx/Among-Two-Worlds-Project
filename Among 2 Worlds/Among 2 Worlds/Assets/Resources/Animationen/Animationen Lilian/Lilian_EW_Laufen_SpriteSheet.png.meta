@@ -1,0 +1,509 @@
+fileFormatVersion: 2
+guid: 01c5d3e2c4740b04d86a9f630c2129b8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1810260658704677820
+    second: Lilian_EW_Laufen_SpriteSheet_0
+  - first:
+      213: -2860693163374855190
+    second: Lilian_EW_Laufen_SpriteSheet_1
+  - first:
+      213: -8316682174212632332
+    second: Lilian_EW_Laufen_SpriteSheet_2
+  - first:
+      213: 3877761609720901355
+    second: Lilian_EW_Laufen_SpriteSheet_3
+  - first:
+      213: 2569353069027648882
+    second: Lilian_EW_Laufen_SpriteSheet_4
+  - first:
+      213: 1812493314974548714
+    second: Lilian_EW_Laufen_SpriteSheet_5
+  - first:
+      213: 498373188613024047
+    second: Lilian_EW_Laufen_SpriteSheet_6
+  - first:
+      213: -6188315543890933592
+    second: Lilian_EW_Laufen_SpriteSheet_7
+  - first:
+      213: 1515366505370087538
+    second: Lilian_EW_Laufen_SpriteSheet_8
+  - first:
+      213: 2358467275570166700
+    second: Lilian_EW_Laufen_SpriteSheet_9
+  - first:
+      213: 789399376215424665
+    second: Lilian_EW_Laufen_SpriteSheet_10
+  - first:
+      213: -3864209358981027942
+    second: Lilian_EW_Laufen_SpriteSheet_11
+  - first:
+      213: 8482589715474918227
+    second: Lilian_EW_Laufen_SpriteSheet_12
+  - first:
+      213: -6691651052686277129
+    second: Lilian_EW_Laufen_SpriteSheet_13
+  - first:
+      213: 3510823077413174476
+    second: Lilian_EW_Laufen_SpriteSheet_14
+  - first:
+      213: 3597466241179154580
+    second: Lilian_EW_Laufen_SpriteSheet_15
+  - first:
+      213: -849946217025370199
+    second: Lilian_EW_Laufen_SpriteSheet_16
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Lilian_EW_Laufen_SpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 504
+        width: 205
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0f2e9e3442b9c847b76a8a8ea9b52d0
+      internalID: 1810260658704677820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lilian_EW_Laufen_SpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 497
+        width: 194
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 069dd1ba085a4bc42a1b85fd162a298a
+      internalID: -2860693163374855190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lilian_EW_Laufen_SpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 496
+        width: 153
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7f019a2c617ed64ab518cf0ea89f51e
+      internalID: -8316682174212632332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lilian_EW_Laufen_SpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 496
+        width: 93
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd1a1b572af25f04499b2e908b20b7b4
+      internalID: 3877761609720901355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lilian_EW_Laufen_SpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 498
+        width: 125
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7f4774085d1af44081ed683850374f4
+      internalID: 2569353069027648882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lilian_EW_Laufen_SpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 498
+        width: 146
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e37b84cc01f236479dd475dc8f8f8a6
+      internalID: 1812493314974548714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lilian_EW_Laufen_SpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 267
+        width: 181
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c91ef9a3f3e8d64eb12aaa2acb591dc
+      internalID: 498373188613024047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lilian_EW_Laufen_SpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 267
+        width: 190
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6eeefa89a0e74a459621f09380e9ea7
+      internalID: -6188315543890933592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lilian_EW_Laufen_SpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 254
+        width: 201
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77e83db58bdddcd4da8a922678fd0402
+      internalID: 1515366505370087538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lilian_EW_Laufen_SpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 249
+        width: 186
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0f552aa401015b42962c2438bf4656e
+      internalID: 2358467275570166700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lilian_EW_Laufen_SpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 249
+        width: 139
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a1128b54ae5d4545aa0ace00b6ad7ed
+      internalID: 789399376215424665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lilian_EW_Laufen_SpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 250
+        width: 97
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 426757b90dba2f240a7510eaa3844b05
+      internalID: -3864209358981027942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lilian_EW_Laufen_SpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 3
+        width: 126
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99115fb4b874b4344b9359726da96832
+      internalID: 8482589715474918227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lilian_EW_Laufen_SpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 3
+        width: 156
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b947a0b09a7f064ca77c808474e244b
+      internalID: -6691651052686277129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lilian_EW_Laufen_SpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 19
+        width: 177
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17a9ced4199528346a8eca6b15bd62c3
+      internalID: 3510823077413174476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lilian_EW_Laufen_SpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 29
+        width: 201
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5dbfefe99aa1404588494ebf08da387
+      internalID: 3597466241179154580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lilian_EW_Laufen_SpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 5
+        width: 206
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20f7999bd3110d14781feab7dcb842e5
+      internalID: -849946217025370199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 4ef3b8c9cb181ff42b9711d9dc6e390e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
