@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 1557408264110016914}
   - component: {fileID: 7208211008484898688}
   - component: {fileID: 4598505161659371423}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Grau
-  m_TagString: Untagged
+  m_TagString: Platform
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
