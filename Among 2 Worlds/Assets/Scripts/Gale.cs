@@ -15,7 +15,7 @@ public class Gale : MonoBehaviour     //manages abilities for Gale
 
     public void movement()     //handles basic movement
     {
-        if (playerRef.playerMoveState != Player.moveState.Other)
+        if (playerRef.playerMoveState != Player.moveState.Other && playerRef.playerMoveState != Player.moveState.Dashing && playerRef.playerMoveState != Player.moveState.Walljumping)
         {
             if (Input.GetKey(KeyCode.A) || Input.GetAxis("MoveHorizontal") < 0)
             {
@@ -28,11 +28,29 @@ public class Gale : MonoBehaviour     //manages abilities for Gale
                 playerRef.rigidRef.velocity = new Vector2(playerRef.moveSpeed, playerRef.rigidRef.velocity.y);
                 playerRef.playerdirection = Player.direction.Right;
             }
-
-            if (!Input.GetKey(KeyCode.A) && !Input.GetKey(KeyCode.D) && Input.GetAxis("MoveHorizontal") == 0)
+        }
+        if (playerRef.playerMoveState == Player.moveState.Dashing || playerRef.playerMoveState == Player.moveState.Walljumping)
+        {
+            if (playerRef.playerdirection == Player.direction.Left)
             {
-                playerRef.rigidRef.velocity = new Vector2(0, playerRef.rigidRef.velocity.y);
+                if (Input.GetKey(KeyCode.A) || Input.GetAxis("MoveHorizontal") < 0)
+                {
+                    playerRef.rigidRef.velocity = new Vector2(-playerRef.moveSpeed, playerRef.rigidRef.velocity.y);
+                    playerRef.playerdirection = Player.direction.Left;
+                }
             }
+            if (playerRef.playerdirection == Player.direction.Right)
+            {
+                if (Input.GetKey(KeyCode.D) || Input.GetAxis("MoveHorizontal") > 0)
+                {
+                    playerRef.rigidRef.velocity = new Vector2(playerRef.moveSpeed, playerRef.rigidRef.velocity.y);
+                    playerRef.playerdirection = Player.direction.Right;
+                }
+            }
+        }
+        if (!Input.GetKey(KeyCode.A) && !Input.GetKey(KeyCode.D) && Input.GetAxis("MoveHorizontal") == 0)
+        {
+            playerRef.rigidRef.velocity = new Vector2(0, playerRef.rigidRef.velocity.y);
         }
     }
 

@@ -14,7 +14,7 @@ public class Lilian : MonoBehaviour      //manages abilities for Lilian
 
     public void movement()     //handles basic movement
     {
-        if (playerRef.playerMoveState != Player.moveState.Other)
+        if (playerRef.playerMoveState != Player.moveState.Other && playerRef.playerMoveState != Player.moveState.Dashing && playerRef.playerMoveState != Player.moveState.Walljumping)
         {
             if (Input.GetKey(KeyCode.A) || Input.GetAxis("MoveHorizontal") < 0)
             {
@@ -27,11 +27,29 @@ public class Lilian : MonoBehaviour      //manages abilities for Lilian
                 playerRef.rigidRef.velocity = new Vector2(playerRef.moveSpeed, playerRef.rigidRef.velocity.y);
                 playerRef.playerdirection = Player.direction.Right;
             }
-
-            if (!Input.GetKey(KeyCode.A) && !Input.GetKey(KeyCode.D) && Input.GetAxis("MoveHorizontal") == 0)
+        }
+        if (playerRef.playerMoveState == Player.moveState.Dashing || playerRef.playerMoveState == Player.moveState.Walljumping)
+        {
+            if (playerRef.playerdirection == Player.direction.Left)
             {
-                playerRef.rigidRef.velocity = new Vector2(0, playerRef.rigidRef.velocity.y);
+                if (Input.GetKey(KeyCode.A) || Input.GetAxis("MoveHorizontal") < 0)
+                {
+                    playerRef.rigidRef.velocity = new Vector2(-playerRef.moveSpeed, playerRef.rigidRef.velocity.y);
+                    playerRef.playerdirection = Player.direction.Left;
+                }
             }
+            if (playerRef.playerdirection == Player.direction.Right)
+            {
+                if (Input.GetKey(KeyCode.D) || Input.GetAxis("MoveHorizontal") > 0)
+                {
+                    playerRef.rigidRef.velocity = new Vector2(playerRef.moveSpeed, playerRef.rigidRef.velocity.y);
+                    playerRef.playerdirection = Player.direction.Right;
+                }
+            }
+        }
+        if (!Input.GetKey(KeyCode.A) && !Input.GetKey(KeyCode.D) && Input.GetAxis("MoveHorizontal") == 0)
+        {
+            playerRef.rigidRef.velocity = new Vector2(0, playerRef.rigidRef.velocity.y);
         }
     }
 
@@ -56,39 +74,11 @@ public class Lilian : MonoBehaviour      //manages abilities for Lilian
         }
     }
 
-    public void dash()
+    public void shield()
     {
-        if ((Input.GetKey(KeyCode.LeftShift) || Input.GetButton("Dash")) && playerRef.dashused == false && playerRef.playerMoveState != Player.moveState.Walled)
+        if ((Input.GetKey(KeyCode.LeftShift) || Input.GetButton("Dash")))
         {
-            playerRef.dashused = true;
-            playerRef.playerMoveState = Player.moveState.Dashing;
-            playerRef.currentDashTime = playerRef.dashtime;
-        }
-
-        if (playerRef.currentDashTime > 0)
-        {
-            switch (playerRef.playerdirection)
-            {
-                case (Player.direction.Left):
-                    playerRef.rigidRef.velocity = new Vector2(+playerRef.dashspeed, 0);
-                    break;
-
-                case (Player.direction.Right):
-                    playerRef.rigidRef.velocity = new Vector2(-playerRef.dashspeed, 0);
-                    break;
-            }
-        }
-        else if (playerRef.playerMoveState == Player.moveState.Dashing)
-        {
-            if (Physics2D.Raycast(transform.position, Vector2.down, playerRef.playerheight / 2, GameManager.GMInstance.platformMask))
-            {
-                playerRef.playerMoveState = Player.moveState.Grounded;
-                playerRef.refreshAbilities();
-            }
-            else
-            {
-                playerRef.playerMoveState = Player.moveState.Falling;
-            }
+            playerRef.shieldActive = true;
         }
     }
 

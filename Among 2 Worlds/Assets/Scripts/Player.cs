@@ -2,37 +2,43 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player : MonoBehaviour     //manages aspects of the player that apply to both Gale and Lilian
+public class Player : MonoBehaviour     //manages aspects of the player that apply to both Gale and Lilian, manages gale/lilian functions
 {
-    public enum direction { Left, Right }       // variables
+    //enums
+    public enum direction { Left, Right }
     public direction playerdirection;
 
     public enum wallDirection { Left, Right }
     public wallDirection lastWallDirection;
 
-    public enum moveState { Grounded, Jumping, Falling, Dashing, Gliding, Walled, Walljumping, Other }
+    public enum moveState { Grounded, Jumping, Falling, Dashing, Gliding, Walled, Walljumping, Death, Other }
     public moveState playerMoveState;
 
-    [HideInInspector]
-    public float playerheight;
-    [HideInInspector]
-    public float playerwidth;
+    //tweakable variables
     public int Jumps = 2;
     public int health = 100;
     public float moveSpeed = 7.5f;
     public int jumpforce = 20;
     public int dashspeed = 300;
     public bool dashused = false;
-    public float dashtime = 0.5f;
-    public float currentDashTime = 0;
     public int glidespeed = 2;
-    public float maxGlideTime = 5;
-    public float currentGlideTime = 0;
     public float wallSlideSpeed = 0.1f;
-    public float playerGravity = 10;
     public float wallJumpCcoolDown = 0.5f;
     public float currentWallJump = 0;
     public float wallJumpXSpeed = 5;
+
+    //timers
+    public float dashtime = 0.5f;
+    public float currentDashTime = 0;
+    public float maxGlideTime = 5;
+    public float currentGlideTime = 0;
+
+    //non-tweakable variables
+    [HideInInspector]
+    public float playerheight;
+    [HideInInspector]
+    public float playerwidth;
+    public bool shieldActive = false;
     public bool DeathSequenceIsPlaying = false;
 
     //ref types
@@ -73,7 +79,18 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
         */
     }
 
-    // Update is called once per frame
+    //update is called once per frame, graphical stuff here
+    void Update()
+    {
+        Debug.DrawRay(new Vector2(transform.position.x + (playerwidth / 2) - 0.05f, transform.position.y), downVector, Color.green);
+        Debug.DrawRay(new Vector2(transform.position.x - (playerwidth / 2) + 0.05f, transform.position.y), downVector, Color.green);
+        Debug.DrawRay(transform.position, Vector2.left * playerwidth, Color.red);
+        Debug.DrawRay(transform.position, Vector2.right * playerwidth, Color.red);
+        Debug.DrawRay(transform.position, Vector2.left * playerwidth / 2, Color.green);
+        Debug.DrawRay(transform.position, Vector2.right * playerwidth / 2, Color.green);
+    }
+
+    // FixedUpdate is called 60 times/s, physics/logic stuff here
     void FixedUpdate()
     {
         //general functions
@@ -87,7 +104,7 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
             case (GameManager.dimension.Light):
                 lilianRef.movement();
                 lilianRef.jump();
-                lilianRef.dash();
+                lilianRef.shield();
                 lilianRef.glide();
                 lilianRef.wallaction();
                 break;
@@ -104,12 +121,6 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
         DeathSequence();
 
         //tests
-        Debug.DrawRay(new Vector2(transform.position.x + (playerwidth / 2) - 0.05f, transform.position.y), downVector, Color.green);
-        Debug.DrawRay(new Vector2(transform.position.x - (playerwidth / 2) + 0.05f, transform.position.y), downVector, Color.green);
-        Debug.DrawRay(transform.position, Vector2.left * playerwidth, Color.red);
-        Debug.DrawRay(transform.position, Vector2.right * playerwidth, Color.red);
-        Debug.DrawRay(transform.position, Vector2.left * playerwidth / 2, Color.green);
-        Debug.DrawRay(transform.position, Vector2.right * playerwidth / 2, Color.green);
         //utilized raycast overload: origin, direction, distance, layermask
         //origin is transform.position +/- playerwidth/2 for x
         // direction is downwards
@@ -257,7 +268,10 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
 
     public void damage(int amount)
     {
-        health -= amount;
+        if (shieldActive == false)
+        {
+            health -= amount;
+        }
     }
 
     public void heal(int amount)
