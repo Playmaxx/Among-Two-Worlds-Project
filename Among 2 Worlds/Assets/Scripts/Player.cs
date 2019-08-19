@@ -30,8 +30,13 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
     //timers
     public float dashtime = 0.5f;
     public float currentDashTime = 0;
-    public float maxGlideTime = 5;
+    public float dashCooldown = -2;
+    public float glideTime = 5;
     public float currentGlideTime = 0;
+    public float glideCooldown = -2;
+    public float shieldTime = 5;
+    public float currentShieldTime = -5;
+    public float shieldCooldown = -5;
 
     //non-tweakable variables
     [HideInInspector]
@@ -140,6 +145,19 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
         {
             renderRef.flipX = false;
         }
+        if (currentShieldTime > shieldCooldown)
+        {
+            currentShieldTime -= 1 * Time.deltaTime;
+        }
+        if (GameManager.GMInstance.currentdim == GameManager.dimension.Dark)
+        {
+            shieldActive = false;
+            transform.GetChild(1).GetComponent<SpriteRenderer>().enabled = false;
+            if (currentShieldTime > 0)
+            {
+                currentShieldTime = 0;
+            }
+        }
     }
 
     public void refreshAbilities()     //refreshes jumps & dashes etc.
@@ -246,7 +264,7 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
                 break;
 
             case (moveState.Gliding):
-                if (currentGlideTime < maxGlideTime)
+                if (currentGlideTime < glideTime)
                 {
                     rigidRef.velocity = new Vector2(rigidRef.velocity.x, -glidespeed);
                 }
@@ -271,6 +289,11 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
         if (shieldActive == false)
         {
             health -= amount;
+        }
+        else
+        {
+            shieldActive = false;
+            currentShieldTime = 0;
         }
     }
 
