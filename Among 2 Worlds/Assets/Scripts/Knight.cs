@@ -27,6 +27,9 @@ public class Knight : MonoBehaviour
     float knightWidth;
     public float deathdistance;
 
+    public float attackCooldown;
+    public float currentAttackCooldown;
+
     GameObject playerRef;
     Rigidbody2D rigidRef;
 
@@ -47,17 +50,26 @@ public class Knight : MonoBehaviour
         //rigidRef.gravityScale = 0;
     }
 
-    // Update is called once per frame
     void Update()
+    {
+        Debug.DrawRay(new Vector2(transform.position.x - knightWidth / 2, transform.position.y), Vector2.down * knightHeight / 2, Color.green);
+        Debug.DrawRay(new Vector2(transform.position.x + knightWidth / 2, transform.position.y), Vector2.down * knightHeight / 2, Color.green);
+        Debug.DrawRay(transform.position, Vector2.left * trackingdistance, Color.red);
+        Debug.DrawRay(transform.position, Vector2.right * trackingdistance, Color.red);
+    }
+
+    // Update is called once per frame
+    void FixedUpdate()
     {
         matchState();
 
         playerDistance = Mathf.Abs(playerRef.transform.position.x - transform.position.x);
 
-        Debug.DrawRay(new Vector2(transform.position.x - knightWidth / 2, transform.position.y), Vector2.down * knightHeight / 2, Color.green);
-        Debug.DrawRay(new Vector2(transform.position.x + knightWidth / 2, transform.position.y), Vector2.down * knightHeight / 2, Color.green);
+        if (currentAttackCooldown > 0)
+        {
+            currentAttackCooldown -= 1 * Time.deltaTime;
+        }
 
-        Debug.DrawRay(transform.position, Vector2.left * trackingdistance, Color.red);
         death();
     }
 
@@ -131,9 +143,11 @@ public class Knight : MonoBehaviour
         {
             rigidRef.velocity = new Vector2(attackSpeed, 0);
         }
-        if (playerDistance < attackRange)
+        if (playerDistance < attackRange && currentAttackCooldown <= 0)
         {
+            currentAttackCooldown = attackCooldown;
             knightState = enemyState.Attacking;
+            playerRef.GetComponent<Player>().damage(damage);
         }
     }
 
@@ -174,7 +188,7 @@ public class Knight : MonoBehaviour
 
     void death()
     {
-        if(playerDistance < deathdistance && playerRef.GetComponent<Player>().playerMoveState == Player.moveState.Dashing)
+        if (playerDistance < deathdistance && playerRef.GetComponent<Player>().playerMoveState == Player.moveState.Dashing)
         {
             knightState = enemyState.Death;
             Destroy(this.gameObject);

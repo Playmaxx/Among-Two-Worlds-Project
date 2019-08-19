@@ -11,7 +11,7 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
     public enum wallDirection { Left, Right }
     public wallDirection lastWallDirection;
 
-    public enum moveState { Grounded, Jumping, Falling, Dashing, Gliding, Walled, Walljumping, Death, Other }
+    public enum moveState { Grounded, Jumping, Falling, Dashing, Gliding, Walled, Walljumping, Other }
     public moveState playerMoveState;
 
     //tweakable variables
@@ -30,8 +30,13 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
     //timers
     public float dashtime = 0.5f;
     public float currentDashTime = 0;
-    public float maxGlideTime = 5;
+    public float dashCooldown = -2;
+    public float glideTime = 5;
     public float currentGlideTime = 0;
+    public float glideCooldown = -2;
+    public float shieldTime = 5;
+    public float currentShieldTime = -5;
+    public float shieldCooldown = -5;
 
     //non-tweakable variables
     [HideInInspector]
@@ -130,7 +135,7 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
         //walljump cast is made with double length of walledstate cast
     }
 
-    void refreshVariables()     //For variables that need to update every frame
+    void refreshVariables()     //For variables that need to update every frame, e.g. timers
     {
         if (playerdirection == direction.Right)
         {
@@ -139,6 +144,23 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
         if (playerdirection == direction.Left)
         {
             renderRef.flipX = false;
+        }
+        if (currentShieldTime >= shieldCooldown)
+        {
+            currentShieldTime -= 1 * Time.deltaTime;
+        }
+        if (GameManager.GMInstance.currentdim == GameManager.dimension.Dark)
+        {
+            shieldActive = false;
+            transform.GetChild(1).GetComponent<SpriteRenderer>().enabled = false;
+            if (currentShieldTime > 0)
+            {
+                currentShieldTime = 0;
+            }
+        }
+        if (currentGlideTime >= glideCooldown)
+        {
+            currentGlideTime -= 1 * Time.deltaTime;
         }
     }
 
@@ -246,7 +268,7 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
                 break;
 
             case (moveState.Gliding):
-                if (currentGlideTime < maxGlideTime)
+                if (currentGlideTime < glideTime)
                 {
                     rigidRef.velocity = new Vector2(rigidRef.velocity.x, -glidespeed);
                 }
@@ -271,6 +293,11 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
         if (shieldActive == false)
         {
             health -= amount;
+        }
+        else
+        {
+            shieldActive = false;
+            currentShieldTime = 0;
         }
     }
 
