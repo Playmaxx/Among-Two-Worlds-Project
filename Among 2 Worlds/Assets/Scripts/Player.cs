@@ -11,7 +11,7 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
     public enum wallDirection { Left, Right }
     public wallDirection lastWallDirection;
 
-    public enum moveState { Grounded, Jumping, Falling, Dashing, Gliding, Walled, Walljumping, Death, Other }
+    public enum moveState { Grounded, Jumping, Falling, Dashing, Gliding, Walled, Walljumping, Other }
     public moveState playerMoveState;
 
     //tweakable variables
@@ -135,7 +135,7 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
         //walljump cast is made with double length of walledstate cast
     }
 
-    void refreshVariables()     //For variables that need to update every frame
+    void refreshVariables()     //For variables that need to update every frame, e.g. timers
     {
         if (playerdirection == direction.Right)
         {
@@ -145,7 +145,7 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
         {
             renderRef.flipX = false;
         }
-        if (currentShieldTime > shieldCooldown)
+        if (currentShieldTime >= shieldCooldown)
         {
             currentShieldTime -= 1 * Time.deltaTime;
         }
@@ -157,6 +157,10 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
             {
                 currentShieldTime = 0;
             }
+        }
+        if (currentGlideTime >= glideCooldown)
+        {
+            currentGlideTime -= 1 * Time.deltaTime;
         }
     }
 

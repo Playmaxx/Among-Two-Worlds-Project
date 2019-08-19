@@ -235,10 +235,10 @@ MonoBehaviour:
   currentDashTime: 0
   dashCooldown: 2
   glideTime: 5
-  currentGlideTime: 0
-  glideCooldown: 2
+  currentGlideTime: -1
+  glideCooldown: -2
   shieldTime: 5
-  currentShieldTime: -5
+  currentShieldTime: -4
   shieldCooldown: -5
   playerheight: 2
   playerwidth: 1

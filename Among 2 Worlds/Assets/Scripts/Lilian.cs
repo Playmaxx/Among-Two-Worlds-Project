@@ -82,7 +82,7 @@ public class Lilian : MonoBehaviour      //manages abilities for Lilian
             playerRef.currentShieldTime = playerRef.shieldTime;
             playerRef.transform.GetChild(1).GetComponent<SpriteRenderer>().enabled = true;
         }
-        if (playerRef.currentShieldTime < 0)
+        if (playerRef.currentShieldTime <= 0)
         {
             playerRef.shieldActive = false;
             playerRef.transform.GetChild(1).GetComponent<SpriteRenderer>().enabled = false;
@@ -93,11 +93,15 @@ public class Lilian : MonoBehaviour      //manages abilities for Lilian
     {
         if ((Input.GetKey(KeyCode.Space) || Input.GetButton("Jump")) && playerRef.rigidRef.velocity.y < 0 && playerRef.playerMoveState == Player.moveState.Falling)
         {
-            if (playerRef.currentGlideTime < playerRef.glideTime)
+            if (playerRef.currentGlideTime < playerRef.glideCooldown)
+            {
+                playerRef.currentGlideTime = playerRef.glideTime;
+            }
+            if (playerRef.currentGlideTime > 0)
             {
                 playerRef.playerMoveState = Player.moveState.Gliding;
             }
-            else
+            if (playerRef.currentGlideTime <= 0)
             {
                 playerRef.playerMoveState = Player.moveState.Falling;
             }
@@ -105,6 +109,7 @@ public class Lilian : MonoBehaviour      //manages abilities for Lilian
         if ((Input.GetKeyUp(KeyCode.Space) || Input.GetButtonUp("Jump")) && playerRef.playerMoveState == Player.moveState.Gliding)
         {
             playerRef.playerMoveState = Player.moveState.Falling;
+            playerRef.currentGlideTime = 0;
         }
     }
 
