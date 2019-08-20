@@ -11,7 +11,8 @@ public class SceneMngr : MonoBehaviour
     string sceneName;
 
     bool colliding = false;
-
+    bool sceneIsSwitching = false;
+    
     [SerializeField]
     Player playerRef;
 
@@ -43,12 +44,15 @@ public class SceneMngr : MonoBehaviour
     {
         if (colliding && Input.GetKey(KeyCode.Q))
         {
+            sceneIsSwitching = true;
+        }
+
+        if (sceneIsSwitching == true)
             switch (t_Scene)
             {
                 case (targetScene.Eingang):
                     GameManager.GMInstance.currentlvl = GameManager.level.Eingang;
                     SceneManager.LoadScene("Level 1");
-                    StartCoroutine(HandlePlayerPosition());
                     break;
                 case (targetScene.Haupthalle):
                     PlayerIsSwitchingScene();
@@ -72,7 +76,6 @@ public class SceneMngr : MonoBehaviour
                     SceneManager.LoadScene("Boss");
                     break;
             }
-        }
         if (Input.GetKey(KeyCode.P))
         {
             Debug.Log(PlayerPrefs.GetFloat("X"));
@@ -96,10 +99,4 @@ public class SceneMngr : MonoBehaviour
         Debug.Log(playerRef.transform.position);
     }
 
-    IEnumerator HandlePlayerPosition()
-    {
-        yield return SceneManager.LoadSceneAsync("Level 1");
-        Debug.Log(SceneManager.LoadSceneAsync("Level 1"));
-        PlayerIsComingBack();
-    }
 }
