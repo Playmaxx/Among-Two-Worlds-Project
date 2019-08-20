@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class AnimationController : MonoBehaviour
 {
-   
+
     Player playerRef;
     public Animator animator;
 
     //Awake is called before Start.
     private void Awake()
     {
-       
+
         playerRef = GetComponent<Player>();
         animator = GetComponent<Animator>();
     }
@@ -87,7 +87,7 @@ public class AnimationController : MonoBehaviour
         animator.SetBool("isFalling", isFalling);
 
         bool isWalled;
-        if(playerRef.playerMoveState == Player.moveState.Walled)
+        if (playerRef.playerMoveState == Player.moveState.Walled)
         {
             isWalled = true;
         }
@@ -97,6 +97,19 @@ public class AnimationController : MonoBehaviour
         }
         animator.SetBool("isWalled", isWalled);
 
+        bool isDashing;
+        if (playerRef.playerMoveState == Player.moveState.Dashing)
+        {
+            isDashing = true;
+        }
+        else
+        {
+            isDashing = false;
+        }
+        animator.SetBool("isDashing", isDashing);
+
+        int Health = playerRef.health;
+        animator.SetInteger("Health", Health);
 
         int NumberOfJumps = playerRef.Jumps;   //Check needed for doublejumping
         animator.SetInteger("NumberOfJumps", NumberOfJumps);

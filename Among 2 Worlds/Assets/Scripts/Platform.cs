@@ -21,7 +21,7 @@ public class Platform : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        updateDimensions();
     }
 
     // Update is called once per frame

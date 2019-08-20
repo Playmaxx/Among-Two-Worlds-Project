@@ -10,13 +10,12 @@ public class Background : MonoBehaviour
     private void Awake()
     {
         renderRef = GetComponent<SpriteRenderer>();
-        updateDimensions();
     }
 
     // Start is called before the first frame update
     void Start()
     {
-
+        updateDimensions();
     }
 
     // Update is called once per frame
