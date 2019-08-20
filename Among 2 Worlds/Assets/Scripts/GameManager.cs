@@ -24,7 +24,7 @@ public class GameManager : MonoBehaviour    //manages central aspects such as wo
     {
         currentdim = dimension.Light;
         currentlvl = level.Tutorial;
-        playerRef = GetComponent<Player>();
+        playerRef = GameObject.FindObjectOfType<Player>();
 
         if (GMInstance == null)
         {
