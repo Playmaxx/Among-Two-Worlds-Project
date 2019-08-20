@@ -12,6 +12,9 @@ public class GameManager : MonoBehaviour    //manages central aspects such as wo
     public int enemyMask = 1 << 9;
     public int platformMask = 1 << 10;
 
+    //conserves health on scene switch without compromising current code
+    public int tempPlayerHealth;
+
     public enum dimension { None, Light, Dark }
     public dimension currentdim;
     public enum level { Tutorial, Eingang, Haupthalle, Keller, Türme, Gang, Boss }
@@ -37,7 +40,7 @@ public class GameManager : MonoBehaviour    //manages central aspects such as wo
     // Start is called before the first frame update
     void Start()
     {
-
+        tempPlayerHealth = playerRef.health;
     }
 
     // Update is called once per frame
