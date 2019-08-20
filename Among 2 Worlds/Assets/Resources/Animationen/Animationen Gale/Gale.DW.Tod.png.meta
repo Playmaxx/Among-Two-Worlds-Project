@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: db5a9b49e8177dd4e89696866b275a56
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4514005660574698808
+    second: Gale.DW.Tod_0
+  - first:
+      213: -4198567684943259832
+    second: Gale.DW.Tod_1
+  - first:
+      213: 1539569804305514682
+    second: Gale.DW.Tod_2
+  - first:
+      213: 7071910793885383190
+    second: Gale.DW.Tod_3
+  - first:
+      213: 8563246084267167122
+    second: Gale.DW.Tod_4
+  - first:
+      213: 719351730411951923
+    second: Gale.DW.Tod_5
+  - first:
+      213: -1493831984641486355
+    second: Gale.DW.Tod_6
+  - first:
+      213: -7194795952647645286
+    second: Gale.DW.Tod_7
+  - first:
+      213: -7624575194249497372
+    second: Gale.DW.Tod_8
+  - first:
+      213: -2486441872765814344
+    second: Gale.DW.Tod_9
+  - first:
+      213: -6774618052441253150
+    second: Gale.DW.Tod_10
+  - first:
+      213: 8604836160811750350
+    second: Gale.DW.Tod_11
+  - first:
+      213: 788233118938989973
+    second: Gale.DW.Tod_12
+  - first:
+      213: -9217212220198813337
+    second: Gale.DW.Tod_13
+  - first:
+      213: -7194019892909199818
+    second: Gale.DW.Tod_14
+  - first:
+      213: 6326517346237377181
+    second: Gale.DW.Tod_15
+  - first:
+      213: 424077405748795414
+    second: Gale.DW.Tod_16
+  - first:
+      213: 3357816533523572660
+    second: Gale.DW.Tod_17
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Gale.DW.Tod_0
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 627
+        width: 155
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f11c1ba62a14604ca709b247decad8a
+      internalID: -4514005660574698808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale.DW.Tod_1
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 618
+        width: 159
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1017e411f1980eb48816b53cbff27357
+      internalID: -4198567684943259832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale.DW.Tod_2
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 633
+        width: 151
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b42271d96e3de543b5bf1e7b6648c00
+      internalID: 1539569804305514682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale.DW.Tod_3
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 654
+        width: 145
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3706d201a362b6b48a94c580d883ecf5
+      internalID: 7071910793885383190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale.DW.Tod_4
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 364
+        width: 172
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 669d60c371bc51245873aaa749068a8a
+      internalID: 8563246084267167122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale.DW.Tod_5
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 388
+        width: 246
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b6a255f8896c2c44b96411d2a96b4a3
+      internalID: 719351730411951923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale.DW.Tod_6
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 356
+        width: 235
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68691373be913eb408ec2a1dc36913a3
+      internalID: -1493831984641486355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale.DW.Tod_7
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 420
+        width: 111
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30aee192bf1ebf64082dd96795e4290f
+      internalID: -7194795952647645286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale.DW.Tod_8
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 318
+        width: 220
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87a54385e1ab5db4096179537c76900d
+      internalID: -7624575194249497372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale.DW.Tod_9
+      rect:
+        serializedVersion: 2
+        x: 1801
+        y: 336
+        width: 108
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64c25b6408168c54c963cb0e18b34e26
+      internalID: -2486441872765814344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale.DW.Tod_10
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 27
+        width: 244
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bd308b5fb9106844bc1ceb3b4c85ef7
+      internalID: -6774618052441253150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale.DW.Tod_11
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 52
+        width: 124
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 925e69ee56f8b304d8d3b32bbc0984f5
+      internalID: 8604836160811750350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale.DW.Tod_12
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 21
+        width: 270
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7fc933dbc15da346ad4644bd651f531
+      internalID: 788233118938989973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale.DW.Tod_13
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 45
+        width: 129
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8983c27f1a0d70749b5b883a728b140e
+      internalID: -9217212220198813337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale.DW.Tod_14
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 18
+        width: 284
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fda142cfd0e8b8b4ab360e99b890bb61
+      internalID: -7194019892909199818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale.DW.Tod_15
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 19
+        width: 129
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bab4e38767be9c4e911f0ab0884e1e3
+      internalID: 6326517346237377181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale.DW.Tod_16
+      rect:
+        serializedVersion: 2
+        x: 1501
+        y: 17
+        width: 284
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b551420b6c4ddc84585c721147d5c432
+      internalID: 424077405748795414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale.DW.Tod_17
+      rect:
+        serializedVersion: 2
+        x: 1851
+        y: 15
+        width: 131
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da89be925e3c924478d995e7987e39ea
+      internalID: 3357816533523572660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 3429b5c04d531664aa150e2bc75635d7
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
