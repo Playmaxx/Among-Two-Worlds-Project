@@ -140,7 +140,7 @@ public class Gale : MonoBehaviour     //manages abilities for Gale
     {
         if ((Physics2D.Raycast(transform.position, Vector2.left, playerRef.playerwidth / 2, GameManager.GMInstance.platformMask)))
         {
-            if (playerRef.playerMoveState != Player.moveState.Grounded && playerRef.playerMoveState != Player.moveState.Jumping)
+            if (playerRef.playerMoveState != Player.moveState.Grounded && playerRef.playerMoveState != Player.moveState.Jumping && playerRef.playerMoveState != Player.moveState.Walljumping)
             {
                 playerRef.lastWallDirection = Player.wallDirection.Left;
                 playerRef.playerMoveState = Player.moveState.Walled;
@@ -148,7 +148,7 @@ public class Gale : MonoBehaviour     //manages abilities for Gale
         }
         if ((Physics2D.Raycast(transform.position, Vector2.right, playerRef.playerwidth / 2, GameManager.GMInstance.platformMask)))
         {
-            if (playerRef.playerMoveState != Player.moveState.Grounded && playerRef.playerMoveState != Player.moveState.Jumping)
+            if (playerRef.playerMoveState != Player.moveState.Grounded && playerRef.playerMoveState != Player.moveState.Jumping && playerRef.playerMoveState != Player.moveState.Walljumping)
             {
                 playerRef.lastWallDirection = Player.wallDirection.Right;
                 playerRef.playerMoveState = Player.moveState.Walled;

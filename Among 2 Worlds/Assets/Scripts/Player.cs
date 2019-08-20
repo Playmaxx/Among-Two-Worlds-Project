@@ -26,6 +26,7 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
     public float wallJumpCcoolDown = 0.5f;
     public float currentWallJump = 0;
     public float wallJumpXSpeed = 5;
+    public float terminalVelocity = 10;
 
     //timers
     public float dashtime = 0.5f;
@@ -70,6 +71,7 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
         playerdirection = direction.Right;
         rigidRef.gravityScale = 0;
         playerMoveState = moveState.Falling;
+        health = GameManager.GMInstance.tempPlayerHealth;
         /*
         downVector = new Vector2(Vector2.down.x, Vector2.down.y + 0.15f) * playerheight / 2;
         Debug.Log(downVector);
@@ -260,7 +262,10 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
                 break;
 
             case (moveState.Falling):
-                rigidRef.velocity = new Vector2(rigidRef.velocity.x, rigidRef.velocity.y - 1);
+                if (rigidRef.velocity.y < terminalVelocity)
+                {
+                    rigidRef.velocity = new Vector2(rigidRef.velocity.x, rigidRef.velocity.y - 1);
+                }
                 break;
 
             case (moveState.Dashing):
