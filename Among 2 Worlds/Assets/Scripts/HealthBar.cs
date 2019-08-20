@@ -10,12 +10,16 @@ public class HealthBar : MonoBehaviour
     [SerializeField] private bool Refilling;
     Player playerRef;
 
+    GameObject UIPanel;
+
 
     // Start is called before the first frame update
     private void Awake()
     {
         HealthSlider = GetComponent<Slider>();
         playerRef = GameObject.Find("Player").GetComponent<Player>();
+        UIPanel = transform.parent.gameObject;
+        DontDestroyOnLoad(UIPanel);
     }
 
 
