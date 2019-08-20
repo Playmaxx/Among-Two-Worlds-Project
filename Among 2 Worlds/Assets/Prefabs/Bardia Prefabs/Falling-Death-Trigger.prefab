@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8914715862628452856}
   - component: {fileID: 8914715862628452855}
   - component: {fileID: 8914715862628452854}
+  - component: {fileID: 77480594}
   m_Layer: 0
   m_Name: Falling-Death-Trigger
   m_TagString: OutOfMap-border
@@ -79,3 +80,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &77480594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8914715862628452853}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7579dc7b5faa40d4f8f59392df87cfde, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerRef: {fileID: 0}
+  rigidRef: {fileID: 0}
+  DeathSequenceIsPlaying: 0

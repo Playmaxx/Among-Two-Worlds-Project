@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3113599809965218877}
   - component: {fileID: 3113599809965218876}
   - component: {fileID: 3113599809965218879}
+  - component: {fileID: 2201931644480204445}
   m_Layer: 0
   m_Name: AudioManager
   m_TagString: Untagged
@@ -41,8 +42,9 @@ AudioSource:
   m_GameObject: {fileID: 3113599809965218878}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: e1174b7b486910048bfbba5687f93d30, type: 3}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 0931a7c576e1eb440b5d230ea1a7db85,
+    type: 2}
+  m_audioClip: {fileID: 8300000, guid: 62318c20c03b40144b0e770a3490479c, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -141,7 +143,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   current_track: {fileID: 3113599809965218876}
-  CuteGiana: {fileID: 8300000, guid: e329f129abf2fd840a49e523dd0c64c0, type: 3}
-  DarkGiana: {fileID: 8300000, guid: cbe6a8b29104d7245bc03956357a7341, type: 3}
+  CuteGiana: {fileID: 8300000, guid: 62318c20c03b40144b0e770a3490479c, type: 3}
+  DarkGiana: {fileID: 8300000, guid: bbb6c75b17b60a14b806ae80a2c3e3fd, type: 3}
   timecode1: 0
   timecode2: 0
+--- !u!114 &2201931644480204445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3113599809965218878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e92704ae18f72954795eff7348ce0b65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

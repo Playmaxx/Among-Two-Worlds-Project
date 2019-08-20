@@ -19,6 +19,7 @@ public class GameManager : MonoBehaviour    //manages central aspects such as wo
     public dimension currentdim;
     public enum level { Tutorial, Eingang, Haupthalle, Keller, Türme, Gang, Boss }
     public level currentlvl;
+    public static int score = 0;
 
     private void Awake()
     {
