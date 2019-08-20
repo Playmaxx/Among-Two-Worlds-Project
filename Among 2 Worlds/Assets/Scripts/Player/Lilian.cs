@@ -149,11 +149,9 @@ public class Lilian : MonoBehaviour      //manages abilities for Lilian
         {
             if (Input.GetKeyDown(KeyCode.Space) || Input.GetButtonDown("Jump"))
             {
-                if (Input.GetAxis("MoveHorizontal") > 0)
-                {
-                    playerRef.rigidRef.velocity = new Vector2(playerRef.rigidRef.velocity.x, playerRef.jumpforce);
-                    playerRef.playerMoveState = Player.moveState.Walljumping;
-                }
+                playerRef.rigidRef.velocity = new Vector2(playerRef.rigidRef.velocity.x, playerRef.jumpforce);
+                playerRef.rigidRef.AddForce(new Vector2(-playerRef.wallJumpXSpeed, 0), ForceMode2D.Impulse);
+                playerRef.playerMoveState = Player.moveState.Walljumping;
 
             }
         }
@@ -162,7 +160,7 @@ public class Lilian : MonoBehaviour      //manages abilities for Lilian
             if (Input.GetKeyDown(KeyCode.Space) || Input.GetButtonDown("Jump"))
             {
                 playerRef.rigidRef.velocity = new Vector2(playerRef.rigidRef.velocity.x, playerRef.jumpforce);
-                playerRef.rigidRef.AddForce(new Vector2(-playerRef.wallJumpXSpeed, 0));
+                playerRef.rigidRef.AddForce(new Vector2(-playerRef.wallJumpXSpeed, 0), ForceMode2D.Force);
                 playerRef.playerMoveState = Player.moveState.Walljumping;
             }
         }

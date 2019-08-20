@@ -3889,6 +3889,11 @@ PrefabInstance:
       propertyPath: jumpforce
       value: 17
       objectReference: {fileID: 0}
+    - target: {fileID: 5718854610222730107, guid: 0c29196364b4bd146acefde38bcf54b4,
+        type: 3}
+      propertyPath: wallJumpXSpeed
+      value: 2000
+      objectReference: {fileID: 0}
     - target: {fileID: 2666374648625824687, guid: 0c29196364b4bd146acefde38bcf54b4,
         type: 3}
       propertyPath: m_BackGroundColor.r
