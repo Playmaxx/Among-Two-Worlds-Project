@@ -43,5 +43,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8cd6afe7414f8494aa21857d169a8848, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentdim: 0
-  currentlvl: 0
+  playerMask: 256
+  enemyMask: 512
+  platformMask: 1024
+  currentdim: 1
+  currentlvl: 1

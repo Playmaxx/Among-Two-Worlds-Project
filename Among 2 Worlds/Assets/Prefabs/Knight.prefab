@@ -127,8 +127,10 @@ MonoBehaviour:
   patrolSpeed: 5
   attackSpeed: 7
   health: 100
-  damage: 5
+  damage: 15
   deathdistance: 1
+  attackCooldown: 3
+  currentAttackCooldown: 0
 --- !u!70 &3323243979060340374
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

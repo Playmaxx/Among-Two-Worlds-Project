@@ -2,9 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player : MonoBehaviour     //manages aspects of the player that apply to both Gale and Lilian
+public class Player : MonoBehaviour     //manages aspects of the player that apply to both Gale and Lilian, manages gale/lilian functions
 {
-    public enum direction { Left, Right }       // variables
+    //enums
+    public enum direction { Left, Right }
     public direction playerdirection;
 
     public enum wallDirection { Left, Right }
@@ -13,10 +14,7 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
     public enum moveState { Grounded, Jumping, Falling, Dashing, Gliding, Walled, Walljumping, Other }
     public moveState playerMoveState;
 
-    [HideInInspector]
-    public float playerheight;
-    [HideInInspector]
-    public float playerwidth;
+    //tweakable variables
     public int Jumps = 2;
     public int health = 100;
     public float moveSpeed = 7.5f;
@@ -25,13 +23,28 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
     public bool dashused = false;
     public int glidespeed = 2;
     public float wallSlideSpeed = 0.1f;
-    public float playerGravity = 10;
-    public float maxGlideTime = 5;
-    public float currentGlideTime = 0;
+    public float wallJumpCcoolDown = 0.5f;
+    public float currentWallJump = 0;
+    public float wallJumpXSpeed = 5;
+    public float terminalVelocity = 10;
+
+    //timers
     public float dashtime = 0.5f;
     public float currentDashTime = 0;
-    public float wallJumpCD = 0.5f;
-    public float currentWallJump = 0;
+    public float dashCooldown = -2;
+    public float glideTime = 5;
+    public float currentGlideTime = 0;
+    public float glideCooldown = -2;
+    public float shieldTime = 5;
+    public float currentShieldTime = -5;
+    public float shieldCooldown = -5;
+
+    //non-tweakable variables
+    [HideInInspector]
+    public float playerheight;
+    [HideInInspector]
+    public float playerwidth;
+    public bool shieldActive = false;
     public bool DeathSequenceIsPlaying = false;
 
     //ref types
@@ -56,8 +69,10 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
     void Start()
     {
         playerdirection = direction.Right;
-        rigidRef.gravityScale = 20;
+        rigidRef.gravityScale = 0;
         playerMoveState = moveState.Falling;
+        health = GameManager.GMInstance.tempPlayerHealth;
+        /*
         downVector = new Vector2(Vector2.down.x, Vector2.down.y + 0.15f) * playerheight / 2;
         Debug.Log(downVector);
         Debug.Log(downVector.y);
@@ -68,10 +83,22 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
         downVector = new Vector2(downVector.x, downVector.y + 0.15f);
         Debug.Log(downVector);
         Debug.Log(downVector.y);
+        */
     }
 
-    // Update is called once per frame
+    //update is called once per frame, graphical stuff here
     void Update()
+    {
+        Debug.DrawRay(new Vector2(transform.position.x + (playerwidth / 2) - 0.05f, transform.position.y), downVector, Color.green);
+        Debug.DrawRay(new Vector2(transform.position.x - (playerwidth / 2) + 0.05f, transform.position.y), downVector, Color.green);
+        Debug.DrawRay(transform.position, Vector2.left * playerwidth, Color.red);
+        Debug.DrawRay(transform.position, Vector2.right * playerwidth, Color.red);
+        Debug.DrawRay(transform.position, Vector2.left * playerwidth / 2, Color.green);
+        Debug.DrawRay(transform.position, Vector2.right * playerwidth / 2, Color.green);
+    }
+
+    // FixedUpdate is called 60 times/s, physics/logic stuff here
+    void FixedUpdate()
     {
         //general functions
         groundCheck();
@@ -84,7 +111,7 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
             case (GameManager.dimension.Light):
                 lilianRef.movement();
                 lilianRef.jump();
-                lilianRef.dash();
+                lilianRef.shield();
                 lilianRef.glide();
                 lilianRef.wallaction();
                 break;
@@ -92,6 +119,7 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
                 galeRef.movement();
                 galeRef.jump();
                 galeRef.dash();
+                galeRef.cancelGlide();
                 galeRef.wallaction();
                 break;
 
@@ -100,18 +128,16 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
         DeathSequence();
 
         //tests
-        Debug.DrawRay(new Vector2(transform.position.x + (playerwidth / 2) - 0.05f, transform.position.y), downVector, Color.green);
-        Debug.DrawRay(new Vector2(transform.position.x - (playerwidth / 2) + 0.05f, transform.position.y), downVector, Color.green);
-        Debug.DrawRay(transform.position, Vector2.left * playerwidth / 2, Color.green);
-        Debug.DrawRay(transform.position, Vector2.right * playerwidth / 2, Color.green);
         //utilized raycast overload: origin, direction, distance, layermask
         //origin is transform.position +/- playerwidth/2 for x
         // direction is downwards
         //distance is playerheight/2
         //layermask is gamemanager.platformmask
+
+        //walljump cast is made with double length of walledstate cast
     }
 
-    void refreshVariables()     //For variables that need to update every frame
+    void refreshVariables()     //For variables that need to update every frame, e.g. timers
     {
         if (playerdirection == direction.Right)
         {
@@ -121,7 +147,23 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
         {
             renderRef.flipX = false;
         }
-        currentDashTime -= 1 * Time.deltaTime;
+        if (currentShieldTime >= shieldCooldown)
+        {
+            currentShieldTime -= 1 * Time.deltaTime;
+        }
+        if (GameManager.GMInstance.currentdim == GameManager.dimension.Dark)
+        {
+            shieldActive = false;
+            transform.GetChild(1).GetComponent<SpriteRenderer>().enabled = false;
+            if (currentShieldTime > 0)
+            {
+                currentShieldTime = 0;
+            }
+        }
+        if (currentGlideTime >= glideCooldown)
+        {
+            currentGlideTime -= 1 * Time.deltaTime;
+        }
     }
 
     public void refreshAbilities()     //refreshes jumps & dashes etc.
@@ -160,13 +202,18 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
                 {
                     if (rigidRef.velocity.y > 0)
                     {
-                        playerMoveState = moveState.Jumping;
-                        Debug.Log("jumping");
+                        if (playerMoveState == moveState.Walled)
+                        {
+                            playerMoveState = moveState.Walljumping;
+                        }
+                        else if (playerMoveState != moveState.Walljumping)
+                        {
+                            playerMoveState = moveState.Jumping;
+                        }
                     }
                     else if (playerMoveState != moveState.Gliding)
                     {
                         playerMoveState = moveState.Falling;
-                        Debug.Log("falling");
                     }
                 }
             }
@@ -215,14 +262,18 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
                 break;
 
             case (moveState.Falling):
-                rigidRef.velocity = new Vector2(rigidRef.velocity.x, rigidRef.velocity.y - 1);
+                if (rigidRef.velocity.y < terminalVelocity)
+                {
+                    rigidRef.velocity = new Vector2(rigidRef.velocity.x, rigidRef.velocity.y - 1);
+                }
                 break;
 
             case (moveState.Dashing):
+                currentDashTime -= 1 * Time.deltaTime;
                 break;
 
             case (moveState.Gliding):
-                if (currentGlideTime < maxGlideTime)
+                if (currentGlideTime < glideTime)
                 {
                     rigidRef.velocity = new Vector2(rigidRef.velocity.x, -glidespeed);
                 }
@@ -244,7 +295,15 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
 
     public void damage(int amount)
     {
-        health -= amount;
+        if (shieldActive == false)
+        {
+            health -= amount;
+        }
+        else
+        {
+            shieldActive = false;
+            currentShieldTime = 0;
+        }
     }
 
     public void heal(int amount)
