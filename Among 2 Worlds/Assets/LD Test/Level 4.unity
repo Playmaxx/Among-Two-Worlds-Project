@@ -20,7 +20,7 @@ RenderSettings:
   m_FogDensity: 0.01
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientSkyColor: {r: 0.5660378, g: 0.5660378, b: 0.5660378, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
@@ -380,7 +380,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -760,7 +760,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -946,7 +946,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -1126,7 +1126,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -1316,7 +1316,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -1634,7 +1634,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -1815,7 +1815,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -2080,7 +2080,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -2337,7 +2337,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -2433,7 +2433,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -2529,7 +2529,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -2908,7 +2908,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -3004,7 +3004,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -3516,7 +3516,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -4327,7 +4327,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -4588,7 +4588,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -5136,7 +5136,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -5491,7 +5491,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -5587,7 +5587,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -5779,7 +5779,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -6093,7 +6093,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -6384,7 +6384,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: ad8abff218e298e479e2eb353c7a483e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6709,7 +6709,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -6805,7 +6805,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -7031,17 +7031,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8983768832418592314, guid: c1fde9f236f829e4286f488824fbc14e,
-        type: 3}
-      propertyPath: m_SortingOrder
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 2050669604380395380, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
       propertyPath: LightSprite
       value: 
       objectReference: {fileID: 21300000, guid: 905d6a429d3d26b439bde59df8bc3e61,
         type: 3}
+    - target: {fileID: 8983768832418592314, guid: c1fde9f236f829e4286f488824fbc14e,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c1fde9f236f829e4286f488824fbc14e, type: 3}
 --- !u!1001 &265854188
@@ -7760,7 +7760,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -8316,7 +8316,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -8518,7 +8518,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -8867,7 +8867,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -8912,7 +8912,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: ad8abff218e298e479e2eb353c7a483e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9372,6 +9372,89 @@ PrefabInstance:
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c1fde9f236f829e4286f488824fbc14e, type: 3}
+--- !u!1 &350150822
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 350150823}
+  - component: {fileID: 350150825}
+  - component: {fileID: 350150824}
+  m_Layer: 8
+  m_Name: Main Camera (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &350150823
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 350150822}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.29, y: 2, z: -11}
+  m_LocalScale: {x: 1.0927768, y: 1.0927768, z: 1.0927768}
+  m_Children: []
+  m_Father: {fileID: 1406061327}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!81 &350150824
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 350150822}
+  m_Enabled: 1
+--- !u!20 &350150825
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 350150822}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 3
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 1
+  orthographic size: 6.3
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 8192
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
 --- !u!4 &356579388 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4870059756340752123, guid: 3a5264935ded6d242b7c99d73e532174,
@@ -10056,7 +10139,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -10152,7 +10235,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -10197,7 +10280,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: ad8abff218e298e479e2eb353c7a483e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -10643,7 +10726,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -11711,7 +11794,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -12024,7 +12107,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: ad8abff218e298e479e2eb353c7a483e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -12175,7 +12258,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -12271,7 +12354,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -12521,7 +12604,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -12948,7 +13031,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -14048,7 +14131,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -14200,17 +14283,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8983768832418592314, guid: c1fde9f236f829e4286f488824fbc14e,
-        type: 3}
-      propertyPath: m_SortingOrder
-      value: 4
-      objectReference: {fileID: 0}
     - target: {fileID: 2050669604380395380, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
       propertyPath: LightSprite
       value: 
       objectReference: {fileID: 21300000, guid: 905d6a429d3d26b439bde59df8bc3e61,
         type: 3}
+    - target: {fileID: 8983768832418592314, guid: c1fde9f236f829e4286f488824fbc14e,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c1fde9f236f829e4286f488824fbc14e, type: 3}
 --- !u!1001 &516155018
@@ -14566,7 +14649,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -15108,7 +15191,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: ad8abff218e298e479e2eb353c7a483e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -15804,7 +15887,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: ad8abff218e298e479e2eb353c7a483e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -16434,7 +16517,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -16811,7 +16894,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -17084,7 +17167,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -17338,7 +17421,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -17702,7 +17785,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: ad8abff218e298e479e2eb353c7a483e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -18376,7 +18459,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -18565,7 +18648,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -19318,7 +19401,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -20104,7 +20187,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -20200,7 +20283,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -20857,7 +20940,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -20908,7 +20991,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: ad8abff218e298e479e2eb353c7a483e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -21665,7 +21748,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -22149,7 +22232,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -22245,7 +22328,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -22284,7 +22367,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: ad8abff218e298e479e2eb353c7a483e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -23138,7 +23221,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -23473,7 +23556,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LightSprite: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2, type: 3}
+  LightSprite: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86, type: 3}
   DarkSprite: {fileID: 0}
 --- !u!1001 &870074749
 PrefabInstance:
@@ -24022,7 +24105,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -25131,7 +25214,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -25214,17 +25297,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8983768832418592314, guid: c1fde9f236f829e4286f488824fbc14e,
-        type: 3}
-      propertyPath: m_SortingOrder
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 2050669604380395380, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
       propertyPath: LightSprite
       value: 
       objectReference: {fileID: 21300000, guid: 905d6a429d3d26b439bde59df8bc3e61,
         type: 3}
+    - target: {fileID: 8983768832418592314, guid: c1fde9f236f829e4286f488824fbc14e,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c1fde9f236f829e4286f488824fbc14e, type: 3}
 --- !u!1001 &963189308
@@ -25583,7 +25666,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -25997,7 +26080,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -26845,7 +26928,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -26941,7 +27024,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -27402,7 +27485,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -28549,7 +28632,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -29256,7 +29339,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: ad8abff218e298e479e2eb353c7a483e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -30213,7 +30296,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -30997,7 +31080,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -31423,7 +31506,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: ad8abff218e298e479e2eb353c7a483e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -31517,7 +31600,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: ad8abff218e298e479e2eb353c7a483e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -31576,6 +31659,90 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LightSprite: {fileID: 0}
   DarkSprite: {fileID: 21300000, guid: ac45bd479080af84eb659ffd78e20772, type: 3}
+--- !u!1001 &1224289820
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1406061327}
+    m_Modifications:
+    - target: {fileID: 6151863644553919741, guid: 05b08ae6402802b4da314110c6bbe2f7,
+        type: 3}
+      propertyPath: m_Name
+      value: Point Light
+      objectReference: {fileID: 0}
+    - target: {fileID: 6151863644553919743, guid: 05b08ae6402802b4da314110c6bbe2f7,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.07643493
+      objectReference: {fileID: 0}
+    - target: {fileID: 6151863644553919743, guid: 05b08ae6402802b4da314110c6bbe2f7,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.09827345
+      objectReference: {fileID: 0}
+    - target: {fileID: 6151863644553919743, guid: 05b08ae6402802b4da314110c6bbe2f7,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.8562769
+      objectReference: {fileID: 0}
+    - target: {fileID: 6151863644553919743, guid: 05b08ae6402802b4da314110c6bbe2f7,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6151863644553919743, guid: 05b08ae6402802b4da314110c6bbe2f7,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6151863644553919743, guid: 05b08ae6402802b4da314110c6bbe2f7,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6151863644553919743, guid: 05b08ae6402802b4da314110c6bbe2f7,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6151863644553919743, guid: 05b08ae6402802b4da314110c6bbe2f7,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6151863644553919743, guid: 05b08ae6402802b4da314110c6bbe2f7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6151863644553919743, guid: 05b08ae6402802b4da314110c6bbe2f7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6151863644553919743, guid: 05b08ae6402802b4da314110c6bbe2f7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6151863644553919743, guid: 05b08ae6402802b4da314110c6bbe2f7,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.0919275
+      objectReference: {fileID: 0}
+    - target: {fileID: 6151863644553919743, guid: 05b08ae6402802b4da314110c6bbe2f7,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.0919275
+      objectReference: {fileID: 0}
+    - target: {fileID: 6151863644553919743, guid: 05b08ae6402802b4da314110c6bbe2f7,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.2132528
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 05b08ae6402802b4da314110c6bbe2f7, type: 3}
 --- !u!1 &1228730585
 GameObject:
   m_ObjectHideFlags: 0
@@ -32528,7 +32695,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -32971,7 +33138,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -33067,7 +33234,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -33419,7 +33586,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: ad8abff218e298e479e2eb353c7a483e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -34794,7 +34961,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -35016,7 +35183,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -35061,7 +35228,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: ad8abff218e298e479e2eb353c7a483e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -35832,6 +35999,11 @@ PrefabInstance:
       propertyPath: m_BackGroundColor.b
       value: 0.09019608
       objectReference: {fileID: 0}
+    - target: {fileID: 192420842630456256, guid: 0c29196364b4bd146acefde38bcf54b4,
+        type: 3}
+      propertyPath: m_CullingMask.m_Bits
+      value: 1847
+      objectReference: {fileID: 0}
     - target: {fileID: 8602964574323520217, guid: 0c29196364b4bd146acefde38bcf54b4,
         type: 3}
       propertyPath: m_LocalPosition.y
@@ -35844,6 +36016,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c29196364b4bd146acefde38bcf54b4, type: 3}
+--- !u!4 &1406061327 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 79531169318872699, guid: 0c29196364b4bd146acefde38bcf54b4,
+    type: 3}
+  m_PrefabInstance: {fileID: 1406061326}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1408094248
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35911,17 +36089,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8983768832418592314, guid: c1fde9f236f829e4286f488824fbc14e,
-        type: 3}
-      propertyPath: m_SortingOrder
-      value: 4
-      objectReference: {fileID: 0}
     - target: {fileID: 2050669604380395380, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
       propertyPath: LightSprite
       value: 
       objectReference: {fileID: 21300000, guid: 905d6a429d3d26b439bde59df8bc3e61,
         type: 3}
+    - target: {fileID: 8983768832418592314, guid: c1fde9f236f829e4286f488824fbc14e,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c1fde9f236f829e4286f488824fbc14e, type: 3}
 --- !u!1001 &1408556165
@@ -36232,7 +36410,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -36403,7 +36581,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -36448,7 +36626,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: ad8abff218e298e479e2eb353c7a483e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -36672,7 +36850,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -38070,7 +38248,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -38241,7 +38419,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -38318,17 +38496,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8983768832418592314, guid: c1fde9f236f829e4286f488824fbc14e,
-        type: 3}
-      propertyPath: m_SortingOrder
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 2050669604380395380, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
       propertyPath: LightSprite
       value: 
       objectReference: {fileID: 21300000, guid: 905d6a429d3d26b439bde59df8bc3e61,
         type: 3}
+    - target: {fileID: 8983768832418592314, guid: c1fde9f236f829e4286f488824fbc14e,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c1fde9f236f829e4286f488824fbc14e, type: 3}
 --- !u!1001 &1488142079
@@ -38417,7 +38595,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -38744,7 +38922,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: ad8abff218e298e479e2eb353c7a483e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -39635,7 +39813,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: ad8abff218e298e479e2eb353c7a483e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -40585,7 +40763,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -40681,7 +40859,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -41076,7 +41254,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: ad8abff218e298e479e2eb353c7a483e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -41295,7 +41473,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -41818,7 +41996,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -44668,7 +44846,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: ad8abff218e298e479e2eb353c7a483e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -45807,7 +45985,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: ad8abff218e298e479e2eb353c7a483e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -46572,7 +46750,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -46888,7 +47066,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -47938,7 +48116,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LightSprite: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2, type: 3}
+  LightSprite: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86, type: 3}
   DarkSprite: {fileID: 0}
 --- !u!1001 &1861812925
 PrefabInstance:
@@ -48464,7 +48642,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: ad8abff218e298e479e2eb353c7a483e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -48614,11 +48792,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4060184829645585175, guid: 131ba5cd390e04e4b8844d2e920e3d77,
-        type: 3}
-      propertyPath: m_Name
-      value: Collectable xD+
-      objectReference: {fileID: 0}
     - target: {fileID: 4060184829645585169, guid: 131ba5cd390e04e4b8844d2e920e3d77,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -48673,6 +48846,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4060184829645585175, guid: 131ba5cd390e04e4b8844d2e920e3d77,
+        type: 3}
+      propertyPath: m_Name
+      value: Collectable xD+
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 131ba5cd390e04e4b8844d2e920e3d77, type: 3}
@@ -49051,7 +49229,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -49147,7 +49325,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -49243,7 +49421,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -49785,7 +49963,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -50213,7 +50391,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -50309,7 +50487,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -50405,7 +50583,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -50513,7 +50691,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LightSprite: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2, type: 3}
+  LightSprite: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86, type: 3}
   DarkSprite: {fileID: 0}
 --- !u!1001 &1943698072
 PrefabInstance:
@@ -50601,7 +50779,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -50697,7 +50875,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -51185,7 +51363,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -51352,17 +51530,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8983768832418592314, guid: c1fde9f236f829e4286f488824fbc14e,
-        type: 3}
-      propertyPath: m_SortingOrder
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 2050669604380395380, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
       propertyPath: LightSprite
       value: 
       objectReference: {fileID: 21300000, guid: 905d6a429d3d26b439bde59df8bc3e61,
         type: 3}
+    - target: {fileID: 8983768832418592314, guid: c1fde9f236f829e4286f488824fbc14e,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c1fde9f236f829e4286f488824fbc14e, type: 3}
 --- !u!1001 &1987142064
@@ -53176,7 +53354,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: ad8abff218e298e479e2eb353c7a483e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -53327,7 +53505,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LightSprite: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2, type: 3}
+  LightSprite: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86, type: 3}
   DarkSprite: {fileID: 0}
 --- !u!1001 &2043351285
 PrefabInstance:
@@ -53840,7 +54018,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: ad8abff218e298e479e2eb353c7a483e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -54549,7 +54727,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
@@ -55790,7 +55968,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: ad8abff218e298e479e2eb353c7a483e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -56009,7 +56187,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: ad8abff218e298e479e2eb353c7a483e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -56477,7 +56655,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: a648bea625f2df5478b396ebd189e9a2,
+      objectReference: {fileID: 21300000, guid: fc11f91e76accd443a847c28321f6f86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 369098f6e1f70fa43ab2011df2e66d81, type: 3}
