@@ -20,6 +20,7 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
     public float moveSpeed = 7.5f;
     public int jumpforce = 20;
     public int dashspeed = 300;
+    public int WJSpeed = 15;
     public bool dashused = false;
     public int glidespeed = 2;
     public float wallSlideSpeed = 0.1f;
@@ -38,6 +39,8 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
     public float shieldTime = 5;
     public float currentShieldTime = -5;
     public float shieldCooldown = -5;
+    public float wallJumpTime = 0.5f;
+    public float currentWJTime = 0;
 
     //non-tweakable variables
     public static Player PlayerInstance;

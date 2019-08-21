@@ -145,24 +145,37 @@ public class Lilian : MonoBehaviour      //manages abilities for Lilian
         {
             playerRef.rigidRef.velocity = new Vector2(playerRef.rigidRef.velocity.x, -playerRef.wallSlideSpeed);
         }
-        if (Physics2D.Raycast(transform.position, Vector2.left, playerRef.playerwidth, GameManager.GMInstance.platformMask))
-        {
-            if (Input.GetKeyDown(KeyCode.Space) || Input.GetButtonDown("Jump"))
-            {
-                playerRef.rigidRef.velocity = new Vector2(playerRef.rigidRef.velocity.x, playerRef.jumpforce);
-                playerRef.rigidRef.AddForce(new Vector2(-playerRef.wallJumpXSpeed, 0), ForceMode2D.Impulse);
-                playerRef.playerMoveState = Player.moveState.Walljumping;
 
-            }
-        }
-        if (Physics2D.Raycast(transform.position, Vector2.right, playerRef.playerwidth, GameManager.GMInstance.platformMask))
+
+
+
+        if (Physics2D.Raycast(transform.position, Vector2.left, playerRef.playerwidth, GameManager.GMInstance.platformMask) || Physics2D.Raycast(transform.position, Vector2.right, playerRef.playerwidth, GameManager.GMInstance.platformMask))
         {
-            if (Input.GetKeyDown(KeyCode.Space) || Input.GetButtonDown("Jump"))
+            playerRef.playerMoveState = Player.moveState.Walljumping;
+            playerRef.currentWJTime = playerRef.wallJumpTime;
+            playerRef.rigidRef.velocity = new Vector2(playerRef.rigidRef.velocity.x, playerRef.jumpforce);
+        }
+
+        if (playerRef.currentWJTime > 0)
+        {
+            playerRef.currentWJTime -= 1 * Time.deltaTime;
+            switch (playerRef.lastWallDirection)
             {
-                playerRef.rigidRef.velocity = new Vector2(playerRef.rigidRef.velocity.x, playerRef.jumpforce);
-                playerRef.rigidRef.AddForce(new Vector2(-playerRef.wallJumpXSpeed, 0), ForceMode2D.Force);
-                playerRef.playerMoveState = Player.moveState.Walljumping;
+                case (Player.wallDirection.Left):
+                    //playerRef.rigidRef.velocity = new Vector2(playerRef.wallJumpXSpeed, playerRef.rigidRef.velocity.x);
+                    playerRef.rigidRef.AddForce(new Vector2(playerRef.wallJumpXSpeed, playerRef.rigidRef.velocity.x));
+                    break;
+
+                case (Player.wallDirection.Right):
+                    //playerRef.rigidRef.velocity = new Vector2(-playerRef.wallJumpXSpeed, playerRef.rigidRef.velocity.x);
+                    playerRef.rigidRef.AddForce(new Vector2(-playerRef.wallJumpXSpeed, playerRef.rigidRef.velocity.x));
+                    break;
             }
         }
+
+
+
+
+
     }
 }

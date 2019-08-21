@@ -2230,6 +2230,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4909642407985451407, guid: 80ba9df5e6949f340839e12a1cedcc29,
+        type: 3}
+      propertyPath: m_Name
+      value: SceneSwitch-Trigger
+      objectReference: {fileID: 0}
     - target: {fileID: -3674645930911718924, guid: 80ba9df5e6949f340839e12a1cedcc29,
         type: 3}
       propertyPath: t_Scene
@@ -2239,11 +2244,6 @@ PrefabInstance:
         type: 3}
       propertyPath: targetY
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4909642407985451407, guid: 80ba9df5e6949f340839e12a1cedcc29,
-        type: 3}
-      propertyPath: m_Name
-      value: SceneSwitch-Trigger
       objectReference: {fileID: 0}
     - target: {fileID: 4909642407985451402, guid: 80ba9df5e6949f340839e12a1cedcc29,
         type: 3}
@@ -25017,7 +25017,7 @@ PrefabInstance:
     - target: {fileID: 79531169318872699, guid: 0c29196364b4bd146acefde38bcf54b4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.29
+      value: 44
       objectReference: {fileID: 0}
     - target: {fileID: 79531169318872699, guid: 0c29196364b4bd146acefde38bcf54b4,
         type: 3}
@@ -25068,6 +25068,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5718854610222730107, guid: 0c29196364b4bd146acefde38bcf54b4,
+        type: 3}
+      propertyPath: wallJumpTime
+      value: 0.1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c29196364b4bd146acefde38bcf54b4, type: 3}
