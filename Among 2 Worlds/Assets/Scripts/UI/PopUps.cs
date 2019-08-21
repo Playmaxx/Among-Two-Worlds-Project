@@ -5,10 +5,19 @@ using UnityEngine;
 public class PopUps : MonoBehaviour
 {
     public GameObject panel;
+    public PopUps PopUpInstance;
 
     private void Awake()
     {
-
+        if (PopUpInstance == null)
+        {
+            DontDestroyOnLoad(gameObject);
+            PopUpInstance = this;
+        }
+        else if (PopUpInstance != this)
+        {
+            Destroy(gameObject);
+        }
     }
 
     void Start()
@@ -30,5 +39,10 @@ public class PopUps : MonoBehaviour
         {
             panel.SetActive(false);
         }
+    }
+
+    public void updatePanels()
+    {
+        panel = GameObject.FindGameObjectWithTag("Textbox");
     }
 }

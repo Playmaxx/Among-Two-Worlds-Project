@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour    //manages central aspects such as world shifting, active scripts etc.
 {
@@ -12,14 +13,14 @@ public class GameManager : MonoBehaviour    //manages central aspects such as wo
     public int enemyMask = 1 << 9;
     public int platformMask = 1 << 10;
 
-    //conserves health on scene switch without compromising current code
-    public int tempPlayerHealth;
-
     public enum dimension { None, Light, Dark }
     public dimension currentdim;
     public enum level { Tutorial, Eingang, Haupthalle, Keller, Türme, Gang, Boss }
     public level currentlvl;
     public static int score = 0;
+
+    public int respawnX;
+    public int respawnY;
 
     private void Awake()
     {
@@ -41,7 +42,7 @@ public class GameManager : MonoBehaviour    //manages central aspects such as wo
     // Start is called before the first frame update
     void Start()
     {
-        tempPlayerHealth = playerRef.health;
+
     }
 
     // Update is called once per frame
@@ -80,5 +81,23 @@ public class GameManager : MonoBehaviour    //manages central aspects such as wo
         {
             item.updateDimensions();
         }
+    }
+
+    void OnEnable()
+    {
+        SceneManager.sceneLoaded += onSceneLoad;
+    }
+
+    void OnDisable()
+    {
+        SceneManager.sceneLoaded -= onSceneLoad;
+    }
+
+    void onSceneLoad(Scene scene, LoadSceneMode mode)
+    {
+        playerRef = Player.PlayerInstance;
+        Debug.Log(respawnX);
+        Debug.Log(respawnY);
+        playerRef.transform.position = new Vector2(respawnX, respawnY);
     }
 }

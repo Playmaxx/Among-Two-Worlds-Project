@@ -40,6 +40,7 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
     public float shieldCooldown = -5;
 
     //non-tweakable variables
+    public static Player PlayerInstance;
     [HideInInspector]
     public float playerheight;
     [HideInInspector]
@@ -57,6 +58,15 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
 
     private void Awake() //is called before start, catch references here
     {
+        if (PlayerInstance == null)
+        {
+            DontDestroyOnLoad(this.gameObject);
+            PlayerInstance = this;
+        }
+        else if (PlayerInstance != this)
+        {
+            Destroy(this.gameObject);
+        }
         rigidRef = GetComponent<Rigidbody2D>();
         renderRef = GetComponent<SpriteRenderer>();
         galeRef = GetComponent<Gale>();
@@ -71,7 +81,6 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
         playerdirection = direction.Right;
         rigidRef.gravityScale = 0;
         playerMoveState = moveState.Falling;
-        health = GameManager.GMInstance.tempPlayerHealth;
         /*
         downVector = new Vector2(Vector2.down.x, Vector2.down.y + 0.15f) * playerheight / 2;
         Debug.Log(downVector);

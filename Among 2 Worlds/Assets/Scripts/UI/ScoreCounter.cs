@@ -9,13 +9,27 @@ public class ScoreCounter : MonoBehaviour
     public Canvas rootCanvas;
     [SerializeField]
     Player playerRef;
+    public ScoreCounter ScoreInstance;
+
+    void Awake()
+    {
+        if (ScoreInstance == null)
+        {
+            DontDestroyOnLoad(gameObject);
+            ScoreInstance = this;
+        }
+        else if (ScoreInstance != this)
+        {
+            Destroy(gameObject);
+        }
+    }
 
     // Use this for initialization
     void Start()
     {
         rootCanvas = GameObject.Find("Canvas_ScoreUI").GetComponent<Canvas>();
         scoreText = GameObject.Find("ScoreText").GetComponent<Text>();
-        playerRef = GetComponent<Player>();
+        playerRef = Player.PlayerInstance;
     }
 
     void OnTriggerEnter2D(Collider2D collision)

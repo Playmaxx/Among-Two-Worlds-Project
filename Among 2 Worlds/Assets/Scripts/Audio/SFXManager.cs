@@ -22,7 +22,7 @@ public class SFXManager : MonoBehaviour
     //Awake is called before start
     void Awake()
     {
-        playerRef = FindObjectOfType<Player>();
+        playerRef = Player.PlayerInstance;
         current_audioclip = GetComponent<AudioSource>();
     }
     // Start is called before the first frame update
@@ -43,7 +43,6 @@ public class SFXManager : MonoBehaviour
     {
         current_audioclip2.clip = Jump;
         current_audioclip2.Play();
-        Debug.Log("Jump-Sound-test");
     }
 
     public void Call_PlayJumpSound()
@@ -60,15 +59,14 @@ public class SFXManager : MonoBehaviour
 
         if (GameManager.GMInstance.currentdim == GameManager.dimension.Light)
         {
-            if (playerRef.rigidRef.velocity.y > 0 && JumpPlayed == false)
+            if (Player.PlayerInstance.rigidRef.velocity.y > 0 && JumpPlayed == false)
             {
                 playJumpSound();
                 JumpPlayed = true;
-                Debug.Log(JumpPlayed);
             }
         }
         
-        if (playerRef.playerMoveState == Player.moveState.Grounded)
+        if (Player.PlayerInstance.playerMoveState == Player.moveState.Grounded)
         {
             JumpPlayed = false;
         }
@@ -97,7 +95,7 @@ public class SFXManager : MonoBehaviour
             }
         }
 
-        if (playerRef.playerMoveState != Player.moveState.Dashing)
+        if (Player.PlayerInstance.playerMoveState != Player.moveState.Dashing)
         {
             DashPlayed = false;
         }

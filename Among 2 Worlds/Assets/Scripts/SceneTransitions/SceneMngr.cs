@@ -12,7 +12,7 @@ public class SceneMngr : MonoBehaviour
 
     bool colliding = false;
     bool sceneIsSwitching = false;
-    
+
     [SerializeField]
     Player playerRef;
 
@@ -45,6 +45,7 @@ public class SceneMngr : MonoBehaviour
         if (colliding && Input.GetKey(KeyCode.Q))
         {
             sceneIsSwitching = true;
+            Debug.Log(sceneIsSwitching);
         }
 
         if (sceneIsSwitching == true)
@@ -53,6 +54,10 @@ public class SceneMngr : MonoBehaviour
                 case (targetScene.Eingang):
                     GameManager.GMInstance.currentlvl = GameManager.level.Eingang;
                     SceneManager.LoadScene("Level 1");
+                    if (currentScene.name == "Level 1")
+                    {
+                        PlayerIsComingBack();
+                    }
                     break;
                 case (targetScene.Haupthalle):
                     PlayerIsSwitchingScene();
@@ -91,12 +96,54 @@ public class SceneMngr : MonoBehaviour
         Debug.Log(PlayerPrefs.GetFloat("X"));
         Debug.Log(PlayerPrefs.GetFloat("Y"));
     }
+
     void PlayerIsComingBack()
     {
         Debug.Log(PlayerPrefs.GetFloat("X"));
         Debug.Log(PlayerPrefs.GetFloat("Y"));
         playerRef.transform.position = new Vector2(PlayerPrefs.GetFloat("X"), PlayerPrefs.GetFloat("Y")); //vll ned die richtige schreibweise
         Debug.Log(playerRef.transform.position);
+    }
+
+    void OnEnable()
+    {
+        SceneManager.sceneLoaded += onSceneLoad;
+    }
+
+    void OnDisable()
+    {
+        SceneManager.sceneLoaded -= onSceneLoad;
+    }
+
+    void onSceneLoad(Scene scene, LoadSceneMode mode)
+    {
+        switch (scene.name)
+        {
+            case ("Level 1"):
+
+                Debug.Log("test1");
+                break;
+
+            case ("Level 2"):
+                Debug.Log("test");
+                break;
+
+            case ("Level 3"):
+
+                break;
+
+            case ("Level 4"):
+
+                break;
+
+            case ("Level 5"):
+
+                break;
+
+            case ("Boss"):
+
+                break;
+        }
     }
 
 }
