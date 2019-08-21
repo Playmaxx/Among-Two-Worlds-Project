@@ -45,6 +45,7 @@ public class SceneMngr : MonoBehaviour
         if (colliding && Input.GetKey(KeyCode.Q))
         {
             sceneIsSwitching = true;
+            Debug.Log(sceneIsSwitching);
         }
 
         if (sceneIsSwitching == true)
@@ -53,6 +54,10 @@ public class SceneMngr : MonoBehaviour
                 case (targetScene.Eingang):
                     GameManager.GMInstance.currentlvl = GameManager.level.Eingang;
                     SceneManager.LoadScene("Level 1");
+                    if (currentScene.name == "Level 1")
+                    {
+                        PlayerIsComingBack();
+                    }
                     break;
                 case (targetScene.Haupthalle):
                     PlayerIsSwitchingScene();

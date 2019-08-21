@@ -98,6 +98,7 @@ GameObject:
   - component: {fileID: 2387440381360717383}
   - component: {fileID: 6966199790888462164}
   - component: {fileID: 3644934963410143969}
+  - component: {fileID: 1907682244}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -335,6 +336,20 @@ MonoBehaviour:
   scoreText: {fileID: 0}
   rootCanvas: {fileID: 0}
   playerRef: {fileID: 0}
+--- !u!114 &1907682244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 724354089239550867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec75af0b843f1da48a08b2176f941787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  t_Scene: 0
+  playerRef: {fileID: 0}
 --- !u!1 &892352203031666132
 GameObject:
   m_ObjectHideFlags: 0
@@ -461,7 +476,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.33333334, g: 0.33333334, b: 0.33333334, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0

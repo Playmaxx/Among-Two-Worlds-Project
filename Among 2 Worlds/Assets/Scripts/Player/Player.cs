@@ -124,8 +124,7 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
                 break;
 
         }
-
-        DeathSequence();
+        
 
         //tests
         //utilized raycast overload: origin, direction, distance, layermask
@@ -309,22 +308,5 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
     public void heal(int amount)
     {
         health += amount;
-    }
-
-    void DeathSequence()
-    {
-        if (Input.GetKey(KeyCode.F) && DeathSequenceIsPlaying == false)
-        {
-            DeathSequenceIsPlaying = true;
-            StartCoroutine(RespawnPlayerAfterTime(3));
-        }
-    }
-
-    IEnumerator RespawnPlayerAfterTime(float time)
-    {
-        yield return new WaitForSeconds(time);
-        transform.position = new Vector2(0.299f, 2f);
-        DeathSequenceIsPlaying = false;
-        rigidRef.velocity = new Vector2(0, 0);
     }
 }

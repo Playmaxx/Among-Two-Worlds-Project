@@ -12,7 +12,7 @@ public class DeathSequence : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        playerRef = GetComponent<Player>();
     }
 
     // Update is called once per frame

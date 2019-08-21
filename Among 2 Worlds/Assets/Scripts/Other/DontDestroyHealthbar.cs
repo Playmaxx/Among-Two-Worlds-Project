@@ -3,23 +3,22 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class DontDestroyObject : MonoBehaviour
+public class DontDestroyHealthbar : MonoBehaviour
 {
-    public static int score;
-    public Text scoreText;
+    public Slider HealthSlider2;
     public Canvas rootCanvas;
-    private static DontDestroyObject instance = null;
-    public static DontDestroyObject instance2
+    private static DontDestroyHealthbar le_instance = null;
+    public static DontDestroyHealthbar le_instance2
     {
-        get { return instance; }
+        get { return le_instance; }
     }
 
     void Awake()
     {
-        scoreText = GetComponent<Text>();
         rootCanvas = GetComponent<Canvas>();
+        HealthSlider2 = GameObject.Find("Slider").GetComponent<Slider>();
 
-        if (instance != null && instance != this)
+        if (le_instance != null && le_instance != this)
         {
             Destroy(this.gameObject);
             return;
@@ -27,10 +26,9 @@ public class DontDestroyObject : MonoBehaviour
 
         else
         {
-            instance = this;
+            le_instance = this;
         }
 
         DontDestroyOnLoad(this.gameObject);
     }
-    
 }
