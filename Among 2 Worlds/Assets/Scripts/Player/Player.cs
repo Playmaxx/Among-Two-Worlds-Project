@@ -177,6 +177,10 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
         {
             currentGlideTime -= 1 * Time.deltaTime;
         }
+        if (currentDashTime >= 0)
+        {
+            currentDashTime -= 1 * Time.deltaTime;
+        }
     }
 
     public void refreshAbilities()     //refreshes jumps & dashes etc.
@@ -283,7 +287,6 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
                 break;
 
             case (moveState.Dashing):
-                currentDashTime -= 1 * Time.deltaTime;
                 break;
 
             case (moveState.Gliding):

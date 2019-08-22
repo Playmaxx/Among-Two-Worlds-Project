@@ -151,7 +151,7 @@ public class Lilian : MonoBehaviour      //manages abilities for Lilian
 
         if (Physics2D.Raycast(transform.position, Vector2.left, playerRef.playerwidth, GameManager.GMInstance.platformMask) || Physics2D.Raycast(transform.position, Vector2.right, playerRef.playerwidth, GameManager.GMInstance.platformMask))
         {
-            if (playerRef.currentWJTime <= 0 && (Input.GetKeyDown(KeyCode.Space) || Input.GetButtonDown("Jump")) && playerRef.WJUsed == false)
+            if (playerRef.currentWJTime <= 0 && (Input.GetKeyDown(KeyCode.Space) || Input.GetButtonDown("Jump")) && playerRef.WJUsed == false && playerRef.playerMoveState != Player.moveState.Jumping)
             {
                 playerRef.playerMoveState = Player.moveState.Walljumping;
                 playerRef.currentWJTime = playerRef.wallJumpTime;
@@ -188,10 +188,5 @@ public class Lilian : MonoBehaviour      //manages abilities for Lilian
         {
             playerRef.WJUsed = false;
         }
-
-
-
-
-
     }
 }
