@@ -113,41 +113,44 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
     // FixedUpdate is called 60 times/s, physics/logic stuff here
     void FixedUpdate()
     {
-        //general functions
-        groundCheck();
-        refreshVariables();
-        matchMoveState();
-
-        //handles character specific functions
-        switch (GameManager.GMInstance.currentdim)
+        if (playerMoveState != moveState.Other)
         {
-            case (GameManager.dimension.Light):
-                lilianRef.movement();
-                lilianRef.jump();
-                lilianRef.shield();
-                lilianRef.glide();
-                lilianRef.wallaction();
-                break;
-            case (GameManager.dimension.Dark):
-                galeRef.movement();
-                galeRef.jump();
-                galeRef.dash();
-                galeRef.cancelGlide();
-                galeRef.wallaction();
-                break;
+            //general functions
+            groundCheck();
+            refreshVariables();
+            matchMoveState();
 
+            //handles character specific functions
+            switch (GameManager.GMInstance.currentdim)
+            {
+                case (GameManager.dimension.Light):
+                    lilianRef.movement();
+                    lilianRef.jump();
+                    lilianRef.shield();
+                    lilianRef.glide();
+                    lilianRef.wallaction();
+                    break;
+                case (GameManager.dimension.Dark):
+                    galeRef.movement();
+                    galeRef.jump();
+                    galeRef.dash();
+                    galeRef.cancelGlide();
+                    galeRef.wallaction();
+                    break;
+
+            }
+
+            DeathSequence();
+
+            //tests
+            //utilized raycast overload: origin, direction, distance, layermask
+            //origin is transform.position +/- playerwidth/2 for x
+            // direction is downwards
+            //distance is playerheight/2
+            //layermask is gamemanager.platformmask
+
+            //walljump cast is made with double length of walledstate cast
         }
-
-        DeathSequence();
-
-        //tests
-        //utilized raycast overload: origin, direction, distance, layermask
-        //origin is transform.position +/- playerwidth/2 for x
-        // direction is downwards
-        //distance is playerheight/2
-        //layermask is gamemanager.platformmask
-
-        //walljump cast is made with double length of walledstate cast
     }
 
     void refreshVariables()     //For variables that need to update every frame, e.g. timers
