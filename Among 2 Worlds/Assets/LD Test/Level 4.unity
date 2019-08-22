@@ -1147,7 +1147,7 @@ GameObject:
   - component: {fileID: 51801168}
   - component: {fileID: 51801167}
   - component: {fileID: 51801166}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Mauertextur (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1204,7 +1204,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -6
   m_Sprite: {fileID: 21300000, guid: 8b34031036d0a8c448bc3715f897a6cc, type: 3}
   m_Color: {r: 0.745283, g: 0.745283, b: 0.745283, a: 1}
   m_FlipX: 0
@@ -1224,11 +1224,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 51801165}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.264182, y: 13.769521, z: 66.82566}
-  m_LocalScale: {x: 0.84022003, y: 0.84022003, z: 0.84022003}
+  m_LocalPosition: {x: -0.042397678, y: 27.667, z: 0}
+  m_LocalScale: {x: 0.88136464, y: 0.8639983, z: 0.8639983}
   m_Children: []
-  m_Father: {fileID: 2097661281}
-  m_RootOrder: 9
+  m_Father: {fileID: 0}
+  m_RootOrder: 45
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &51846311
 PrefabInstance:
@@ -1875,7 +1875,11 @@ PrefabInstance:
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 78
+=======
+      value: 145
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
@@ -1911,7 +1915,7 @@ GameObject:
   - component: {fileID: 77750593}
   - component: {fileID: 77750592}
   - component: {fileID: 77750591}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Mauertextur (31)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1968,7 +1972,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -6
   m_Sprite: {fileID: 21300000, guid: 8b34031036d0a8c448bc3715f897a6cc, type: 3}
   m_Color: {r: 0.745283, g: 0.745283, b: 0.745283, a: 1}
   m_FlipX: 0
@@ -1988,11 +1992,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 77750590}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -28.799828, y: -2.628478, z: 66.82566}
-  m_LocalScale: {x: 0.84022003, y: 0.84022003, z: 0.84022003}
+  m_LocalPosition: {x: -38.67, y: 10.806, z: 0}
+  m_LocalScale: {x: 0.88136464, y: 0.8639983, z: 0.8639983}
   m_Children: []
-  m_Father: {fileID: 2097661281}
-  m_RootOrder: 31
+  m_Father: {fileID: 0}
+  m_RootOrder: 67
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &79459119
 PrefabInstance:
@@ -2226,7 +2230,11 @@ PrefabInstance:
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 70
+=======
+      value: 137
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
@@ -3160,7 +3168,11 @@ PrefabInstance:
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 61
+=======
+      value: 128
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
@@ -3399,7 +3411,11 @@ PrefabInstance:
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 131
+=======
+      value: 197
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
@@ -3576,7 +3592,11 @@ PrefabInstance:
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 87
+=======
+      value: 154
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
@@ -3741,7 +3761,11 @@ PrefabInstance:
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 51
+=======
+      value: 118
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
@@ -3986,7 +4010,11 @@ PrefabInstance:
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 142
+=======
+      value: 208
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
@@ -4061,7 +4089,11 @@ PrefabInstance:
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 139
+=======
+      value: 205
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
@@ -4216,7 +4248,11 @@ PrefabInstance:
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 46
+=======
+      value: 113
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
@@ -4387,7 +4423,11 @@ PrefabInstance:
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 141
+=======
+      value: 207
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
@@ -4926,7 +4966,11 @@ PrefabInstance:
     - target: {fileID: 4740581006711212669, guid: 90a5b75f7fbee0c4285382090704e8c2,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 98
+=======
+      value: 165
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 4740581006711212669, guid: 90a5b75f7fbee0c4285382090704e8c2,
         type: 3}
@@ -4967,7 +5011,7 @@ GameObject:
   - component: {fileID: 196323003}
   - component: {fileID: 196323002}
   - component: {fileID: 196323004}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Wand Oben (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5030,11 +5074,15 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 196323001}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.096, y: 76.041, z: 0}
-  m_LocalScale: {x: 0.6606494, y: 0.6606494, z: 0.6606494}
+  m_LocalPosition: {x: 1.81, y: 76.041, z: 0}
+  m_LocalScale: {x: 0.67392844, y: 0.6606494, z: 0.6606494}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 151
+=======
+  m_RootOrder: 98
+>>>>>>> Lion
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &196323004
 MonoBehaviour:
@@ -5247,7 +5295,7 @@ GameObject:
   - component: {fileID: 200553292}
   - component: {fileID: 200553291}
   - component: {fileID: 200553290}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Mauertextur (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5304,7 +5352,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -6
   m_Sprite: {fileID: 21300000, guid: 8b34031036d0a8c448bc3715f897a6cc, type: 3}
   m_Color: {r: 0.745283, g: 0.745283, b: 0.745283, a: 1}
   m_FlipX: 0
@@ -5324,11 +5372,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 200553289}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.264182, y: 47.13752, z: 66.82566}
-  m_LocalScale: {x: 0.84022003, y: 0.84022003, z: 0.84022003}
+  m_LocalPosition: {x: -0.042397678, y: 61.979, z: 0}
+  m_LocalScale: {x: 0.88136464, y: 0.8639983, z: 0.8639983}
   m_Children: []
-  m_Father: {fileID: 2097661281}
-  m_RootOrder: 21
+  m_Father: {fileID: 0}
+  m_RootOrder: 57
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &201010476
 PrefabInstance:
@@ -5380,7 +5428,11 @@ PrefabInstance:
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 91
+=======
+      value: 158
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
@@ -5845,7 +5897,11 @@ PrefabInstance:
     - target: {fileID: 4740581006711212669, guid: 90a5b75f7fbee0c4285382090704e8c2,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 89
+=======
+      value: 156
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 4740581006711212669, guid: 90a5b75f7fbee0c4285382090704e8c2,
         type: 3}
@@ -6243,7 +6299,11 @@ PrefabInstance:
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 68
+=======
+      value: 135
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
@@ -6318,7 +6378,11 @@ PrefabInstance:
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 67
+=======
+      value: 134
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
@@ -6360,7 +6424,7 @@ GameObject:
   - component: {fileID: 238338005}
   - component: {fileID: 238338004}
   - component: {fileID: 238338006}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Wand (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6423,8 +6487,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 238338003}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -31.874998, y: 4.9460006, z: 0}
-  m_LocalScale: {x: 0.6318443, y: 0.6318443, z: 0.6318443}
+  m_LocalPosition: {x: -32.09, y: 4.0602, z: 0}
+  m_LocalScale: {x: 0.662785, y: 0.6497255, z: 0.6497255}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 23
@@ -6534,7 +6598,7 @@ GameObject:
   - component: {fileID: 247551642}
   - component: {fileID: 247551641}
   - component: {fileID: 247551640}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Mauertextur (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6591,7 +6655,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -6
   m_Sprite: {fileID: 21300000, guid: 8b34031036d0a8c448bc3715f897a6cc, type: 3}
   m_Color: {r: 0.745283, g: 0.745283, b: 0.745283, a: 1}
   m_FlipX: 0
@@ -6611,11 +6675,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 247551639}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 17.617176, y: 38.799522, z: 66.82566}
-  m_LocalScale: {x: 0.84022003, y: 0.84022003, z: 0.84022003}
+  m_LocalPosition: {x: 8.728903, y: 53.405, z: 0}
+  m_LocalScale: {x: 0.88136464, y: 0.8639983, z: 0.8639983}
   m_Children: []
-  m_Father: {fileID: 2097661281}
-  m_RootOrder: 19
+  m_Father: {fileID: 0}
+  m_RootOrder: 55
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &248080951 stripped
 Transform:
@@ -6939,7 +7003,11 @@ PrefabInstance:
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 44
+=======
+      value: 111
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
@@ -7014,7 +7082,11 @@ PrefabInstance:
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 96
+=======
+      value: 163
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
@@ -7174,7 +7246,11 @@ PrefabInstance:
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 48
+=======
+      value: 115
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
@@ -7820,7 +7896,11 @@ PrefabInstance:
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 81
+=======
+      value: 148
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
@@ -8343,7 +8423,7 @@ GameObject:
   - component: {fileID: 315901470}
   - component: {fileID: 315901469}
   - component: {fileID: 315901468}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Mauertextur (46)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8400,7 +8480,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -6
   m_Sprite: {fileID: 21300000, guid: 8b34031036d0a8c448bc3715f897a6cc, type: 3}
   m_Color: {r: 0.745283, g: 0.745283, b: 0.745283, a: 1}
   m_FlipX: 0
@@ -8420,11 +8500,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 315901467}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -28.799828, y: 39.089523, z: 66.82566}
-  m_LocalScale: {x: 0.84022003, y: 0.84022003, z: 0.84022003}
+  m_LocalPosition: {x: -38.67, y: 53.704, z: 0}
+  m_LocalScale: {x: 0.88136464, y: 0.8639983, z: 0.8639983}
   m_Children: []
-  m_Father: {fileID: 2097661281}
-  m_RootOrder: 46
+  m_Father: {fileID: 0}
+  m_RootOrder: 82
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &319847501 stripped
 Transform:
@@ -8888,7 +8968,7 @@ GameObject:
   - component: {fileID: 336336105}
   - component: {fileID: 336336104}
   - component: {fileID: 336336106}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Wand (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8951,8 +9031,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 336336103}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 14.610001, y: 67.475, z: 0}
-  m_LocalScale: {x: 0.62816715, y: 0.62816715, z: 0.62816715}
+  m_LocalPosition: {x: 15.26, y: 68.354, z: 0}
+  m_LocalScale: {x: 0.6589278, y: 0.6459443, z: 0.6459443}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 21
@@ -9347,7 +9427,11 @@ PrefabInstance:
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 127
+=======
+      value: 193
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
@@ -9372,89 +9456,6 @@ PrefabInstance:
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c1fde9f236f829e4286f488824fbc14e, type: 3}
---- !u!1 &350150822
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 350150823}
-  - component: {fileID: 350150825}
-  - component: {fileID: 350150824}
-  m_Layer: 8
-  m_Name: Main Camera (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &350150823
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 350150822}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.29, y: 2, z: -11}
-  m_LocalScale: {x: 1.0927768, y: 1.0927768, z: 1.0927768}
-  m_Children: []
-  m_Father: {fileID: 1406061327}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!81 &350150824
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 350150822}
-  m_Enabled: 1
---- !u!20 &350150825
-Camera:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 350150822}
-  m_Enabled: 1
-  serializedVersion: 2
-  m_ClearFlags: 3
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
-  m_projectionMatrixMode: 1
-  m_GateFitMode: 2
-  m_FOVAxisMode: 0
-  m_SensorSize: {x: 36, y: 24}
-  m_LensShift: {x: 0, y: 0}
-  m_FocalLength: 50
-  m_NormalizedViewPortRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
-  near clip plane: 0.3
-  far clip plane: 1000
-  field of view: 60
-  orthographic: 1
-  orthographic size: 6.3
-  m_Depth: 0
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 8192
-  m_RenderingPath: -1
-  m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 0
-  m_TargetEye: 3
-  m_HDR: 1
-  m_AllowMSAA: 1
-  m_AllowDynamicResolution: 0
-  m_ForceIntoRT: 0
-  m_OcclusionCulling: 1
-  m_StereoConvergence: 10
-  m_StereoSeparation: 0.022
 --- !u!4 &356579388 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4870059756340752123, guid: 3a5264935ded6d242b7c99d73e532174,
@@ -9812,7 +9813,7 @@ GameObject:
   - component: {fileID: 372119587}
   - component: {fileID: 372119586}
   - component: {fileID: 372119585}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Mauertextur
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9869,7 +9870,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -6
   m_Sprite: {fileID: 21300000, guid: 8b34031036d0a8c448bc3715f897a6cc, type: 3}
   m_Color: {r: 0.745283, g: 0.745283, b: 0.745283, a: 1}
   m_FlipX: 0
@@ -9889,11 +9890,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 372119584}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.264182, y: -11.256478, z: 66.82566}
-  m_LocalScale: {x: 0.84022003, y: 0.84022003, z: 0.84022003}
+  m_LocalPosition: {x: -0.042397678, y: 1.9337, z: 0}
+  m_LocalScale: {x: 0.88136464, y: 0.8639983, z: 0.8639983}
   m_Children: []
-  m_Father: {fileID: 2097661281}
-  m_RootOrder: 0
+  m_Father: {fileID: 0}
+  m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &375132008
 GameObject:
@@ -10256,7 +10257,7 @@ GameObject:
   - component: {fileID: 379934470}
   - component: {fileID: 379934469}
   - component: {fileID: 379934471}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Wand (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10319,8 +10320,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 379934468}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.048001, y: 17.434, z: 0}
-  m_LocalScale: {x: 0.62816715, y: 0.62816715, z: 0.62816715}
+  m_LocalPosition: {x: 2.16, y: 16.897, z: 0}
+  m_LocalScale: {x: 0.6589278, y: 0.6459443, z: 0.6459443}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 12
@@ -10384,7 +10385,7 @@ GameObject:
   - component: {fileID: 382524390}
   - component: {fileID: 382524389}
   - component: {fileID: 382524388}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: MauerDachkurz
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10461,11 +10462,15 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 382524387}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -46.212, y: 75.321, z: 0}
-  m_LocalScale: {x: 0.85760003, y: 0.85760003, z: 0.85760003}
+  m_LocalPosition: {x: -47.59, y: 75.321, z: 0}
+  m_LocalScale: {x: 0.87483776, y: 0.85760003, z: 0.85760003}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 143
+=======
+  m_RootOrder: 90
+>>>>>>> Lion
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &382669242
 GameObject:
@@ -10996,7 +11001,11 @@ PrefabInstance:
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 128
+=======
+      value: 194
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
@@ -11032,7 +11041,7 @@ GameObject:
   - component: {fileID: 401167273}
   - component: {fileID: 401167272}
   - component: {fileID: 401167271}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Mauertextur (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11089,7 +11098,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -6
   m_Sprite: {fileID: 21300000, guid: 8b34031036d0a8c448bc3715f897a6cc, type: 3}
   m_Color: {r: 0.745283, g: 0.745283, b: 0.745283, a: 1}
   m_FlipX: 0
@@ -11109,11 +11118,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 401167270}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 25.967178, y: 55.511524, z: 66.82566}
-  m_LocalScale: {x: 0.84022003, y: 0.84022003, z: 0.84022003}
+  m_LocalPosition: {x: 17.5, y: 70.59, z: 0}
+  m_LocalScale: {x: 0.88136464, y: 0.8639983, z: 0.8639983}
   m_Children: []
-  m_Father: {fileID: 2097661281}
-  m_RootOrder: 26
+  m_Father: {fileID: 0}
+  m_RootOrder: 62
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &402119383
 PrefabInstance:
@@ -11205,7 +11214,7 @@ GameObject:
   - component: {fileID: 405776417}
   - component: {fileID: 405776416}
   - component: {fileID: 405776415}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Mauertextur (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11262,7 +11271,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -6
   m_Sprite: {fileID: 21300000, guid: 8b34031036d0a8c448bc3715f897a6cc, type: 3}
   m_Color: {r: 0.745283, g: 0.745283, b: 0.745283, a: 1}
   m_FlipX: 0
@@ -11282,11 +11291,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 405776414}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 17.617176, y: 22.111523, z: 66.82566}
-  m_LocalScale: {x: 0.84022003, y: 0.84022003, z: 0.84022003}
+  m_LocalPosition: {x: 8.728903, y: 36.245, z: 0}
+  m_LocalScale: {x: 0.88136464, y: 0.8639983, z: 0.8639983}
   m_Children: []
-  m_Father: {fileID: 2097661281}
-  m_RootOrder: 13
+  m_Father: {fileID: 0}
+  m_RootOrder: 49
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &409488327
 PrefabInstance:
@@ -11683,7 +11692,11 @@ PrefabInstance:
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 45
+=======
+      value: 112
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
@@ -11989,7 +12002,7 @@ GameObject:
   - component: {fileID: 433022615}
   - component: {fileID: 433022614}
   - component: {fileID: 433022613}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Mauertextur (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12046,7 +12059,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -6
   m_Sprite: {fileID: 21300000, guid: 8b34031036d0a8c448bc3715f897a6cc, type: 3}
   m_Color: {r: 0.745283, g: 0.745283, b: 0.745283, a: 1}
   m_FlipX: 0
@@ -12066,11 +12079,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 433022612}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -28.799828, y: -10.966478, z: 66.82566}
-  m_LocalScale: {x: 0.84022003, y: 0.84022003, z: 0.84022003}
+  m_LocalPosition: {x: -38.67, y: 2.2298, z: 0}
+  m_LocalScale: {x: 0.88136464, y: 0.8639983, z: 0.8639983}
   m_Children: []
-  m_Father: {fileID: 2097661281}
-  m_RootOrder: 28
+  m_Father: {fileID: 0}
+  m_RootOrder: 64
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &433547280
 GameObject:
@@ -12083,7 +12096,7 @@ GameObject:
   - component: {fileID: 433547282}
   - component: {fileID: 433547281}
   - component: {fileID: 433547283}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Wand (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12146,8 +12159,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 433547280}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -31.874998, y: 55.32, z: 0}
-  m_LocalScale: {x: 0.6318443, y: 0.6318443, z: 0.6318443}
+  m_LocalPosition: {x: -32.09, y: 55.855, z: 0}
+  m_LocalScale: {x: 0.662785, y: 0.6497255, z: 0.6497255}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 30
@@ -12920,7 +12933,11 @@ PrefabInstance:
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 130
+=======
+      value: 196
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
@@ -13512,7 +13529,7 @@ GameObject:
   - component: {fileID: 497619715}
   - component: {fileID: 497619714}
   - component: {fileID: 497619713}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: MauerDachkurz (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13589,11 +13606,15 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 497619712}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.677, y: 75.356, z: 0}
-  m_LocalScale: {x: 0.8824705, y: 0.8824705, z: 0.8824705}
+  m_LocalPosition: {x: 8.47, y: 75.356, z: 0}
+  m_LocalScale: {x: 0.9002081, y: 0.8824705, z: 0.8824705}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 147
+=======
+  m_RootOrder: 94
+>>>>>>> Lion
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &498381004
 PrefabInstance:
@@ -14020,7 +14041,11 @@ PrefabInstance:
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 42
+=======
+      value: 109
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
@@ -14191,7 +14216,11 @@ PrefabInstance:
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 63
+=======
+      value: 130
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
@@ -14266,7 +14295,11 @@ PrefabInstance:
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 99
+=======
+      value: 166
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
@@ -14709,7 +14742,11 @@ PrefabInstance:
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 126
+=======
+      value: 192
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
@@ -14880,7 +14917,11 @@ PrefabInstance:
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 138
+=======
+      value: 204
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
@@ -15167,7 +15208,7 @@ GameObject:
   - component: {fileID: 540708665}
   - component: {fileID: 540708664}
   - component: {fileID: 540708666}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Wand (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15230,8 +15271,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 540708663}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -31.874998, y: 17.543001, z: 0}
-  m_LocalScale: {x: 0.6318443, y: 0.6318443, z: 0.6318443}
+  m_LocalPosition: {x: -32.09, y: 17.009, z: 0}
+  m_LocalScale: {x: 0.662785, y: 0.6497255, z: 0.6497255}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 25
@@ -15752,7 +15793,11 @@ PrefabInstance:
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 57
+=======
+      value: 124
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
@@ -15827,7 +15872,11 @@ PrefabInstance:
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 137
+=======
+      value: 203
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
@@ -15863,7 +15912,7 @@ GameObject:
   - component: {fileID: 552364375}
   - component: {fileID: 552364374}
   - component: {fileID: 552364376}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Wand (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15926,8 +15975,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 552364373}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -31.874998, y: 42.724, z: 0}
-  m_LocalScale: {x: 0.6318443, y: 0.6318443, z: 0.6318443}
+  m_LocalPosition: {x: -32.09, y: 42.903, z: 0}
+  m_LocalScale: {x: 0.662785, y: 0.6497255, z: 0.6497255}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 28
@@ -16088,7 +16137,7 @@ GameObject:
   - component: {fileID: 561031361}
   - component: {fileID: 561031360}
   - component: {fileID: 561031359}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Mauertextur (36)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16145,7 +16194,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -6
   m_Sprite: {fileID: 21300000, guid: 8b34031036d0a8c448bc3715f897a6cc, type: 3}
   m_Color: {r: 0.745283, g: 0.745283, b: 0.745283, a: 1}
   m_FlipX: 0
@@ -16165,11 +16214,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 561031358}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -37.152824, y: 14.05952, z: 66.82566}
-  m_LocalScale: {x: 0.84022003, y: 0.84022003, z: 0.84022003}
+  m_LocalPosition: {x: -47.440998, y: 27.966, z: 0}
+  m_LocalScale: {x: 0.88136464, y: 0.8639983, z: 0.8639983}
   m_Children: []
-  m_Father: {fileID: 2097661281}
-  m_RootOrder: 36
+  m_Father: {fileID: 0}
+  m_RootOrder: 72
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &561329120 stripped
 Transform:
@@ -16317,7 +16366,11 @@ PrefabInstance:
     - target: {fileID: 49362462194385057, guid: 8d77dfb184a1f994dbccbdcf5fd0706f,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 115
+=======
+      value: 182
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 49362462194385057, guid: 8d77dfb184a1f994dbccbdcf5fd0706f,
         type: 3}
@@ -16589,7 +16642,11 @@ PrefabInstance:
     - target: {fileID: 49362462194385057, guid: 8d77dfb184a1f994dbccbdcf5fd0706f,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 104
+=======
+      value: 171
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 49362462194385057, guid: 8d77dfb184a1f994dbccbdcf5fd0706f,
         type: 3}
@@ -16954,7 +17011,11 @@ PrefabInstance:
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 56
+=======
+      value: 123
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
@@ -17481,7 +17542,11 @@ PrefabInstance:
     - target: {fileID: 49362462194385057, guid: 8d77dfb184a1f994dbccbdcf5fd0706f,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 119
+=======
+      value: 186
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 49362462194385057, guid: 8d77dfb184a1f994dbccbdcf5fd0706f,
         type: 3}
@@ -17761,7 +17826,7 @@ GameObject:
   - component: {fileID: 624480606}
   - component: {fileID: 624480605}
   - component: {fileID: 624480607}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Wand (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17824,8 +17889,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 624480604}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.048001, y: 29.947, z: 0}
-  m_LocalScale: {x: 0.62816715, y: 0.62816715, z: 0.62816715}
+  m_LocalPosition: {x: 2.16, y: 29.764, z: 0}
+  m_LocalScale: {x: 0.6589278, y: 0.6459443, z: 0.6459443}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 14
@@ -17861,7 +17926,7 @@ GameObject:
   - component: {fileID: 632345014}
   - component: {fileID: 632345013}
   - component: {fileID: 632345012}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: MauerDachkurz (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17938,11 +18003,15 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 632345011}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.14, y: 75.356, z: 0}
-  m_LocalScale: {x: 0.8824705, y: 0.8824705, z: 0.8824705}
+  m_LocalPosition: {x: -0.53, y: 75.356, z: 0}
+  m_LocalScale: {x: 0.9002081, y: 0.8824705, z: 0.8824705}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 146
+=======
+  m_RootOrder: 93
+>>>>>>> Lion
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &632657072
 PrefabInstance:
@@ -18199,7 +18268,11 @@ PrefabInstance:
     - target: {fileID: 4740581006711212669, guid: 90a5b75f7fbee0c4285382090704e8c2,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 102
+=======
+      value: 169
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 4740581006711212669, guid: 90a5b75f7fbee0c4285382090704e8c2,
         type: 3}
@@ -18531,7 +18604,11 @@ PrefabInstance:
     - target: {fileID: 49362462194385057, guid: 8d77dfb184a1f994dbccbdcf5fd0706f,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 82
+=======
+      value: 149
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 49362462194385057, guid: 8d77dfb184a1f994dbccbdcf5fd0706f,
         type: 3}
@@ -18669,7 +18746,7 @@ GameObject:
   - component: {fileID: 685619263}
   - component: {fileID: 685619262}
   - component: {fileID: 685619261}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Mauertextur (45)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18726,7 +18803,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -6
   m_Sprite: {fileID: 21300000, guid: 8b34031036d0a8c448bc3715f897a6cc, type: 3}
   m_Color: {r: 0.745283, g: 0.745283, b: 0.745283, a: 1}
   m_FlipX: 0
@@ -18746,11 +18823,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 685619260}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -37.152824, y: 39.089523, z: 66.82566}
-  m_LocalScale: {x: 0.84022003, y: 0.84022003, z: 0.84022003}
+  m_LocalPosition: {x: -47.440998, y: 53.704, z: 0}
+  m_LocalScale: {x: 0.88136464, y: 0.8639983, z: 0.8639983}
   m_Children: []
-  m_Father: {fileID: 2097661281}
-  m_RootOrder: 45
+  m_Father: {fileID: 0}
+  m_RootOrder: 81
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &689411826
 PrefabInstance:
@@ -18962,7 +19039,11 @@ PrefabInstance:
     - target: {fileID: 49362462194385057, guid: 8d77dfb184a1f994dbccbdcf5fd0706f,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 80
+=======
+      value: 147
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 49362462194385057, guid: 8d77dfb184a1f994dbccbdcf5fd0706f,
         type: 3}
@@ -19127,7 +19208,11 @@ PrefabInstance:
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 73
+=======
+      value: 140
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
@@ -19535,7 +19620,11 @@ PrefabInstance:
     - target: {fileID: 49362462194385057, guid: 8d77dfb184a1f994dbccbdcf5fd0706f,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 116
+=======
+      value: 183
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 49362462194385057, guid: 8d77dfb184a1f994dbccbdcf5fd0706f,
         type: 3}
@@ -20463,7 +20552,7 @@ GameObject:
   - component: {fileID: 748916359}
   - component: {fileID: 748916358}
   - component: {fileID: 748916357}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Mauertextur (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20520,7 +20609,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -6
   m_Sprite: {fileID: 21300000, guid: 8b34031036d0a8c448bc3715f897a6cc, type: 3}
   m_Color: {r: 0.745283, g: 0.745283, b: 0.745283, a: 1}
   m_FlipX: 0
@@ -20540,11 +20629,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 748916356}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 25.967178, y: 13.769521, z: 66.82566}
-  m_LocalScale: {x: 0.84022003, y: 0.84022003, z: 0.84022003}
+  m_LocalPosition: {x: 17.5, y: 27.667, z: 0}
+  m_LocalScale: {x: 0.88136464, y: 0.8639983, z: 0.8639983}
   m_Children: []
-  m_Father: {fileID: 2097661281}
-  m_RootOrder: 11
+  m_Father: {fileID: 0}
+  m_RootOrder: 47
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &756409549
 PrefabInstance:
@@ -20670,7 +20759,11 @@ PrefabInstance:
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 122
+=======
+      value: 189
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
@@ -20967,7 +21060,7 @@ GameObject:
   - component: {fileID: 780212615}
   - component: {fileID: 780212614}
   - component: {fileID: 780212616}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Wand (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21030,8 +21123,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 780212613}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -44.51, y: 17.543001, z: 0}
-  m_LocalScale: {x: 0.6318443, y: 0.6318443, z: 0.6318443}
+  m_LocalPosition: {x: -45.332996, y: 17.009, z: 0}
+  m_LocalScale: {x: 0.662785, y: 0.6497255, z: 0.6497255}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 24
@@ -21061,7 +21154,7 @@ GameObject:
   - component: {fileID: 780312999}
   - component: {fileID: 780312998}
   - component: {fileID: 780312997}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Mauertextur (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21118,7 +21211,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -6
   m_Sprite: {fileID: 21300000, guid: 8b34031036d0a8c448bc3715f897a6cc, type: 3}
   m_Color: {r: 0.745283, g: 0.745283, b: 0.745283, a: 1}
   m_FlipX: 0
@@ -21138,11 +21231,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 780312996}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 25.967178, y: 38.799522, z: 66.82566}
-  m_LocalScale: {x: 0.84022003, y: 0.84022003, z: 0.84022003}
+  m_LocalPosition: {x: 17.5, y: 53.405, z: 0}
+  m_LocalScale: {x: 0.88136464, y: 0.8639983, z: 0.8639983}
   m_Children: []
-  m_Father: {fileID: 2097661281}
-  m_RootOrder: 20
+  m_Father: {fileID: 0}
+  m_RootOrder: 56
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &782610020
 PrefabInstance:
@@ -21979,7 +22072,7 @@ GameObject:
   - component: {fileID: 810654420}
   - component: {fileID: 810654419}
   - component: {fileID: 810654418}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Mauertextur (40)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22036,7 +22129,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -6
   m_Sprite: {fileID: 21300000, guid: 8b34031036d0a8c448bc3715f897a6cc, type: 3}
   m_Color: {r: 0.745283, g: 0.745283, b: 0.745283, a: 1}
   m_FlipX: 0
@@ -22056,11 +22149,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 810654417}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -28.799828, y: 22.401524, z: 66.82566}
-  m_LocalScale: {x: 0.84022003, y: 0.84022003, z: 0.84022003}
+  m_LocalPosition: {x: -38.67, y: 36.544, z: 0}
+  m_LocalScale: {x: 0.88136464, y: 0.8639983, z: 0.8639983}
   m_Children: []
-  m_Father: {fileID: 2097661281}
-  m_RootOrder: 40
+  m_Father: {fileID: 0}
+  m_RootOrder: 76
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &823505607
 PrefabInstance:
@@ -22343,7 +22436,7 @@ GameObject:
   - component: {fileID: 826820332}
   - component: {fileID: 826820331}
   - component: {fileID: 826820333}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Wand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22406,8 +22499,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 826820330}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.132001, y: 4.9100003, z: 0}
-  m_LocalScale: {x: 0.62816715, y: 0.62816715, z: 0.62816715}
+  m_LocalPosition: {x: 2.2423, y: 4.019, z: 0}
+  m_LocalScale: {x: 0.6589278, y: 0.6459443, z: 0.6459443}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 10
@@ -22596,7 +22689,7 @@ GameObject:
   - component: {fileID: 833433522}
   - component: {fileID: 833433521}
   - component: {fileID: 833433520}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: MauerDachkurz (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22673,11 +22766,15 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 833433519}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -29.082, y: 75.321, z: 0}
-  m_LocalScale: {x: 0.85760003, y: 0.85760003, z: 0.85760003}
+  m_LocalPosition: {x: -30.13, y: 75.321, z: 0}
+  m_LocalScale: {x: 0.87483776, y: 0.85760003, z: 0.85760003}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 145
+=======
+  m_RootOrder: 92
+>>>>>>> Lion
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &835497743
 PrefabInstance:
@@ -22898,7 +22995,11 @@ PrefabInstance:
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 134
+=======
+      value: 200
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
@@ -23110,7 +23211,11 @@ PrefabInstance:
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 62
+=======
+      value: 129
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
@@ -23281,7 +23386,11 @@ PrefabInstance:
     - target: {fileID: 4740581006711212669, guid: 90a5b75f7fbee0c4285382090704e8c2,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 76
+=======
+      value: 143
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 4740581006711212669, guid: 90a5b75f7fbee0c4285382090704e8c2,
         type: 3}
@@ -23749,7 +23858,7 @@ GameObject:
   - component: {fileID: 879836209}
   - component: {fileID: 879836208}
   - component: {fileID: 879836207}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: MauerDachkurz (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23826,11 +23935,15 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 879836206}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 17.494, y: 75.356, z: 0}
-  m_LocalScale: {x: 0.8824705, y: 0.8824705, z: 0.8824705}
+  m_LocalPosition: {x: 17.45, y: 75.356, z: 0}
+  m_LocalScale: {x: 0.9002081, y: 0.8824705, z: 0.8824705}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 148
+=======
+  m_RootOrder: 95
+>>>>>>> Lion
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &884476722 stripped
 Transform:
@@ -24165,7 +24278,11 @@ Transform:
   - {fileID: 870649820}
   - {fileID: 1411104872}
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 36
+=======
+  m_RootOrder: 103
+>>>>>>> Lion
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &910512281
 PrefabInstance:
@@ -24416,7 +24533,11 @@ PrefabInstance:
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 47
+=======
+      value: 114
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
@@ -24669,7 +24790,7 @@ GameObject:
   - component: {fileID: 937112352}
   - component: {fileID: 937112351}
   - component: {fileID: 937112350}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Mauertextur (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24726,7 +24847,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -6
   m_Sprite: {fileID: 21300000, guid: 8b34031036d0a8c448bc3715f897a6cc, type: 3}
   m_Color: {r: 0.745283, g: 0.745283, b: 0.745283, a: 1}
   m_FlipX: 0
@@ -24746,11 +24867,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 937112349}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 17.617176, y: 13.769521, z: 66.82566}
-  m_LocalScale: {x: 0.84022003, y: 0.84022003, z: 0.84022003}
+  m_LocalPosition: {x: 8.728903, y: 27.667, z: 0}
+  m_LocalScale: {x: 0.88136464, y: 0.8639983, z: 0.8639983}
   m_Children: []
-  m_Father: {fileID: 2097661281}
-  m_RootOrder: 10
+  m_Father: {fileID: 0}
+  m_RootOrder: 46
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &942136645
 PrefabInstance:
@@ -24922,7 +25043,11 @@ PrefabInstance:
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 123
+=======
+      value: 190
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
@@ -25280,7 +25405,11 @@ PrefabInstance:
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 97
+=======
+      value: 164
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
@@ -25480,7 +25609,11 @@ PrefabInstance:
     - target: {fileID: 4740581006711212669, guid: 90a5b75f7fbee0c4285382090704e8c2,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 64
+=======
+      value: 131
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 4740581006711212669, guid: 90a5b75f7fbee0c4285382090704e8c2,
         type: 3}
@@ -25578,7 +25711,11 @@ Transform:
   - {fileID: 1899289}
   - {fileID: 1471438266}
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 37
+=======
+  m_RootOrder: 104
+>>>>>>> Lion
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &977383335
 PrefabInstance:
@@ -25969,7 +26106,11 @@ PrefabInstance:
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 132
+=======
+      value: 198
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
@@ -26219,7 +26360,11 @@ PrefabInstance:
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 65
+=======
+      value: 132
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
@@ -26267,7 +26412,7 @@ GameObject:
   - component: {fileID: 1010266979}
   - component: {fileID: 1010266978}
   - component: {fileID: 1010266977}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Mauertextur (39)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26324,7 +26469,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -6
   m_Sprite: {fileID: 21300000, guid: 8b34031036d0a8c448bc3715f897a6cc, type: 3}
   m_Color: {r: 0.745283, g: 0.745283, b: 0.745283, a: 1}
   m_FlipX: 0
@@ -26344,11 +26489,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1010266976}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -37.152824, y: 22.401524, z: 66.82566}
-  m_LocalScale: {x: 0.84022003, y: 0.84022003, z: 0.84022003}
+  m_LocalPosition: {x: -47.440998, y: 36.544, z: 0}
+  m_LocalScale: {x: 0.88136464, y: 0.8639983, z: 0.8639983}
   m_Children: []
-  m_Father: {fileID: 2097661281}
-  m_RootOrder: 39
+  m_Father: {fileID: 0}
+  m_RootOrder: 75
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1013418175
 PrefabInstance:
@@ -26400,7 +26545,11 @@ PrefabInstance:
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 49
+=======
+      value: 116
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
@@ -26475,7 +26624,11 @@ PrefabInstance:
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 120
+=======
+      value: 187
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
@@ -27084,7 +27237,11 @@ PrefabInstance:
     - target: {fileID: 49362462194385057, guid: 8d77dfb184a1f994dbccbdcf5fd0706f,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 112
+=======
+      value: 179
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 49362462194385057, guid: 8d77dfb184a1f994dbccbdcf5fd0706f,
         type: 3}
@@ -27626,7 +27783,7 @@ GameObject:
   - component: {fileID: 1065539639}
   - component: {fileID: 1065539638}
   - component: {fileID: 1065539637}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Mauertextur (30)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27683,7 +27840,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -6
   m_Sprite: {fileID: 21300000, guid: 8b34031036d0a8c448bc3715f897a6cc, type: 3}
   m_Color: {r: 0.745283, g: 0.745283, b: 0.745283, a: 1}
   m_FlipX: 0
@@ -27703,11 +27860,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1065539636}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -37.152824, y: -2.628478, z: 66.82566}
-  m_LocalScale: {x: 0.84022003, y: 0.84022003, z: 0.84022003}
+  m_LocalPosition: {x: -47.440998, y: 10.806, z: 0}
+  m_LocalScale: {x: 0.88136464, y: 0.8639983, z: 0.8639983}
   m_Children: []
-  m_Father: {fileID: 2097661281}
-  m_RootOrder: 30
+  m_Father: {fileID: 0}
+  m_RootOrder: 66
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1068175306
 PrefabInstance:
@@ -27759,7 +27916,11 @@ PrefabInstance:
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 41
+=======
+      value: 108
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
@@ -27795,7 +27956,7 @@ GameObject:
   - component: {fileID: 1068425609}
   - component: {fileID: 1068425608}
   - component: {fileID: 1068425607}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Mauertextur (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27852,7 +28013,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -6
   m_Sprite: {fileID: 21300000, guid: 8b34031036d0a8c448bc3715f897a6cc, type: 3}
   m_Color: {r: 0.745283, g: 0.745283, b: 0.745283, a: 1}
   m_FlipX: 0
@@ -27872,11 +28033,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1068425606}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 17.617176, y: -11.256478, z: 66.82566}
-  m_LocalScale: {x: 0.84022003, y: 0.84022003, z: 0.84022003}
+  m_LocalPosition: {x: 8.728903, y: 1.9337, z: 0}
+  m_LocalScale: {x: 0.88136464, y: 0.8639983, z: 0.8639983}
   m_Children: []
-  m_Father: {fileID: 2097661281}
-  m_RootOrder: 1
+  m_Father: {fileID: 0}
+  m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1070417705 stripped
 Transform:
@@ -27974,7 +28135,7 @@ GameObject:
   - component: {fileID: 1082200884}
   - component: {fileID: 1082200883}
   - component: {fileID: 1082200882}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Mauertextur (48)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28031,7 +28192,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -6
   m_Sprite: {fileID: 21300000, guid: 8b34031036d0a8c448bc3715f897a6cc, type: 3}
   m_Color: {r: 0.745283, g: 0.745283, b: 0.745283, a: 1}
   m_FlipX: 0
@@ -28051,11 +28212,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1082200881}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -37.152824, y: 47.42752, z: 66.82566}
-  m_LocalScale: {x: 0.84022003, y: 0.84022003, z: 0.84022003}
+  m_LocalPosition: {x: -47.440998, y: 62.277, z: 0}
+  m_LocalScale: {x: 0.88136464, y: 0.8639983, z: 0.8639983}
   m_Children: []
-  m_Father: {fileID: 2097661281}
-  m_RootOrder: 48
+  m_Father: {fileID: 0}
+  m_RootOrder: 84
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1088429946
 PrefabInstance:
@@ -28163,7 +28324,7 @@ GameObject:
   - component: {fileID: 1088988913}
   - component: {fileID: 1088988912}
   - component: {fileID: 1088988911}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Mauertextur (50)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28220,7 +28381,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -6
   m_Sprite: {fileID: 21300000, guid: 8b34031036d0a8c448bc3715f897a6cc, type: 3}
   m_Color: {r: 0.745283, g: 0.745283, b: 0.745283, a: 1}
   m_FlipX: 0
@@ -28240,11 +28401,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1088988910}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -20.449825, y: 47.42752, z: 66.82566}
-  m_LocalScale: {x: 0.84022003, y: 0.84022003, z: 0.84022003}
+  m_LocalPosition: {x: -29.898998, y: 62.277, z: 0}
+  m_LocalScale: {x: 0.88136464, y: 0.8639983, z: 0.8639983}
   m_Children: []
-  m_Father: {fileID: 2097661281}
-  m_RootOrder: 50
+  m_Father: {fileID: 0}
+  m_RootOrder: 86
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1089298006
 PrefabInstance:
@@ -28421,7 +28582,11 @@ PrefabInstance:
     - target: {fileID: 49362462194385057, guid: 8d77dfb184a1f994dbccbdcf5fd0706f,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 66
+=======
+      value: 133
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 49362462194385057, guid: 8d77dfb184a1f994dbccbdcf5fd0706f,
         type: 3}
@@ -28463,7 +28628,7 @@ GameObject:
   - component: {fileID: 1098024199}
   - component: {fileID: 1098024198}
   - component: {fileID: 1098024197}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Mauertextur (37)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28520,7 +28685,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -6
   m_Sprite: {fileID: 21300000, guid: 8b34031036d0a8c448bc3715f897a6cc, type: 3}
   m_Color: {r: 0.745283, g: 0.745283, b: 0.745283, a: 1}
   m_FlipX: 0
@@ -28540,11 +28705,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1098024196}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -28.799828, y: 14.05952, z: 66.82566}
-  m_LocalScale: {x: 0.84022003, y: 0.84022003, z: 0.84022003}
+  m_LocalPosition: {x: -38.67, y: 27.966, z: 0}
+  m_LocalScale: {x: 0.88136464, y: 0.8639983, z: 0.8639983}
   m_Children: []
-  m_Father: {fileID: 2097661281}
-  m_RootOrder: 37
+  m_Father: {fileID: 0}
+  m_RootOrder: 73
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1098645480
 PrefabInstance:
@@ -28811,7 +28976,7 @@ GameObject:
   - component: {fileID: 1103262054}
   - component: {fileID: 1103262053}
   - component: {fileID: 1103262052}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Mauertextur (52)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28868,7 +29033,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -6
   m_Sprite: {fileID: 21300000, guid: 8b34031036d0a8c448bc3715f897a6cc, type: 3}
   m_Color: {r: 0.745283, g: 0.745283, b: 0.745283, a: 1}
   m_FlipX: 0
@@ -28888,11 +29053,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1103262051}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -28.799828, y: 55.801525, z: 66.82566}
-  m_LocalScale: {x: 0.84022003, y: 0.84022003, z: 0.84022003}
+  m_LocalPosition: {x: -38.67, y: 70.888, z: 0}
+  m_LocalScale: {x: 0.88136464, y: 0.8639983, z: 0.8639983}
   m_Children: []
-  m_Father: {fileID: 2097661281}
-  m_RootOrder: 52
+  m_Father: {fileID: 0}
+  m_RootOrder: 88
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1107212808 stripped
 Transform:
@@ -28950,7 +29115,11 @@ PrefabInstance:
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 75
+=======
+      value: 142
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
@@ -29315,7 +29484,7 @@ GameObject:
   - component: {fileID: 1130787316}
   - component: {fileID: 1130787315}
   - component: {fileID: 1130787317}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Wand (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29378,8 +29547,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1130787314}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -44.51, y: 55.32, z: 0}
-  m_LocalScale: {x: 0.6318443, y: 0.6318443, z: 0.6318443}
+  m_LocalPosition: {x: -45.332996, y: 55.855, z: 0}
+  m_LocalScale: {x: 0.662785, y: 0.6497255, z: 0.6497255}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 29
@@ -29448,7 +29617,11 @@ PrefabInstance:
     - target: {fileID: 4740581006711212669, guid: 90a5b75f7fbee0c4285382090704e8c2,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 90
+=======
+      value: 157
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 4740581006711212669, guid: 90a5b75f7fbee0c4285382090704e8c2,
         type: 3}
@@ -30401,7 +30574,7 @@ GameObject:
   - component: {fileID: 1188641064}
   - component: {fileID: 1188641063}
   - component: {fileID: 1188641062}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Mauertextur (42)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30458,7 +30631,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -6
   m_Sprite: {fileID: 21300000, guid: 8b34031036d0a8c448bc3715f897a6cc, type: 3}
   m_Color: {r: 0.745283, g: 0.745283, b: 0.745283, a: 1}
   m_FlipX: 0
@@ -30478,11 +30651,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1188641061}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -37.152824, y: 30.739525, z: 66.82566}
-  m_LocalScale: {x: 0.84022003, y: 0.84022003, z: 0.84022003}
+  m_LocalPosition: {x: -47.440998, y: 45.117, z: 0}
+  m_LocalScale: {x: 0.88136464, y: 0.8639983, z: 0.8639983}
   m_Children: []
-  m_Father: {fileID: 2097661281}
-  m_RootOrder: 42
+  m_Father: {fileID: 0}
+  m_RootOrder: 78
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1189071868
 PrefabInstance:
@@ -30864,7 +31037,11 @@ PrefabInstance:
     - target: {fileID: 4740581006711212669, guid: 90a5b75f7fbee0c4285382090704e8c2,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 94
+=======
+      value: 161
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 4740581006711212669, guid: 90a5b75f7fbee0c4285382090704e8c2,
         type: 3}
@@ -30905,7 +31082,7 @@ GameObject:
   - component: {fileID: 1196923566}
   - component: {fileID: 1196923565}
   - component: {fileID: 1196923564}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Mauertextur (47)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30962,7 +31139,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -6
   m_Sprite: {fileID: 21300000, guid: 8b34031036d0a8c448bc3715f897a6cc, type: 3}
   m_Color: {r: 0.745283, g: 0.745283, b: 0.745283, a: 1}
   m_FlipX: 0
@@ -30982,11 +31159,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1196923563}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -20.449825, y: 39.089523, z: 66.82566}
-  m_LocalScale: {x: 0.84022003, y: 0.84022003, z: 0.84022003}
+  m_LocalPosition: {x: -29.898998, y: 53.704, z: 0}
+  m_LocalScale: {x: 0.88136464, y: 0.8639983, z: 0.8639983}
   m_Children: []
-  m_Father: {fileID: 2097661281}
-  m_RootOrder: 47
+  m_Father: {fileID: 0}
+  m_RootOrder: 83
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1200485548 stripped
 Transform:
@@ -31140,7 +31317,11 @@ PrefabInstance:
     - target: {fileID: 4740581006711212669, guid: 90a5b75f7fbee0c4285382090704e8c2,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 117
+=======
+      value: 184
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 4740581006711212669, guid: 90a5b75f7fbee0c4285382090704e8c2,
         type: 3}
@@ -31176,7 +31357,7 @@ GameObject:
   - component: {fileID: 1208141324}
   - component: {fileID: 1208141323}
   - component: {fileID: 1208141322}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Mauertextur (34)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31233,7 +31414,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -6
   m_Sprite: {fileID: 21300000, guid: 8b34031036d0a8c448bc3715f897a6cc, type: 3}
   m_Color: {r: 0.745283, g: 0.745283, b: 0.745283, a: 1}
   m_FlipX: 0
@@ -31253,11 +31434,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1208141321}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -28.799828, y: 5.7215223, z: 66.82566}
-  m_LocalScale: {x: 0.84022003, y: 0.84022003, z: 0.84022003}
+  m_LocalPosition: {x: -38.67, y: 19.392, z: 0}
+  m_LocalScale: {x: 0.88136464, y: 0.8639983, z: 0.8639983}
   m_Children: []
-  m_Father: {fileID: 2097661281}
-  m_RootOrder: 34
+  m_Father: {fileID: 0}
+  m_RootOrder: 70
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1210045983
 PrefabInstance:
@@ -31440,7 +31621,11 @@ PrefabInstance:
     - target: {fileID: 49362462194385057, guid: 8d77dfb184a1f994dbccbdcf5fd0706f,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 52
+=======
+      value: 119
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 49362462194385057, guid: 8d77dfb184a1f994dbccbdcf5fd0706f,
         type: 3}
@@ -31482,7 +31667,7 @@ GameObject:
   - component: {fileID: 1220020073}
   - component: {fileID: 1220020072}
   - component: {fileID: 1220020074}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Wand (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31545,8 +31730,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1220020071}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -44.51, y: 30.129, z: 0}
-  m_LocalScale: {x: 0.6318443, y: 0.6318443, z: 0.6318443}
+  m_LocalPosition: {x: -45.332996, y: 29.951, z: 0}
+  m_LocalScale: {x: 0.662785, y: 0.6497255, z: 0.6497255}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 26
@@ -31576,7 +31761,7 @@ GameObject:
   - component: {fileID: 1221763793}
   - component: {fileID: 1221763792}
   - component: {fileID: 1221763794}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Wand (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31639,8 +31824,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1221763791}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 14.610001, y: 17.434, z: 0}
-  m_LocalScale: {x: 0.62816715, y: 0.62816715, z: 0.62816715}
+  m_LocalPosition: {x: 15.29, y: 16.897, z: 0}
+  m_LocalScale: {x: 0.6589278, y: 0.6459443, z: 0.6459443}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 13
@@ -31659,90 +31844,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LightSprite: {fileID: 0}
   DarkSprite: {fileID: 21300000, guid: ac45bd479080af84eb659ffd78e20772, type: 3}
---- !u!1001 &1224289820
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1406061327}
-    m_Modifications:
-    - target: {fileID: 6151863644553919741, guid: 05b08ae6402802b4da314110c6bbe2f7,
-        type: 3}
-      propertyPath: m_Name
-      value: Point Light
-      objectReference: {fileID: 0}
-    - target: {fileID: 6151863644553919743, guid: 05b08ae6402802b4da314110c6bbe2f7,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.07643493
-      objectReference: {fileID: 0}
-    - target: {fileID: 6151863644553919743, guid: 05b08ae6402802b4da314110c6bbe2f7,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.09827345
-      objectReference: {fileID: 0}
-    - target: {fileID: 6151863644553919743, guid: 05b08ae6402802b4da314110c6bbe2f7,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -1.8562769
-      objectReference: {fileID: 0}
-    - target: {fileID: 6151863644553919743, guid: 05b08ae6402802b4da314110c6bbe2f7,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6151863644553919743, guid: 05b08ae6402802b4da314110c6bbe2f7,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6151863644553919743, guid: 05b08ae6402802b4da314110c6bbe2f7,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6151863644553919743, guid: 05b08ae6402802b4da314110c6bbe2f7,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6151863644553919743, guid: 05b08ae6402802b4da314110c6bbe2f7,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6151863644553919743, guid: 05b08ae6402802b4da314110c6bbe2f7,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6151863644553919743, guid: 05b08ae6402802b4da314110c6bbe2f7,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6151863644553919743, guid: 05b08ae6402802b4da314110c6bbe2f7,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6151863644553919743, guid: 05b08ae6402802b4da314110c6bbe2f7,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.0919275
-      objectReference: {fileID: 0}
-    - target: {fileID: 6151863644553919743, guid: 05b08ae6402802b4da314110c6bbe2f7,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.0919275
-      objectReference: {fileID: 0}
-    - target: {fileID: 6151863644553919743, guid: 05b08ae6402802b4da314110c6bbe2f7,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1.2132528
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 05b08ae6402802b4da314110c6bbe2f7, type: 3}
 --- !u!1 &1228730585
 GameObject:
   m_ObjectHideFlags: 0
@@ -31754,7 +31855,7 @@ GameObject:
   - component: {fileID: 1228730588}
   - component: {fileID: 1228730587}
   - component: {fileID: 1228730586}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Mauertextur (41)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31811,7 +31912,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -6
   m_Sprite: {fileID: 21300000, guid: 8b34031036d0a8c448bc3715f897a6cc, type: 3}
   m_Color: {r: 0.745283, g: 0.745283, b: 0.745283, a: 1}
   m_FlipX: 0
@@ -31831,11 +31932,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1228730585}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -20.449825, y: 22.401524, z: 66.82566}
-  m_LocalScale: {x: 0.84022003, y: 0.84022003, z: 0.84022003}
+  m_LocalPosition: {x: -29.898998, y: 36.544, z: 0}
+  m_LocalScale: {x: 0.88136464, y: 0.8639983, z: 0.8639983}
   m_Children: []
-  m_Father: {fileID: 2097661281}
-  m_RootOrder: 41
+  m_Father: {fileID: 0}
+  m_RootOrder: 77
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1229124334
 GameObject:
@@ -32278,7 +32379,11 @@ PrefabInstance:
     - target: {fileID: 49362462194385057, guid: 8d77dfb184a1f994dbccbdcf5fd0706f,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 109
+=======
+      value: 176
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 49362462194385057, guid: 8d77dfb184a1f994dbccbdcf5fd0706f,
         type: 3}
@@ -32755,7 +32860,11 @@ PrefabInstance:
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 60
+=======
+      value: 127
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
@@ -32875,7 +32984,7 @@ GameObject:
   - component: {fileID: 1266878911}
   - component: {fileID: 1266878910}
   - component: {fileID: 1266878909}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Mauertextur (49)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32932,7 +33041,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -6
   m_Sprite: {fileID: 21300000, guid: 8b34031036d0a8c448bc3715f897a6cc, type: 3}
   m_Color: {r: 0.745283, g: 0.745283, b: 0.745283, a: 1}
   m_FlipX: 0
@@ -32952,11 +33061,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1266878908}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -28.799828, y: 47.42752, z: 66.82566}
-  m_LocalScale: {x: 0.84022003, y: 0.84022003, z: 0.84022003}
+  m_LocalPosition: {x: -38.67, y: 62.277, z: 0}
+  m_LocalScale: {x: 0.88136464, y: 0.8639983, z: 0.8639983}
   m_Children: []
-  m_Father: {fileID: 2097661281}
-  m_RootOrder: 49
+  m_Father: {fileID: 0}
+  m_RootOrder: 85
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1273609519
 GameObject:
@@ -32969,7 +33078,7 @@ GameObject:
   - component: {fileID: 1273609522}
   - component: {fileID: 1273609521}
   - component: {fileID: 1273609520}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Mauertextur (38)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33026,7 +33135,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -6
   m_Sprite: {fileID: 21300000, guid: 8b34031036d0a8c448bc3715f897a6cc, type: 3}
   m_Color: {r: 0.745283, g: 0.745283, b: 0.745283, a: 1}
   m_FlipX: 0
@@ -33046,11 +33155,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1273609519}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -20.449825, y: 14.05952, z: 66.82566}
-  m_LocalScale: {x: 0.84022003, y: 0.84022003, z: 0.84022003}
+  m_LocalPosition: {x: -29.898998, y: 27.966, z: 0}
+  m_LocalScale: {x: 0.88136464, y: 0.8639983, z: 0.8639983}
   m_Children: []
-  m_Father: {fileID: 2097661281}
-  m_RootOrder: 38
+  m_Father: {fileID: 0}
+  m_RootOrder: 74
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1273861197
 PrefabInstance:
@@ -33562,7 +33671,7 @@ GameObject:
   - component: {fileID: 1293412119}
   - component: {fileID: 1293412118}
   - component: {fileID: 1293412120}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Wand (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33625,8 +33734,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1293412117}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 14.610001, y: 54.993, z: 0}
-  m_LocalScale: {x: 0.62816715, y: 0.62816715, z: 0.62816715}
+  m_LocalPosition: {x: 15.31, y: 55.519, z: 0}
+  m_LocalScale: {x: 0.6589278, y: 0.6459443, z: 0.6459443}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 19
@@ -33776,7 +33885,7 @@ GameObject:
   - component: {fileID: 1296695718}
   - component: {fileID: 1296695717}
   - component: {fileID: 1296695716}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Mauertextur (32)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33833,7 +33942,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -6
   m_Sprite: {fileID: 21300000, guid: 8b34031036d0a8c448bc3715f897a6cc, type: 3}
   m_Color: {r: 0.745283, g: 0.745283, b: 0.745283, a: 1}
   m_FlipX: 0
@@ -33853,11 +33962,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1296695715}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -20.449825, y: -2.628478, z: 66.82566}
-  m_LocalScale: {x: 0.84022003, y: 0.84022003, z: 0.84022003}
+  m_LocalPosition: {x: -29.898998, y: 10.806, z: 0}
+  m_LocalScale: {x: 0.88136464, y: 0.8639983, z: 0.8639983}
   m_Children: []
-  m_Father: {fileID: 2097661281}
-  m_RootOrder: 32
+  m_Father: {fileID: 0}
+  m_RootOrder: 68
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1301350673 stripped
 Transform:
@@ -34328,7 +34437,7 @@ GameObject:
   - component: {fileID: 1329643652}
   - component: {fileID: 1329643651}
   - component: {fileID: 1329643650}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Mauertextur (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34385,7 +34494,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -6
   m_Sprite: {fileID: 21300000, guid: 8b34031036d0a8c448bc3715f897a6cc, type: 3}
   m_Color: {r: 0.745283, g: 0.745283, b: 0.745283, a: 1}
   m_FlipX: 0
@@ -34405,11 +34514,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1329643649}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.264182, y: 55.511524, z: 66.82566}
-  m_LocalScale: {x: 0.84022003, y: 0.84022003, z: 0.84022003}
+  m_LocalPosition: {x: -0.042397678, y: 70.59, z: 0}
+  m_LocalScale: {x: 0.88136464, y: 0.8639983, z: 0.8639983}
   m_Children: []
-  m_Father: {fileID: 2097661281}
-  m_RootOrder: 24
+  m_Father: {fileID: 0}
+  m_RootOrder: 60
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1332632945
 PrefabInstance:
@@ -34461,7 +34570,11 @@ PrefabInstance:
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 133
+=======
+      value: 199
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
@@ -34536,7 +34649,11 @@ PrefabInstance:
     - target: {fileID: 4740581006711212669, guid: 90a5b75f7fbee0c4285382090704e8c2,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 111
+=======
+      value: 178
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 4740581006711212669, guid: 90a5b75f7fbee0c4285382090704e8c2,
         type: 3}
@@ -34701,7 +34818,11 @@ PrefabInstance:
     - target: {fileID: 49362462194385057, guid: 8d77dfb184a1f994dbccbdcf5fd0706f,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 110
+=======
+      value: 177
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 49362462194385057, guid: 8d77dfb184a1f994dbccbdcf5fd0706f,
         type: 3}
@@ -34850,7 +34971,11 @@ PrefabInstance:
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 79
+=======
+      value: 146
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
@@ -35204,7 +35329,7 @@ GameObject:
   - component: {fileID: 1366639009}
   - component: {fileID: 1366639008}
   - component: {fileID: 1366639010}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Wand (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35267,8 +35392,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1366639007}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 14.610001, y: 42.47, z: 0}
-  m_LocalScale: {x: 0.62816715, y: 0.62816715, z: 0.62816715}
+  m_LocalPosition: {x: 15.22, y: 42.641, z: 0}
+  m_LocalScale: {x: 0.6589278, y: 0.6459443, z: 0.6459443}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 17
@@ -35304,7 +35429,7 @@ GameObject:
   - component: {fileID: 1376120523}
   - component: {fileID: 1376120522}
   - component: {fileID: 1376120521}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Mauertextur (53)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35361,7 +35486,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -6
   m_Sprite: {fileID: 21300000, guid: 8b34031036d0a8c448bc3715f897a6cc, type: 3}
   m_Color: {r: 0.745283, g: 0.745283, b: 0.745283, a: 1}
   m_FlipX: 0
@@ -35381,11 +35506,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1376120520}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -20.449825, y: 55.801525, z: 66.82566}
-  m_LocalScale: {x: 0.84022003, y: 0.84022003, z: 0.84022003}
+  m_LocalPosition: {x: -29.898998, y: 70.888, z: 0}
+  m_LocalScale: {x: 0.88136464, y: 0.8639983, z: 0.8639983}
   m_Children: []
-  m_Father: {fileID: 2097661281}
-  m_RootOrder: 53
+  m_Father: {fileID: 0}
+  m_RootOrder: 89
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1380262948
 PrefabInstance:
@@ -35437,7 +35562,11 @@ PrefabInstance:
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 71
+=======
+      value: 138
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
@@ -35638,7 +35767,11 @@ PrefabInstance:
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 121
+=======
+      value: 188
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
@@ -35877,7 +36010,11 @@ PrefabInstance:
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 88
+=======
+      value: 155
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
@@ -35902,6 +36039,7 @@ PrefabInstance:
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c1fde9f236f829e4286f488824fbc14e, type: 3}
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!1001 &1406061326
 PrefabInstance:
@@ -36025,6 +36163,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
 =======
 >>>>>>> MATOO
+=======
+>>>>>>> Lion
 --- !u!1001 &1408094248
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -36075,7 +36215,11 @@ PrefabInstance:
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 101
+=======
+      value: 168
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
@@ -36473,7 +36617,11 @@ PrefabInstance:
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 43
+=======
+      value: 110
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
@@ -36605,7 +36753,7 @@ GameObject:
   - component: {fileID: 1422913886}
   - component: {fileID: 1422913885}
   - component: {fileID: 1422913887}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Wand (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36668,8 +36816,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1422913884}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -44.51, y: 67.875, z: 0}
-  m_LocalScale: {x: 0.6318443, y: 0.6318443, z: 0.6318443}
+  m_LocalPosition: {x: -45.332996, y: 68.765, z: 0}
+  m_LocalScale: {x: 0.662785, y: 0.6497255, z: 0.6497255}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 31
@@ -36880,7 +37028,7 @@ GameObject:
   - component: {fileID: 1436482859}
   - component: {fileID: 1436482858}
   - component: {fileID: 1436482857}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Mauertextur (43)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36937,7 +37085,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -6
   m_Sprite: {fileID: 21300000, guid: 8b34031036d0a8c448bc3715f897a6cc, type: 3}
   m_Color: {r: 0.745283, g: 0.745283, b: 0.745283, a: 1}
   m_FlipX: 0
@@ -36957,11 +37105,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1436482856}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -28.799828, y: 30.739525, z: 66.82566}
-  m_LocalScale: {x: 0.84022003, y: 0.84022003, z: 0.84022003}
+  m_LocalPosition: {x: -38.67, y: 45.117, z: 0}
+  m_LocalScale: {x: 0.88136464, y: 0.8639983, z: 0.8639983}
   m_Children: []
-  m_Father: {fileID: 2097661281}
-  m_RootOrder: 43
+  m_Father: {fileID: 0}
+  m_RootOrder: 79
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1436486231 stripped
 Transform:
@@ -37247,7 +37395,11 @@ PrefabInstance:
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 83
+=======
+      value: 150
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
@@ -37322,7 +37474,11 @@ PrefabInstance:
     - target: {fileID: 49362462194385057, guid: 8d77dfb184a1f994dbccbdcf5fd0706f,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 106
+=======
+      value: 173
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 49362462194385057, guid: 8d77dfb184a1f994dbccbdcf5fd0706f,
         type: 3}
@@ -37357,7 +37513,7 @@ GameObject:
   - component: {fileID: 1452123621}
   - component: {fileID: 1452123620}
   - component: {fileID: 1452123619}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Mauertextur (29)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37414,7 +37570,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -6
   m_Sprite: {fileID: 21300000, guid: 8b34031036d0a8c448bc3715f897a6cc, type: 3}
   m_Color: {r: 0.745283, g: 0.745283, b: 0.745283, a: 1}
   m_FlipX: 0
@@ -37434,11 +37590,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1452123618}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -20.449825, y: -10.966478, z: 66.82566}
-  m_LocalScale: {x: 0.84022003, y: 0.84022003, z: 0.84022003}
+  m_LocalPosition: {x: -29.898998, y: 2.2298, z: 0}
+  m_LocalScale: {x: 0.88136464, y: 0.8639983, z: 0.8639983}
   m_Children: []
-  m_Father: {fileID: 2097661281}
-  m_RootOrder: 29
+  m_Father: {fileID: 0}
+  m_RootOrder: 65
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1458264095
 PrefabInstance:
@@ -37704,7 +37860,11 @@ PrefabInstance:
     - target: {fileID: 4740581006711212669, guid: 90a5b75f7fbee0c4285382090704e8c2,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 103
+=======
+      value: 170
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 4740581006711212669, guid: 90a5b75f7fbee0c4285382090704e8c2,
         type: 3}
@@ -37909,7 +38069,7 @@ GameObject:
   - component: {fileID: 1473487457}
   - component: {fileID: 1473487456}
   - component: {fileID: 1473487458}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Wand Oben
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37972,11 +38132,15 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1473487455}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -44.271, y: 75.77, z: 0}
-  m_LocalScale: {x: 0.62273365, y: 0.62273365, z: 0.62273365}
+  m_LocalPosition: {x: -45.54, y: 75.77, z: 0}
+  m_LocalScale: {x: 0.63525057, y: 0.62273365, z: 0.62273365}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 149
+=======
+  m_RootOrder: 96
+>>>>>>> Lion
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1473487458
 MonoBehaviour:
@@ -38082,7 +38246,7 @@ GameObject:
   - component: {fileID: 1474504821}
   - component: {fileID: 1474504820}
   - component: {fileID: 1474504822}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Wand Oben (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38145,11 +38309,15 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1474504819}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 15.298, y: 76.041, z: 0}
-  m_LocalScale: {x: 0.6606494, y: 0.6606494, z: 0.6606494}
+  m_LocalPosition: {x: 15.23, y: 76.041, z: 0}
+  m_LocalScale: {x: 0.67392844, y: 0.6606494, z: 0.6606494}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 152
+=======
+  m_RootOrder: 99
+>>>>>>> Lion
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1474504822
 MonoBehaviour:
@@ -38311,7 +38479,11 @@ PrefabInstance:
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 135
+=======
+      value: 201
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
@@ -38482,7 +38654,11 @@ PrefabInstance:
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 95
+=======
+      value: 162
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
@@ -38670,7 +38846,11 @@ PrefabInstance:
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 140
+=======
+      value: 206
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
@@ -38745,7 +38925,11 @@ PrefabInstance:
     - target: {fileID: 49362462194385057, guid: 8d77dfb184a1f994dbccbdcf5fd0706f,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 108
+=======
+      value: 175
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 49362462194385057, guid: 8d77dfb184a1f994dbccbdcf5fd0706f,
         type: 3}
@@ -38901,7 +39085,7 @@ GameObject:
   - component: {fileID: 1503987262}
   - component: {fileID: 1503987261}
   - component: {fileID: 1503987263}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Wand (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38964,8 +39148,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1503987260}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.048001, y: 54.993, z: 0}
-  m_LocalScale: {x: 0.62816715, y: 0.62816715, z: 0.62816715}
+  m_LocalPosition: {x: 2.16, y: 55.519, z: 0}
+  m_LocalScale: {x: 0.6589278, y: 0.6459443, z: 0.6459443}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 18
@@ -39792,7 +39976,7 @@ GameObject:
   - component: {fileID: 1538133574}
   - component: {fileID: 1538133573}
   - component: {fileID: 1538133575}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Wand (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39855,8 +40039,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1538133572}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -44.51, y: 4.9460006, z: 0}
-  m_LocalScale: {x: 0.6318443, y: 0.6318443, z: 0.6318443}
+  m_LocalPosition: {x: -45.332996, y: 4.0602, z: 0}
+  m_LocalScale: {x: 0.662785, y: 0.6497255, z: 0.6497255}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 22
@@ -40100,7 +40284,11 @@ PrefabInstance:
     - target: {fileID: 4740581006711212669, guid: 90a5b75f7fbee0c4285382090704e8c2,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 107
+=======
+      value: 174
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 4740581006711212669, guid: 90a5b75f7fbee0c4285382090704e8c2,
         type: 3}
@@ -40175,7 +40363,11 @@ PrefabInstance:
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 58
+=======
+      value: 125
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
@@ -40655,7 +40847,11 @@ PrefabInstance:
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 54
+=======
+      value: 121
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
@@ -41012,7 +41208,11 @@ PrefabInstance:
     - target: {fileID: 4740581006711212669, guid: 90a5b75f7fbee0c4285382090704e8c2,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 100
+=======
+      value: 167
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 4740581006711212669, guid: 90a5b75f7fbee0c4285382090704e8c2,
         type: 3}
@@ -41059,7 +41259,7 @@ GameObject:
   - component: {fileID: 1568515860}
   - component: {fileID: 1568515859}
   - component: {fileID: 1568515858}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Mauertextur (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41116,7 +41316,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -6
   m_Sprite: {fileID: 21300000, guid: 8b34031036d0a8c448bc3715f897a6cc, type: 3}
   m_Color: {r: 0.745283, g: 0.745283, b: 0.745283, a: 1}
   m_FlipX: 0
@@ -41136,11 +41336,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1568515857}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 25.967178, y: 22.111523, z: 66.82566}
-  m_LocalScale: {x: 0.84022003, y: 0.84022003, z: 0.84022003}
+  m_LocalPosition: {x: 17.5, y: 36.245, z: 0}
+  m_LocalScale: {x: 0.88136464, y: 0.8639983, z: 0.8639983}
   m_Children: []
-  m_Father: {fileID: 2097661281}
-  m_RootOrder: 14
+  m_Father: {fileID: 0}
+  m_RootOrder: 50
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1573197582
 PrefabInstance:
@@ -41233,7 +41433,7 @@ GameObject:
   - component: {fileID: 1578661588}
   - component: {fileID: 1578661587}
   - component: {fileID: 1578661589}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Wand (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41296,8 +41496,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1578661586}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 14.610001, y: 4.9100003, z: 0}
-  m_LocalScale: {x: 0.62816715, y: 0.62816715, z: 0.62816715}
+  m_LocalPosition: {x: 15.342199, y: 4.019, z: 0}
+  m_LocalScale: {x: 0.6589278, y: 0.6459443, z: 0.6459443}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 11
@@ -41740,7 +41940,11 @@ PrefabInstance:
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 72
+=======
+      value: 139
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
@@ -42122,7 +42326,7 @@ GameObject:
   - component: {fileID: 1610659255}
   - component: {fileID: 1610659254}
   - component: {fileID: 1610659253}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Mauertextur (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42179,7 +42383,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -6
   m_Sprite: {fileID: 21300000, guid: 8b34031036d0a8c448bc3715f897a6cc, type: 3}
   m_Color: {r: 0.745283, g: 0.745283, b: 0.745283, a: 1}
   m_FlipX: 0
@@ -42199,11 +42403,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1610659252}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 25.967178, y: 47.13752, z: 66.82566}
-  m_LocalScale: {x: 0.84022003, y: 0.84022003, z: 0.84022003}
+  m_LocalPosition: {x: 17.5, y: 61.979, z: 0}
+  m_LocalScale: {x: 0.88136464, y: 0.8639983, z: 0.8639983}
   m_Children: []
-  m_Father: {fileID: 2097661281}
-  m_RootOrder: 23
+  m_Father: {fileID: 0}
+  m_RootOrder: 59
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1611572934
 PrefabInstance:
@@ -42843,7 +43047,11 @@ PrefabInstance:
     - target: {fileID: 4740581006711212669, guid: 90a5b75f7fbee0c4285382090704e8c2,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 114
+=======
+      value: 181
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 4740581006711212669, guid: 90a5b75f7fbee0c4285382090704e8c2,
         type: 3}
@@ -42890,7 +43098,7 @@ GameObject:
   - component: {fileID: 1652018608}
   - component: {fileID: 1652018607}
   - component: {fileID: 1652018606}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Mauertextur (33)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42947,7 +43155,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -6
   m_Sprite: {fileID: 21300000, guid: 8b34031036d0a8c448bc3715f897a6cc, type: 3}
   m_Color: {r: 0.745283, g: 0.745283, b: 0.745283, a: 1}
   m_FlipX: 0
@@ -42967,11 +43175,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1652018605}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -37.152824, y: 5.7215223, z: 66.82566}
-  m_LocalScale: {x: 0.84022003, y: 0.84022003, z: 0.84022003}
+  m_LocalPosition: {x: -47.440998, y: 19.392, z: 0}
+  m_LocalScale: {x: 0.88136464, y: 0.8639983, z: 0.8639983}
   m_Children: []
-  m_Father: {fileID: 2097661281}
-  m_RootOrder: 33
+  m_Father: {fileID: 0}
+  m_RootOrder: 69
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1654411203
 PrefabInstance:
@@ -43115,7 +43323,7 @@ GameObject:
   - component: {fileID: 1655222285}
   - component: {fileID: 1655222284}
   - component: {fileID: 1655222283}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: MauerDachkurz (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43192,11 +43400,15 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1655222282}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -37.647, y: 75.321, z: 0}
-  m_LocalScale: {x: 0.85760003, y: 0.85760003, z: 0.85760003}
+  m_LocalPosition: {x: -38.83, y: 75.321, z: 0}
+  m_LocalScale: {x: 0.87483776, y: 0.85760003, z: 0.85760003}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 144
+=======
+  m_RootOrder: 91
+>>>>>>> Lion
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1656631657
 PrefabInstance:
@@ -43872,7 +44084,7 @@ GameObject:
   - component: {fileID: 1674234501}
   - component: {fileID: 1674234500}
   - component: {fileID: 1674234499}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Mauertextur (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43929,7 +44141,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -6
   m_Sprite: {fileID: 21300000, guid: 8b34031036d0a8c448bc3715f897a6cc, type: 3}
   m_Color: {r: 0.745283, g: 0.745283, b: 0.745283, a: 1}
   m_FlipX: 0
@@ -43949,11 +44161,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1674234498}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 17.617176, y: 30.449524, z: 66.82566}
-  m_LocalScale: {x: 0.84022003, y: 0.84022003, z: 0.84022003}
+  m_LocalPosition: {x: 8.728903, y: 44.819, z: 0}
+  m_LocalScale: {x: 0.88136464, y: 0.8639983, z: 0.8639983}
   m_Children: []
-  m_Father: {fileID: 2097661281}
-  m_RootOrder: 16
+  m_Father: {fileID: 0}
+  m_RootOrder: 52
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1679444397
 PrefabInstance:
@@ -44091,7 +44303,11 @@ PrefabInstance:
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 136
+=======
+      value: 202
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
@@ -44127,7 +44343,7 @@ GameObject:
   - component: {fileID: 1686534306}
   - component: {fileID: 1686534305}
   - component: {fileID: 1686534304}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Mauertextur (44)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44184,7 +44400,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -6
   m_Sprite: {fileID: 21300000, guid: 8b34031036d0a8c448bc3715f897a6cc, type: 3}
   m_Color: {r: 0.745283, g: 0.745283, b: 0.745283, a: 1}
   m_FlipX: 0
@@ -44204,11 +44420,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1686534303}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -20.449825, y: 30.739525, z: 66.82566}
-  m_LocalScale: {x: 0.84022003, y: 0.84022003, z: 0.84022003}
+  m_LocalPosition: {x: -29.898998, y: 45.117, z: 0}
+  m_LocalScale: {x: 0.88136464, y: 0.8639983, z: 0.8639983}
   m_Children: []
-  m_Father: {fileID: 2097661281}
-  m_RootOrder: 44
+  m_Father: {fileID: 0}
+  m_RootOrder: 80
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1693256702
 GameObject:
@@ -44221,7 +44437,7 @@ GameObject:
   - component: {fileID: 1693256705}
   - component: {fileID: 1693256704}
   - component: {fileID: 1693256703}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Mauertextur (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44278,7 +44494,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -6
   m_Sprite: {fileID: 21300000, guid: 8b34031036d0a8c448bc3715f897a6cc, type: 3}
   m_Color: {r: 0.745283, g: 0.745283, b: 0.745283, a: 1}
   m_FlipX: 0
@@ -44298,11 +44514,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1693256702}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 17.617176, y: 55.511524, z: 66.82566}
-  m_LocalScale: {x: 0.84022003, y: 0.84022003, z: 0.84022003}
+  m_LocalPosition: {x: 8.728903, y: 70.59, z: 0}
+  m_LocalScale: {x: 0.88136464, y: 0.8639983, z: 0.8639983}
   m_Children: []
-  m_Father: {fileID: 2097661281}
-  m_RootOrder: 25
+  m_Father: {fileID: 0}
+  m_RootOrder: 61
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1694737191
 PrefabInstance:
@@ -44546,7 +44762,11 @@ PrefabInstance:
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 129
+=======
+      value: 195
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
@@ -44812,7 +45032,11 @@ Transform:
   m_LocalScale: {x: 9.987208, y: 1.029, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 34
+=======
+  m_RootOrder: 101
+>>>>>>> Lion
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1726217664
 GameObject:
@@ -44825,7 +45049,7 @@ GameObject:
   - component: {fileID: 1726217666}
   - component: {fileID: 1726217665}
   - component: {fileID: 1726217667}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Wand (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44888,8 +45112,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1726217664}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.048001, y: 42.47, z: 0}
-  m_LocalScale: {x: 0.62816715, y: 0.62816715, z: 0.62816715}
+  m_LocalPosition: {x: 2.16, y: 42.641, z: 0}
+  m_LocalScale: {x: 0.6589278, y: 0.6459443, z: 0.6459443}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 16
@@ -44958,7 +45182,11 @@ PrefabInstance:
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 85
+=======
+      value: 152
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
@@ -45589,7 +45817,11 @@ PrefabInstance:
     - target: {fileID: 4740581006711212669, guid: 90a5b75f7fbee0c4285382090704e8c2,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 92
+=======
+      value: 159
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 4740581006711212669, guid: 90a5b75f7fbee0c4285382090704e8c2,
         type: 3}
@@ -45699,7 +45931,7 @@ GameObject:
   - component: {fileID: 1764857558}
   - component: {fileID: 1764857557}
   - component: {fileID: 1764857559}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Wand Oben (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45762,11 +45994,15 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1764857556}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -31.817, y: 75.77, z: 0}
-  m_LocalScale: {x: 0.62273365, y: 0.62273365, z: 0.62273365}
+  m_LocalPosition: {x: -32.85, y: 75.77, z: 0}
+  m_LocalScale: {x: 0.63525057, y: 0.62273365, z: 0.62273365}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 150
+=======
+  m_RootOrder: 97
+>>>>>>> Lion
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1764857559
 MonoBehaviour:
@@ -45832,7 +46068,11 @@ PrefabInstance:
     - target: {fileID: 4740581006711212669, guid: 90a5b75f7fbee0c4285382090704e8c2,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 77
+=======
+      value: 144
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 4740581006711212669, guid: 90a5b75f7fbee0c4285382090704e8c2,
         type: 3}
@@ -45964,7 +46204,7 @@ GameObject:
   - component: {fileID: 1770192569}
   - component: {fileID: 1770192568}
   - component: {fileID: 1770192570}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Wand (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46027,8 +46267,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1770192567}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.048001, y: 67.475, z: 0}
-  m_LocalScale: {x: 0.62816715, y: 0.62816715, z: 0.62816715}
+  m_LocalPosition: {x: 2.16, y: 68.354, z: 0}
+  m_LocalScale: {x: 0.6589278, y: 0.6459443, z: 0.6459443}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 20
@@ -46333,7 +46573,11 @@ PrefabInstance:
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 118
+=======
+      value: 185
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
@@ -46750,7 +46994,7 @@ GameObject:
   - component: {fileID: 1804889053}
   - component: {fileID: 1804889052}
   - component: {fileID: 1804889051}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Mauertextur (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46807,7 +47051,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -6
   m_Sprite: {fileID: 21300000, guid: 8b34031036d0a8c448bc3715f897a6cc, type: 3}
   m_Color: {r: 0.745283, g: 0.745283, b: 0.745283, a: 1}
   m_FlipX: 0
@@ -46827,11 +47071,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1804889050}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.264182, y: 30.449524, z: 66.82566}
-  m_LocalScale: {x: 0.84022003, y: 0.84022003, z: 0.84022003}
+  m_LocalPosition: {x: -0.042397678, y: 44.819, z: 0}
+  m_LocalScale: {x: 0.88136464, y: 0.8639983, z: 0.8639983}
   m_Children: []
-  m_Father: {fileID: 2097661281}
-  m_RootOrder: 15
+  m_Father: {fileID: 0}
+  m_RootOrder: 51
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1806676037
 PrefabInstance:
@@ -47066,7 +47310,7 @@ GameObject:
   - component: {fileID: 1811922357}
   - component: {fileID: 1811922356}
   - component: {fileID: 1811922355}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Mauertextur (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47123,7 +47367,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -6
   m_Sprite: {fileID: 21300000, guid: 8b34031036d0a8c448bc3715f897a6cc, type: 3}
   m_Color: {r: 0.745283, g: 0.745283, b: 0.745283, a: 1}
   m_FlipX: 0
@@ -47143,11 +47387,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1811922354}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 25.967178, y: -2.918478, z: 66.82566}
-  m_LocalScale: {x: 0.84022003, y: 0.84022003, z: 0.84022003}
+  m_LocalPosition: {x: 17.5, y: 10.507, z: 0}
+  m_LocalScale: {x: 0.88136464, y: 0.8639983, z: 0.8639983}
   m_Children: []
-  m_Father: {fileID: 2097661281}
-  m_RootOrder: 5
+  m_Father: {fileID: 0}
+  m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1813810277
 GameObject:
@@ -47239,7 +47483,7 @@ GameObject:
   - component: {fileID: 1816412192}
   - component: {fileID: 1816412191}
   - component: {fileID: 1816412190}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Mauertextur (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47296,7 +47540,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -6
   m_Sprite: {fileID: 21300000, guid: 8b34031036d0a8c448bc3715f897a6cc, type: 3}
   m_Color: {r: 0.745283, g: 0.745283, b: 0.745283, a: 1}
   m_FlipX: 0
@@ -47316,11 +47560,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1816412189}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 17.617176, y: -2.918478, z: 66.82566}
-  m_LocalScale: {x: 0.84022003, y: 0.84022003, z: 0.84022003}
+  m_LocalPosition: {x: 8.728903, y: 10.507, z: 0}
+  m_LocalScale: {x: 0.88136464, y: 0.8639983, z: 0.8639983}
   m_Children: []
-  m_Father: {fileID: 2097661281}
-  m_RootOrder: 4
+  m_Father: {fileID: 0}
+  m_RootOrder: 40
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1818589586
 PrefabInstance:
@@ -48231,7 +48475,11 @@ PrefabInstance:
     - target: {fileID: 4740581006711212669, guid: 90a5b75f7fbee0c4285382090704e8c2,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 50
+=======
+      value: 117
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 4740581006711212669, guid: 90a5b75f7fbee0c4285382090704e8c2,
         type: 3}
@@ -48312,7 +48560,11 @@ PrefabInstance:
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 69
+=======
+      value: 136
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
@@ -48348,7 +48600,7 @@ GameObject:
   - component: {fileID: 1871818082}
   - component: {fileID: 1871818081}
   - component: {fileID: 1871818080}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Mauertextur (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48405,7 +48657,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -6
   m_Sprite: {fileID: 21300000, guid: 8b34031036d0a8c448bc3715f897a6cc, type: 3}
   m_Color: {r: 0.745283, g: 0.745283, b: 0.745283, a: 1}
   m_FlipX: 0
@@ -48425,11 +48677,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1871818079}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -37.152824, y: -10.966478, z: 66.82566}
-  m_LocalScale: {x: 0.84022003, y: 0.84022003, z: 0.84022003}
+  m_LocalPosition: {x: -47.440998, y: 2.2298, z: 0}
+  m_LocalScale: {x: 0.88136464, y: 0.8639983, z: 0.8639983}
   m_Children: []
-  m_Father: {fileID: 2097661281}
-  m_RootOrder: 27
+  m_Father: {fileID: 0}
+  m_RootOrder: 63
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1878487603
 PrefabInstance:
@@ -48481,7 +48733,11 @@ PrefabInstance:
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 55
+=======
+      value: 122
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
@@ -48591,7 +48847,7 @@ GameObject:
   - component: {fileID: 1884342158}
   - component: {fileID: 1884342157}
   - component: {fileID: 1884342159}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Wand (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48654,8 +48910,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1884342156}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -31.874998, y: 30.12, z: 0}
-  m_LocalScale: {x: 0.6318443, y: 0.6318443, z: 0.6318443}
+  m_LocalPosition: {x: -32.09, y: 29.942, z: 0}
+  m_LocalScale: {x: 0.662785, y: 0.6497255, z: 0.6497255}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 9
@@ -49418,7 +49674,7 @@ GameObject:
   - component: {fileID: 1902785937}
   - component: {fileID: 1902785936}
   - component: {fileID: 1902785935}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Mauertextur (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49475,7 +49731,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -6
   m_Sprite: {fileID: 21300000, guid: 8b34031036d0a8c448bc3715f897a6cc, type: 3}
   m_Color: {r: 0.745283, g: 0.745283, b: 0.745283, a: 1}
   m_FlipX: 0
@@ -49495,11 +49751,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1902785934}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.264182, y: -2.918478, z: 66.82566}
-  m_LocalScale: {x: 0.84022003, y: 0.84022003, z: 0.84022003}
+  m_LocalPosition: {x: -0.042397678, y: 10.507, z: 0}
+  m_LocalScale: {x: 0.88136464, y: 0.8639983, z: 0.8639983}
   m_Children: []
-  m_Father: {fileID: 2097661281}
-  m_RootOrder: 3
+  m_Father: {fileID: 0}
+  m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1903400444
 PrefabInstance:
@@ -49602,7 +49858,7 @@ GameObject:
   - component: {fileID: 1904273167}
   - component: {fileID: 1904273166}
   - component: {fileID: 1904273165}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Mauertextur (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49659,7 +49915,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -6
   m_Sprite: {fileID: 21300000, guid: 8b34031036d0a8c448bc3715f897a6cc, type: 3}
   m_Color: {r: 0.745283, g: 0.745283, b: 0.745283, a: 1}
   m_FlipX: 0
@@ -49679,11 +49935,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1904273164}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 25.967178, y: 5.4315214, z: 66.82566}
-  m_LocalScale: {x: 0.84022003, y: 0.84022003, z: 0.84022003}
+  m_LocalPosition: {x: 17.5, y: 19.094, z: 0}
+  m_LocalScale: {x: 0.88136464, y: 0.8639983, z: 0.8639983}
   m_Children: []
-  m_Father: {fileID: 2097661281}
-  m_RootOrder: 8
+  m_Father: {fileID: 0}
+  m_RootOrder: 44
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1906887588
 GameObject:
@@ -49696,7 +49952,7 @@ GameObject:
   - component: {fileID: 1906887591}
   - component: {fileID: 1906887590}
   - component: {fileID: 1906887589}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Mauertextur (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49753,7 +50009,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -6
   m_Sprite: {fileID: 21300000, guid: 8b34031036d0a8c448bc3715f897a6cc, type: 3}
   m_Color: {r: 0.745283, g: 0.745283, b: 0.745283, a: 1}
   m_FlipX: 0
@@ -49773,11 +50029,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1906887588}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 25.967178, y: -11.256478, z: 66.82566}
-  m_LocalScale: {x: 0.84022003, y: 0.84022003, z: 0.84022003}
+  m_LocalPosition: {x: 17.5, y: 1.9337, z: 0}
+  m_LocalScale: {x: 0.88136464, y: 0.8639983, z: 0.8639983}
   m_Children: []
-  m_Father: {fileID: 2097661281}
-  m_RootOrder: 2
+  m_Father: {fileID: 0}
+  m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1914110998
 PrefabInstance:
@@ -49960,7 +50216,7 @@ GameObject:
   - component: {fileID: 1922960205}
   - component: {fileID: 1922960204}
   - component: {fileID: 1922960203}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Mauertextur (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50017,7 +50273,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -6
   m_Sprite: {fileID: 21300000, guid: 8b34031036d0a8c448bc3715f897a6cc, type: 3}
   m_Color: {r: 0.745283, g: 0.745283, b: 0.745283, a: 1}
   m_FlipX: 0
@@ -50037,11 +50293,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1922960202}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.264182, y: 38.799522, z: 66.82566}
-  m_LocalScale: {x: 0.84022003, y: 0.84022003, z: 0.84022003}
+  m_LocalPosition: {x: -0.042397678, y: 53.405, z: 0}
+  m_LocalScale: {x: 0.88136464, y: 0.8639983, z: 0.8639983}
   m_Children: []
-  m_Father: {fileID: 2097661281}
-  m_RootOrder: 18
+  m_Father: {fileID: 0}
+  m_RootOrder: 54
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1924892543
 PrefabInstance:
@@ -51049,7 +51305,11 @@ PrefabInstance:
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 53
+=======
+      value: 120
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
@@ -51085,7 +51345,7 @@ GameObject:
   - component: {fileID: 1964043885}
   - component: {fileID: 1964043884}
   - component: {fileID: 1964043883}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Mauertextur (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51142,7 +51402,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -6
   m_Sprite: {fileID: 21300000, guid: 8b34031036d0a8c448bc3715f897a6cc, type: 3}
   m_Color: {r: 0.745283, g: 0.745283, b: 0.745283, a: 1}
   m_FlipX: 0
@@ -51162,11 +51422,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1964043882}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 17.617176, y: 47.13752, z: 66.82566}
-  m_LocalScale: {x: 0.84022003, y: 0.84022003, z: 0.84022003}
+  m_LocalPosition: {x: 8.728903, y: 61.979, z: 0}
+  m_LocalScale: {x: 0.88136464, y: 0.8639983, z: 0.8639983}
   m_Children: []
-  m_Father: {fileID: 2097661281}
-  m_RootOrder: 22
+  m_Father: {fileID: 0}
+  m_RootOrder: 58
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1964714900 stripped
 Transform:
@@ -51489,7 +51749,11 @@ PrefabInstance:
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 93
+=======
+      value: 160
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
@@ -51569,7 +51833,11 @@ PrefabInstance:
     - target: {fileID: 4740581006711212669, guid: 90a5b75f7fbee0c4285382090704e8c2,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 86
+=======
+      value: 153
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 4740581006711212669, guid: 90a5b75f7fbee0c4285382090704e8c2,
         type: 3}
@@ -52096,7 +52364,11 @@ PrefabInstance:
     - target: {fileID: 49362462194385057, guid: 8d77dfb184a1f994dbccbdcf5fd0706f,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 113
+=======
+      value: 180
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 49362462194385057, guid: 8d77dfb184a1f994dbccbdcf5fd0706f,
         type: 3}
@@ -52132,7 +52404,7 @@ GameObject:
   - component: {fileID: 2007043053}
   - component: {fileID: 2007043052}
   - component: {fileID: 2007043051}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Mauertextur (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52189,7 +52461,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -6
   m_Sprite: {fileID: 21300000, guid: 8b34031036d0a8c448bc3715f897a6cc, type: 3}
   m_Color: {r: 0.745283, g: 0.745283, b: 0.745283, a: 1}
   m_FlipX: 0
@@ -52209,11 +52481,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2007043050}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.264182, y: 22.111523, z: 66.82566}
-  m_LocalScale: {x: 0.84022003, y: 0.84022003, z: 0.84022003}
+  m_LocalPosition: {x: -0.042397678, y: 36.245, z: 0}
+  m_LocalScale: {x: 0.88136464, y: 0.8639983, z: 0.8639983}
   m_Children: []
-  m_Father: {fileID: 2097661281}
-  m_RootOrder: 12
+  m_Father: {fileID: 0}
+  m_RootOrder: 48
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2012630037
 PrefabInstance:
@@ -52584,7 +52856,7 @@ GameObject:
   - component: {fileID: 2016196178}
   - component: {fileID: 2016196177}
   - component: {fileID: 2016196176}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Mauertextur (51)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52641,7 +52913,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -6
   m_Sprite: {fileID: 21300000, guid: 8b34031036d0a8c448bc3715f897a6cc, type: 3}
   m_Color: {r: 0.745283, g: 0.745283, b: 0.745283, a: 1}
   m_FlipX: 0
@@ -52661,11 +52933,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2016196175}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -37.152824, y: 55.801525, z: 66.82566}
-  m_LocalScale: {x: 0.84022003, y: 0.84022003, z: 0.84022003}
+  m_LocalPosition: {x: -47.440998, y: 70.888, z: 0}
+  m_LocalScale: {x: 0.88136464, y: 0.8639983, z: 0.8639983}
   m_Children: []
-  m_Father: {fileID: 2097661281}
-  m_RootOrder: 51
+  m_Father: {fileID: 0}
+  m_RootOrder: 87
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2016567957
 PrefabInstance:
@@ -52757,7 +53029,7 @@ GameObject:
   - component: {fileID: 2019410498}
   - component: {fileID: 2019410497}
   - component: {fileID: 2019410496}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Mauertextur (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52814,7 +53086,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -6
   m_Sprite: {fileID: 21300000, guid: 8b34031036d0a8c448bc3715f897a6cc, type: 3}
   m_Color: {r: 0.745283, g: 0.745283, b: 0.745283, a: 1}
   m_FlipX: 0
@@ -52834,11 +53106,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2019410495}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 25.967178, y: 30.449524, z: 66.82566}
-  m_LocalScale: {x: 0.84022003, y: 0.84022003, z: 0.84022003}
+  m_LocalPosition: {x: 17.5, y: 44.819, z: 0}
+  m_LocalScale: {x: 0.88136464, y: 0.8639983, z: 0.8639983}
   m_Children: []
-  m_Father: {fileID: 2097661281}
-  m_RootOrder: 17
+  m_Father: {fileID: 0}
+  m_RootOrder: 53
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &2020019925 stripped
 Transform:
@@ -52943,7 +53215,7 @@ GameObject:
   - component: {fileID: 2025634668}
   - component: {fileID: 2025634667}
   - component: {fileID: 2025634666}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Mauertextur (35)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53000,7 +53272,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -6
   m_Sprite: {fileID: 21300000, guid: 8b34031036d0a8c448bc3715f897a6cc, type: 3}
   m_Color: {r: 0.745283, g: 0.745283, b: 0.745283, a: 1}
   m_FlipX: 0
@@ -53020,11 +53292,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2025634665}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -20.449825, y: 5.7215223, z: 66.82566}
-  m_LocalScale: {x: 0.84022003, y: 0.84022003, z: 0.84022003}
+  m_LocalPosition: {x: -29.898998, y: 19.392, z: 0}
+  m_LocalScale: {x: 0.88136464, y: 0.8639983, z: 0.8639983}
   m_Children: []
-  m_Father: {fileID: 2097661281}
-  m_RootOrder: 35
+  m_Father: {fileID: 0}
+  m_RootOrder: 71
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2026443832
 PrefabInstance:
@@ -53076,7 +53348,11 @@ PrefabInstance:
     - target: {fileID: 4740581006711212669, guid: 90a5b75f7fbee0c4285382090704e8c2,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 105
+=======
+      value: 172
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 4740581006711212669, guid: 90a5b75f7fbee0c4285382090704e8c2,
         type: 3}
@@ -53111,7 +53387,7 @@ GameObject:
   - component: {fileID: 2027965405}
   - component: {fileID: 2027965404}
   - component: {fileID: 2027965403}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Mauertextur (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53168,7 +53444,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -6
   m_Sprite: {fileID: 21300000, guid: 8b34031036d0a8c448bc3715f897a6cc, type: 3}
   m_Color: {r: 0.745283, g: 0.745283, b: 0.745283, a: 1}
   m_FlipX: 0
@@ -53188,11 +53464,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2027965402}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.264182, y: 5.4315214, z: 66.82566}
-  m_LocalScale: {x: 0.84022003, y: 0.84022003, z: 0.84022003}
+  m_LocalPosition: {x: -0.042397678, y: 19.094, z: 0}
+  m_LocalScale: {x: 0.88136464, y: 0.8639983, z: 0.8639983}
   m_Children: []
-  m_Father: {fileID: 2097661281}
-  m_RootOrder: 6
+  m_Father: {fileID: 0}
+  m_RootOrder: 42
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2031911403
 PrefabInstance:
@@ -53306,7 +53582,7 @@ GameObject:
   - component: {fileID: 2039574942}
   - component: {fileID: 2039574941}
   - component: {fileID: 2039574943}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Wand (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53369,8 +53645,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2039574940}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -44.51, y: 42.724, z: 0}
-  m_LocalScale: {x: 0.6318443, y: 0.6318443, z: 0.6318443}
+  m_LocalPosition: {x: -45.332996, y: 42.903, z: 0}
+  m_LocalScale: {x: 0.662785, y: 0.6497255, z: 0.6497255}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 27
@@ -53659,7 +53935,11 @@ PrefabInstance:
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 59
+=======
+      value: 126
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
@@ -53876,7 +54156,7 @@ GameObject:
   - component: {fileID: 2056663808}
   - component: {fileID: 2056663807}
   - component: {fileID: 2056663806}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Mauertextur (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53933,7 +54213,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -6
   m_Sprite: {fileID: 21300000, guid: 8b34031036d0a8c448bc3715f897a6cc, type: 3}
   m_Color: {r: 0.745283, g: 0.745283, b: 0.745283, a: 1}
   m_FlipX: 0
@@ -53953,11 +54233,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2056663805}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 17.617176, y: 5.4315214, z: 66.82566}
-  m_LocalScale: {x: 0.84022003, y: 0.84022003, z: 0.84022003}
+  m_LocalPosition: {x: 8.728903, y: 19.094, z: 0}
+  m_LocalScale: {x: 0.88136464, y: 0.8639983, z: 0.8639983}
   m_Children: []
-  m_Father: {fileID: 2097661281}
-  m_RootOrder: 7
+  m_Father: {fileID: 0}
+  m_RootOrder: 43
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2058017036
 GameObject:
@@ -54037,7 +54317,11 @@ Transform:
   m_LocalScale: {x: -0.49694404, y: 0.476, z: 0.476}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 33
+=======
+  m_RootOrder: 100
+>>>>>>> Lion
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2058017039
 MonoBehaviour:
@@ -55107,63 +55391,13 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -9.367177, y: 14.138478, z: -66.82566}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 372119587}
-  - {fileID: 1068425609}
-  - {fileID: 1906887591}
-  - {fileID: 1902785937}
-  - {fileID: 1816412192}
-  - {fileID: 1811922357}
-  - {fileID: 2027965405}
-  - {fileID: 2056663808}
-  - {fileID: 1904273167}
-  - {fileID: 51801168}
-  - {fileID: 937112352}
-  - {fileID: 748916359}
-  - {fileID: 2007043053}
-  - {fileID: 405776417}
-  - {fileID: 1568515860}
-  - {fileID: 1804889053}
-  - {fileID: 1674234501}
-  - {fileID: 2019410498}
-  - {fileID: 1922960205}
-  - {fileID: 247551642}
-  - {fileID: 780312999}
-  - {fileID: 200553292}
-  - {fileID: 1964043885}
-  - {fileID: 1610659255}
-  - {fileID: 1329643652}
-  - {fileID: 1693256705}
-  - {fileID: 401167273}
-  - {fileID: 1871818082}
-  - {fileID: 433022615}
-  - {fileID: 1452123621}
-  - {fileID: 1065539639}
-  - {fileID: 77750593}
-  - {fileID: 1296695718}
-  - {fileID: 1652018608}
-  - {fileID: 1208141324}
-  - {fileID: 2025634668}
-  - {fileID: 561031361}
-  - {fileID: 1098024199}
-  - {fileID: 1273609522}
-  - {fileID: 1010266979}
-  - {fileID: 810654420}
-  - {fileID: 1228730588}
-  - {fileID: 1188641064}
-  - {fileID: 1436482859}
-  - {fileID: 1686534306}
-  - {fileID: 685619263}
-  - {fileID: 315901470}
-  - {fileID: 1196923566}
-  - {fileID: 1082200884}
-  - {fileID: 1266878911}
-  - {fileID: 1088988913}
-  - {fileID: 2016196178}
-  - {fileID: 1103262054}
-  - {fileID: 1376120523}
+  m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 35
+=======
+  m_RootOrder: 102
+>>>>>>> Lion
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2108578573
 PrefabInstance:
@@ -55804,7 +56038,11 @@ PrefabInstance:
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 124
+=======
+      value: 191
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
@@ -55920,7 +56158,7 @@ GameObject:
   - component: {fileID: 2131104049}
   - component: {fileID: 2131104048}
   - component: {fileID: 2131104050}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Wand (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55983,8 +56221,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2131104047}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 14.610001, y: 29.947, z: 0}
-  m_LocalScale: {x: 0.62816715, y: 0.62816715, z: 0.62816715}
+  m_LocalPosition: {x: 15.25, y: 29.764, z: 0}
+  m_LocalScale: {x: 0.6589278, y: 0.6459443, z: 0.6459443}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 15
@@ -56139,7 +56377,7 @@ GameObject:
   - component: {fileID: 2133959733}
   - component: {fileID: 2133959732}
   - component: {fileID: 2133959734}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Wand (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56202,8 +56440,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2133959731}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -31.874998, y: 67.875, z: 0}
-  m_LocalScale: {x: 0.6318443, y: 0.6318443, z: 0.6318443}
+  m_LocalPosition: {x: -32.09, y: 68.765, z: 0}
+  m_LocalScale: {x: 0.662785, y: 0.6497255, z: 0.6497255}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 32
@@ -56441,7 +56679,11 @@ PrefabInstance:
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 74
+=======
+      value: 141
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
@@ -56770,7 +57012,11 @@ PrefabInstance:
     - target: {fileID: 4740581006711212669, guid: 90a5b75f7fbee0c4285382090704e8c2,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 84
+=======
+      value: 151
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 4740581006711212669, guid: 90a5b75f7fbee0c4285382090704e8c2,
         type: 3}
@@ -56851,7 +57097,11 @@ PrefabInstance:
     - target: {fileID: 4740581006711212669, guid: 90a5b75f7fbee0c4285382090704e8c2,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 38
+=======
+      value: 105
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 4740581006711212669, guid: 90a5b75f7fbee0c4285382090704e8c2,
         type: 3}
@@ -56966,6 +57216,75 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 888408ab07b2065409d44daba5234112, type: 3}
+--- !u!1001 &6322304608885720479
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8973403625237349196, guid: 335a7d491bbde444d8850f82386cedd6,
+        type: 3}
+      propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 8615401567682739876, guid: 335a7d491bbde444d8850f82386cedd6,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 8615401567682739876, guid: 335a7d491bbde444d8850f82386cedd6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 8615401567682739876, guid: 335a7d491bbde444d8850f82386cedd6,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8615401567682739876, guid: 335a7d491bbde444d8850f82386cedd6,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8615401567682739876, guid: 335a7d491bbde444d8850f82386cedd6,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8615401567682739876, guid: 335a7d491bbde444d8850f82386cedd6,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8615401567682739876, guid: 335a7d491bbde444d8850f82386cedd6,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8615401567682739876, guid: 335a7d491bbde444d8850f82386cedd6,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8615401567682739876, guid: 335a7d491bbde444d8850f82386cedd6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8615401567682739876, guid: 335a7d491bbde444d8850f82386cedd6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8615401567682739876, guid: 335a7d491bbde444d8850f82386cedd6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 335a7d491bbde444d8850f82386cedd6, type: 3}
 --- !u!1001 &8094157221740755608
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -57016,7 +57335,11 @@ PrefabInstance:
     - target: {fileID: 49362462194385057, guid: 8d77dfb184a1f994dbccbdcf5fd0706f,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 40
+=======
+      value: 107
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 49362462194385057, guid: 8d77dfb184a1f994dbccbdcf5fd0706f,
         type: 3}
@@ -57091,7 +57414,11 @@ PrefabInstance:
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 39
+=======
+      value: 106
+>>>>>>> Lion
       objectReference: {fileID: 0}
     - target: {fileID: 7933171049618265125, guid: c1fde9f236f829e4286f488824fbc14e,
         type: 3}
