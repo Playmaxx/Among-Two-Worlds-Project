@@ -237,7 +237,7 @@ MonoBehaviour:
   dashCooldown: 2
   glideTime: 5
   currentGlideTime: -1
-  glideCooldown: -2
+  glideCooldown: 0
   shieldTime: 5
   currentShieldTime: -4
   shieldCooldown: -5
