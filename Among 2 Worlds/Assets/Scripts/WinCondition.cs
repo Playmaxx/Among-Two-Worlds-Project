@@ -28,11 +28,10 @@ public class WinCondition : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("Test");
         if(other.tag == "Player")
         {
+            PlayerRef.playerMoveState = Player.moveState.Grounded;
             PlayerRef.playerMoveState = Player.moveState.Other;
-            Debug.Log("Test2");
         }
     }
 
