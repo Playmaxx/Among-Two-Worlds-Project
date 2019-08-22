@@ -12,7 +12,7 @@ public class DeathSequence : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        playerRef = Player.PlayerInstance;
     }
 
     // Update is called once per frame
@@ -41,10 +41,11 @@ public class DeathSequence : MonoBehaviour
         }
     }
 
-    void RespawnPlayer()
+    public void RespawnPlayer()
     {
         playerRef.transform.position = new Vector2(0.299f, 2f);
         DeathSequenceIsPlaying = false;
         playerRef.rigidRef.velocity = new Vector2(0, 0);
+        playerRef.health = 100;
     }
 }

@@ -21,7 +21,6 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
     public int jumpforce = 20;
     public int dashspeed = 300;
     public int WJSpeed = 15;
-    public bool dashused = false;
     public int glidespeed = 2;
     public float wallSlideSpeed = 0.1f;
     public float wallJumpCcoolDown = 0.5f;
@@ -50,6 +49,8 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
     public float playerwidth;
     public bool shieldActive = false;
     public bool DeathSequenceIsPlaying = false;
+    public bool dashused = false;
+    public bool WJUsed = false;
 
     //ref types
     Gale galeRef;
@@ -112,41 +113,44 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
     // FixedUpdate is called 60 times/s, physics/logic stuff here
     void FixedUpdate()
     {
-        //general functions
-        groundCheck();
-        refreshVariables();
-        matchMoveState();
-
-        //handles character specific functions
-        switch (GameManager.GMInstance.currentdim)
+        if (playerMoveState != moveState.Other)
         {
-            case (GameManager.dimension.Light):
-                lilianRef.movement();
-                lilianRef.jump();
-                lilianRef.shield();
-                lilianRef.glide();
-                lilianRef.wallaction();
-                break;
-            case (GameManager.dimension.Dark):
-                galeRef.movement();
-                galeRef.jump();
-                galeRef.dash();
-                galeRef.cancelGlide();
-                galeRef.wallaction();
-                break;
+            //general functions
+            groundCheck();
+            refreshVariables();
+            matchMoveState();
 
+            //handles character specific functions
+            switch (GameManager.GMInstance.currentdim)
+            {
+                case (GameManager.dimension.Light):
+                    lilianRef.movement();
+                    lilianRef.jump();
+                    lilianRef.shield();
+                    lilianRef.glide();
+                    lilianRef.wallaction();
+                    break;
+                case (GameManager.dimension.Dark):
+                    galeRef.movement();
+                    galeRef.jump();
+                    galeRef.dash();
+                    galeRef.cancelGlide();
+                    galeRef.wallaction();
+                    break;
+
+            }
+
+            DeathSequence();
+
+            //tests
+            //utilized raycast overload: origin, direction, distance, layermask
+            //origin is transform.position +/- playerwidth/2 for x
+            // direction is downwards
+            //distance is playerheight/2
+            //layermask is gamemanager.platformmask
+
+            //walljump cast is made with double length of walledstate cast
         }
-
-        DeathSequence();
-
-        //tests
-        //utilized raycast overload: origin, direction, distance, layermask
-        //origin is transform.position +/- playerwidth/2 for x
-        // direction is downwards
-        //distance is playerheight/2
-        //layermask is gamemanager.platformmask
-
-        //walljump cast is made with double length of walledstate cast
     }
 
     void refreshVariables()     //For variables that need to update every frame, e.g. timers
@@ -176,12 +180,21 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
         {
             currentGlideTime -= 1 * Time.deltaTime;
         }
+        if (currentDashTime >= 0)
+        {
+            currentDashTime -= 1 * Time.deltaTime;
+        }
+        if (health <= 0)
+        {
+            StartCoroutine(RespawnPlayerAfterTime(3));
+        }
     }
 
     public void refreshAbilities()     //refreshes jumps & dashes etc.
     {
         Jumps = 2;
         dashused = false;
+        WJUsed = false;
         currentGlideTime = 0;
     }
 
@@ -281,7 +294,6 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
                 break;
 
             case (moveState.Dashing):
-                currentDashTime -= 1 * Time.deltaTime;
                 break;
 
             case (moveState.Gliding):
@@ -320,7 +332,10 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
 
     public void heal(int amount)
     {
-        health += amount;
+        if (health > 0)
+        {
+            health += amount;
+        }
     }
 
     void DeathSequence()
@@ -338,5 +353,6 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
         transform.position = new Vector2(0.299f, 2f);
         DeathSequenceIsPlaying = false;
         rigidRef.velocity = new Vector2(0, 0);
+        health = 100;
     }
 }
