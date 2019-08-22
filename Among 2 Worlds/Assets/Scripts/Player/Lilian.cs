@@ -151,9 +151,13 @@ public class Lilian : MonoBehaviour      //manages abilities for Lilian
 
         if (Physics2D.Raycast(transform.position, Vector2.left, playerRef.playerwidth, GameManager.GMInstance.platformMask) || Physics2D.Raycast(transform.position, Vector2.right, playerRef.playerwidth, GameManager.GMInstance.platformMask))
         {
-            playerRef.playerMoveState = Player.moveState.Walljumping;
-            playerRef.currentWJTime = playerRef.wallJumpTime;
-            playerRef.rigidRef.velocity = new Vector2(playerRef.rigidRef.velocity.x, playerRef.jumpforce);
+            if (playerRef.currentWJTime <= 0 && (Input.GetKeyDown(KeyCode.Space) || Input.GetButtonDown("Jump")))
+            {
+                playerRef.playerMoveState = Player.moveState.Walljumping;
+                playerRef.currentWJTime = playerRef.wallJumpTime;
+                playerRef.rigidRef.velocity = new Vector2(playerRef.rigidRef.velocity.x, playerRef.jumpforce);
+                Debug.Log("adding y");
+            }
         }
 
         if (playerRef.currentWJTime > 0)
@@ -163,12 +167,13 @@ public class Lilian : MonoBehaviour      //manages abilities for Lilian
             {
                 case (Player.wallDirection.Left):
                     //playerRef.rigidRef.velocity = new Vector2(playerRef.wallJumpXSpeed, playerRef.rigidRef.velocity.x);
-                    playerRef.rigidRef.AddForce(new Vector2(playerRef.wallJumpXSpeed, playerRef.rigidRef.velocity.x));
+                    playerRef.rigidRef.AddForce(new Vector2(playerRef.moveSpeed, 0));
                     break;
 
                 case (Player.wallDirection.Right):
                     //playerRef.rigidRef.velocity = new Vector2(-playerRef.wallJumpXSpeed, playerRef.rigidRef.velocity.x);
-                    playerRef.rigidRef.AddForce(new Vector2(-playerRef.wallJumpXSpeed, playerRef.rigidRef.velocity.x));
+                    playerRef.rigidRef.AddForce(new Vector2(-playerRef.moveSpeed, 0));
+                    Debug.Log("adding x");
                     break;
             }
         }

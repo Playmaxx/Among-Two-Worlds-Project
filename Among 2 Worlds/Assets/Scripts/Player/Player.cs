@@ -21,7 +21,6 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
     public int jumpforce = 20;
     public int dashspeed = 300;
     public int WJSpeed = 15;
-    public bool dashused = false;
     public int glidespeed = 2;
     public float wallSlideSpeed = 0.1f;
     public float wallJumpCcoolDown = 0.5f;
@@ -50,6 +49,8 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
     public float playerwidth;
     public bool shieldActive = false;
     public bool DeathSequenceIsPlaying = false;
+    public bool dashused = false;
+    public bool WJUsed = false;
 
     //ref types
     Gale galeRef;
