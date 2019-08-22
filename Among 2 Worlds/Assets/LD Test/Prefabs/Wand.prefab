@@ -25,13 +25,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7802947665568126450}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 0.004026502, w: 0.9999919}
   m_LocalPosition: {x: -31.28, y: 4.95, z: 23.276875}
   m_LocalScale: {x: 0.450216, y: 0.450216, z: 0.450216}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0.46100003}
 --- !u!212 &6027369886559584825
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -69,7 +69,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: 21300000, guid: 18d94df8dfcd8b541991bcb9b2808423, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6014a7917b80e14448f54f43c9519325, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -93,4 +93,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LightSprite: {fileID: 0}
-  DarkSprite: {fileID: 21300000, guid: 18d94df8dfcd8b541991bcb9b2808423, type: 3}
+  DarkSprite: {fileID: 21300000, guid: 6014a7917b80e14448f54f43c9519325, type: 3}

@@ -1,0 +1,893 @@
+fileFormatVersion: 2
+guid: 07b705fe2c8c90945941016bda215043
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2578096903470007
+    second: Lilian_EW_Stehen neu_Sprite Sheet_0
+  - first:
+      213: 3852595431914705934
+    second: Lilian_EW_Stehen neu_Sprite Sheet_1
+  - first:
+      213: 9104577858800083965
+    second: Lilian_EW_Stehen neu_Sprite Sheet_2
+  - first:
+      213: 3854562455930324606
+    second: Lilian_EW_Stehen neu_Sprite Sheet_3
+  - first:
+      213: 28175683004536779
+    second: Lilian_EW_Stehen neu_Sprite Sheet_4
+  - first:
+      213: 6114742845287573892
+    second: Lilian_EW_Stehen neu_Sprite Sheet_5
+  - first:
+      213: -4194721169735257358
+    second: Lilian_EW_Stehen neu_Sprite Sheet_6
+  - first:
+      213: -7695574418113793360
+    second: Lilian_EW_Stehen neu_Sprite Sheet_7
+  - first:
+      213: -7375836766109753075
+    second: Lilian_EW_Stehen neu_Sprite Sheet_8
+  - first:
+      213: -5738380040037150167
+    second: Lilian_EW_Stehen neu_Sprite Sheet_9
+  - first:
+      213: 1963457303191098882
+    second: Lilian_EW_Stehen neu_Sprite Sheet_10
+  - first:
+      213: 7763449351952915381
+    second: Lilian_EW_Stehen neu_Sprite Sheet_11
+  - first:
+      213: -5845909753837796490
+    second: Lilian_EW_Stehen neu_Sprite Sheet_12
+  - first:
+      213: -7840418436907062278
+    second: Lilian_EW_Stehen neu_Sprite Sheet_13
+  - first:
+      213: -3033831520668686109
+    second: Lilian_EW_Stehen neu_Sprite Sheet_14
+  - first:
+      213: -1911706782990524747
+    second: Lilian_EW_Stehen neu_Sprite Sheet_15
+  - first:
+      213: 7791576576388465168
+    second: Lilian_EW_Stehen neu_Sprite Sheet_16
+  - first:
+      213: 249537841535198212
+    second: Lilian_EW_Stehen neu_Sprite Sheet_17
+  - first:
+      213: 515272228841066169
+    second: Lilian_EW_Stehen neu_Sprite Sheet_18
+  - first:
+      213: 3703245802307157349
+    second: Lilian_EW_Stehen neu_Sprite Sheet_19
+  - first:
+      213: -935777040351153918
+    second: Lilian_EW_Stehen neu_Sprite Sheet_20
+  - first:
+      213: -5434185636137838311
+    second: Lilian_EW_Stehen neu_Sprite Sheet_21
+  - first:
+      213: -237065295018282670
+    second: Lilian_EW_Stehen neu_Sprite Sheet_22
+  - first:
+      213: 3641289062388356589
+    second: Lilian_EW_Stehen neu_Sprite Sheet_23
+  - first:
+      213: -4928133331546687840
+    second: Lilian_EW_Stehen neu_Sprite Sheet_24
+  - first:
+      213: -3396185693989465024
+    second: Lilian_EW_Stehen neu_Sprite Sheet_25
+  - first:
+      213: -942998074366515360
+    second: Lilian_EW_Stehen neu_Sprite Sheet_26
+  - first:
+      213: -1921307081236512119
+    second: Lilian_EW_Stehen neu_Sprite Sheet_27
+  - first:
+      213: -1171962422611645759
+    second: Lilian_EW_Stehen neu_Sprite Sheet_28
+  - first:
+      213: -3371276263511569595
+    second: Lilian_EW_Stehen neu_Sprite Sheet_29
+  - first:
+      213: 3891489787270249142
+    second: Lilian_EW_Stehen neu_Sprite Sheet_30
+  - first:
+      213: 7641020936125775299
+    second: Lilian_EW_Stehen neu_Sprite Sheet_31
+  - first:
+      213: -4092062156821974024
+    second: Lilian_EW_Stehen neu_Sprite Sheet_32
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Lilian_EW_Stehen neu_Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1002
+        width: 90
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5549307, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8689eea6c8cd132429a182a97522b419
+      internalID: -2578096903470007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lilian_EW_Stehen neu_Sprite Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 1002
+        width: 88
+        height: 240
+      alignment: 9
+      pivot: {x: 0.54896927, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 008d3281caa3dda4f8f6a8de13e17065
+      internalID: 3852595431914705934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lilian_EW_Stehen neu_Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 1002
+        width: 86
+        height: 241
+      alignment: 9
+      pivot: {x: 0.532723, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bc7043c109bdfb40a54023dbb187f69
+      internalID: 9104577858800083965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lilian_EW_Stehen neu_Sprite Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 1002
+        width: 84
+        height: 241
+      alignment: 9
+      pivot: {x: 0.5240798, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c3061c54eda91e4485c271cf789c71f
+      internalID: 3854562455930324606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lilian_EW_Stehen neu_Sprite Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 1004
+        width: 82
+        height: 241
+      alignment: 9
+      pivot: {x: 0.45054737, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1040abae88ff00478bcc62326a47308
+      internalID: 28175683004536779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lilian_EW_Stehen neu_Sprite Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 1002
+        width: 80
+        height: 243
+      alignment: 9
+      pivot: {x: 0.47740403, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10dcb6c26008b3740bf035932bdee122
+      internalID: 6114742845287573892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lilian_EW_Stehen neu_Sprite Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 1002
+        width: 78
+        height: 243
+      alignment: 9
+      pivot: {x: 0.464422, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a19e80ce2fa0554cb5b2a43ac2f1233
+      internalID: -4194721169735257358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lilian_EW_Stehen neu_Sprite Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 754
+        width: 75
+        height: 243
+      alignment: 9
+      pivot: {x: 0.46260762, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e481c838ec6379b4995124e7dd6ca212
+      internalID: -7695574418113793360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lilian_EW_Stehen neu_Sprite Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 754
+        width: 73
+        height: 243
+      alignment: 9
+      pivot: {x: 0.45127597, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34e22c6fee36f12469c3abe07ef025e9
+      internalID: -7375836766109753075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lilian_EW_Stehen neu_Sprite Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 754
+        width: 71
+        height: 243
+      alignment: 9
+      pivot: {x: 0.4355903, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d79901fb2e41867409314cf0b2e7a6af
+      internalID: -5738380040037150167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lilian_EW_Stehen neu_Sprite Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 754
+        width: 71
+        height: 244
+      alignment: 9
+      pivot: {x: 0.43916857, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a25263e1b3b56ac4b9a13873547bd07d
+      internalID: 1963457303191098882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lilian_EW_Stehen neu_Sprite Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 754
+        width: 72
+        height: 244
+      alignment: 9
+      pivot: {x: 0.42942727, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f008c3540eea64346b24b80e1f1ac8ab
+      internalID: 7763449351952915381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lilian_EW_Stehen neu_Sprite Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 754
+        width: 73
+        height: 244
+      alignment: 9
+      pivot: {x: 0.42691332, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 727341af6d1fee34bbc0c435f57ad8ec
+      internalID: -5845909753837796490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lilian_EW_Stehen neu_Sprite Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 754
+        width: 75
+        height: 245
+      alignment: 9
+      pivot: {x: 0.41192546, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee539c2c6418f7e48abad25533f139a8
+      internalID: -7840418436907062278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lilian_EW_Stehen neu_Sprite Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 502
+        width: 77
+        height: 245
+      alignment: 9
+      pivot: {x: 0.40101534, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d469e731566aeb438631dc233f47458
+      internalID: -3033831520668686109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lilian_EW_Stehen neu_Sprite Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 502
+        width: 79
+        height: 245
+      alignment: 9
+      pivot: {x: 0.3938734, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 172b7dae413f32f45ba65e7d511f111a
+      internalID: -1911706782990524747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lilian_EW_Stehen neu_Sprite Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 502
+        width: 81
+        height: 245
+      alignment: 9
+      pivot: {x: 0.3839473, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ede568004bd1664b9012a36e989f644
+      internalID: 7791576576388465168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lilian_EW_Stehen neu_Sprite Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 502
+        width: 79
+        height: 245
+      alignment: 9
+      pivot: {x: 0.39708933, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bce4faa351b34b1489dc24bce8d0922c
+      internalID: 249537841535198212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lilian_EW_Stehen neu_Sprite Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 502
+        width: 77
+        height: 245
+      alignment: 9
+      pivot: {x: 0.4043147, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb91ca9d5f67c3c4ab130b6b31f69b2a
+      internalID: 515272228841066169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lilian_EW_Stehen neu_Sprite Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 502
+        width: 75
+        height: 245
+      alignment: 9
+      pivot: {x: 0.41192546, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe6777f0f0156324eaa52d2a0326eca7
+      internalID: 3703245802307157349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lilian_EW_Stehen neu_Sprite Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 502
+        width: 73
+        height: 244
+      alignment: 9
+      pivot: {x: 0.41995364, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7108009e06b663e4cbc246f935197e97
+      internalID: -935777040351153918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lilian_EW_Stehen neu_Sprite Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 254
+        width: 72
+        height: 244
+      alignment: 9
+      pivot: {x: 0.43295628, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b20175363502cc54d88bd021dd88e086
+      internalID: -5434185636137838311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lilian_EW_Stehen neu_Sprite Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 254
+        width: 71
+        height: 244
+      alignment: 9
+      pivot: {x: 0.4355903, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6683b66f69091cd4c9347594d8ea383f
+      internalID: -237065295018282670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lilian_EW_Stehen neu_Sprite Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 254
+        width: 71
+        height: 243
+      alignment: 9
+      pivot: {x: 0.4355903, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50657a7842f58da42856523b7ec77d73
+      internalID: 3641289062388356589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lilian_EW_Stehen neu_Sprite Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 254
+        width: 73
+        height: 243
+      alignment: 9
+      pivot: {x: 0.4582365, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c69d609dd80a3fb4ea683ff3af88ae97
+      internalID: -4928133331546687840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lilian_EW_Stehen neu_Sprite Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 254
+        width: 75
+        height: 243
+      alignment: 9
+      pivot: {x: 0.46612468, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eedbd03c3d4055244be695a93c1f9f4a
+      internalID: -3396185693989465024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lilian_EW_Stehen neu_Sprite Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 254
+        width: 78
+        height: 243
+      alignment: 9
+      pivot: {x: 0.49022812, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30b84d9ec1b47fd41a54166373ad4bb0
+      internalID: -942998074366515360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lilian_EW_Stehen neu_Sprite Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 254
+        width: 80
+        height: 243
+      alignment: 9
+      pivot: {x: 0.49999923, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42e0bad548ace7e4c9d683f1bcedeeae
+      internalID: -1921307081236512119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lilian_EW_Stehen neu_Sprite Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 7
+        width: 82
+        height: 241
+      alignment: 9
+      pivot: {x: 0.5123933, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc0b9f49fde766443a9b1fe3a501c162
+      internalID: -1171962422611645759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lilian_EW_Stehen neu_Sprite Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 7
+        width: 84
+        height: 241
+      alignment: 9
+      pivot: {x: 0.52117175, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c1147345bf2b304984ae2ddf48f042d
+      internalID: -3371276263511569595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lilian_EW_Stehen neu_Sprite Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 7
+        width: 86
+        height: 241
+      alignment: 9
+      pivot: {x: 0.5324963, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adc3a0b21a87b57419e514fe6a1667e1
+      internalID: 3891489787270249142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lilian_EW_Stehen neu_Sprite Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 7
+        width: 88
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5461929, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 120bcfa7c4795444eb7612556a00e373
+      internalID: 7641020936125775299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lilian_EW_Stehen neu_Sprite Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 7
+        width: 90
+        height: 240
+      alignment: 9
+      pivot: {x: 0.553635, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 817b42d8326534648a2434cf6ffda35b
+      internalID: -4092062156821974024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 01d3dc4778fcdd94ebe56038678b7477
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

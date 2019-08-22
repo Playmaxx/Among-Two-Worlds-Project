@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour    //manages central aspects such as world shifting, active scripts etc.
 {
@@ -14,14 +15,18 @@ public class GameManager : MonoBehaviour    //manages central aspects such as wo
 
     public enum dimension { None, Light, Dark }
     public dimension currentdim;
-    public enum level {Tutorial, Eingang, Haupthalle, Keller, Türme, Boss}
+    public enum level { Tutorial, Eingang, Haupthalle, Keller, Türme, Gang, Boss }
     public level currentlvl;
+    public static int score = 0;
+
+    public int respawnX;
+    public int respawnY;
 
     private void Awake()
     {
         currentdim = dimension.Light;
         currentlvl = level.Tutorial;
-        playerRef = GetComponent<Player>();
+        playerRef = GameObject.FindObjectOfType<Player>();
 
         if (GMInstance == null)
         {
@@ -60,15 +65,39 @@ public class GameManager : MonoBehaviour    //manages central aspects such as wo
                     currentdim = dimension.Light;
                     break;
             }
+            updateDimensions();
         }
     }
 
     void updateDimensions()     //updates dimensions for all platforms and backgrounds
     {
         Platform[] AllPlatforms = FindObjectsOfType(typeof(Platform)) as Platform[];
-        foreach(Platform currentPlat in AllPlatforms)
+        foreach (Platform item in AllPlatforms)
         {
-            //currentPlat.GetComponent<Platform>().updateDimensions();
+            item.updateDimensions();
         }
+        Background[] AllBackgrounds = FindObjectsOfType(typeof(Background)) as Background[];
+        foreach (Background item in AllBackgrounds)
+        {
+            item.updateDimensions();
+        }
+    }
+
+    void OnEnable()
+    {
+        SceneManager.sceneLoaded += onSceneLoad;
+    }
+
+    void OnDisable()
+    {
+        SceneManager.sceneLoaded -= onSceneLoad;
+    }
+
+    void onSceneLoad(Scene scene, LoadSceneMode mode)
+    {
+        playerRef = Player.PlayerInstance;
+        Debug.Log(respawnX);
+        Debug.Log(respawnY);
+        playerRef.transform.position = new Vector2(respawnX, respawnY);
     }
 }

@@ -1,0 +1,461 @@
+fileFormatVersion: 2
+guid: 23695b40fc2db584289d515a3aef8c2e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4288855707516639070
+    second: Gale_DW_Fallen_SpriteSheet_0
+  - first:
+      213: -7332147660221233630
+    second: Gale_DW_Fallen_SpriteSheet_1
+  - first:
+      213: -7086843319673318895
+    second: Gale_DW_Fallen_SpriteSheet_2
+  - first:
+      213: -3373989055393113600
+    second: Gale_DW_Fallen_SpriteSheet_3
+  - first:
+      213: -3150222207196057640
+    second: Gale_DW_Fallen_SpriteSheet_4
+  - first:
+      213: -7067427284433440110
+    second: Gale_DW_Fallen_SpriteSheet_5
+  - first:
+      213: -4108979587562627182
+    second: Gale_DW_Fallen_SpriteSheet_6
+  - first:
+      213: 3913002117466453178
+    second: Gale_DW_Fallen_SpriteSheet_7
+  - first:
+      213: 84515669125871193
+    second: Gale_DW_Fallen_SpriteSheet_8
+  - first:
+      213: 6671465494939594729
+    second: Gale_DW_Fallen_SpriteSheet_9
+  - first:
+      213: 6584574879034442225
+    second: Gale_DW_Fallen_SpriteSheet_10
+  - first:
+      213: 8220951433592607694
+    second: Gale_DW_Fallen_SpriteSheet_11
+  - first:
+      213: 7722185579723075668
+    second: Gale_DW_Fallen_SpriteSheet_12
+  - first:
+      213: -244482615668614958
+    second: Gale_DW_Fallen_SpriteSheet_13
+  - first:
+      213: 5620656866631895739
+    second: Gale_DW_Fallen_SpriteSheet_14
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Gale_DW_Fallen_SpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 846
+        width: 78
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f17e982c5da7c794690550dfbf422012
+      internalID: 4288855707516639070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale_DW_Fallen_SpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 846
+        width: 115
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9834c0fdd3124f64ab0908be9f076caf
+      internalID: -7332147660221233630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale_DW_Fallen_SpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 843
+        width: 97
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6cecebf9420fba499ac89848207af95
+      internalID: -7086843319673318895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale_DW_Fallen_SpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 826
+        width: 92
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adeae6fd8ba0bb440aafce2958cffd89
+      internalID: -3373989055393113600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale_DW_Fallen_SpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 807
+        width: 108
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab65473ced66c034da8b8c9c208cc8ef
+      internalID: -3150222207196057640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale_DW_Fallen_SpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 437
+        width: 88
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f19f9e76340a514a997813e3bd5e03b
+      internalID: -7067427284433440110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale_DW_Fallen_SpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 430
+        width: 89
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c02040751f32c1d46a769fd4e4f8de89
+      internalID: -4108979587562627182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale_DW_Fallen_SpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 399
+        width: 92
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37b444c65a841424098a8a6e29d3670e
+      internalID: 3913002117466453178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale_DW_Fallen_SpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 384
+        width: 108
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3461869fa54dad840953e953892d2671
+      internalID: 84515669125871193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale_DW_Fallen_SpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 382
+        width: 119
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e6726293e02fca49982966e7824f50e
+      internalID: 6671465494939594729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale_DW_Fallen_SpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 7
+        width: 121
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3632700ce5568d14a9a985f50d1fd9c6
+      internalID: 6584574879034442225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale_DW_Fallen_SpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 7
+        width: 108
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80f780cc99e779a4e9b291a42f100ad6
+      internalID: 8220951433592607694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale_DW_Fallen_SpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 11
+        width: 99
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61f89dc3995814349a77a76f91831ff5
+      internalID: 7722185579723075668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale_DW_Fallen_SpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 11
+        width: 96
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 148c91cf103626147a8e87d0a9c57edc
+      internalID: -244482615668614958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gale_DW_Fallen_SpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 10
+        width: 94
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e70333c5be088364bbe4dcb0979ad8c3
+      internalID: 5620656866631895739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 6e138037fcaf50d4587b98aeddb2de7a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
