@@ -140,8 +140,6 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
 
             }
 
-            DeathSequence();
-
             //tests
             //utilized raycast overload: origin, direction, distance, layermask
             //origin is transform.position +/- playerwidth/2 for x
@@ -335,15 +333,6 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
         if (health > 0)
         {
             health += amount;
-        }
-    }
-
-    void DeathSequence()
-    {
-        if (Input.GetKey(KeyCode.F) && DeathSequenceIsPlaying == false)
-        {
-            DeathSequenceIsPlaying = true;
-            StartCoroutine(RespawnPlayerAfterTime(3));
         }
     }
 
