@@ -13,17 +13,21 @@ public class SFXManager : MonoBehaviour
     public AudioClip Jump;
     public AudioClip Dash;
     public AudioClip KnightGettingHit;
+    public AudioClip Land;
 
     [SerializeField]
     bool JumpPlayed = false;
     [SerializeField]
     bool DashPlayed = false;
+    [SerializeField]
+    bool LandPlayed = false;
+    [SerializeField]
+    int JumpCounter = 1;
 
     //Awake is called before start
     void Awake()
     {
         playerRef = FindObjectOfType<Player>();
-        current_audioclip = GetComponent<AudioSource>();
     }
     // Start is called before the first frame update
     void Start()
@@ -35,8 +39,8 @@ public class SFXManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Call_PlayJumpSound();
-        Call_PlayDashSound();
+        CallJumpSound();
+        CallDashSound();
     }
 
     public void playJumpSound()
@@ -46,15 +50,21 @@ public class SFXManager : MonoBehaviour
         Debug.Log("Jump-Sound-test");
     }
 
-    public void Call_PlayJumpSound()
+    public void CallJumpSound()
     {
         if (GameManager.GMInstance.currentdim == GameManager.dimension.Dark)
         {
             if (Input.GetKeyDown(KeyCode.Space) && JumpPlayed == false)
             {
                 playJumpSound();
-                JumpPlayed = true;
+                JumpCounter--;
                 Debug.Log(JumpPlayed);
+            }
+            
+            if (JumpCounter < 0)
+            {
+                JumpCounter = 0;
+                JumpPlayed = true;
             }
         }
 
@@ -71,6 +81,7 @@ public class SFXManager : MonoBehaviour
         if (playerRef.playerMoveState == Player.moveState.Grounded)
         {
             JumpPlayed = false;
+            JumpCounter = 1;
         }
     }
 
@@ -82,7 +93,7 @@ public class SFXManager : MonoBehaviour
             Debug.Log("dash sound test");
     }
     
-    public void Call_PlayDashSound()
+    public void CallDashSound()
     {
         if ((GameManager.GMInstance.currentdim == GameManager.dimension.Dark))
         {
@@ -100,6 +111,27 @@ public class SFXManager : MonoBehaviour
         if (playerRef.playerMoveState != Player.moveState.Dashing)
         {
             DashPlayed = false;
+        }
+    }
+
+    public void playLandSound()
+    {
+        current_audioclip.clip = Land;
+        current_audioclip.Play();
+        Debug.Log("played");
+    }
+
+    public void CallLandSound()
+    {
+        if (playerRef.playerMoveState == Player.moveState.Grounded && LandPlayed == false)
+        {
+            playLandSound();
+            LandPlayed = true;
+        }
+        
+        if (playerRef.playerMoveState != Player.moveState.Grounded)
+        {
+            LandPlayed = false;
         }
     }
     public void playKnightGettingHitSound()

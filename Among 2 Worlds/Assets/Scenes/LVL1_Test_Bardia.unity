@@ -21482,7 +21482,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7579dc7b5faa40d4f8f59392df87cfde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerRef: {fileID: 0}
+  playerRef: {fileID: 1354870867}
   rigidRef: {fileID: 1354870866}
   DeathSequenceIsPlaying: 0
 --- !u!1001 &1362276232
@@ -23468,6 +23468,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 192420842630456256, guid: 0c29196364b4bd146acefde38bcf54b4,
+        type: 3}
+      propertyPath: orthographic size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5718854610222730107, guid: 0c29196364b4bd146acefde38bcf54b4,
+        type: 3}
+      propertyPath: jumpforce
+      value: 17
+      objectReference: {fileID: 0}
     - target: {fileID: 79531169318872699, guid: 0c29196364b4bd146acefde38bcf54b4,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -23522,16 +23532,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 192420842630456256, guid: 0c29196364b4bd146acefde38bcf54b4,
-        type: 3}
-      propertyPath: orthographic size
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 5718854610222730107, guid: 0c29196364b4bd146acefde38bcf54b4,
-        type: 3}
-      propertyPath: jumpforce
-      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 2666374648625824687, guid: 0c29196364b4bd146acefde38bcf54b4,
         type: 3}
@@ -31247,6 +31247,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7444067849374996312, guid: 700821c4e137bc543b2ebeb3a05ed67d,
+        type: 3}
+      propertyPath: Land
+      value: 
+      objectReference: {fileID: 8300000, guid: ca4c0d12988cac749b0890228e35eb59, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 700821c4e137bc543b2ebeb3a05ed67d, type: 3}
 --- !u!1 &2145175661

@@ -19,6 +19,12 @@ public class DeathSequence : MonoBehaviour
     void Update()
     {
         PlayDeathSequence();
+
+        if (playerRef.health == 0)
+        {
+            Debug.Log("ded");
+            StartCoroutine(RespawnPlayer(3));
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -27,7 +33,7 @@ public class DeathSequence : MonoBehaviour
         {
             DeathSequenceIsPlaying = true;
             Debug.Log("player ded boi");
-            RespawnPlayer();
+            StartCoroutine(RespawnPlayer(3));
         }
     }
 
@@ -37,14 +43,16 @@ public class DeathSequence : MonoBehaviour
         {
             DeathSequenceIsPlaying = true;
             Debug.Log("player ded boi");
-            RespawnPlayer();
+            StartCoroutine(RespawnPlayer(3));
         }
     }
 
-    void RespawnPlayer()
+    IEnumerator RespawnPlayer(float time)
     {
+        yield return new WaitForSeconds(time);
         playerRef.transform.position = new Vector2(0.299f, 2f);
         DeathSequenceIsPlaying = false;
         playerRef.rigidRef.velocity = new Vector2(0, 0);
+        playerRef.health = 100;
     }
 }
