@@ -23,7 +23,7 @@ public class DeathSequence : MonoBehaviour
         if (playerRef.health == 0)
         {
             Debug.Log("ded");
-            StartCoroutine(RespawnPlayer(3));
+            StartCoroutine(RespawnPlayer(0));
         }
     }
 

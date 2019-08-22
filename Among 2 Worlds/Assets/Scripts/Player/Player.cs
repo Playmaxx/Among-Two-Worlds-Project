@@ -20,7 +20,7 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
     public float moveSpeed = 7.5f;
     public int jumpforce = 20;
     public int dashspeed = 300;
-    public bool dashused = false;
+    public int WJSpeed = 15;
     public int glidespeed = 2;
     public float wallSlideSpeed = 0.1f;
     public float wallJumpCcoolDown = 0.5f;
@@ -38,14 +38,19 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
     public float shieldTime = 5;
     public float currentShieldTime = -5;
     public float shieldCooldown = -5;
+    public float wallJumpTime = 0.5f;
+    public float currentWJTime = 0;
 
     //non-tweakable variables
+    public static Player PlayerInstance;
     [HideInInspector]
     public float playerheight;
     [HideInInspector]
     public float playerwidth;
     public bool shieldActive = false;
     public bool DeathSequenceIsPlaying = false;
+    public bool dashused = false;
+    public bool WJUsed = false;
 
     //ref types
     Gale galeRef;
@@ -57,6 +62,15 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
 
     private void Awake() //is called before start, catch references here
     {
+        if (PlayerInstance == null)
+        {
+            DontDestroyOnLoad(this.gameObject);
+            PlayerInstance = this;
+        }
+        else if (PlayerInstance != this)
+        {
+            Destroy(this.gameObject);
+        }
         rigidRef = GetComponent<Rigidbody2D>();
         renderRef = GetComponent<SpriteRenderer>();
         galeRef = GetComponent<Gale>();
@@ -71,7 +85,6 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
         playerdirection = direction.Right;
         rigidRef.gravityScale = 0;
         playerMoveState = moveState.Falling;
-        health = GameManager.GMInstance.tempPlayerHealth;
         /*
         downVector = new Vector2(Vector2.down.x, Vector2.down.y + 0.15f) * playerheight / 2;
         Debug.Log(downVector);
@@ -100,40 +113,42 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
     // FixedUpdate is called 60 times/s, physics/logic stuff here
     void FixedUpdate()
     {
-        //general functions
-        groundCheck();
-        refreshVariables();
-        matchMoveState();
-
-        //handles character specific functions
-        switch (GameManager.GMInstance.currentdim)
+        if (playerMoveState != moveState.Other)
         {
-            case (GameManager.dimension.Light):
-                lilianRef.movement();
-                lilianRef.jump();
-                lilianRef.shield();
-                lilianRef.glide();
-                lilianRef.wallaction();
-                break;
-            case (GameManager.dimension.Dark):
-                galeRef.movement();
-                galeRef.jump();
-                galeRef.dash();
-                galeRef.cancelGlide();
-                galeRef.wallaction();
-                break;
+            //general functions
+            groundCheck();
+            refreshVariables();
+            matchMoveState();
 
+            //handles character specific functions
+            switch (GameManager.GMInstance.currentdim)
+            {
+                case (GameManager.dimension.Light):
+                    lilianRef.movement();
+                    lilianRef.jump();
+                    lilianRef.shield();
+                    lilianRef.glide();
+                    lilianRef.wallaction();
+                    break;
+                case (GameManager.dimension.Dark):
+                    galeRef.movement();
+                    galeRef.jump();
+                    galeRef.dash();
+                    galeRef.cancelGlide();
+                    galeRef.wallaction();
+                    break;
+
+            }
+
+            //tests
+            //utilized raycast overload: origin, direction, distance, layermask
+            //origin is transform.position +/- playerwidth/2 for x
+            // direction is downwards
+            //distance is playerheight/2
+            //layermask is gamemanager.platformmask
+
+            //walljump cast is made with double length of walledstate cast
         }
-        
-
-        //tests
-        //utilized raycast overload: origin, direction, distance, layermask
-        //origin is transform.position +/- playerwidth/2 for x
-        // direction is downwards
-        //distance is playerheight/2
-        //layermask is gamemanager.platformmask
-
-        //walljump cast is made with double length of walledstate cast
     }
 
     void refreshVariables()     //For variables that need to update every frame, e.g. timers
@@ -163,12 +178,21 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
         {
             currentGlideTime -= 1 * Time.deltaTime;
         }
+        if (currentDashTime >= 0)
+        {
+            currentDashTime -= 1 * Time.deltaTime;
+        }
+        if (health <= 0)
+        {
+            StartCoroutine(RespawnPlayerAfterTime(3));
+        }
     }
 
     public void refreshAbilities()     //refreshes jumps & dashes etc.
     {
         Jumps = 2;
         dashused = false;
+        WJUsed = false;
         currentGlideTime = 0;
     }
 
@@ -268,7 +292,6 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
                 break;
 
             case (moveState.Dashing):
-                currentDashTime -= 1 * Time.deltaTime;
                 break;
 
             case (moveState.Gliding):
@@ -307,6 +330,18 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
 
     public void heal(int amount)
     {
-        health += amount;
+        if (health > 0)
+        {
+            health += amount;
+        }
+    }
+
+    IEnumerator RespawnPlayerAfterTime(float time)
+    {
+        yield return new WaitForSeconds(time);
+        transform.position = new Vector2(0.299f, 2f);
+        DeathSequenceIsPlaying = false;
+        rigidRef.velocity = new Vector2(0, 0);
+        health = 100;
     }
 }
