@@ -151,11 +151,12 @@ public class Lilian : MonoBehaviour      //manages abilities for Lilian
 
         if (Physics2D.Raycast(transform.position, Vector2.left, playerRef.playerwidth, GameManager.GMInstance.platformMask) || Physics2D.Raycast(transform.position, Vector2.right, playerRef.playerwidth, GameManager.GMInstance.platformMask))
         {
-            if (playerRef.currentWJTime <= 0 && (Input.GetKeyDown(KeyCode.Space) || Input.GetButtonDown("Jump")))
+            if (playerRef.currentWJTime <= 0 && (Input.GetKeyDown(KeyCode.Space) || Input.GetButtonDown("Jump")) && playerRef.WJUsed == false)
             {
                 playerRef.playerMoveState = Player.moveState.Walljumping;
                 playerRef.currentWJTime = playerRef.wallJumpTime;
                 playerRef.rigidRef.velocity = new Vector2(playerRef.rigidRef.velocity.x, playerRef.jumpforce);
+                playerRef.WJUsed = true;
                 Debug.Log("adding y");
             }
         }
@@ -168,6 +169,7 @@ public class Lilian : MonoBehaviour      //manages abilities for Lilian
                 case (Player.wallDirection.Left):
                     //playerRef.rigidRef.velocity = new Vector2(playerRef.wallJumpXSpeed, playerRef.rigidRef.velocity.x);
                     playerRef.rigidRef.AddForce(new Vector2(playerRef.moveSpeed, 0));
+                    Debug.Log("adding x");
                     break;
 
                 case (Player.wallDirection.Right):
@@ -176,6 +178,15 @@ public class Lilian : MonoBehaviour      //manages abilities for Lilian
                     Debug.Log("adding x");
                     break;
             }
+        }
+
+        if (Physics2D.Raycast(transform.position, Vector2.left, playerRef.playerwidth, GameManager.GMInstance.platformMask) && playerRef.lastWallDirection == Player.wallDirection.Right)
+        {
+            playerRef.WJUsed = false;
+        }
+        if (Physics2D.Raycast(transform.position, Vector2.right, playerRef.playerwidth, GameManager.GMInstance.platformMask) && playerRef.lastWallDirection == Player.wallDirection.Left)
+        {
+            playerRef.WJUsed = false;
         }
 
 

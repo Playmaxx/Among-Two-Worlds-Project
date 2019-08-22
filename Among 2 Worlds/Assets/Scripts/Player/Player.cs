@@ -183,6 +183,7 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
     {
         Jumps = 2;
         dashused = false;
+        WJUsed = false;
         currentGlideTime = 0;
     }
 
