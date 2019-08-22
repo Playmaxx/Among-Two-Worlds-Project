@@ -181,6 +181,10 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
         {
             currentDashTime -= 1 * Time.deltaTime;
         }
+        if (health <= 0)
+        {
+            StartCoroutine(RespawnPlayerAfterTime(3));
+        }
     }
 
     public void refreshAbilities()     //refreshes jumps & dashes etc.
@@ -325,7 +329,10 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
 
     public void heal(int amount)
     {
-        health += amount;
+        if (health > 0)
+        {
+            health += amount;
+        }
     }
 
     void DeathSequence()
@@ -343,5 +350,6 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
         transform.position = new Vector2(0.299f, 2f);
         DeathSequenceIsPlaying = false;
         rigidRef.velocity = new Vector2(0, 0);
+        health = 100;
     }
 }
