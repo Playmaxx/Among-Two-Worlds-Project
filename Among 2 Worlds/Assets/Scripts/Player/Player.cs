@@ -205,7 +205,6 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
             {
                 playerMoveState = moveState.Grounded;
                 refreshAbilities();
-                Debug.Log("rightray");
             }
         }
         if (Physics2D.Raycast(new Vector2(transform.position.x - (playerwidth / 2) + 0.05f, transform.position.y), Vector2.down, playerheight / 2, GameManager.GMInstance.platformMask))
@@ -214,7 +213,6 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
             {
                 playerMoveState = moveState.Grounded;
                 refreshAbilities();
-                Debug.Log("leftray");
             }
         }
         if (!Physics2D.Raycast(new Vector2(transform.position.x + (playerwidth / 2) - 0.05f, transform.position.y), Vector2.down, playerheight / 2, GameManager.GMInstance.platformMask))
@@ -344,4 +342,5 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
         rigidRef.velocity = new Vector2(0, 0);
         health = 100;
     }
+    
 }

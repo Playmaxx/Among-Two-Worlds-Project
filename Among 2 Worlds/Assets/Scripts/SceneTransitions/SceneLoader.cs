@@ -7,13 +7,31 @@ public class SceneLoader : MonoBehaviour
 {
     public enum targetScene { Eingang, Haupthalle, Keller, Türme, Gang, Boss }
     public targetScene t_Scene;
-    
+
     public int targetX;
     public int targetY;
 
-    void OnTriggerStay2D(Collider2D collision)
+    bool intrigger = false;
+
+    void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag == "Player" && (Input.GetKeyDown(KeyCode.Q) || Input.GetButtonDown("Interact")))
+        if (collision.tag == "Player")
+        {
+            intrigger = true;
+        }
+    }
+
+    void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.tag == "Player")
+        {
+            intrigger = false;
+        }
+    }
+
+    void FixedUpdate()
+    {
+        if (intrigger == true && (Input.GetKeyDown(KeyCode.Q) || Input.GetButtonDown("Interact")))
         {
             loadScene();
         }
