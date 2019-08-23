@@ -1,0 +1,1085 @@
+fileFormatVersion: 2
+guid: 393566a2ba801c0458115fb523c5903a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4668002713424582985
+    second: Boss_Hexe_Schweben_SpriteSheet_0
+  - first:
+      213: 6937523773794791545
+    second: Boss_Hexe_Schweben_SpriteSheet_1
+  - first:
+      213: -4512217405794814373
+    second: Boss_Hexe_Schweben_SpriteSheet_2
+  - first:
+      213: 2256180560457054677
+    second: Boss_Hexe_Schweben_SpriteSheet_3
+  - first:
+      213: -3665277066354850380
+    second: Boss_Hexe_Schweben_SpriteSheet_4
+  - first:
+      213: 4425826922842767854
+    second: Boss_Hexe_Schweben_SpriteSheet_5
+  - first:
+      213: -4653354139258931809
+    second: Boss_Hexe_Schweben_SpriteSheet_6
+  - first:
+      213: 3114759586921049848
+    second: Boss_Hexe_Schweben_SpriteSheet_7
+  - first:
+      213: 4506992462367918404
+    second: Boss_Hexe_Schweben_SpriteSheet_8
+  - first:
+      213: 7341207533882219589
+    second: Boss_Hexe_Schweben_SpriteSheet_9
+  - first:
+      213: -4879250433499877930
+    second: Boss_Hexe_Schweben_SpriteSheet_10
+  - first:
+      213: 967551319551154183
+    second: Boss_Hexe_Schweben_SpriteSheet_11
+  - first:
+      213: -2760079599626113332
+    second: Boss_Hexe_Schweben_SpriteSheet_12
+  - first:
+      213: 1216283301457307943
+    second: Boss_Hexe_Schweben_SpriteSheet_13
+  - first:
+      213: 6586820702965042417
+    second: Boss_Hexe_Schweben_SpriteSheet_14
+  - first:
+      213: -6476472301875239551
+    second: Boss_Hexe_Schweben_SpriteSheet_15
+  - first:
+      213: 5791137111602427116
+    second: Boss_Hexe_Schweben_SpriteSheet_16
+  - first:
+      213: -3567023735111380969
+    second: Boss_Hexe_Schweben_SpriteSheet_17
+  - first:
+      213: -4261597428218918945
+    second: Boss_Hexe_Schweben_SpriteSheet_18
+  - first:
+      213: -4485698328602955464
+    second: Boss_Hexe_Schweben_SpriteSheet_19
+  - first:
+      213: -2263484195947220048
+    second: Boss_Hexe_Schweben_SpriteSheet_20
+  - first:
+      213: -1649294434353205950
+    second: Boss_Hexe_Schweben_SpriteSheet_21
+  - first:
+      213: 4586835108365574084
+    second: Boss_Hexe_Schweben_SpriteSheet_22
+  - first:
+      213: -2225350315882970326
+    second: Boss_Hexe_Schweben_SpriteSheet_23
+  - first:
+      213: 2867539932386382276
+    second: Boss_Hexe_Schweben_SpriteSheet_24
+  - first:
+      213: -1206672438418318538
+    second: Boss_Hexe_Schweben_SpriteSheet_25
+  - first:
+      213: -3793315349253515427
+    second: Boss_Hexe_Schweben_SpriteSheet_26
+  - first:
+      213: 3656600686900798118
+    second: Boss_Hexe_Schweben_SpriteSheet_27
+  - first:
+      213: -8289625040518667894
+    second: Boss_Hexe_Schweben_SpriteSheet_28
+  - first:
+      213: 3065150128039641585
+    second: Boss_Hexe_Schweben_SpriteSheet_29
+  - first:
+      213: 7405506566522639549
+    second: Boss_Hexe_Schweben_SpriteSheet_30
+  - first:
+      213: -7132838498074329893
+    second: Boss_Hexe_Schweben_SpriteSheet_31
+  - first:
+      213: 4920949597895943347
+    second: Boss_Hexe_Schweben_SpriteSheet_32
+  - first:
+      213: 2622411129735460577
+    second: Boss_Hexe_Schweben_SpriteSheet_33
+  - first:
+      213: -2796446855612671730
+    second: Boss_Hexe_Schweben_SpriteSheet_34
+  - first:
+      213: 2179605561464144752
+    second: Boss_Hexe_Schweben_SpriteSheet_35
+  - first:
+      213: 8900548921000968651
+    second: Boss_Hexe_Schweben_SpriteSheet_36
+  - first:
+      213: 6389198695372373492
+    second: Boss_Hexe_Schweben_SpriteSheet_37
+  - first:
+      213: -7474696087978328320
+    second: Boss_Hexe_Schweben_SpriteSheet_38
+  - first:
+      213: -4724338929289627241
+    second: Boss_Hexe_Schweben_SpriteSheet_39
+  - first:
+      213: -7708351977442749832
+    second: Boss_Hexe_Schweben_SpriteSheet_40
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Boss_Hexe_Schweben_SpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1707
+        width: 177
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0881f1113f689df469254190b7c78def
+      internalID: -4668002713424582985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Hexe_Schweben_SpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 1708
+        width: 177
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6574fa1da2298ed4ebbb7201b01c969b
+      internalID: 6937523773794791545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Hexe_Schweben_SpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 1709
+        width: 177
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8c3ee7159b8dd5448d536a6ebe0929a
+      internalID: -4512217405794814373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Hexe_Schweben_SpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 1709
+        width: 177
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e495d2420efc7154289b6ca8c67cc1c8
+      internalID: 2256180560457054677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Hexe_Schweben_SpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 1710
+        width: 177
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 045ea9cf7dfbdb24caf919a6fbdabd2c
+      internalID: -3665277066354850380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Hexe_Schweben_SpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 1710
+        width: 181
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97fb14b9f01199043a33a83ce76a5bd3
+      internalID: 4425826922842767854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Hexe_Schweben_SpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 1710
+        width: 181
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f8828a13c8888540bfa866fc80dc0f8
+      internalID: -4653354139258931809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Hexe_Schweben_SpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1370
+        width: 180
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cbd9c277eacd424ab5c58f46b51b477
+      internalID: 3114759586921049848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Hexe_Schweben_SpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 1371
+        width: 181
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70fe0323ccf8fa94a91ceadd6f1d5c3f
+      internalID: 4506992462367918404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Hexe_Schweben_SpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 1372
+        width: 182
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fca85623e0403334f9f0fb0f2c424821
+      internalID: 7341207533882219589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Hexe_Schweben_SpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 1373
+        width: 181
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5052874d636205b4db2ea4b25773550c
+      internalID: -4879250433499877930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Hexe_Schweben_SpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 1373
+        width: 183
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c38cba6d565c014e80a229733ec6952
+      internalID: 967551319551154183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Hexe_Schweben_SpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 1374
+        width: 185
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebff734676007c144894fc81c7098794
+      internalID: -2760079599626113332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Hexe_Schweben_SpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 1375
+        width: 188
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3269d01d8562ffa4e9efe3f6428c4804
+      internalID: 1216283301457307943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Hexe_Schweben_SpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1034
+        width: 190
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57c02a2d564584345989c6ca6628165c
+      internalID: 6586820702965042417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Hexe_Schweben_SpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 1035
+        width: 193
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88fe66c2aacdb154d8c8c24f2edeb1c6
+      internalID: -6476472301875239551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Hexe_Schweben_SpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 1037
+        width: 193
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c9cd5b72a9a86c4183dc92151d7f075
+      internalID: 5791137111602427116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Hexe_Schweben_SpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 1038
+        width: 197
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfc1c8cd9b58e0e4599941f314b3386c
+      internalID: -3567023735111380969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Hexe_Schweben_SpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 1038
+        width: 198
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 592f33443441ce445b63b101a154693d
+      internalID: -4261597428218918945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Hexe_Schweben_SpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 1038
+        width: 201
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9cdcc631f97f1b45ad7e2ce1330fa06
+      internalID: -4485698328602955464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Hexe_Schweben_SpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 1245
+        y: 1038
+        width: 201
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 755681ecde5ce83428d08689d20bf71a
+      internalID: -2263484195947220048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Hexe_Schweben_SpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 697
+        width: 201
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fa7bfec5649a8f489482f0f37bfe7d0
+      internalID: -1649294434353205950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Hexe_Schweben_SpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 698
+        width: 198
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6755714b104e9a64c9ecc99048439c84
+      internalID: 4586835108365574084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Hexe_Schweben_SpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 698
+        width: 197
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f09bc8caec627f94eaa73003f061094c
+      internalID: -2225350315882970326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Hexe_Schweben_SpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 697
+        width: 193
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faa87b4da89b30a49b044af6a992c77b
+      internalID: 2867539932386382276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Hexe_Schweben_SpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 695
+        width: 193
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bd97d5dca3c0f342afdf659fc21a58b
+      internalID: -1206672438418318538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Hexe_Schweben_SpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 695
+        width: 190
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ace992e8dbeaa93409be6861ff47470a
+      internalID: -3793315349253515427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Hexe_Schweben_SpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 694
+        width: 188
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39a9f2818179c4f49b766e029ca28daf
+      internalID: 3656600686900798118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Hexe_Schweben_SpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 352
+        width: 185
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6810824297c3b244a86033cab578c76
+      internalID: -8289625040518667894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Hexe_Schweben_SpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 352
+        width: 183
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38f9e30d4e54c544e88e637ec2195249
+      internalID: 3065150128039641585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Hexe_Schweben_SpriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 352
+        width: 181
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 768be5eee4fdf064e9f28dde3eb447f9
+      internalID: 7405506566522639549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Hexe_Schweben_SpriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 351
+        width: 182
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7e5f277c94c53444a3d78f944bbd2ed
+      internalID: -7132838498074329893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Hexe_Schweben_SpriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 350
+        width: 181
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ae6cbc6c089886458d61c7b89d759a0
+      internalID: 4920949597895943347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Hexe_Schweben_SpriteSheet_33
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 350
+        width: 180
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 745b43bc142a0f64f9c5eff411a5bcb5
+      internalID: 2622411129735460577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Hexe_Schweben_SpriteSheet_34
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 347
+        width: 181
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c891661e2e92d6b45ab686354f5edc14
+      internalID: -2796446855612671730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Hexe_Schweben_SpriteSheet_35
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 9
+        width: 181
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 875cd479827e33c46a49a565ec707753
+      internalID: 2179605561464144752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Hexe_Schweben_SpriteSheet_36
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 10
+        width: 177
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e6731e24019f6e4f8f2ce17b54eaec2
+      internalID: 8900548921000968651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Hexe_Schweben_SpriteSheet_37
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 9
+        width: 177
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 263158acebeb0cc4782d761803441d90
+      internalID: 6389198695372373492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Hexe_Schweben_SpriteSheet_38
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 9
+        width: 177
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10485052ad0e141478aeb744138a870f
+      internalID: -7474696087978328320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Hexe_Schweben_SpriteSheet_39
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 8
+        width: 177
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35500afe2eff5264294cb480254d62de
+      internalID: -4724338929289627241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Hexe_Schweben_SpriteSheet_40
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 8
+        width: 177
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 435f2727fd0c9a64685ab42d909e9638
+      internalID: -7708351977442749832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 0b59975e65d5f944e96a8d48300e05e3
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

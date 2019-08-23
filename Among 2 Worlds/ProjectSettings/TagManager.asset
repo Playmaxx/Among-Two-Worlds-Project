@@ -12,6 +12,8 @@ TagManager:
   - OutOfMap-border
   - scoreSource
   - Enemy
+  - SceneSwitcher
+  - PopUpCanvas
   layers:
   - Default
   - TransparentFX

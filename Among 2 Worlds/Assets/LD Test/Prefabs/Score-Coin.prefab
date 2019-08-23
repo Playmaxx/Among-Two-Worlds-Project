@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 4870059756340752123}
   - component: {fileID: 4870059756340752124}
   - component: {fileID: 4870059756340752121}
-  - component: {fileID: 4870059756340752122}
   - component: {fileID: 4564050300231308656}
+  - component: {fileID: 150077943000724531}
   m_Layer: 0
   m_Name: Score-Coin
   m_TagString: scoreSource
@@ -71,19 +71,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &4870059756340752122
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4870059756340752125}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 81027b8bdffc4024892fba1581124e3a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scoreText: {fileID: 0}
 --- !u!212 &4564050300231308656
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -132,3 +119,15 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &150077943000724531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4870059756340752125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58dd76e4bd6d1d84593f0274cf4def50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

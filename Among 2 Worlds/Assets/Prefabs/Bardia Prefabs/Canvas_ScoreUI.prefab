@@ -107,6 +107,7 @@ GameObject:
   - component: {fileID: 1626453452627187150}
   - component: {fileID: 1626453452627187149}
   - component: {fileID: 1626453452627187148}
+  - component: {fileID: 373503548}
   m_Layer: 5
   m_Name: Canvas_ScoreUI
   m_TagString: Untagged
@@ -194,3 +195,17 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &373503548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1626453452627187139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9c1a9fa7c956f74e9555e2299364317, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreText: {fileID: 0}
+  rootCanvas: {fileID: 0}

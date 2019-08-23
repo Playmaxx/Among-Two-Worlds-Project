@@ -1,0 +1,341 @@
+fileFormatVersion: 2
+guid: 7c2d09ae772a0234d95aa28ca9e64223
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8807713821139217100
+    second: "Schwertk\xE4mpfer_EW_Tod_SpriteSheeet_0"
+  - first:
+      213: -6700102618781591598
+    second: "Schwertk\xE4mpfer_EW_Tod_SpriteSheeet_1"
+  - first:
+      213: 5586342524760529892
+    second: "Schwertk\xE4mpfer_EW_Tod_SpriteSheeet_2"
+  - first:
+      213: 2870284281957021409
+    second: "Schwertk\xE4mpfer_EW_Tod_SpriteSheeet_3"
+  - first:
+      213: 6958231307100649675
+    second: "Schwertk\xE4mpfer_EW_Tod_SpriteSheeet_4"
+  - first:
+      213: -2096909759562868009
+    second: "Schwertk\xE4mpfer_EW_Tod_SpriteSheeet_5"
+  - first:
+      213: 7055158072775746026
+    second: "Schwertk\xE4mpfer_EW_Tod_SpriteSheeet_6"
+  - first:
+      213: 5807628582238200419
+    second: "Schwertk\xE4mpfer_EW_Tod_SpriteSheeet_7"
+  - first:
+      213: 4782142395096454789
+    second: "Schwertk\xE4mpfer_EW_Tod_SpriteSheeet_8"
+  - first:
+      213: 162922705081008868
+    second: "Schwertk\xE4mpfer_EW_Tod_SpriteSheeet_9"
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Schwertk\xE4mpfer_EW_Tod_SpriteSheeet_0"
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 1425
+        width: 138
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 596043fea12c73f4e89c88a3cc2b288b
+      internalID: -8807713821139217100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Schwertk\xE4mpfer_EW_Tod_SpriteSheeet_1"
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 1427
+        width: 151
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5595194, y: 0.4999996}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4190aa51d197ec2458ccd7c17e53f838
+      internalID: -6700102618781591598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Schwertk\xE4mpfer_EW_Tod_SpriteSheeet_2"
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 1078
+        width: 155
+        height: 312
+      alignment: 9
+      pivot: {x: 0.642324, y: 0.49476194}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 213dd19336d65c540b99c17ce4ef9af3
+      internalID: 5586342524760529892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Schwertk\xE4mpfer_EW_Tod_SpriteSheeet_3"
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 1074
+        width: 181
+        height: 291
+      alignment: 9
+      pivot: {x: 0.72118837, y: 0.528077}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ea192b8841aaf147a471968e729cc6f
+      internalID: 2870284281957021409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Schwertk\xE4mpfer_EW_Tod_SpriteSheeet_4"
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 725
+        width: 186
+        height: 275
+      alignment: 9
+      pivot: {x: 0.8118826, y: 0.5653635}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9a8b4a208886714fa4408d5cc447595
+      internalID: 6958231307100649675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Schwertk\xE4mpfer_EW_Tod_SpriteSheeet_5"
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 714
+        width: 216
+        height: 259
+      alignment: 9
+      pivot: {x: 0.93500066, y: 0.5914837}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bfc58625e1240144a9f8105edb3839b
+      internalID: -2096909759562868009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Schwertk\xE4mpfer_EW_Tod_SpriteSheeet_6"
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 352
+        width: 276
+        height: 236
+      alignment: 9
+      pivot: {x: 0.94700634, y: 0.64886826}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a25965eb850213469d45e8f48d4f2aa
+      internalID: 7055158072775746026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Schwertk\xE4mpfer_EW_Tod_SpriteSheeet_7"
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 350
+        width: 326
+        height: 143
+      alignment: 9
+      pivot: {x: 0.9360913, y: 1.0885004}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71f23a14b0b20a148adb0326ffe2106c
+      internalID: 5807628582238200419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Schwertk\xE4mpfer_EW_Tod_SpriteSheeet_8"
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 4
+        width: 397
+        height: 113
+      alignment: 9
+      pivot: {x: 0.94248, y: 1.3748884}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a583992bd894fa2419110a9d940cb32a
+      internalID: 4782142395096454789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Schwertk\xE4mpfer_EW_Tod_SpriteSheeet_9"
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 4
+        width: 407
+        height: 113
+      alignment: 9
+      pivot: {x: 0.95569795, y: 1.3604275}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8e9f74fe2cc7db4a84d38d407680366
+      internalID: 162922705081008868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 2eb8b45e187b9a742bdc3eed364f78b1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
