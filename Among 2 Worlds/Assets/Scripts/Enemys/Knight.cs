@@ -205,6 +205,8 @@ public class Knight : MonoBehaviour
     IEnumerator death()
     {
         knightState = enemyState.Death;
+        rigidRef.gravityScale = 0;
+        GetComponent<CapsuleCollider2D>().enabled = false;
         yield return new WaitForSeconds(1.5f);
         Destroy(this.gameObject);
     }
