@@ -7,6 +7,8 @@ public class SFXManager : MonoBehaviour
     [SerializeField]
     Player playerRef;
     Rigidbody2D rigidRef;
+    [SerializeField]
+    Knight knightRef;
 
     public AudioSource current_audioclip;
     public AudioSource current_audioclip2;
@@ -43,11 +45,10 @@ public class SFXManager : MonoBehaviour
         CallDashSound();
     }
 
-    public void playJumpSound()
+    public void playSound(AudioSource audioSource, AudioClip audioClip)
     {
-        current_audioclip2.clip = Jump;
-        current_audioclip2.Play();
-        Debug.Log("Jump-Sound-test");
+        audioSource.clip = audioClip;
+        audioSource.Play();
     }
 
     public void CallJumpSound()
@@ -56,7 +57,7 @@ public class SFXManager : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.Space) && JumpPlayed == false)
             {
-                playJumpSound();
+                playSound(current_audioclip2, Jump);
                 JumpCounter--;
                 Debug.Log(JumpPlayed);
             }
@@ -72,9 +73,8 @@ public class SFXManager : MonoBehaviour
         {
             if (playerRef.rigidRef.velocity.y > 0 && JumpPlayed == false)
             {
-                playJumpSound();
+                playSound(current_audioclip2, Jump);
                 JumpPlayed = true;
-                Debug.Log(JumpPlayed);
             }
         }
         
@@ -83,14 +83,6 @@ public class SFXManager : MonoBehaviour
             JumpPlayed = false;
             JumpCounter = 1;
         }
-    }
-
-
-    public void playDashSound()
-    {
-            current_audioclip.clip = Dash;
-            current_audioclip.Play();
-            Debug.Log("dash sound test");
     }
     
     public void CallDashSound()
@@ -102,7 +94,7 @@ public class SFXManager : MonoBehaviour
                 if (Input.GetKeyDown(KeyCode.LeftShift))
                 {
                     if (DashPlayed == false)
-                    playDashSound();
+                    playSound(current_audioclip, Dash);
                     DashPlayed = true;
                 }
             }
@@ -114,30 +106,18 @@ public class SFXManager : MonoBehaviour
         }
     }
 
-    public void playLandSound()
-    {
-        current_audioclip.clip = Land;
-        current_audioclip.Play();
-        Debug.Log("played");
-    }
-
     public void CallLandSound()
     {
         if (playerRef.playerMoveState == Player.moveState.Grounded && LandPlayed == false)
         {
-            playLandSound();
+            playSound(current_audioclip, Land);
             LandPlayed = true;
+            Debug.Log("hayyy");
         }
         
         if (playerRef.playerMoveState != Player.moveState.Grounded)
         {
             LandPlayed = false;
         }
-    }
-    public void playKnightGettingHitSound()
-    {
-        current_audioclip.clip = KnightGettingHit;
-        current_audioclip.Play();
-        Debug.Log("KnightGitHit");
     }
 }
