@@ -271,8 +271,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerRef: {fileID: 0}
   current_audioclip: {fileID: 0}
+  current_audioclip2: {fileID: 0}
   Jump: {fileID: 8300000, guid: 15d0dd4d554c96f43960a3ad8f76c555, type: 3}
   Dash: {fileID: 8300000, guid: 3e27ffd3594c9c649950f584b9dd4cff, type: 3}
+  KnightGettingHit: {fileID: 0}
+  JumpPlayed: 0
+  DashPlayed: 0
 --- !u!82 &149108883
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1168,8 +1172,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   current_audioclip: {fileID: 1402463687}
+  current_audioclip2: {fileID: 0}
+  rattle: {fileID: 0}
   Step: {fileID: 8300000, guid: 6c3a44d1bb2567241963eb5c8d0ae079, type: 3}
-  ArmorSoundWhileRunning: {fileID: 0}
+  playerRef: {fileID: 0}
+  rigRef: {fileID: 0}
 --- !u!82 &1402463687
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1871,16 +1878,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 5718854610222730107, guid: 0c29196364b4bd146acefde38bcf54b4,
-        type: 3}
-      propertyPath: playerheight
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5718854610222730107, guid: 0c29196364b4bd146acefde38bcf54b4,
-        type: 3}
-      propertyPath: playerwidth
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 79531169318872699, guid: 0c29196364b4bd146acefde38bcf54b4,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1936,6 +1933,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5718854610222730107, guid: 0c29196364b4bd146acefde38bcf54b4,
+        type: 3}
+      propertyPath: playerheight
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5718854610222730107, guid: 0c29196364b4bd146acefde38bcf54b4,
+        type: 3}
+      propertyPath: playerwidth
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c29196364b4bd146acefde38bcf54b4, type: 3}
 --- !u!1001 &7392733375685265934
@@ -1953,12 +1960,12 @@ PrefabInstance:
     - target: {fileID: 7392733376194073881, guid: 79106f370a35ad0459a36ef01a9e9be3,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -17.45
+      value: -2.28
       objectReference: {fileID: 0}
     - target: {fileID: 7392733376194073881, guid: 79106f370a35ad0459a36ef01a9e9be3,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.34
+      value: 2.74
       objectReference: {fileID: 0}
     - target: {fileID: 7392733376194073881, guid: 79106f370a35ad0459a36ef01a9e9be3,
         type: 3}
