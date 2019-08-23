@@ -5,6 +5,7 @@ using UnityEngine;
 public class Archer : MonoBehaviour
 {
     int health = 100;
+    public int arrowspeed = 1;
     float trackingdistance;
     bool playerInRange = false;
     bool playerTracked = false;
@@ -42,7 +43,7 @@ public class Archer : MonoBehaviour
     {
         if (playerInRange == true)
         {
-            if(Physics2D.Raycast(transform.position, playerRef.transform.position.normalized, trackingdistance, GameManager.GMInstance.platformMask))
+            if (Physics2D.Raycast(transform.position, playerRef.transform.position.normalized, trackingdistance, GameManager.GMInstance.platformMask))
             {
                 playerTracked = false;
             }
@@ -50,6 +51,10 @@ public class Archer : MonoBehaviour
             {
                 playerTracked = true;
             }
+        }
+        if (playerTracked == true)
+        {
+            shoot();
         }
     }
 
@@ -71,6 +76,7 @@ public class Archer : MonoBehaviour
 
     void shoot()
     {
-
+        transform.GetChild(0).GetComponent<Transform>().position = transform.position;
+        transform.GetChild(0).GetComponent<Rigidbody2D>().velocity = (playerRef.transform.position - transform.position).normalized * arrowspeed;
     }
 }
