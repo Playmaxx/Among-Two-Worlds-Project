@@ -98,7 +98,7 @@ GameObject:
   - component: {fileID: 2387440381360717383}
   - component: {fileID: 6966199790888462164}
   - component: {fileID: 3644934963410143969}
-  - component: {fileID: 1907682244}
+  - component: {fileID: 1354870868}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -225,9 +225,9 @@ MonoBehaviour:
   Jumps: 2
   health: 100
   moveSpeed: 7.5
-  jumpforce: 18
+  jumpforce: 17
   dashspeed: 40
-  dashused: 0
+  WJSpeed: 15
   glidespeed: 2
   wallSlideSpeed: 2
   wallJumpCcoolDown: 0.5
@@ -243,10 +243,14 @@ MonoBehaviour:
   shieldTime: 5
   currentShieldTime: -4
   shieldCooldown: -5
+  wallJumpTime: 0.5
+  currentWJTime: 0
   playerheight: 2
   playerwidth: 1
   shieldActive: 0
   DeathSequenceIsPlaying: 0
+  dashused: 0
+  WJUsed: 0
   rigidRef: {fileID: 0}
   renderRef: {fileID: 0}
 --- !u!114 &2085399992994487765
@@ -336,7 +340,7 @@ MonoBehaviour:
   scoreText: {fileID: 0}
   rootCanvas: {fileID: 0}
   playerRef: {fileID: 0}
---- !u!114 &1907682244
+--- !u!114 &1354870868
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -345,11 +349,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 724354089239550867}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec75af0b843f1da48a08b2176f941787, type: 3}
+  m_Script: {fileID: 11500000, guid: 7579dc7b5faa40d4f8f59392df87cfde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  t_Scene: 0
-  playerRef: {fileID: 0}
+  playerRef: {fileID: 5718854610222730107}
+  rigidRef: {fileID: 1624333346531549871}
+  DeathSequenceIsPlaying: 0
 --- !u!1 &892352203031666132
 GameObject:
   m_ObjectHideFlags: 0
@@ -410,7 +415,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 6
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
@@ -476,7 +481,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.33333334, g: 0.33333334, b: 0.33333334, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -493,7 +498,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5.5
+  orthographic size: 6.7
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
