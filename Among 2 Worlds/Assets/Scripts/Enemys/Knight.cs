@@ -150,6 +150,14 @@ public class Knight : MonoBehaviour
             knightState = enemyState.Attacking;
             playerRef.GetComponent<Player>().damage(damage);
         }
+        if (!leftGroundRay)
+        {
+            Debug.Log("leftair");
+        }
+        if (!rightGroundRay)
+        {
+            Debug.Log("rightair");
+        }
     }
 
     public void Damage(int amount)
