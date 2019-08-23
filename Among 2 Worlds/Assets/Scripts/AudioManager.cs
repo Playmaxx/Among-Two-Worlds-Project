@@ -5,7 +5,7 @@ using UnityEngine;
 public class AudioManager : MonoBehaviour
 {
 
-    public AudioSource GTD;
+    public AudioSource current_track;
     public AudioClip CuteGiana;
     public AudioClip DarkGiana;
     public float timecode1;
@@ -14,38 +14,34 @@ public class AudioManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        GTD = GetComponent<AudioSource>();
-        GTD.volume = 1.0f;
-        GTD.clip = CuteGiana;
-        GTD.Play();
+        current_track = GetComponent<AudioSource>();
+        current_track.volume = 1.0f;
+        current_track.clip = CuteGiana;
+        current_track.Play();
         
     }
     // Update is called once per frame
     void Update()
     {
         timecode1 = timecode2;
-        timecode2 = GTD.time;
+        timecode2 = current_track.time;
         if (Input.GetKeyDown(KeyCode.E))
         {
-            if (GTD.clip == CuteGiana)
+            if (current_track.clip == CuteGiana)
             {
-                GTD.Stop();
-                GTD.clip = DarkGiana;
-                GTD.time = timecode1;
-                GTD.Play();
+                current_track.Stop();
+                current_track.clip = DarkGiana;
+                current_track.time = timecode1;
+                current_track.Play();
             }
 
             else
             {
-                GTD.Stop();
-                GTD.clip = CuteGiana;
-                GTD.time = timecode1;
-                GTD.Play();
+                current_track.Stop();
+                current_track.clip = CuteGiana;
+                current_track.time = timecode1;
+                current_track.Play();
             }
-
-            Debug.Log(GTD.time);
-            //Debug.Log(timecode);
-
         }
     }
 }

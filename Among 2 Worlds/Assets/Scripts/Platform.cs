@@ -21,16 +21,17 @@ public class Platform : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        updateDimensions();
     }
 
     // Update is called once per frame
     void Update()
     {
-        updateDimensions();
+
+
     }
 
-    void updateDimensions()
+    public void updateDimensions()
     {
         if (ownDimension == GameManager.GMInstance.currentdim || ownDimension == GameManager.dimension.None)
         {

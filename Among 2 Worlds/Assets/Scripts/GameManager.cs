@@ -6,16 +6,25 @@ public class GameManager : MonoBehaviour    //manages central aspects such as wo
 {
 
     public static GameManager GMInstance;
+    Player playerRef;
+
+    public int playerMask = 1 << 8;
+    public int enemyMask = 1 << 9;
+    public int platformMask = 1 << 10;
+
+    //conserves health on scene switch without compromising current code
+    public int tempPlayerHealth;
 
     public enum dimension { None, Light, Dark }
     public dimension currentdim;
-    public enum level {Tutorial, Eingang, Haupthalle, Keller, Türme, Boss}
+    public enum level { Tutorial, Eingang, Haupthalle, Keller, Türme, Gang, Boss }
     public level currentlvl;
 
     private void Awake()
     {
         currentdim = dimension.Light;
         currentlvl = level.Tutorial;
+        playerRef = GameObject.FindObjectOfType<Player>();
 
         if (GMInstance == null)
         {
@@ -31,7 +40,7 @@ public class GameManager : MonoBehaviour    //manages central aspects such as wo
     // Start is called before the first frame update
     void Start()
     {
-
+        tempPlayerHealth = playerRef.health;
     }
 
     // Update is called once per frame
@@ -42,7 +51,7 @@ public class GameManager : MonoBehaviour    //manages central aspects such as wo
 
     public void switchDimension()      //reverses current dimension and switches active scripts
     {
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.E) || Input.GetButtonDown("Worldshift"))
         {
             switch (currentdim)
             {
@@ -54,6 +63,21 @@ public class GameManager : MonoBehaviour    //manages central aspects such as wo
                     currentdim = dimension.Light;
                     break;
             }
+            updateDimensions();
+        }
+    }
+
+    void updateDimensions()     //updates dimensions for all platforms and backgrounds
+    {
+        Platform[] AllPlatforms = FindObjectsOfType(typeof(Platform)) as Platform[];
+        foreach (Platform item in AllPlatforms)
+        {
+            item.updateDimensions();
+        }
+        Background[] AllBackgrounds = FindObjectsOfType(typeof(Background)) as Background[];
+        foreach (Background item in AllBackgrounds)
+        {
+            item.updateDimensions();
         }
     }
 }
