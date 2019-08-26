@@ -5,11 +5,14 @@ using UnityEngine;
 public class Archer : MonoBehaviour
 {
     int health = 100;
-    public int arrowspeed = 1;
     float trackingdistance;
     bool playerInRange = false;
     bool playerTracked = false;
     Player playerRef;
+    [SerializeField]
+    GameObject ArrowPrefab;
+    int arrowCooldown = 3;
+    float currentCooldown;
 
     void Awake()
     {
@@ -56,6 +59,10 @@ public class Archer : MonoBehaviour
         {
             shoot();
         }
+        if (currentCooldown > 0)
+        {
+            currentCooldown -= 1 * Time.deltaTime;
+        }
     }
 
     void OnTriggerEnter2D(Collider2D collision)
@@ -76,7 +83,11 @@ public class Archer : MonoBehaviour
 
     void shoot()
     {
-        transform.GetChild(0).GetComponent<Transform>().position = transform.position;
-        transform.GetChild(0).GetComponent<Rigidbody2D>().velocity = (playerRef.transform.position - transform.position).normalized * arrowspeed;
+        if (currentCooldown <= 0)
+        {
+            currentCooldown = arrowCooldown;
+            GameObject Arrow = Instantiate(ArrowPrefab, transform) as GameObject;
+            Arrow.transform.position = transform.position;
+        }
     }
 }

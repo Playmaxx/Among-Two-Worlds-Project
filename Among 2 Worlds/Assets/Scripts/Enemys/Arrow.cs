@@ -6,6 +6,7 @@ public class Arrow : MonoBehaviour
 {
     [SerializeField]
     int arrowDamage = 20;
+    public int arrowspeed = 1;
     Rigidbody2D rigidRef;
 
     void Awake()
@@ -17,6 +18,8 @@ public class Arrow : MonoBehaviour
     void Start()
     {
         rigidRef.gravityScale = 0;
+        rigidRef.velocity = (Player.PlayerInstance.transform.position - transform.position).normalized * arrowspeed;
+        transform.Rotate((Player.PlayerInstance.transform.position - transform.parent.transform.position).normalized);
     }
 
     // Update is called once per frame
@@ -29,7 +32,7 @@ public class Arrow : MonoBehaviour
     {
         if (collision.tag == "Platform")
         {
-
+            rigidRef.velocity = Vector2.zero;
         }
         if (collision.tag == "Player")
         {
