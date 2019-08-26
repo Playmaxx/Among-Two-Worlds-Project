@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.Audio;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class MenuManager : MonoBehaviour
 {
@@ -33,6 +34,11 @@ public class MenuManager : MonoBehaviour
         Debug.Log("oi");
         previousPanel.SetActive(false);
         newPanel.SetActive(true);
+    }
+
+    public void LoadCreditsScene()
+    {
+        SceneManager.LoadScene("Credits");
     }
 
     public void SetMusicVolume(float volume)
