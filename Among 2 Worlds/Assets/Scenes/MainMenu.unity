@@ -181,6 +181,9 @@ MonoBehaviour:
   SFX_audioMixer: {fileID: 0}
   Step_audioMixer: {fileID: 0}
   rattle_audioMixer: {fileID: 0}
+  jump_audioMixer: {fileID: 0}
+  knightWalk_audioMixer: {fileID: 0}
+  menu_audioMixer: {fileID: 0}
   toggleMusic: {fileID: 0}
 --- !u!114 &100130684
 MonoBehaviour:
@@ -662,6 +665,9 @@ MonoBehaviour:
   SFX_audioMixer: {fileID: 0}
   Step_audioMixer: {fileID: 0}
   rattle_audioMixer: {fileID: 0}
+  jump_audioMixer: {fileID: 0}
+  knightWalk_audioMixer: {fileID: 0}
+  menu_audioMixer: {fileID: 0}
   toggleMusic: {fileID: 0}
 --- !u!114 &335908142
 MonoBehaviour:
@@ -785,7 +791,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &343493612
 RectTransform:
   m_ObjectHideFlags: 0
@@ -827,11 +833,15 @@ MonoBehaviour:
   optionsAudio: {fileID: 343493614}
   optionsSFX: {fileID: 343493615}
   sfxTest: {fileID: 8300000, guid: 3e27ffd3594c9c649950f584b9dd4cff, type: 3}
-  musicTest: {fileID: 8300000, guid: 62318c20c03b40144b0e770a3490479c, type: 3}
+  musicTest: {fileID: 8300000, guid: 07fc5a7cc3eb4d54c91262e1229659b7, type: 3}
   BGM_audioMixer: {fileID: 24100000, guid: 0931a7c576e1eb440b5d230ea1a7db85, type: 2}
-  SFX_audioMixer: {fileID: 24100000, guid: 12fadc06a319bf3498d46652b86dcff4, type: 2}
+  SFX_audioMixer: {fileID: 24100000, guid: 77ad3e1c421331b46ab2d58f52fbb3b7, type: 2}
   Step_audioMixer: {fileID: 24100000, guid: df98cb2b6d5eaef4891c278c7f6f20bb, type: 2}
   rattle_audioMixer: {fileID: 24100000, guid: e10ff53539cd6354f8443819b132a7f0, type: 2}
+  jump_audioMixer: {fileID: 24100000, guid: 12fadc06a319bf3498d46652b86dcff4, type: 2}
+  knightWalk_audioMixer: {fileID: 24100000, guid: 8fb333df023f9b34f96cf7bc4f38d6b3,
+    type: 2}
+  menu_audioMixer: {fileID: 24100000, guid: c3b63b853714a4244904c7bbfe5f233e, type: 2}
   toggleMusic: {fileID: 1488390244}
 --- !u!82 &343493614
 AudioSource:
@@ -939,7 +949,7 @@ AudioSource:
   m_GameObject: {fileID: 343493611}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 24300002, guid: 12fadc06a319bf3498d46652b86dcff4,
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 77ad3e1c421331b46ab2d58f52fbb3b7,
     type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
@@ -1133,8 +1143,8 @@ RectTransform:
   m_Father: {fileID: 243211573}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.7599125, y: 0}
-  m_AnchorMax: {x: 0.7599125, y: 1}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -1503,6 +1513,9 @@ MonoBehaviour:
   SFX_audioMixer: {fileID: 0}
   Step_audioMixer: {fileID: 0}
   rattle_audioMixer: {fileID: 0}
+  jump_audioMixer: {fileID: 0}
+  knightWalk_audioMixer: {fileID: 0}
+  menu_audioMixer: {fileID: 0}
   toggleMusic: {fileID: 0}
 --- !u!224 &516740346
 RectTransform:
@@ -1586,6 +1599,9 @@ MonoBehaviour:
   SFX_audioMixer: {fileID: 0}
   Step_audioMixer: {fileID: 0}
   rattle_audioMixer: {fileID: 0}
+  jump_audioMixer: {fileID: 0}
+  knightWalk_audioMixer: {fileID: 0}
+  menu_audioMixer: {fileID: 0}
   toggleMusic: {fileID: 0}
 --- !u!114 &626693509
 MonoBehaviour:
@@ -1847,6 +1863,9 @@ MonoBehaviour:
   SFX_audioMixer: {fileID: 0}
   Step_audioMixer: {fileID: 0}
   rattle_audioMixer: {fileID: 0}
+  jump_audioMixer: {fileID: 0}
+  knightWalk_audioMixer: {fileID: 0}
+  menu_audioMixer: {fileID: 0}
   toggleMusic: {fileID: 0}
 --- !u!114 &729932846
 MonoBehaviour:
@@ -2010,8 +2029,8 @@ RectTransform:
   m_Father: {fileID: 1603351337}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.7599125, y: 0}
-  m_AnchorMax: {x: 0.7599125, y: 1}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -2188,6 +2207,9 @@ MonoBehaviour:
   SFX_audioMixer: {fileID: 0}
   Step_audioMixer: {fileID: 0}
   rattle_audioMixer: {fileID: 0}
+  jump_audioMixer: {fileID: 0}
+  knightWalk_audioMixer: {fileID: 0}
+  menu_audioMixer: {fileID: 0}
   toggleMusic: {fileID: 0}
 --- !u!114 &933451136
 MonoBehaviour:
@@ -2353,6 +2375,9 @@ MonoBehaviour:
   SFX_audioMixer: {fileID: 0}
   Step_audioMixer: {fileID: 0}
   rattle_audioMixer: {fileID: 0}
+  jump_audioMixer: {fileID: 0}
+  knightWalk_audioMixer: {fileID: 0}
+  menu_audioMixer: {fileID: 0}
   toggleMusic: {fileID: 0}
 --- !u!1 &939339477
 GameObject:
@@ -2380,7 +2405,8 @@ AudioSource:
   m_GameObject: {fileID: 939339477}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: c3b63b853714a4244904c7bbfe5f233e,
+    type: 2}
   m_audioClip: {fileID: 8300000, guid: 07fc5a7cc3eb4d54c91262e1229659b7, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
@@ -2616,6 +2642,9 @@ MonoBehaviour:
   SFX_audioMixer: {fileID: 0}
   Step_audioMixer: {fileID: 0}
   rattle_audioMixer: {fileID: 0}
+  jump_audioMixer: {fileID: 0}
+  knightWalk_audioMixer: {fileID: 0}
+  menu_audioMixer: {fileID: 0}
   toggleMusic: {fileID: 0}
 --- !u!114 &1028756847
 MonoBehaviour:
@@ -2864,6 +2893,9 @@ MonoBehaviour:
   SFX_audioMixer: {fileID: 0}
   Step_audioMixer: {fileID: 0}
   rattle_audioMixer: {fileID: 0}
+  jump_audioMixer: {fileID: 0}
+  knightWalk_audioMixer: {fileID: 0}
+  menu_audioMixer: {fileID: 0}
   toggleMusic: {fileID: 0}
 --- !u!1 &1205050043
 GameObject:
@@ -3017,7 +3049,7 @@ MonoBehaviour:
   m_MinValue: -60
   m_MaxValue: 20
   m_WholeNumbers: 0
-  m_Value: 0.793
+  m_Value: -10
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
@@ -3051,11 +3083,14 @@ MonoBehaviour:
   optionsAudio: {fileID: 343493614}
   optionsSFX: {fileID: 0}
   sfxTest: {fileID: 0}
-  musicTest: {fileID: 8300000, guid: 62318c20c03b40144b0e770a3490479c, type: 3}
+  musicTest: {fileID: 8300000, guid: 07fc5a7cc3eb4d54c91262e1229659b7, type: 3}
   BGM_audioMixer: {fileID: 24100000, guid: 0931a7c576e1eb440b5d230ea1a7db85, type: 2}
   SFX_audioMixer: {fileID: 0}
   Step_audioMixer: {fileID: 0}
   rattle_audioMixer: {fileID: 0}
+  jump_audioMixer: {fileID: 0}
+  knightWalk_audioMixer: {fileID: 0}
+  menu_audioMixer: {fileID: 24100000, guid: c3b63b853714a4244904c7bbfe5f233e, type: 2}
   toggleMusic: {fileID: 0}
 --- !u!1 &1440824139
 GameObject:
@@ -3153,6 +3188,9 @@ MonoBehaviour:
   SFX_audioMixer: {fileID: 0}
   Step_audioMixer: {fileID: 0}
   rattle_audioMixer: {fileID: 0}
+  jump_audioMixer: {fileID: 0}
+  knightWalk_audioMixer: {fileID: 0}
+  menu_audioMixer: {fileID: 0}
   toggleMusic: {fileID: 0}
 --- !u!1 &1488390242
 GameObject:
@@ -3384,9 +3422,13 @@ MonoBehaviour:
   sfxTest: {fileID: 0}
   musicTest: {fileID: 0}
   BGM_audioMixer: {fileID: 0}
-  SFX_audioMixer: {fileID: 24100000, guid: 12fadc06a319bf3498d46652b86dcff4, type: 2}
+  SFX_audioMixer: {fileID: 24100000, guid: 77ad3e1c421331b46ab2d58f52fbb3b7, type: 2}
   Step_audioMixer: {fileID: 24100000, guid: df98cb2b6d5eaef4891c278c7f6f20bb, type: 2}
   rattle_audioMixer: {fileID: 24100000, guid: e10ff53539cd6354f8443819b132a7f0, type: 2}
+  jump_audioMixer: {fileID: 24100000, guid: 12fadc06a319bf3498d46652b86dcff4, type: 2}
+  knightWalk_audioMixer: {fileID: 24100000, guid: 8fb333df023f9b34f96cf7bc4f38d6b3,
+    type: 2}
+  menu_audioMixer: {fileID: 0}
   toggleMusic: {fileID: 0}
 --- !u!114 &1533102869
 MonoBehaviour:
@@ -3434,7 +3476,7 @@ MonoBehaviour:
   m_MinValue: -60
   m_MaxValue: 20
   m_WholeNumbers: 0
-  m_Value: 0.793
+  m_Value: -10
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
@@ -3484,7 +3526,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0.7599125, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -3586,6 +3628,9 @@ MonoBehaviour:
   SFX_audioMixer: {fileID: 0}
   Step_audioMixer: {fileID: 0}
   rattle_audioMixer: {fileID: 0}
+  jump_audioMixer: {fileID: 0}
+  knightWalk_audioMixer: {fileID: 0}
+  menu_audioMixer: {fileID: 0}
   toggleMusic: {fileID: 0}
 --- !u!114 &1549044250
 MonoBehaviour:
@@ -3713,7 +3758,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0.7599125, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -3806,7 +3851,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1714328824
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3853,6 +3898,9 @@ MonoBehaviour:
   SFX_audioMixer: {fileID: 0}
   Step_audioMixer: {fileID: 0}
   rattle_audioMixer: {fileID: 0}
+  jump_audioMixer: {fileID: 0}
+  knightWalk_audioMixer: {fileID: 0}
+  menu_audioMixer: {fileID: 0}
   toggleMusic: {fileID: 0}
 --- !u!1 &1730544130
 GameObject:
@@ -3893,6 +3941,9 @@ MonoBehaviour:
   SFX_audioMixer: {fileID: 0}
   Step_audioMixer: {fileID: 0}
   rattle_audioMixer: {fileID: 0}
+  jump_audioMixer: {fileID: 0}
+  knightWalk_audioMixer: {fileID: 0}
+  menu_audioMixer: {fileID: 0}
   toggleMusic: {fileID: 0}
 --- !u!224 &1730544132
 RectTransform:
@@ -4088,6 +4139,9 @@ MonoBehaviour:
   SFX_audioMixer: {fileID: 0}
   Step_audioMixer: {fileID: 0}
   rattle_audioMixer: {fileID: 0}
+  jump_audioMixer: {fileID: 0}
+  knightWalk_audioMixer: {fileID: 0}
+  menu_audioMixer: {fileID: 0}
   toggleMusic: {fileID: 0}
 --- !u!114 &1896814535
 MonoBehaviour:
@@ -4254,6 +4308,9 @@ MonoBehaviour:
   SFX_audioMixer: {fileID: 0}
   Step_audioMixer: {fileID: 0}
   rattle_audioMixer: {fileID: 0}
+  jump_audioMixer: {fileID: 0}
+  knightWalk_audioMixer: {fileID: 0}
+  menu_audioMixer: {fileID: 0}
   toggleMusic: {fileID: 0}
 --- !u!114 &1918659901
 MonoBehaviour:
@@ -4486,6 +4543,9 @@ MonoBehaviour:
   SFX_audioMixer: {fileID: 0}
   Step_audioMixer: {fileID: 0}
   rattle_audioMixer: {fileID: 0}
+  jump_audioMixer: {fileID: 0}
+  knightWalk_audioMixer: {fileID: 0}
+  menu_audioMixer: {fileID: 0}
   toggleMusic: {fileID: 0}
 --- !u!1 &2116837071
 GameObject:
