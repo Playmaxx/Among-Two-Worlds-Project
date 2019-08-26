@@ -618,6 +618,7 @@ GameObject:
   m_Component:
   - component: {fileID: 11501511}
   - component: {fileID: 11501512}
+  - component: {fileID: 11501513}
   m_Layer: 0
   m_Name: Gift_Loop (3)
   m_TagString: Untagged
@@ -687,6 +688,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &11501513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 11501510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: 2e51a76b73737aa40b72f8358631a8a1, type: 3}
+  DarkSprite: {fileID: 21300000, guid: 7e730272b8d04044b8ec13baf3e33b18, type: 3}
 --- !u!1 &11633785
 GameObject:
   m_ObjectHideFlags: 0
@@ -1162,6 +1177,7 @@ GameObject:
   m_Component:
   - component: {fileID: 18120752}
   - component: {fileID: 18120753}
+  - component: {fileID: 18120754}
   m_Layer: 0
   m_Name: Gift_Loop
   m_TagString: Untagged
@@ -1231,6 +1247,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &18120754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 18120751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: 2e51a76b73737aa40b72f8358631a8a1, type: 3}
+  DarkSprite: {fileID: 21300000, guid: 7e730272b8d04044b8ec13baf3e33b18, type: 3}
 --- !u!1 &18158375
 GameObject:
   m_ObjectHideFlags: 0
@@ -1241,6 +1271,7 @@ GameObject:
   m_Component:
   - component: {fileID: 18158376}
   - component: {fileID: 18158377}
+  - component: {fileID: 18158378}
   m_Layer: 0
   m_Name: Gift_Loop (2)
   m_TagString: Untagged
@@ -1310,6 +1341,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &18158378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 18158375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: 2e51a76b73737aa40b72f8358631a8a1, type: 3}
+  DarkSprite: {fileID: 21300000, guid: 7e730272b8d04044b8ec13baf3e33b18, type: 3}
 --- !u!4 &21259356 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2683088639634773220, guid: 369098f6e1f70fa43ab2011df2e66d81,
@@ -2443,6 +2488,7 @@ GameObject:
   m_Component:
   - component: {fileID: 61333252}
   - component: {fileID: 61333253}
+  - component: {fileID: 61333254}
   m_Layer: 0
   m_Name: Gift_Loop (2)
   m_TagString: Untagged
@@ -2512,6 +2558,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &61333254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 61333251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: 2e51a76b73737aa40b72f8358631a8a1, type: 3}
+  DarkSprite: {fileID: 21300000, guid: 7e730272b8d04044b8ec13baf3e33b18, type: 3}
 --- !u!1 &62205842
 GameObject:
   m_ObjectHideFlags: 0
@@ -3186,6 +3246,7 @@ GameObject:
   m_Component:
   - component: {fileID: 74008003}
   - component: {fileID: 74008004}
+  - component: {fileID: 74008005}
   m_Layer: 0
   m_Name: Gift_Einzeln
   m_TagString: Untagged
@@ -3255,6 +3316,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &74008005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 74008002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: b5271f9cb1c920c4e8164743f48ce30e, type: 3}
+  DarkSprite: {fileID: 21300000, guid: a76572e89e91a77409c463f62959cb96, type: 3}
 --- !u!1 &74312767
 GameObject:
   m_ObjectHideFlags: 0
@@ -3265,6 +3340,7 @@ GameObject:
   m_Component:
   - component: {fileID: 74312768}
   - component: {fileID: 74312769}
+  - component: {fileID: 74312770}
   m_Layer: 0
   m_Name: GiftLinks
   m_TagString: Untagged
@@ -3334,6 +3410,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &74312770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 74312767}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: 620183a779424c540bcbf8a103c7f2c8, type: 3}
+  DarkSprite: {fileID: 21300000, guid: 6f23edf7599f35c44aee380f566e4bce, type: 3}
 --- !u!1001 &75541032
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5061,6 +5151,7 @@ GameObject:
   m_Component:
   - component: {fileID: 128666915}
   - component: {fileID: 128666916}
+  - component: {fileID: 128666917}
   m_Layer: 0
   m_Name: Gift_Loop (3)
   m_TagString: Untagged
@@ -5130,6 +5221,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &128666917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 128666914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: 2e51a76b73737aa40b72f8358631a8a1, type: 3}
+  DarkSprite: {fileID: 21300000, guid: 7e730272b8d04044b8ec13baf3e33b18, type: 3}
 --- !u!1 &138196209
 GameObject:
   m_ObjectHideFlags: 0
@@ -5140,6 +5245,7 @@ GameObject:
   m_Component:
   - component: {fileID: 138196210}
   - component: {fileID: 138196211}
+  - component: {fileID: 138196212}
   m_Layer: 0
   m_Name: Gift_Loop (3)
   m_TagString: Untagged
@@ -5209,6 +5315,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &138196212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 138196209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: 2e51a76b73737aa40b72f8358631a8a1, type: 3}
+  DarkSprite: {fileID: 21300000, guid: 7e730272b8d04044b8ec13baf3e33b18, type: 3}
 --- !u!1 &143912862
 GameObject:
   m_ObjectHideFlags: 0
@@ -5470,6 +5590,7 @@ GameObject:
   m_Component:
   - component: {fileID: 159172460}
   - component: {fileID: 159172461}
+  - component: {fileID: 159172462}
   m_Layer: 0
   m_Name: Gift_Loop (3)
   m_TagString: Untagged
@@ -5539,6 +5660,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &159172462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 159172459}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: 2e51a76b73737aa40b72f8358631a8a1, type: 3}
+  DarkSprite: {fileID: 21300000, guid: 7e730272b8d04044b8ec13baf3e33b18, type: 3}
 --- !u!1 &161372895
 GameObject:
   m_ObjectHideFlags: 0
@@ -5719,6 +5854,7 @@ GameObject:
   m_Component:
   - component: {fileID: 176350959}
   - component: {fileID: 176350960}
+  - component: {fileID: 176350961}
   m_Layer: 0
   m_Name: Gift_Rechts
   m_TagString: Untagged
@@ -5788,6 +5924,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &176350961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 176350958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: b2a9449ecf9114744b60b2039fe435be, type: 3}
+  DarkSprite: {fileID: 21300000, guid: dc7c781dd320adb4c80e131439058133, type: 3}
 --- !u!1 &179127236
 GameObject:
   m_ObjectHideFlags: 0
@@ -5841,6 +5991,7 @@ GameObject:
   m_Component:
   - component: {fileID: 180155959}
   - component: {fileID: 180155960}
+  - component: {fileID: 180155961}
   m_Layer: 0
   m_Name: Gift_Loop (4)
   m_TagString: Untagged
@@ -5910,6 +6061,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &180155961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 180155958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: 2e51a76b73737aa40b72f8358631a8a1, type: 3}
+  DarkSprite: {fileID: 21300000, guid: 7e730272b8d04044b8ec13baf3e33b18, type: 3}
 --- !u!1001 &181828266
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6193,6 +6358,7 @@ GameObject:
   m_Component:
   - component: {fileID: 187325493}
   - component: {fileID: 187325494}
+  - component: {fileID: 187325495}
   m_Layer: 0
   m_Name: Gift_Loop
   m_TagString: Untagged
@@ -6262,6 +6428,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &187325495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 187325492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: 2e51a76b73737aa40b72f8358631a8a1, type: 3}
+  DarkSprite: {fileID: 21300000, guid: 7e730272b8d04044b8ec13baf3e33b18, type: 3}
 --- !u!1 &192200227
 GameObject:
   m_ObjectHideFlags: 0
@@ -7687,6 +7867,7 @@ GameObject:
   m_Component:
   - component: {fileID: 223468405}
   - component: {fileID: 223468406}
+  - component: {fileID: 223468407}
   m_Layer: 0
   m_Name: Gift_Loop
   m_TagString: Untagged
@@ -7756,6 +7937,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &223468407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 223468404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: 2e51a76b73737aa40b72f8358631a8a1, type: 3}
+  DarkSprite: {fileID: 21300000, guid: 7e730272b8d04044b8ec13baf3e33b18, type: 3}
 --- !u!1001 &224322305
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9632,12 +9827,12 @@ PrefabInstance:
     - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 34.1
+      value: 32.14
       objectReference: {fileID: 0}
     - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.62
+      value: 1.24
       objectReference: {fileID: 0}
     - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
         type: 3}
@@ -9683,6 +9878,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.42977786
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.42977795
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.42977792
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd3f1b9ff5d71004587f087128e05b2a, type: 3}
@@ -11597,6 +11807,95 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &367929278
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2207896504983351052, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_Name
+      value: "B\xFCcheregal (6)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2207896504983351052, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 122.39
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.088609
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 128
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.42977786
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.42977795
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.42977792
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fd3f1b9ff5d71004587f087128e05b2a, type: 3}
 --- !u!1001 &379735870
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12694,6 +12993,7 @@ GameObject:
   m_Component:
   - component: {fileID: 406728171}
   - component: {fileID: 406728172}
+  - component: {fileID: 406728173}
   m_Layer: 0
   m_Name: Gift_Loop (2)
   m_TagString: Untagged
@@ -12763,6 +13063,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &406728173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 406728170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: 2e51a76b73737aa40b72f8358631a8a1, type: 3}
+  DarkSprite: {fileID: 21300000, guid: 7e730272b8d04044b8ec13baf3e33b18, type: 3}
 --- !u!1 &414958016
 GameObject:
   m_ObjectHideFlags: 0
@@ -12773,6 +13087,7 @@ GameObject:
   m_Component:
   - component: {fileID: 414958017}
   - component: {fileID: 414958018}
+  - component: {fileID: 414958019}
   m_Layer: 0
   m_Name: Gift_Loop (1)
   m_TagString: Untagged
@@ -12842,6 +13157,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &414958019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 414958016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: 2e51a76b73737aa40b72f8358631a8a1, type: 3}
+  DarkSprite: {fileID: 21300000, guid: 7e730272b8d04044b8ec13baf3e33b18, type: 3}
 --- !u!1 &415070050
 GameObject:
   m_ObjectHideFlags: 0
@@ -13158,6 +13487,100 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 846da1a2afe5ced4da043d998b92c066, type: 3}
+--- !u!1 &421552077
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 421552080}
+  - component: {fileID: 421552079}
+  - component: {fileID: 421552078}
+  m_Layer: 11
+  m_Name: Schrank (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &421552078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 421552077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: 404fecd6ee2edc34e83859301b789209, type: 3}
+  DarkSprite: {fileID: 21300000, guid: c8186f5711bb75d4a99d6e6b68b38a9f, type: 3}
+--- !u!212 &421552079
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 421552077}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: c8186f5711bb75d4a99d6e6b68b38a9f, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 10.17, y: 12.24}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &421552080
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 421552077}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 54.54, y: 1.33, z: 0}
+  m_LocalScale: {x: 0.329, y: 0.329, z: 0.329}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 120
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &422274510
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13367,6 +13790,7 @@ GameObject:
   m_Component:
   - component: {fileID: 430719578}
   - component: {fileID: 430719579}
+  - component: {fileID: 430719580}
   m_Layer: 0
   m_Name: Gift_Loop (3)
   m_TagString: Untagged
@@ -13436,6 +13860,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &430719580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 430719577}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: 2e51a76b73737aa40b72f8358631a8a1, type: 3}
+  DarkSprite: {fileID: 21300000, guid: 7e730272b8d04044b8ec13baf3e33b18, type: 3}
 --- !u!4 &432430789 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1201392463145468352, guid: 6bb8abf4a4fdcde48ba3e452f547eff4,
@@ -14086,6 +14524,7 @@ GameObject:
   m_Component:
   - component: {fileID: 457301667}
   - component: {fileID: 457301668}
+  - component: {fileID: 457301669}
   m_Layer: 0
   m_Name: Gift_Loop
   m_TagString: Untagged
@@ -14155,6 +14594,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &457301669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 457301666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: 2e51a76b73737aa40b72f8358631a8a1, type: 3}
+  DarkSprite: {fileID: 21300000, guid: 7e730272b8d04044b8ec13baf3e33b18, type: 3}
 --- !u!1 &459715974
 GameObject:
   m_ObjectHideFlags: 0
@@ -14372,6 +14825,7 @@ GameObject:
   m_Component:
   - component: {fileID: 462567425}
   - component: {fileID: 462567426}
+  - component: {fileID: 462567427}
   m_Layer: 0
   m_Name: Gift_Rechts
   m_TagString: Untagged
@@ -14441,6 +14895,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &462567427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 462567424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: b2a9449ecf9114744b60b2039fe435be, type: 3}
+  DarkSprite: {fileID: 21300000, guid: dc7c781dd320adb4c80e131439058133, type: 3}
 --- !u!1 &464487345
 GameObject:
   m_ObjectHideFlags: 0
@@ -14579,6 +15047,7 @@ GameObject:
   m_Component:
   - component: {fileID: 470046681}
   - component: {fileID: 470046682}
+  - component: {fileID: 470046683}
   m_Layer: 0
   m_Name: Gift_Loop (4)
   m_TagString: Untagged
@@ -14648,6 +15117,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &470046683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 470046680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: 2e51a76b73737aa40b72f8358631a8a1, type: 3}
+  DarkSprite: {fileID: 21300000, guid: 7e730272b8d04044b8ec13baf3e33b18, type: 3}
 --- !u!4 &471816078 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2683088639634773220, guid: 369098f6e1f70fa43ab2011df2e66d81,
@@ -15918,6 +16401,7 @@ GameObject:
   m_Component:
   - component: {fileID: 502503036}
   - component: {fileID: 502503037}
+  - component: {fileID: 502503038}
   m_Layer: 0
   m_Name: Gift_Rechts
   m_TagString: Untagged
@@ -15987,6 +16471,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &502503038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 502503035}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: b2a9449ecf9114744b60b2039fe435be, type: 3}
+  DarkSprite: {fileID: 21300000, guid: dc7c781dd320adb4c80e131439058133, type: 3}
 --- !u!1 &504302934
 GameObject:
   m_ObjectHideFlags: 0
@@ -16391,6 +16889,7 @@ GameObject:
   m_Component:
   - component: {fileID: 517513831}
   - component: {fileID: 517513832}
+  - component: {fileID: 517513833}
   m_Layer: 0
   m_Name: Gift_Loop
   m_TagString: Untagged
@@ -16460,6 +16959,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &517513833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 517513830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: 2e51a76b73737aa40b72f8358631a8a1, type: 3}
+  DarkSprite: {fileID: 21300000, guid: 7e730272b8d04044b8ec13baf3e33b18, type: 3}
 --- !u!1 &517575913
 GameObject:
   m_ObjectHideFlags: 0
@@ -17488,6 +18001,7 @@ GameObject:
   m_Component:
   - component: {fileID: 565394625}
   - component: {fileID: 565394626}
+  - component: {fileID: 565394627}
   m_Layer: 0
   m_Name: Gift_Loop (4)
   m_TagString: Untagged
@@ -17557,6 +18071,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &565394627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 565394624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: 2e51a76b73737aa40b72f8358631a8a1, type: 3}
+  DarkSprite: {fileID: 21300000, guid: 7e730272b8d04044b8ec13baf3e33b18, type: 3}
 --- !u!1001 &566988647
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17569,15 +18097,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: Frau
       objectReference: {fileID: 0}
+    - target: {fileID: 1636155949428839450, guid: 1d2ef7165ca648a40b38b18536b48534,
+        type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 1636155949428839449, guid: 1d2ef7165ca648a40b38b18536b48534,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 29.58
+      value: 27.6
       objectReference: {fileID: 0}
     - target: {fileID: 1636155949428839449, guid: 1d2ef7165ca648a40b38b18536b48534,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.726765
+      value: 5.42
       objectReference: {fileID: 0}
     - target: {fileID: 1636155949428839449, guid: 1d2ef7165ca648a40b38b18536b48534,
         type: 3}
@@ -17624,6 +18157,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1636155949428839448, guid: 1d2ef7165ca648a40b38b18536b48534,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ad8abff218e298e479e2eb353c7a483e, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1d2ef7165ca648a40b38b18536b48534, type: 3}
 --- !u!4 &570969616 stripped
@@ -17736,6 +18274,7 @@ GameObject:
   m_Component:
   - component: {fileID: 582290068}
   - component: {fileID: 582290069}
+  - component: {fileID: 582290070}
   m_Layer: 0
   m_Name: Gift_Loop
   m_TagString: Untagged
@@ -17805,6 +18344,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &582290070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 582290067}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: 2e51a76b73737aa40b72f8358631a8a1, type: 3}
+  DarkSprite: {fileID: 21300000, guid: 7e730272b8d04044b8ec13baf3e33b18, type: 3}
 --- !u!1001 &583034007
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18021,6 +18574,7 @@ GameObject:
   m_Component:
   - component: {fileID: 591698108}
   - component: {fileID: 591698109}
+  - component: {fileID: 591698110}
   m_Layer: 0
   m_Name: Gift_Loop (2)
   m_TagString: Untagged
@@ -18090,6 +18644,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &591698110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 591698107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: 2e51a76b73737aa40b72f8358631a8a1, type: 3}
+  DarkSprite: {fileID: 21300000, guid: 7e730272b8d04044b8ec13baf3e33b18, type: 3}
 --- !u!1 &592102484
 GameObject:
   m_ObjectHideFlags: 0
@@ -18100,6 +18668,7 @@ GameObject:
   m_Component:
   - component: {fileID: 592102485}
   - component: {fileID: 592102486}
+  - component: {fileID: 592102487}
   m_Layer: 0
   m_Name: Gift_Rechts
   m_TagString: Untagged
@@ -18169,6 +18738,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &592102487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 592102484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: b2a9449ecf9114744b60b2039fe435be, type: 3}
+  DarkSprite: {fileID: 21300000, guid: dc7c781dd320adb4c80e131439058133, type: 3}
 --- !u!1001 &595646396
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18773,6 +19356,7 @@ GameObject:
   m_Component:
   - component: {fileID: 621378578}
   - component: {fileID: 621378579}
+  - component: {fileID: 621378580}
   m_Layer: 0
   m_Name: Gift_Rechts
   m_TagString: Untagged
@@ -18842,6 +19426,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &621378580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 621378577}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: b2a9449ecf9114744b60b2039fe435be, type: 3}
+  DarkSprite: {fileID: 21300000, guid: dc7c781dd320adb4c80e131439058133, type: 3}
 --- !u!1 &622241535
 GameObject:
   m_ObjectHideFlags: 0
@@ -19924,6 +20522,7 @@ GameObject:
   m_Component:
   - component: {fileID: 679296360}
   - component: {fileID: 679296361}
+  - component: {fileID: 679296362}
   m_Layer: 0
   m_Name: Gift_Rechts
   m_TagString: Untagged
@@ -19993,6 +20592,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &679296362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 679296359}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: b2a9449ecf9114744b60b2039fe435be, type: 3}
+  DarkSprite: {fileID: 21300000, guid: dc7c781dd320adb4c80e131439058133, type: 3}
 --- !u!1001 &679860376
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20530,6 +21143,7 @@ GameObject:
   m_Component:
   - component: {fileID: 700215645}
   - component: {fileID: 700215646}
+  - component: {fileID: 700215647}
   m_Layer: 0
   m_Name: Gift_Einzeln
   m_TagString: Untagged
@@ -20599,6 +21213,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &700215647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 700215644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: b5271f9cb1c920c4e8164743f48ce30e, type: 3}
+  DarkSprite: {fileID: 21300000, guid: a76572e89e91a77409c463f62959cb96, type: 3}
 --- !u!1 &700480244
 GameObject:
   m_ObjectHideFlags: 0
@@ -20888,6 +21516,7 @@ GameObject:
   m_Component:
   - component: {fileID: 716694344}
   - component: {fileID: 716694345}
+  - component: {fileID: 716694346}
   m_Layer: 0
   m_Name: Gift_Rechts
   m_TagString: Untagged
@@ -20957,6 +21586,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &716694346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 716694343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: b2a9449ecf9114744b60b2039fe435be, type: 3}
+  DarkSprite: {fileID: 21300000, guid: dc7c781dd320adb4c80e131439058133, type: 3}
 --- !u!4 &717672119 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2683088639634773220, guid: 369098f6e1f70fa43ab2011df2e66d81,
@@ -20973,6 +21616,7 @@ GameObject:
   m_Component:
   - component: {fileID: 717905898}
   - component: {fileID: 717905899}
+  - component: {fileID: 717905900}
   m_Layer: 0
   m_Name: Gift_Loop (1)
   m_TagString: Untagged
@@ -21042,6 +21686,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &717905900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 717905897}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: 2e51a76b73737aa40b72f8358631a8a1, type: 3}
+  DarkSprite: {fileID: 21300000, guid: 7e730272b8d04044b8ec13baf3e33b18, type: 3}
 --- !u!1 &718665385
 GameObject:
   m_ObjectHideFlags: 0
@@ -21240,6 +21898,7 @@ GameObject:
   m_Component:
   - component: {fileID: 723040358}
   - component: {fileID: 723040359}
+  - component: {fileID: 723040360}
   m_Layer: 0
   m_Name: GiftLinks
   m_TagString: Untagged
@@ -21309,6 +21968,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &723040360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 723040357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: 620183a779424c540bcbf8a103c7f2c8, type: 3}
+  DarkSprite: {fileID: 21300000, guid: 6f23edf7599f35c44aee380f566e4bce, type: 3}
 --- !u!1 &724721679
 GameObject:
   m_ObjectHideFlags: 0
@@ -21601,6 +22274,7 @@ GameObject:
   m_Component:
   - component: {fileID: 735142097}
   - component: {fileID: 735142098}
+  - component: {fileID: 735142099}
   m_Layer: 0
   m_Name: Gift_Rechts
   m_TagString: Untagged
@@ -21670,6 +22344,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &735142099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 735142096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: b2a9449ecf9114744b60b2039fe435be, type: 3}
+  DarkSprite: {fileID: 21300000, guid: dc7c781dd320adb4c80e131439058133, type: 3}
 --- !u!1 &735683560
 GameObject:
   m_ObjectHideFlags: 0
@@ -21680,6 +22368,7 @@ GameObject:
   m_Component:
   - component: {fileID: 735683561}
   - component: {fileID: 735683562}
+  - component: {fileID: 735683563}
   m_Layer: 0
   m_Name: Gift_Rechts
   m_TagString: Untagged
@@ -21749,6 +22438,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &735683563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 735683560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: b2a9449ecf9114744b60b2039fe435be, type: 3}
+  DarkSprite: {fileID: 21300000, guid: dc7c781dd320adb4c80e131439058133, type: 3}
 --- !u!1 &736923571
 GameObject:
   m_ObjectHideFlags: 0
@@ -22399,6 +23102,7 @@ GameObject:
   m_Component:
   - component: {fileID: 744808979}
   - component: {fileID: 744808980}
+  - component: {fileID: 744808981}
   m_Layer: 0
   m_Name: Gift_Loop (1)
   m_TagString: Untagged
@@ -22468,6 +23172,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &744808981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 744808978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: 2e51a76b73737aa40b72f8358631a8a1, type: 3}
+  DarkSprite: {fileID: 21300000, guid: 7e730272b8d04044b8ec13baf3e33b18, type: 3}
 --- !u!1 &747802901
 GameObject:
   m_ObjectHideFlags: 0
@@ -23351,6 +24069,95 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 768533821}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &771224211
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2207896504983351052, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_Name
+      value: "B\xFCcheregal (5)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2207896504983351052, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 92.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.088609
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 127
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.42977786
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.42977795
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.42977792
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fd3f1b9ff5d71004587f087128e05b2a, type: 3}
 --- !u!1 &771570820
 GameObject:
   m_ObjectHideFlags: 0
@@ -24056,6 +24863,100 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &788450423
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 788450426}
+  - component: {fileID: 788450425}
+  - component: {fileID: 788450424}
+  m_Layer: 11
+  m_Name: Schrank (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &788450424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 788450423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: 404fecd6ee2edc34e83859301b789209, type: 3}
+  DarkSprite: {fileID: 21300000, guid: c8186f5711bb75d4a99d6e6b68b38a9f, type: 3}
+--- !u!212 &788450425
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 788450423}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: c8186f5711bb75d4a99d6e6b68b38a9f, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 10.17, y: 12.24}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &788450426
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 788450423}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 108.35, y: 1.33, z: 0}
+  m_LocalScale: {x: 0.329, y: 0.329, z: 0.329}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 124
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &791798777
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24572,6 +25473,7 @@ GameObject:
   m_Component:
   - component: {fileID: 803021558}
   - component: {fileID: 803021559}
+  - component: {fileID: 803021560}
   m_Layer: 0
   m_Name: Gift_Loop
   m_TagString: Untagged
@@ -24641,6 +25543,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &803021560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 803021557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: 2e51a76b73737aa40b72f8358631a8a1, type: 3}
+  DarkSprite: {fileID: 21300000, guid: 7e730272b8d04044b8ec13baf3e33b18, type: 3}
 --- !u!1 &807978026
 GameObject:
   m_ObjectHideFlags: 0
@@ -25251,6 +26167,95 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!1001 &821628319
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2207896504983351052, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_Name
+      value: "B\xFCcheregal (3)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2207896504983351052, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 71.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.088609
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 122
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.42977786
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.42977795
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.42977792
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fd3f1b9ff5d71004587f087128e05b2a, type: 3}
 --- !u!1001 &823259731
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26874,6 +27879,7 @@ GameObject:
   m_Component:
   - component: {fileID: 861943422}
   - component: {fileID: 861943423}
+  - component: {fileID: 861943424}
   m_Layer: 0
   m_Name: Gift_Loop
   m_TagString: Untagged
@@ -26943,6 +27949,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &861943424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 861943421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: 2e51a76b73737aa40b72f8358631a8a1, type: 3}
+  DarkSprite: {fileID: 21300000, guid: 7e730272b8d04044b8ec13baf3e33b18, type: 3}
 --- !u!1001 &863519679
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27412,6 +28432,7 @@ GameObject:
   m_Component:
   - component: {fileID: 875464055}
   - component: {fileID: 875464056}
+  - component: {fileID: 875464057}
   m_Layer: 0
   m_Name: Gift_Loop (1)
   m_TagString: Untagged
@@ -27481,6 +28502,114 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &875464057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 875464054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: 2e51a76b73737aa40b72f8358631a8a1, type: 3}
+  DarkSprite: {fileID: 21300000, guid: 7e730272b8d04044b8ec13baf3e33b18, type: 3}
+--- !u!1 &878565684
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 878565687}
+  - component: {fileID: 878565686}
+  - component: {fileID: 878565685}
+  m_Layer: 11
+  m_Name: Schrank (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &878565685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 878565684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: 404fecd6ee2edc34e83859301b789209, type: 3}
+  DarkSprite: {fileID: 21300000, guid: c8186f5711bb75d4a99d6e6b68b38a9f, type: 3}
+--- !u!212 &878565686
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 878565684}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: c8186f5711bb75d4a99d6e6b68b38a9f, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 10.17, y: 12.24}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &878565687
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 878565684}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 25.36, y: 1.33, z: 0}
+  m_LocalScale: {x: 0.329, y: 0.329, z: 0.329}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 119
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &878875188
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29256,6 +30385,7 @@ GameObject:
   m_Component:
   - component: {fileID: 931608742}
   - component: {fileID: 931608743}
+  - component: {fileID: 931608744}
   m_Layer: 0
   m_Name: Gift_Loop (2)
   m_TagString: Untagged
@@ -29325,6 +30455,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &931608744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 931608741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: 2e51a76b73737aa40b72f8358631a8a1, type: 3}
+  DarkSprite: {fileID: 21300000, guid: 7e730272b8d04044b8ec13baf3e33b18, type: 3}
 --- !u!4 &935555313 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7530612425134248795, guid: 893d1f7e72473224d9c91cc13e1e9fc7,
@@ -29341,6 +30485,7 @@ GameObject:
   m_Component:
   - component: {fileID: 939738540}
   - component: {fileID: 939738541}
+  - component: {fileID: 939738542}
   m_Layer: 0
   m_Name: Gift_Loop (1)
   m_TagString: Untagged
@@ -29410,6 +30555,114 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &939738542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 939738539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: 2e51a76b73737aa40b72f8358631a8a1, type: 3}
+  DarkSprite: {fileID: 21300000, guid: 7e730272b8d04044b8ec13baf3e33b18, type: 3}
+--- !u!1 &941712015
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 941712018}
+  - component: {fileID: 941712017}
+  - component: {fileID: 941712016}
+  m_Layer: 11
+  m_Name: Schrank (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &941712016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 941712015}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: 404fecd6ee2edc34e83859301b789209, type: 3}
+  DarkSprite: {fileID: 21300000, guid: c8186f5711bb75d4a99d6e6b68b38a9f, type: 3}
+--- !u!212 &941712017
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 941712015}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: c8186f5711bb75d4a99d6e6b68b38a9f, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 10.17, y: 12.24}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &941712018
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 941712015}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 76.88, y: 1.33, z: 0}
+  m_LocalScale: {x: 0.329, y: 0.329, z: 0.329}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 123
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &952072510
 GameObject:
   m_ObjectHideFlags: 0
@@ -32026,6 +33279,7 @@ GameObject:
   m_Component:
   - component: {fileID: 999396914}
   - component: {fileID: 999396915}
+  - component: {fileID: 999396916}
   m_Layer: 0
   m_Name: Gift_Loop (3)
   m_TagString: Untagged
@@ -32095,6 +33349,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &999396916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 999396913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: 2e51a76b73737aa40b72f8358631a8a1, type: 3}
+  DarkSprite: {fileID: 21300000, guid: 7e730272b8d04044b8ec13baf3e33b18, type: 3}
 --- !u!1001 &999955593
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33193,6 +34461,100 @@ Transform:
   m_Father: {fileID: 286550349}
   m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1032707116
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1032707119}
+  - component: {fileID: 1032707118}
+  - component: {fileID: 1032707117}
+  m_Layer: 11
+  m_Name: Schrank (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1032707117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1032707116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: 404fecd6ee2edc34e83859301b789209, type: 3}
+  DarkSprite: {fileID: 21300000, guid: c8186f5711bb75d4a99d6e6b68b38a9f, type: 3}
+--- !u!212 &1032707118
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1032707116}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: c8186f5711bb75d4a99d6e6b68b38a9f, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 10.17, y: 12.24}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &1032707119
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1032707116}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 125.71, y: 1.33, z: 0}
+  m_LocalScale: {x: 0.329, y: 0.329, z: 0.329}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 125
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1037057138 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6151863644553919743, guid: 05b08ae6402802b4da314110c6bbe2f7,
@@ -33388,6 +34750,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1043398719}
   - component: {fileID: 1043398720}
+  - component: {fileID: 1043398721}
   m_Layer: 0
   m_Name: Gift_Loop (1)
   m_TagString: Untagged
@@ -33457,6 +34820,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1043398721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043398718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: 2e51a76b73737aa40b72f8358631a8a1, type: 3}
+  DarkSprite: {fileID: 21300000, guid: 7e730272b8d04044b8ec13baf3e33b18, type: 3}
 --- !u!1 &1045108325
 GameObject:
   m_ObjectHideFlags: 0
@@ -33749,6 +35126,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1050235746}
   - component: {fileID: 1050235747}
+  - component: {fileID: 1050235748}
   m_Layer: 0
   m_Name: GiftLinks
   m_TagString: Untagged
@@ -33818,6 +35196,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1050235748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1050235745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: 620183a779424c540bcbf8a103c7f2c8, type: 3}
+  DarkSprite: {fileID: 21300000, guid: 6f23edf7599f35c44aee380f566e4bce, type: 3}
 --- !u!1001 &1052310407
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34588,6 +35980,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1067807579}
   - component: {fileID: 1067807580}
+  - component: {fileID: 1067807581}
   m_Layer: 0
   m_Name: Gift_Loop (3)
   m_TagString: Untagged
@@ -34657,6 +36050,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1067807581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1067807578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: 2e51a76b73737aa40b72f8358631a8a1, type: 3}
+  DarkSprite: {fileID: 21300000, guid: 7e730272b8d04044b8ec13baf3e33b18, type: 3}
 --- !u!1 &1068496656
 GameObject:
   m_ObjectHideFlags: 0
@@ -34667,6 +36074,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1068496657}
   - component: {fileID: 1068496658}
+  - component: {fileID: 1068496659}
   m_Layer: 0
   m_Name: GiftLinks
   m_TagString: Untagged
@@ -34736,6 +36144,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1068496659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1068496656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: 620183a779424c540bcbf8a103c7f2c8, type: 3}
+  DarkSprite: {fileID: 21300000, guid: 6f23edf7599f35c44aee380f566e4bce, type: 3}
 --- !u!4 &1068746269 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1201392463145468352, guid: 6bb8abf4a4fdcde48ba3e452f547eff4,
@@ -35045,6 +36467,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1080462912}
   - component: {fileID: 1080462913}
+  - component: {fileID: 1080462914}
   m_Layer: 0
   m_Name: Gift_Loop (4)
   m_TagString: Untagged
@@ -35114,6 +36537,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1080462914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1080462911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: 2e51a76b73737aa40b72f8358631a8a1, type: 3}
+  DarkSprite: {fileID: 21300000, guid: 7e730272b8d04044b8ec13baf3e33b18, type: 3}
 --- !u!1 &1081903874
 GameObject:
   m_ObjectHideFlags: 0
@@ -35393,6 +36830,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1084401981}
   - component: {fileID: 1084401982}
+  - component: {fileID: 1084401983}
   m_Layer: 0
   m_Name: Gift_Loop (2)
   m_TagString: Untagged
@@ -35462,6 +36900,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1084401983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1084401980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: 2e51a76b73737aa40b72f8358631a8a1, type: 3}
+  DarkSprite: {fileID: 21300000, guid: 7e730272b8d04044b8ec13baf3e33b18, type: 3}
 --- !u!1 &1085775955
 GameObject:
   m_ObjectHideFlags: 0
@@ -35905,7 +37357,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LightSprite: {fileID: 21300000, guid: 8f5d10da49283bf4bab99b065ec0d65f, type: 3}
+  LightSprite: {fileID: 0}
   DarkSprite: {fileID: 21300000, guid: fbde16d295729124cba8aeec9340d845, type: 3}
 --- !u!212 &1098509036
 SpriteRenderer:
@@ -35962,12 +37414,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1098509034}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13.24, y: 0.77, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.21000004, y: 0.25, z: 0}
   m_LocalScale: {x: 0.242181, y: 0.242181, z: 0.242181}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 91
+  m_Father: {fileID: 1213173273}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1099058004
 GameObject:
@@ -35979,6 +37431,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1099058005}
   - component: {fileID: 1099058006}
+  - component: {fileID: 1099058007}
   m_Layer: 0
   m_Name: Gift_Loop (4)
   m_TagString: Untagged
@@ -36048,6 +37501,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1099058007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1099058004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: 2e51a76b73737aa40b72f8358631a8a1, type: 3}
+  DarkSprite: {fileID: 21300000, guid: 7e730272b8d04044b8ec13baf3e33b18, type: 3}
 --- !u!1 &1101741821
 GameObject:
   m_ObjectHideFlags: 0
@@ -37412,6 +38879,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1163724453}
   - component: {fileID: 1163724454}
+  - component: {fileID: 1163724455}
   m_Layer: 0
   m_Name: Gift_Loop (4)
   m_TagString: Untagged
@@ -37481,6 +38949,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1163724455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1163724452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: 2e51a76b73737aa40b72f8358631a8a1, type: 3}
+  DarkSprite: {fileID: 21300000, guid: 7e730272b8d04044b8ec13baf3e33b18, type: 3}
 --- !u!1001 &1164642748
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37603,6 +39085,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1165974777}
   - component: {fileID: 1165974778}
+  - component: {fileID: 1165974779}
   m_Layer: 0
   m_Name: Gift_Loop (4)
   m_TagString: Untagged
@@ -37672,6 +39155,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1165974779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1165974776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: 2e51a76b73737aa40b72f8358631a8a1, type: 3}
+  DarkSprite: {fileID: 21300000, guid: 7e730272b8d04044b8ec13baf3e33b18, type: 3}
 --- !u!1 &1166642623
 GameObject:
   m_ObjectHideFlags: 0
@@ -37920,6 +39417,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1173069053}
   - component: {fileID: 1173069054}
+  - component: {fileID: 1173069055}
   m_Layer: 0
   m_Name: GiftLinks
   m_TagString: Untagged
@@ -37989,6 +39487,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1173069055
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1173069052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: 620183a779424c540bcbf8a103c7f2c8, type: 3}
+  DarkSprite: {fileID: 21300000, guid: 6f23edf7599f35c44aee380f566e4bce, type: 3}
 --- !u!1 &1175852598
 GameObject:
   m_ObjectHideFlags: 0
@@ -37999,6 +39511,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1175852599}
   - component: {fileID: 1175852600}
+  - component: {fileID: 1175852601}
   m_Layer: 0
   m_Name: GiftLinks
   m_TagString: Untagged
@@ -38068,6 +39581,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1175852601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1175852598}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: 620183a779424c540bcbf8a103c7f2c8, type: 3}
+  DarkSprite: {fileID: 21300000, guid: 6f23edf7599f35c44aee380f566e4bce, type: 3}
 --- !u!1001 &1177732854
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38870,6 +40397,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1206698049}
   - component: {fileID: 1206698050}
+  - component: {fileID: 1206698051}
   m_Layer: 0
   m_Name: Gift_Rechts
   m_TagString: Untagged
@@ -38939,6 +40467,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1206698051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1206698048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: b2a9449ecf9114744b60b2039fe435be, type: 3}
+  DarkSprite: {fileID: 21300000, guid: dc7c781dd320adb4c80e131439058133, type: 3}
 --- !u!4 &1209439290 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1201392463145468352, guid: 6bb8abf4a4fdcde48ba3e452f547eff4,
@@ -39045,6 +40587,38 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1213173272
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1213173273}
+  m_Layer: 0
+  m_Name: GameObject (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1213173273
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1213173272}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 13.62, y: 0.49, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1475276783}
+  - {fileID: 1098509037}
+  m_Father: {fileID: 0}
+  m_RootOrder: 91
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1213723944 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6151863644553919743, guid: 05b08ae6402802b4da314110c6bbe2f7,
@@ -39473,6 +41047,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1231924260}
   - component: {fileID: 1231924261}
+  - component: {fileID: 1231924262}
   m_Layer: 0
   m_Name: GiftLinks
   m_TagString: Untagged
@@ -39542,6 +41117,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1231924262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1231924259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: 620183a779424c540bcbf8a103c7f2c8, type: 3}
+  DarkSprite: {fileID: 21300000, guid: 6f23edf7599f35c44aee380f566e4bce, type: 3}
 --- !u!4 &1234039762 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4008813189680379208, guid: 846da1a2afe5ced4da043d998b92c066,
@@ -39558,6 +41147,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1237591688}
   - component: {fileID: 1237591689}
+  - component: {fileID: 1237591690}
   m_Layer: 0
   m_Name: Gift_Loop (4)
   m_TagString: Untagged
@@ -39627,6 +41217,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1237591690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1237591687}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: 2e51a76b73737aa40b72f8358631a8a1, type: 3}
+  DarkSprite: {fileID: 21300000, guid: 7e730272b8d04044b8ec13baf3e33b18, type: 3}
 --- !u!1001 &1238039598
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -40238,6 +41842,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1260235890}
   - component: {fileID: 1260235891}
+  - component: {fileID: 1260235892}
   m_Layer: 0
   m_Name: Gift_Loop (3)
   m_TagString: Untagged
@@ -40307,6 +41912,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1260235892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1260235889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: 2e51a76b73737aa40b72f8358631a8a1, type: 3}
+  DarkSprite: {fileID: 21300000, guid: 7e730272b8d04044b8ec13baf3e33b18, type: 3}
 --- !u!1001 &1261625118
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -40605,6 +42224,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1274229673}
   - component: {fileID: 1274229674}
+  - component: {fileID: 1274229675}
   m_Layer: 0
   m_Name: GiftLinks
   m_TagString: Untagged
@@ -40674,6 +42294,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1274229675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274229672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: 620183a779424c540bcbf8a103c7f2c8, type: 3}
+  DarkSprite: {fileID: 21300000, guid: 6f23edf7599f35c44aee380f566e4bce, type: 3}
 --- !u!4 &1274385320 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 79531169318872699, guid: 0c29196364b4bd146acefde38bcf54b4,
@@ -41835,6 +43469,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1354322672}
   - component: {fileID: 1354322673}
+  - component: {fileID: 1354322674}
   m_Layer: 0
   m_Name: Gift_Loop (4)
   m_TagString: Untagged
@@ -41904,6 +43539,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1354322674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1354322671}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: 2e51a76b73737aa40b72f8358631a8a1, type: 3}
+  DarkSprite: {fileID: 21300000, guid: 7e730272b8d04044b8ec13baf3e33b18, type: 3}
 --- !u!1 &1357375224
 GameObject:
   m_ObjectHideFlags: 0
@@ -42306,6 +43955,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1368819570}
   - component: {fileID: 1368819571}
+  - component: {fileID: 1368819572}
   m_Layer: 0
   m_Name: Gift_Loop (3)
   m_TagString: Untagged
@@ -42375,6 +44025,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1368819572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1368819569}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: 2e51a76b73737aa40b72f8358631a8a1, type: 3}
+  DarkSprite: {fileID: 21300000, guid: 7e730272b8d04044b8ec13baf3e33b18, type: 3}
 --- !u!1001 &1371416196
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43006,6 +44670,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1399795483}
   - component: {fileID: 1399795484}
+  - component: {fileID: 1399795485}
   m_Layer: 0
   m_Name: Gift_Rechts
   m_TagString: Untagged
@@ -43075,6 +44740,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1399795485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1399795482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: b2a9449ecf9114744b60b2039fe435be, type: 3}
+  DarkSprite: {fileID: 21300000, guid: dc7c781dd320adb4c80e131439058133, type: 3}
 --- !u!4 &1400651360 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1201392463145468352, guid: 6bb8abf4a4fdcde48ba3e452f547eff4,
@@ -44822,6 +46501,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1460671238}
   - component: {fileID: 1460671239}
+  - component: {fileID: 1460671240}
   m_Layer: 0
   m_Name: GiftLinks
   m_TagString: Untagged
@@ -44891,6 +46571,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1460671240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1460671237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: 620183a779424c540bcbf8a103c7f2c8, type: 3}
+  DarkSprite: {fileID: 21300000, guid: 6f23edf7599f35c44aee380f566e4bce, type: 3}
 --- !u!1 &1462721317
 GameObject:
   m_ObjectHideFlags: 0
@@ -45280,6 +46974,100 @@ SpriteRenderer:
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 3, y: 3}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!1 &1475276782
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1475276783}
+  - component: {fileID: 1475276785}
+  - component: {fileID: 1475276784}
+  m_Layer: 11
+  m_Name: Tisch 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1475276783
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1475276782}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.21899986, y: 0.08399999, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1213173273}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1475276784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1475276782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: 8f5d10da49283bf4bab99b065ec0d65f, type: 3}
+  DarkSprite: {fileID: 0}
+--- !u!212 &1475276785
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1475276782}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 8f5d10da49283bf4bab99b065ec0d65f, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 2.24, y: 2.41}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -45739,6 +47527,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1496839452}
   - component: {fileID: 1496839453}
+  - component: {fileID: 1496839454}
   m_Layer: 0
   m_Name: GiftLinks
   m_TagString: Untagged
@@ -45808,6 +47597,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1496839454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1496839451}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: 620183a779424c540bcbf8a103c7f2c8, type: 3}
+  DarkSprite: {fileID: 21300000, guid: 6f23edf7599f35c44aee380f566e4bce, type: 3}
 --- !u!1001 &1505579881
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -47572,6 +49375,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1559262454}
   - component: {fileID: 1559262455}
+  - component: {fileID: 1559262456}
   m_Layer: 0
   m_Name: GiftLinks
   m_TagString: Untagged
@@ -47641,6 +49445,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1559262456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1559262453}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: 620183a779424c540bcbf8a103c7f2c8, type: 3}
+  DarkSprite: {fileID: 21300000, guid: 6f23edf7599f35c44aee380f566e4bce, type: 3}
 --- !u!4 &1564071145 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5754639182093914297, guid: 13061227ad9cf3f4bab201386ff26f63,
@@ -48983,6 +50801,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1588581922}
   - component: {fileID: 1588581923}
+  - component: {fileID: 1588581924}
   m_Layer: 0
   m_Name: Gift_Loop (1)
   m_TagString: Untagged
@@ -49052,6 +50871,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1588581924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1588581921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: 2e51a76b73737aa40b72f8358631a8a1, type: 3}
+  DarkSprite: {fileID: 21300000, guid: 7e730272b8d04044b8ec13baf3e33b18, type: 3}
 --- !u!1 &1589411954
 GameObject:
   m_ObjectHideFlags: 0
@@ -50446,6 +52279,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1635266053}
   - component: {fileID: 1635266054}
+  - component: {fileID: 1635266055}
   m_Layer: 0
   m_Name: Gift_Loop (2)
   m_TagString: Untagged
@@ -50515,6 +52349,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1635266055
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1635266052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: 2e51a76b73737aa40b72f8358631a8a1, type: 3}
+  DarkSprite: {fileID: 21300000, guid: 7e730272b8d04044b8ec13baf3e33b18, type: 3}
 --- !u!1001 &1637629873
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -51006,6 +52854,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1648513073}
   - component: {fileID: 1648513074}
+  - component: {fileID: 1648513075}
   m_Layer: 0
   m_Name: Gift_Loop
   m_TagString: Untagged
@@ -51075,6 +52924,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1648513075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1648513072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: 2e51a76b73737aa40b72f8358631a8a1, type: 3}
+  DarkSprite: {fileID: 21300000, guid: 7e730272b8d04044b8ec13baf3e33b18, type: 3}
 --- !u!1001 &1649444097
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -51313,6 +53176,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1655741207}
   - component: {fileID: 1655741208}
+  - component: {fileID: 1655741209}
   m_Layer: 0
   m_Name: Gift_Loop (2)
   m_TagString: Untagged
@@ -51382,6 +53246,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1655741209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1655741206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: 2e51a76b73737aa40b72f8358631a8a1, type: 3}
+  DarkSprite: {fileID: 21300000, guid: 7e730272b8d04044b8ec13baf3e33b18, type: 3}
 --- !u!1 &1656287747
 GameObject:
   m_ObjectHideFlags: 0
@@ -53249,6 +55127,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1712394178}
   - component: {fileID: 1712394179}
+  - component: {fileID: 1712394180}
   m_Layer: 0
   m_Name: Gift_Loop (1)
   m_TagString: Untagged
@@ -53318,6 +55197,109 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1712394180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1712394177}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: 2e51a76b73737aa40b72f8358631a8a1, type: 3}
+  DarkSprite: {fileID: 21300000, guid: 7e730272b8d04044b8ec13baf3e33b18, type: 3}
+--- !u!1001 &1715339367
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2207896504983351052, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_Name
+      value: "B\xFCcheregal (7)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2207896504983351052, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 144.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.088609
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 129
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.42977786
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.42977795
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.42977792
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fd3f1b9ff5d71004587f087128e05b2a, type: 3}
 --- !u!4 &1716418883 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2683088639634773220, guid: 369098f6e1f70fa43ab2011df2e66d81,
@@ -53334,6 +55316,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1717954984}
   - component: {fileID: 1717954985}
+  - component: {fileID: 1717954986}
   m_Layer: 0
   m_Name: Gift_Loop (1)
   m_TagString: Untagged
@@ -53403,6 +55386,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1717954986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1717954983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: 2e51a76b73737aa40b72f8358631a8a1, type: 3}
+  DarkSprite: {fileID: 21300000, guid: 7e730272b8d04044b8ec13baf3e33b18, type: 3}
 --- !u!1001 &1719252289
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -53825,6 +55822,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1723412134}
   - component: {fileID: 1723412135}
+  - component: {fileID: 1723412136}
   m_Layer: 0
   m_Name: Gift_Rechts
   m_TagString: Untagged
@@ -53894,6 +55892,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1723412136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1723412133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: b2a9449ecf9114744b60b2039fe435be, type: 3}
+  DarkSprite: {fileID: 21300000, guid: dc7c781dd320adb4c80e131439058133, type: 3}
 --- !u!1001 &1723460228
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -54012,6 +56024,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1725571300}
   - component: {fileID: 1725571301}
+  - component: {fileID: 1725571302}
   m_Layer: 0
   m_Name: Gift_Loop
   m_TagString: Untagged
@@ -54081,6 +56094,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1725571302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1725571299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: 2e51a76b73737aa40b72f8358631a8a1, type: 3}
+  DarkSprite: {fileID: 21300000, guid: 7e730272b8d04044b8ec13baf3e33b18, type: 3}
 --- !u!1 &1741019462
 GameObject:
   m_ObjectHideFlags: 0
@@ -56762,6 +58789,95 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1821334278}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1823173905
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2207896504983351052, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_Name
+      value: "B\xFCcheregal (2)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2207896504983351052, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 38.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.088609
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 121
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.42977786
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.42977795
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.42977792
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fd3f1b9ff5d71004587f087128e05b2a, type: 3}
 --- !u!1001 &1826902456
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -57165,6 +59281,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1835975577}
   - component: {fileID: 1835975578}
+  - component: {fileID: 1835975579}
   m_Layer: 0
   m_Name: Gift_Loop (4)
   m_TagString: Untagged
@@ -57234,6 +59351,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1835975579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1835975576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: 2e51a76b73737aa40b72f8358631a8a1, type: 3}
+  DarkSprite: {fileID: 21300000, guid: 7e730272b8d04044b8ec13baf3e33b18, type: 3}
 --- !u!1001 &1836953431
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -57643,6 +59774,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1846170654}
   - component: {fileID: 1846170655}
+  - component: {fileID: 1846170656}
   m_Layer: 0
   m_Name: Gift_Loop (2)
   m_TagString: Untagged
@@ -57712,6 +59844,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1846170656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1846170653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: 2e51a76b73737aa40b72f8358631a8a1, type: 3}
+  DarkSprite: {fileID: 21300000, guid: 7e730272b8d04044b8ec13baf3e33b18, type: 3}
 --- !u!1 &1848705870
 GameObject:
   m_ObjectHideFlags: 0
@@ -58093,6 +60239,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1868759943}
   - component: {fileID: 1868759944}
+  - component: {fileID: 1868759945}
   m_Layer: 0
   m_Name: Gift_Loop (1)
   m_TagString: Untagged
@@ -58162,6 +60309,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1868759945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1868759942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: 2e51a76b73737aa40b72f8358631a8a1, type: 3}
+  DarkSprite: {fileID: 21300000, guid: 7e730272b8d04044b8ec13baf3e33b18, type: 3}
 --- !u!1 &1870561585
 GameObject:
   m_ObjectHideFlags: 0
@@ -61086,6 +63247,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1971425164}
   - component: {fileID: 1971425165}
+  - component: {fileID: 1971425166}
   m_Layer: 0
   m_Name: Gift_Loop (3)
   m_TagString: Untagged
@@ -61155,6 +63317,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1971425166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1971425163}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: 2e51a76b73737aa40b72f8358631a8a1, type: 3}
+  DarkSprite: {fileID: 21300000, guid: 7e730272b8d04044b8ec13baf3e33b18, type: 3}
 --- !u!1 &1977065924
 GameObject:
   m_ObjectHideFlags: 0
@@ -61619,6 +63795,100 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 185168928}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1991094329
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1991094332}
+  - component: {fileID: 1991094331}
+  - component: {fileID: 1991094330}
+  m_Layer: 11
+  m_Name: Schrank (6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1991094330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1991094329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: 404fecd6ee2edc34e83859301b789209, type: 3}
+  DarkSprite: {fileID: 21300000, guid: c8186f5711bb75d4a99d6e6b68b38a9f, type: 3}
+--- !u!212 &1991094331
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1991094329}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: c8186f5711bb75d4a99d6e6b68b38a9f, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 10.17, y: 12.24}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &1991094332
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1991094329}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 151.17, y: 1.33, z: 0}
+  m_LocalScale: {x: 0.329, y: 0.329, z: 0.329}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 130
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &2000079587 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4008813189680379208, guid: 846da1a2afe5ced4da043d998b92c066,
@@ -61774,6 +64044,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2010138905}
   - component: {fileID: 2010138906}
+  - component: {fileID: 2010138907}
   m_Layer: 0
   m_Name: Gift_Loop
   m_TagString: Untagged
@@ -61843,6 +64114,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2010138907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2010138904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: 2e51a76b73737aa40b72f8358631a8a1, type: 3}
+  DarkSprite: {fileID: 21300000, guid: 7e730272b8d04044b8ec13baf3e33b18, type: 3}
 --- !u!1 &2012235582
 GameObject:
   m_ObjectHideFlags: 0
@@ -62016,6 +64301,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2013046708}
   - component: {fileID: 2013046709}
+  - component: {fileID: 2013046710}
   m_Layer: 0
   m_Name: Gift_Einzeln
   m_TagString: Untagged
@@ -62085,6 +64371,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2013046710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2013046707}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: b5271f9cb1c920c4e8164743f48ce30e, type: 3}
+  DarkSprite: {fileID: 21300000, guid: a76572e89e91a77409c463f62959cb96, type: 3}
 --- !u!1 &2013790427
 GameObject:
   m_ObjectHideFlags: 0
@@ -62559,6 +64859,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2016634120}
   - component: {fileID: 2016634121}
+  - component: {fileID: 2016634122}
   m_Layer: 0
   m_Name: Gift_Loop (2)
   m_TagString: Untagged
@@ -62628,6 +64929,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2016634122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2016634119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: 2e51a76b73737aa40b72f8358631a8a1, type: 3}
+  DarkSprite: {fileID: 21300000, guid: 7e730272b8d04044b8ec13baf3e33b18, type: 3}
 --- !u!1001 &2017007348
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -63167,6 +65482,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2045361869}
   - component: {fileID: 2045361870}
+  - component: {fileID: 2045361871}
   m_Layer: 0
   m_Name: GiftLinks
   m_TagString: Untagged
@@ -63236,6 +65552,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2045361871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2045361868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: 620183a779424c540bcbf8a103c7f2c8, type: 3}
+  DarkSprite: {fileID: 21300000, guid: 6f23edf7599f35c44aee380f566e4bce, type: 3}
 --- !u!1 &2047956215
 GameObject:
   m_ObjectHideFlags: 0
@@ -64788,6 +67118,95 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &2114817689
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2207896504983351052, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_Name
+      value: "B\xFCcheregal (4)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2207896504983351052, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 84.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.088609
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 126
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.42977786
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.42977795
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884369838517559936, guid: fd3f1b9ff5d71004587f087128e05b2a,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.42977792
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fd3f1b9ff5d71004587f087128e05b2a, type: 3}
 --- !u!1 &2115020908
 GameObject:
   m_ObjectHideFlags: 0
