@@ -12,7 +12,7 @@ public class SceneMngr : MonoBehaviour
 
     bool colliding = false;
     bool sceneIsSwitching = false;
-
+    
     [SerializeField]
     Player playerRef;
 
@@ -26,7 +26,7 @@ public class SceneMngr : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag == "SceneSwitcher")
+        if (collision.tag == "Player")
         {
             colliding = true;
         }
@@ -34,7 +34,7 @@ public class SceneMngr : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.tag == "SceneSwitcher")
+        if (collision.tag == "Player")
         {
             colliding = false;
         }
@@ -46,6 +46,7 @@ public class SceneMngr : MonoBehaviour
         {
             sceneIsSwitching = true;
             Debug.Log(sceneIsSwitching);
+            Debug.Log(Player.health);
         }
 
         if (sceneIsSwitching == true)
@@ -54,15 +55,13 @@ public class SceneMngr : MonoBehaviour
                 case (targetScene.Eingang):
                     GameManager.GMInstance.currentlvl = GameManager.level.Eingang;
                     SceneManager.LoadScene("Level 1");
-                    if (currentScene.name == "Level 1")
-                    {
                         PlayerIsComingBack();
-                    }
                     break;
                 case (targetScene.Haupthalle):
                     PlayerIsSwitchingScene();
                     GameManager.GMInstance.currentlvl = GameManager.level.Haupthalle;
                     SceneManager.LoadScene("Level 2");
+                    //playerRef.transform.position = new Vector2(0.15f, 0.8799992f);
                     break;
                 case (targetScene.Keller):
                     GameManager.GMInstance.currentlvl = GameManager.level.Keller;
@@ -73,7 +72,7 @@ public class SceneMngr : MonoBehaviour
                     SceneManager.LoadScene("Level 4");
                     break;
                 case (targetScene.Gang):
-                    //GameManager.GMInstance.currentlvl = GameManager.level.Gang;
+                    GameManager.GMInstance.currentlvl = GameManager.level.Gang;
                     SceneManager.LoadScene("Level 5");
                     break;
                 case (targetScene.Boss):
@@ -91,59 +90,17 @@ public class SceneMngr : MonoBehaviour
 
     void PlayerIsSwitchingScene()
     {
-        PlayerPrefs.SetFloat("X", playerRef.transform.position.x);
-        PlayerPrefs.SetFloat("Y", playerRef.transform.position.y);
-        Debug.Log(PlayerPrefs.GetFloat("X"));
-        Debug.Log(PlayerPrefs.GetFloat("Y"));
+        PlayerPrefs.SetFloat("X-Eingang", playerRef.transform.position.x);
+        PlayerPrefs.SetFloat("Y-Eingang", playerRef.transform.position.y);
+        Debug.Log(PlayerPrefs.GetFloat("X-Eingang"));
+        Debug.Log(PlayerPrefs.GetFloat("Y-Eingang"));
     }
-
     void PlayerIsComingBack()
     {
-        Debug.Log(PlayerPrefs.GetFloat("X"));
-        Debug.Log(PlayerPrefs.GetFloat("Y"));
-        playerRef.transform.position = new Vector2(PlayerPrefs.GetFloat("X"), PlayerPrefs.GetFloat("Y")); //vll ned die richtige schreibweise
+        Debug.Log(PlayerPrefs.GetFloat("X-Eingang"));
+        Debug.Log(PlayerPrefs.GetFloat("Y-Eingang"));
+        playerRef.transform.position = new Vector2(PlayerPrefs.GetFloat("X-Eingang"), PlayerPrefs.GetFloat("Y-Eingang")); //vll ned die richtige schreibweise
         Debug.Log(playerRef.transform.position);
-    }
-
-    void OnEnable()
-    {
-        SceneManager.sceneLoaded += onSceneLoad;
-    }
-
-    void OnDisable()
-    {
-        SceneManager.sceneLoaded -= onSceneLoad;
-    }
-
-    void onSceneLoad(Scene scene, LoadSceneMode mode)
-    {
-        switch (scene.name)
-        {
-            case ("Level 1"):
-
-                Debug.Log("test1");
-                break;
-
-            case ("Level 2"):
-                Debug.Log("test");
-                break;
-
-            case ("Level 3"):
-
-                break;
-
-            case ("Level 4"):
-
-                break;
-
-            case ("Level 5"):
-
-                break;
-
-            case ("Boss"):
-
-                break;
-        }
     }
 
 }

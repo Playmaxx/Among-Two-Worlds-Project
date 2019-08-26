@@ -5,7 +5,6 @@ using UnityEngine.UI;
 
 public class DontDestroyObject : MonoBehaviour
 {
-    public static int score;
     public Text scoreText;
     public Canvas rootCanvas;
     private static DontDestroyObject instance = null;
@@ -32,14 +31,5 @@ public class DontDestroyObject : MonoBehaviour
 
         DontDestroyOnLoad(this.gameObject);
     }
-
-    void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.tag == "Player")
-        {
-            score++;
-            scoreText.text = "Score: " + score;
-            Destroy(this.gameObject);
-        }
-    }
+    
 }

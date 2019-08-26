@@ -12,13 +12,19 @@ public class DeathSequence : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        playerRef = Player.PlayerInstance;
+        playerRef = FindObjectOfType<Player>();
     }
 
     // Update is called once per frame
     void Update()
     {
         PlayDeathSequence();
+
+        if (Player.health == 0)
+        {
+            Debug.Log("ded");
+            StartCoroutine(RespawnPlayer(0));
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -26,7 +32,8 @@ public class DeathSequence : MonoBehaviour
         if (collision.tag == "Player")
         {
             DeathSequenceIsPlaying = true;
-            RespawnPlayer();
+            Debug.Log("player ded boi");
+            StartCoroutine(RespawnPlayer(3));
         }
     }
 
@@ -35,15 +42,17 @@ public class DeathSequence : MonoBehaviour
         if (Input.GetKey(KeyCode.F) && DeathSequenceIsPlaying == false)
         {
             DeathSequenceIsPlaying = true;
-            RespawnPlayer();
+            Debug.Log("player ded boi");
+            StartCoroutine(RespawnPlayer(3));
         }
     }
 
-    public void RespawnPlayer()
+    IEnumerator RespawnPlayer(float time)
     {
+        yield return new WaitForSeconds(time);
         playerRef.transform.position = new Vector2(0.299f, 2f);
         DeathSequenceIsPlaying = false;
         playerRef.rigidRef.velocity = new Vector2(0, 0);
-        playerRef.health = 100;
+        Player.health = 100;
     }
 }

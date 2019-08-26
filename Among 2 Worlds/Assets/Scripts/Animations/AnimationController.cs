@@ -108,7 +108,7 @@ public class AnimationController : MonoBehaviour
         }
         animator.SetBool("isDashing", isDashing);
 
-        int Health = playerRef.health;
+        int Health = Player.health;
         animator.SetInteger("Health", Health);
 
         int NumberOfJumps = playerRef.Jumps;   //Check needed for doublejumping

@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6784408596844381970}
-  - component: {fileID: 3242059927841843244}
+  - component: {fileID: 6784408596844381973}
   m_Layer: 0
   m_Name: Knight-SFXManager
   m_TagString: Untagged
@@ -31,7 +31,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &3242059927841843244
+--- !u!114 &6784408596844381973
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -40,7 +40,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6784408596844381971}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f0b78a748144a244b95af970a03e1fbd, type: 3}
+  m_Script: {fileID: 11500000, guid: 912c856009fd1034e8167ff9b52c7de1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   knightRef: {fileID: 0}

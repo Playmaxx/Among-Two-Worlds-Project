@@ -5,74 +5,72 @@ using UnityEngine;
 public class LoopSFXManager : MonoBehaviour
 {
     [SerializeField]
-    AudioSource current_audioclip;
+    AudioSource playerStepSource;
     [SerializeField]
-    AudioSource current_audioclip2;
+    AudioSource playerRattleSource;
 
     public AudioClip rattle;
     public AudioClip Step;
-    bool soundPlayed = false;
+    bool playerSoundPlayed = false;
 
     [SerializeField]
     Player playerRef;
     [SerializeField]
-    Rigidbody2D rigRef;
+    Rigidbody2D playerRigRef;
+    [SerializeField]
+    Knight knightRef;
+    [SerializeField]
+    Rigidbody2D knightRigRef;
 
     void Awake()
     {
-        current_audioclip = GetComponent<AudioSource>();
+        knightRef = GetComponent<Knight>();
+        //knightRigRef = GetComponent<Rigidbody2D>();
     }
 
     void Start()
     {
-        current_audioclip.volume = 1.0f;
-        current_audioclip.clip = null;
-        current_audioclip2.volume = 1.0f;
-        current_audioclip2.clip = null;
+        playerStepSource.volume = 1.0f;
+        playerStepSource.clip = null;
+        playerRattleSource.volume = 1.0f;
+        playerRattleSource.clip = null;
     }
 
     // Update is called once per frame
     void Update() //Inhalt ist nur für mich zum testen und kann gelöscht werden
     {
-        if (playerRef.playerMoveState == Player.moveState.Grounded && rigRef.velocity != new Vector2(0, 0))
+        ManagePlayerRunSound();
+    }
+
+    void ManagePlayerRunSound()
+    {
+        if (playerRef.playerMoveState == Player.moveState.Grounded && playerRigRef.velocity != new Vector2(0, 0))
         {
-            if (soundPlayed == false)
+            if (playerSoundPlayed == false)
             {
-                playStepSound();
-                playRattleSound();
-                soundPlayed = true;
+                playSound(playerStepSource, Step);
+                playSound(playerRattleSource, rattle);
+                playerSoundPlayed = true;
             }
         }
 
-        if (rigRef.velocity == new Vector2(0, 0) || playerRef.playerMoveState != Player.moveState.Grounded)
+        if (playerRigRef.velocity == new Vector2(0, 0) || playerRef.playerMoveState != Player.moveState.Grounded)
         {
-            stopStepSound();
-            stopRattleSound();
-            soundPlayed = false;
+            stopSound(playerStepSource, Step);
+            stopSound(playerRattleSource, rattle);
+            playerSoundPlayed = false;
         }
     }
-
-    public void playStepSound()
+        
+    void playSound(AudioSource audioSource, AudioClip audioClip)
     {
-        current_audioclip.clip = Step;
-        current_audioclip.Play();
+        audioSource.clip = audioClip;
+        audioSource.Play();
     }
 
-    public void stopStepSound()
+    void stopSound(AudioSource audioSource, AudioClip audioClip)
     {
-        current_audioclip.clip = Step;
-        current_audioclip.Stop();
-    }
-
-    public void playRattleSound()
-    {
-        current_audioclip2.clip = rattle;
-        current_audioclip2.Play();
-    }
-
-    public void stopRattleSound()
-    {
-        current_audioclip2.clip = rattle;
-        current_audioclip2.Stop();
+        audioSource.clip = audioClip;
+        audioSource.Stop();
     }
 }

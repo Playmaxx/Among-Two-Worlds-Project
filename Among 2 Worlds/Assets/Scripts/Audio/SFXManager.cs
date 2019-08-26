@@ -11,10 +11,12 @@ public class SFXManager : MonoBehaviour
 
     public AudioSource current_audioclip;
     public AudioSource current_audioclip2;
+    public AudioSource knightSource;
     public AudioClip Jump;
     public AudioClip Dash;
     public AudioClip KnightGettingHit;
     public AudioClip Land;
+    public AudioClip KnightDeath;
 
     [SerializeField]
     bool JumpPlayed = false;
@@ -93,7 +95,7 @@ public class SFXManager : MonoBehaviour
             {
                 if (Input.GetKeyDown(KeyCode.LeftShift) || Input.GetButtonDown("Dash"))
                 {
-                    if (DashPlayed == false)
+                    //if (DashPlayed == false)
                     playSound(current_audioclip, Dash);
                     DashPlayed = true;
                 }
