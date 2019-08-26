@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3768439776351781345}
   - component: {fileID: 5623912180813796243}
   - component: {fileID: 1810032478369427208}
-  - component: {fileID: 1714934240}
+  - component: {fileID: 2994298986621050724}
   m_Layer: 5
   m_Name: UI_Stuff
   m_TagString: Untagged
@@ -101,7 +101,7 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &1714934240
+--- !u!114 &2994298986621050724
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -113,8 +113,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c2b361e72c35be4983f1d79ae06e085, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HealthSlider2: {fileID: 3555720075239933991}
-  rootCanvas: {fileID: 3768439776351781345}
+  HealthSlider2: {fileID: 0}
+  rootCanvas: {fileID: 0}
 --- !u!1 &3555720074189114961
 GameObject:
   m_ObjectHideFlags: 0

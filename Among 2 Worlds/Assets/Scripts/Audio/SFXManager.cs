@@ -8,15 +8,15 @@ public class SFXManager : MonoBehaviour
     Player playerRef;
     [SerializeField]
     Rigidbody2D rigidRef;
-    [SerializeField]
-    Knight knightRef;
 
     public AudioSource current_audioclip;
     public AudioSource current_audioclip2;
+    public AudioSource knightSource;
     public AudioClip Jump;
     public AudioClip Dash;
     public AudioClip KnightGettingHit;
     public AudioClip Land;
+    public AudioClip KnightDeath;
 
     [SerializeField]
     bool JumpPlayed = false;
@@ -24,6 +24,8 @@ public class SFXManager : MonoBehaviour
     bool DashPlayed = false;
     [SerializeField]
     bool LandPlayed = false;
+    [SerializeField]
+    bool knightIsAttacking = false;
     [SerializeField]
     int JumpCounter = 1;
 
@@ -56,11 +58,10 @@ public class SFXManager : MonoBehaviour
     {
         if (GameManager.GMInstance.currentdim == GameManager.dimension.Dark)
         {
-            if (Input.GetKeyDown(KeyCode.Space) && JumpPlayed == false)
+            if ((Input.GetKeyDown(KeyCode.Space) || Input.GetButtonDown("Jump")) && JumpPlayed == false)
             {
                 playSound(current_audioclip2, Jump);
                 JumpCounter--;
-                Debug.Log(JumpPlayed);
             }
             
             if (JumpCounter < 0)
@@ -90,15 +91,15 @@ public class SFXManager : MonoBehaviour
     {
         if ((GameManager.GMInstance.currentdim == GameManager.dimension.Dark))
         {
-            if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D))
+            if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D) || Input.GetAxis("MoveHorizontal") > 0 || Input.GetAxis("MoveHorizontal") < 0)
             {
-                if (Input.GetKeyDown(KeyCode.LeftShift))
+                if (Input.GetKeyDown(KeyCode.LeftShift) || Input.GetButtonDown("Dash"))
                 {
-                    if (DashPlayed == false)
+                    //if (DashPlayed == false)
                     playSound(current_audioclip, Dash);
                     DashPlayed = true;
                 }
-            }
+           }
         }
 
         if (playerRef.playerMoveState != Player.moveState.Dashing)

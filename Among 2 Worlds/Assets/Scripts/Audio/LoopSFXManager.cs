@@ -8,14 +8,10 @@ public class LoopSFXManager : MonoBehaviour
     AudioSource playerStepSource;
     [SerializeField]
     AudioSource playerRattleSource;
-    [SerializeField]
-    AudioSource KnightStepSource;
 
     public AudioClip rattle;
     public AudioClip Step;
-    public AudioClip KnightStep;
     bool playerSoundPlayed = false;
-    bool knightSoundPlayed = false;
 
     [SerializeField]
     Player playerRef;
@@ -63,21 +59,6 @@ public class LoopSFXManager : MonoBehaviour
             stopSound(playerStepSource, Step);
             stopSound(playerRattleSource, rattle);
             playerSoundPlayed = false;
-        }
-    }
-
-    public void ManageKnightRunSound()
-    {
-        if (knightRef.knightState == Knight.enemyState.Patrolling || knightRef.knightState == Knight.enemyState.Following)
-        {
-            playSound(KnightStepSource, KnightStep);
-            knightSoundPlayed = true;
-        }
-
-        if (knightRef.knightState != Knight.enemyState.Patrolling && knightRef.knightState != Knight.enemyState.Following)
-        {
-            stopSound(KnightStepSource, KnightStep);
-            knightSoundPlayed = false;
         }
     }
         

@@ -30,6 +30,10 @@ public class Knight : MonoBehaviour
     public float attackCooldown;
     public float currentAttackCooldown;
 
+    //raycasts
+    bool leftGroundRay;
+    bool rightGroundRay;
+
     GameObject playerRef;
     Rigidbody2D rigidRef;
 
@@ -70,20 +74,19 @@ public class Knight : MonoBehaviour
             currentAttackCooldown -= 1 * Time.deltaTime;
         }
 
-        death();
+        if (health <= 0)
+        {
+            StartCoroutine(death());
+        }
+        Damage(100);
     }
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (knightState == enemyState.Patrolling && !Physics2D.Raycast(transform.position, Vector2.right, trackingdistance, GameManager.GMInstance.platformMask) && collision.tag == "Player")
+        if (knightState == enemyState.Patrolling && collision.tag == "Player")
         {
             knightState = enemyState.Following;
         }
-    }
-
-    void OnTriggerStay2D(Collider2D collision)
-    {
-
     }
 
     void OnTriggerExit2D(Collider2D collision)
@@ -96,8 +99,6 @@ public class Knight : MonoBehaviour
 
     void patrol()
     {
-        //Physics2D.Raycast(new Vector2(transform.position.x - knightWidth / 2, transform.position.y), Vector2.down, knightHeight / 2, GameManager.GMInstance.platformMask)
-        //Physics2D.Raycast(new Vector2(transform.position.x + knightWidth / 2, transform.position.y), Vector2.down, knightHeight / 2, GameManager.GMInstance.platformMask))
         switch (nextPatrolPoint)
         {
             case (patrolPoint.Left):
@@ -149,11 +150,26 @@ public class Knight : MonoBehaviour
             knightState = enemyState.Attacking;
             playerRef.GetComponent<Player>().damage(damage);
         }
+        if (!leftGroundRay)
+        {
+            Debug.Log("leftair");
+        }
+        if (!rightGroundRay)
+        {
+            Debug.Log("rightair");
+        }
     }
 
     public void Damage(int amount)
     {
-        health -= amount;
+        if (playerDistance < deathdistance && playerRef.GetComponent<Player>().playerMoveState == Player.moveState.Dashing)
+        {
+            health = 0;
+        }
+        if (health <= 0)
+        {
+            rigidRef.velocity = Vector2.zero;
+        }
     }
 
     void flipX()
@@ -186,12 +202,36 @@ public class Knight : MonoBehaviour
         }
     }
 
-    void death()
+    public IEnumerator death()
     {
-        if (playerDistance < deathdistance && playerRef.GetComponent<Player>().playerMoveState == Player.moveState.Dashing)
+        knightState = enemyState.Death;
+        rigidRef.gravityScale = 0;
+        GetComponent<CapsuleCollider2D>().enabled = false;
+        yield return new WaitForSeconds(1.5f);
+        Destroy(this.gameObject);
+    }
+
+    void updateRays()
+    {
+        if (Physics2D.Raycast(new Vector2(transform.position.x - knightWidth / 2, transform.position.y), Vector2.down, knightHeight * 2, GameManager.GMInstance.platformMask))
         {
-            knightState = enemyState.Death;
-            Destroy(this.gameObject);
+            leftGroundRay = true;
         }
+        else
+        {
+            leftGroundRay = false;
+        }
+        if (Physics2D.Raycast(new Vector2(transform.position.x + knightWidth / 2, transform.position.y), Vector2.down, knightHeight * 2, GameManager.GMInstance.platformMask))
+        {
+            rightGroundRay = true;
+        }
+        else
+        {
+            rightGroundRay = false;
+        }
+    }
+
+    void attack()
+    {
     }
 }
