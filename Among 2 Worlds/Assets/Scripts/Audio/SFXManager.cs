@@ -6,6 +6,7 @@ public class SFXManager : MonoBehaviour
 {
     [SerializeField]
     Player playerRef;
+    [SerializeField]
     Rigidbody2D rigidRef;
 
     public AudioSource current_audioclip;
@@ -13,17 +14,23 @@ public class SFXManager : MonoBehaviour
     public AudioClip Jump;
     public AudioClip Dash;
     public AudioClip KnightGettingHit;
+    public AudioClip Land;
 
     [SerializeField]
     bool JumpPlayed = false;
     [SerializeField]
     bool DashPlayed = false;
+    [SerializeField]
+    bool LandPlayed = false;
+    [SerializeField]
+    bool knightIsAttacking = false;
+    [SerializeField]
+    int JumpCounter = 1;
 
     //Awake is called before start
     void Awake()
     {
-        playerRef = Player.PlayerInstance;
-        current_audioclip = GetComponent<AudioSource>();
+        playerRef = FindObjectOfType<Player>();
     }
     // Start is called before the first frame update
     void Start()
@@ -35,75 +42,82 @@ public class SFXManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Call_PlayJumpSound();
-        Call_PlayDashSound();
+        CallJumpSound();
+        CallDashSound();
     }
 
-    public void playJumpSound()
+    public void playSound(AudioSource audioSource, AudioClip audioClip)
     {
-        current_audioclip2.clip = Jump;
-        current_audioclip2.Play();
+        audioSource.clip = audioClip;
+        audioSource.Play();
     }
 
-    public void Call_PlayJumpSound()
+    public void CallJumpSound()
     {
         if (GameManager.GMInstance.currentdim == GameManager.dimension.Dark)
         {
-            if (Input.GetKeyDown(KeyCode.Space) && JumpPlayed == false)
+            if ((Input.GetKeyDown(KeyCode.Space) || Input.GetButtonDown("Jump")) && JumpPlayed == false)
             {
-                playJumpSound();
+                playSound(current_audioclip2, Jump);
+                JumpCounter--;
+            }
+            
+            if (JumpCounter < 0)
+            {
+                JumpCounter = 0;
                 JumpPlayed = true;
-                Debug.Log(JumpPlayed);
             }
         }
 
         if (GameManager.GMInstance.currentdim == GameManager.dimension.Light)
         {
-            if (Player.PlayerInstance.rigidRef.velocity.y > 0 && JumpPlayed == false)
+            if (playerRef.rigidRef.velocity.y > 0 && JumpPlayed == false)
             {
-                playJumpSound();
+                playSound(current_audioclip2, Jump);
                 JumpPlayed = true;
             }
         }
         
-        if (Player.PlayerInstance.playerMoveState == Player.moveState.Grounded)
+        if (playerRef.playerMoveState == Player.moveState.Grounded)
         {
             JumpPlayed = false;
+            JumpCounter = 1;
         }
     }
-
-
-    public void playDashSound()
-    {
-            current_audioclip.clip = Dash;
-            current_audioclip.Play();
-            Debug.Log("dash sound test");
-    }
     
-    public void Call_PlayDashSound()
+    public void CallDashSound()
     {
         if ((GameManager.GMInstance.currentdim == GameManager.dimension.Dark))
         {
-            if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D))
+            if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D) || Input.GetAxis("MoveHorizontal") > 0 || Input.GetAxis("MoveHorizontal") < 0)
             {
-                if (Input.GetKeyDown(KeyCode.LeftShift))
+                if (Input.GetKeyDown(KeyCode.LeftShift) || Input.GetButtonDown("Dash"))
                 {
                     if (DashPlayed == false)
-                    playDashSound();
+                    playSound(current_audioclip, Dash);
                     DashPlayed = true;
                 }
-            }
+           }
         }
 
-        if (Player.PlayerInstance.playerMoveState != Player.moveState.Dashing)
+        if (playerRef.playerMoveState != Player.moveState.Dashing)
         {
             DashPlayed = false;
         }
     }
-    public void playKnightGettingHitSound()
+
+    public void CallLandSound()
     {
-        current_audioclip.clip = KnightGettingHit;
-        current_audioclip.Play();
-        Debug.Log("KnightGitHit");
+        if (playerRef.playerMoveState == Player.moveState.Grounded && LandPlayed == false)
+        {
+            playSound(current_audioclip, Land);
+            LandPlayed = true;
+            Debug.Log("hayyy");
+        }
+        
+        if (playerRef.playerMoveState != Player.moveState.Grounded)
+        {
+            LandPlayed = false;
+        }
     }
 }

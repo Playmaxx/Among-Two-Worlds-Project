@@ -274,6 +274,22 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
         {
             GetComponent<CircleCollider2D>().enabled = false;
         }
+        if(playerMoveState == moveState.Dashing)
+        {
+            GetComponent<TrailRenderer>().enabled = true;
+        }
+        else
+        {
+            GetComponent<TrailRenderer>().enabled = false;
+        }
+        if (playerMoveState == moveState.Gliding)
+        {
+            GetComponent<ParticleSystem>().Play();
+        }
+        else
+        {
+            GetComponent<ParticleSystem>().Stop();
+        }
 
         switch (playerMoveState)    //movestates: Grounded, Jumping, Falling, Dashing, Gliding, Walled, Other
         {

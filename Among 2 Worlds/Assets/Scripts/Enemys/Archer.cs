@@ -14,6 +14,7 @@ public class Archer : MonoBehaviour
     Player playerRef;
     [SerializeField]
     GameObject ArrowPrefab;
+    [SerializeField]
     int arrowCooldown = 3;
     float currentCooldown;
 
