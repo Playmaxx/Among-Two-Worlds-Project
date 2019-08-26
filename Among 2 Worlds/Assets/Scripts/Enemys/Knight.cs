@@ -162,10 +162,6 @@ public class Knight : MonoBehaviour
 
     public void Damage(int amount)
     {
-        if (playerDistance < deathdistance && playerRef.GetComponent<Player>().playerMoveState == Player.moveState.Dashing)
-        {
-            health = 0;
-        }
         if (health <= 0)
         {
             rigidRef.velocity = Vector2.zero;

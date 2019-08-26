@@ -47,28 +47,31 @@ public class Archer : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (playerInRange == true)
+        if (ArcherState != enemyState.Death)
         {
-            if (Physics2D.Raycast(transform.position, playerRef.transform.position.normalized, trackingdistance, GameManager.GMInstance.platformMask))
+            if (playerInRange == true)
             {
-                playerTracked = false;
+                if (Physics2D.Raycast(transform.position, playerRef.transform.position.normalized, trackingdistance, GameManager.GMInstance.platformMask))
+                {
+                    playerTracked = false;
+                }
+                if (!Physics2D.Raycast(transform.position, playerRef.transform.position.normalized, trackingdistance, GameManager.GMInstance.platformMask))
+                {
+                    playerTracked = true;
+                }
             }
-            if (!Physics2D.Raycast(transform.position, playerRef.transform.position.normalized, trackingdistance, GameManager.GMInstance.platformMask))
+            if (playerTracked == true)
             {
-                playerTracked = true;
+                shoot();
             }
-        }
-        if (playerTracked == true)
-        {
-            shoot();
-        }
-        if (currentCooldown > 0)
-        {
-            currentCooldown -= 1 * Time.deltaTime;
-        }
-        if (health <= 0)
-        {
-            StartCoroutine(death());
+            if (currentCooldown > 0)
+            {
+                currentCooldown -= 1 * Time.deltaTime;
+            }
+            if (health <= 0)
+            {
+                StartCoroutine(death());
+            }
         }
     }
 

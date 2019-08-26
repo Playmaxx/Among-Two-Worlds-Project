@@ -56,4 +56,10 @@ public class Arrow : MonoBehaviour
             Destroy(this.gameObject);
         }
     }
+
+    IEnumerator despawnArrow()
+    {
+        yield return new WaitForSeconds(1.5f);
+        Destroy(this.gameObject);
+    }
 }
