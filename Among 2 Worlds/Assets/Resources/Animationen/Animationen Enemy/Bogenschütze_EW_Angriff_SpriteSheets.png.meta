@@ -1,0 +1,341 @@
+fileFormatVersion: 2
+guid: 48944c3af34c5e74e92d5ab8a07a4c8f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1490672075310940997
+    second: "Bogensch\xFCtze_EW_Angriff_SpriteSheets_0"
+  - first:
+      213: -5539827567582050416
+    second: "Bogensch\xFCtze_EW_Angriff_SpriteSheets_1"
+  - first:
+      213: 1249658664283222518
+    second: "Bogensch\xFCtze_EW_Angriff_SpriteSheets_2"
+  - first:
+      213: -2539203731624207942
+    second: "Bogensch\xFCtze_EW_Angriff_SpriteSheets_3"
+  - first:
+      213: 3089194730545285373
+    second: "Bogensch\xFCtze_EW_Angriff_SpriteSheets_4"
+  - first:
+      213: -6912986332173294951
+    second: "Bogensch\xFCtze_EW_Angriff_SpriteSheets_5"
+  - first:
+      213: -6011423738844469153
+    second: "Bogensch\xFCtze_EW_Angriff_SpriteSheets_6"
+  - first:
+      213: 8421315066782382410
+    second: "Bogensch\xFCtze_EW_Angriff_SpriteSheets_7"
+  - first:
+      213: -1772633641239724187
+    second: "Bogensch\xFCtze_EW_Angriff_SpriteSheets_8"
+  - first:
+      213: 5117607827375652473
+    second: "Bogensch\xFCtze_EW_Angriff_SpriteSheets_9"
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Bogensch\xFCtze_EW_Angriff_SpriteSheets_0"
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 399
+        width: 247
+        height: 314
+      alignment: 9
+      pivot: {x: 0.51958746, y: 0.50489116}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0436bb039e3b984b959601a01b6d235
+      internalID: 1490672075310940997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bogensch\xFCtze_EW_Angriff_SpriteSheets_1"
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 399
+        width: 235
+        height: 314
+      alignment: 9
+      pivot: {x: 0.5852356, y: 0.50163025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f4ea4106b65345428cff03296810263
+      internalID: -5539827567582050416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bogensch\xFCtze_EW_Angriff_SpriteSheets_2"
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 399
+        width: 217
+        height: 357
+      alignment: 9
+      pivot: {x: 0.5484943, y: 0.44263637}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a304e99e7c16c6e44bb7a54b34af62ee
+      internalID: 1249658664283222518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bogensch\xFCtze_EW_Angriff_SpriteSheets_3"
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 399
+        width: 236
+        height: 380
+      alignment: 9
+      pivot: {x: 0.594229, y: 0.4137734}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec8d4091cd5cfc943bf90ee8a488b728
+      internalID: -2539203731624207942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bogensch\xFCtze_EW_Angriff_SpriteSheets_4"
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 399
+        width: 236
+        height: 380
+      alignment: 9
+      pivot: {x: 0.5876708, y: 0.4178152}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 699653ba6adbeb64cab14f2be7dfaed9
+      internalID: 3089194730545285373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bogensch\xFCtze_EW_Angriff_SpriteSheets_5"
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 2
+        width: 209
+        height: 394
+      alignment: 9
+      pivot: {x: 0.53212625, y: 0.39994493}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19c547419d1a611489db81e904c97913
+      internalID: -6912986332173294951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bogensch\xFCtze_EW_Angriff_SpriteSheets_6"
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 2
+        width: 203
+        height: 360
+      alignment: 9
+      pivot: {x: 0.5202918, y: 0.43884802}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27e47222cce699d4797780d08e6c664b
+      internalID: -6011423738844469153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bogensch\xFCtze_EW_Angriff_SpriteSheets_7"
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 2
+        width: 199
+        height: 322
+      alignment: 9
+      pivot: {x: 0.5076883, y: 0.48569024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f5534f3cd4248842aed1adad3f32669
+      internalID: 8421315066782382410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bogensch\xFCtze_EW_Angriff_SpriteSheets_8"
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 2
+        width: 216
+        height: 314
+      alignment: 9
+      pivot: {x: 0.5478391, y: 0.49934956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3281aed57c221814a8f3197501a6323a
+      internalID: -1772633641239724187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bogensch\xFCtze_EW_Angriff_SpriteSheets_9"
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 2
+        width: 243
+        height: 314
+      alignment: 9
+      pivot: {x: 0.51905805, y: 0.50163037}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 524e156d162b92c40a5dc82bfab6ede1
+      internalID: 5117607827375652473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 26e1c482abc60f14d9c6bc3efa245ac9
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
