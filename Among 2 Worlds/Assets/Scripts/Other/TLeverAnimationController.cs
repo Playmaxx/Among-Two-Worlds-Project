@@ -2,30 +2,30 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TowerLever : MonoBehaviour
+public class TLeverAnimationController : MonoBehaviour
 {
+
+    public Animator animator;
+
     // Start is called before the first frame update
-    void Start()
+    private void Awake()
     {
-        
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        bool isOn;
         if (GameManager.GMInstance.TowerLever == true)
         {
-            Destroy(this);
+            isOn = true;
         }
+        else
+        {
+            isOn = false;
+        }
+        animator.SetBool("isOn", isOn);
     }
 
-    public void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.tag == "Player")
-        {
-            GameManager.GMInstance.TowerLever = true;
-            Debug.Log("Got'em");
-            Destroy(this);
-        }
-    }
 }

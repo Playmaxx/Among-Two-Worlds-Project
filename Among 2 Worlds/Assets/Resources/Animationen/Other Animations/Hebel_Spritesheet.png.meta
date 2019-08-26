@@ -1,0 +1,725 @@
+fileFormatVersion: 2
+guid: c286868d4aa55444aa13bef25b12c740
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5078526161608253394
+    second: Hebel_Spritesheet_0
+  - first:
+      213: -2880317022680679986
+    second: Hebel_Spritesheet_1
+  - first:
+      213: -2872906436511993017
+    second: Hebel_Spritesheet_2
+  - first:
+      213: 8021240640396125024
+    second: Hebel_Spritesheet_3
+  - first:
+      213: 3863093957819381004
+    second: Hebel_Spritesheet_4
+  - first:
+      213: 4862138844515779608
+    second: Hebel_Spritesheet_5
+  - first:
+      213: -1403169874341063029
+    second: Hebel_Spritesheet_6
+  - first:
+      213: -462962239170454099
+    second: Hebel_Spritesheet_7
+  - first:
+      213: -5783293487020262179
+    second: Hebel_Spritesheet_8
+  - first:
+      213: -1816242828048839930
+    second: Hebel_Spritesheet_9
+  - first:
+      213: 2162982181412378509
+    second: Hebel_Spritesheet_10
+  - first:
+      213: -1244595947778543151
+    second: Hebel_Spritesheet_11
+  - first:
+      213: -4599725058347621510
+    second: Hebel_Spritesheet_12
+  - first:
+      213: -1706230649302771157
+    second: Hebel_Spritesheet_13
+  - first:
+      213: -1208437150870649875
+    second: Hebel_Spritesheet_14
+  - first:
+      213: -261908709001066275
+    second: Hebel_Spritesheet_15
+  - first:
+      213: 3536747541635339366
+    second: Hebel_Spritesheet_16
+  - first:
+      213: -7090071220317557084
+    second: Hebel_Spritesheet_17
+  - first:
+      213: -6386493087129694629
+    second: Hebel_Spritesheet_18
+  - first:
+      213: 5954460888601531519
+    second: Hebel_Spritesheet_19
+  - first:
+      213: 8938047129362789110
+    second: Hebel_Spritesheet_20
+  - first:
+      213: 2531650052129141322
+    second: Hebel_Spritesheet_21
+  - first:
+      213: 4262471876272159453
+    second: Hebel_Spritesheet_22
+  - first:
+      213: 6397004628765951181
+    second: Hebel_Spritesheet_23
+  - first:
+      213: 6498616332493249123
+    second: Hebel_Spritesheet_24
+  - first:
+      213: 438114050207603827
+    second: Hebel_Spritesheet_25
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Hebel_Spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 60
+        width: 418
+        height: 493
+      alignment: 9
+      pivot: {x: 0.51238763, y: 0.4086221}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fde3db65fca584e409dffd9106596ae5
+      internalID: 5078526161608253394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hebel_Spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 623
+        width: 450
+        height: 404
+      alignment: 9
+      pivot: {x: 0.46759546, y: 0.4977976}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2995cd8f5f261e54ea53e409165d0bcb
+      internalID: -2880317022680679986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hebel_Spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 624
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39b198acfa680fb4b9b80ef97cb09c08
+      internalID: -2872906436511993017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hebel_Spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 610
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f606632f10132784d9bfdbbf107b86fd
+      internalID: 8021240640396125024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hebel_Spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 625
+        width: 20
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 241175ba30147f64f86a89f9a131065f
+      internalID: 3863093957819381004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hebel_Spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 606
+        width: 75
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9927e76fde0a1d644bab462fd9faad58
+      internalID: 4862138844515779608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hebel_Spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 519
+        width: 31
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e606d398bb14c66438c821c0236efcc3
+      internalID: -1403169874341063029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hebel_Spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 631
+        width: 59
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6eb5260f6c82814197816c034c017f9
+      internalID: -462962239170454099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hebel_Spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 516
+        width: 413
+        height: 573
+      alignment: 9
+      pivot: {x: 0.47298375, y: 0.5386115}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a17b8d6f65345b34d8a077325f8c1f38
+      internalID: -5783293487020262179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hebel_Spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 624
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7d370ac89988264db23650e6605d48d
+      internalID: -1816242828048839930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hebel_Spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 610
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7568279a1e64b9842bd43a0f0424e1c8
+      internalID: 2162982181412378509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hebel_Spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 625
+        width: 20
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af9790f387327b146b9d47a681396996
+      internalID: -1244595947778543151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hebel_Spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 606
+        width: 75
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b76159de44f41e4a9f2b4fc6320fd8d
+      internalID: -4599725058347621510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hebel_Spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 631
+        width: 59
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b26f56314f0d1304994b74b5247009ea
+      internalID: -1706230649302771157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hebel_Spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 480
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0ff3a57e57594042a90e82adb97cc47
+      internalID: -1208437150870649875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hebel_Spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 61
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7bf89617cd1b0b4bbfe9335112a6422
+      internalID: -261908709001066275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hebel_Spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 62
+        width: 20
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cabbb9ea84c52e4180d625fb8db4926
+      internalID: 3536747541635339366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hebel_Spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 43
+        width: 75
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0be6eb046aced3d47b572dfe813b4c1f
+      internalID: -7090071220317557084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hebel_Spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 68
+        width: 59
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a072b2a0e75a214b87ae5315b838049
+      internalID: -6386493087129694629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hebel_Spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 61
+        width: 442
+        height: 415
+      alignment: 9
+      pivot: {x: 0.5271466, y: 0.48373684}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7340e8c98c3c3cf4d9e6bcd5210b7ba0
+      internalID: 5954460888601531519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hebel_Spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 62
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddd674569725e7a4f84baf2250ecaec7
+      internalID: 8938047129362789110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hebel_Spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 63
+        width: 20
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83810c9ca681f24458806a403c822e0a
+      internalID: 2531650052129141322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hebel_Spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 44
+        width: 75
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 802e9ddedea08b6479655d0fe956468f
+      internalID: 4262471876272159453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hebel_Spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 69
+        width: 59
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07ce4312d0b2162468e152c0d1a362c5
+      internalID: 6397004628765951181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hebel_Spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 47
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 977522f8c61993043a77dd1284c2a689
+      internalID: 6498616332493249123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hebel_Spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 48
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4045019c12c4ea94c808c8ad29bae8a7
+      internalID: 438114050207603827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: a1f0eb68bdb4c4143893e6ec2e622e0f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
