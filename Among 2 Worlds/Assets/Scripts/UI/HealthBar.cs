@@ -25,7 +25,7 @@ public class HealthBar : MonoBehaviour
 
     void Start()
     {
-        HealthSlider.maxValue = playerRef.health;
+        HealthSlider.maxValue = Player.health;
 
     }
 
@@ -33,7 +33,7 @@ public class HealthBar : MonoBehaviour
     void Update()
     {
         //HealthUpdate();
-        HealthSlider.value = playerRef.health;
+        HealthSlider.value = Player.health;
     }
 
     void HealthUpdate()

@@ -16,7 +16,7 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
 
     //tweakable variables
     public int Jumps = 2;
-    public int health = 100;
+    public static int health = 100;
     public float moveSpeed = 7.5f;
     public int jumpforce = 20;
     public int dashspeed = 300;
