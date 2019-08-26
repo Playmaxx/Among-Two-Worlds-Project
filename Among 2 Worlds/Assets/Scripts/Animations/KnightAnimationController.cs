@@ -56,5 +56,16 @@ public class KnightAnimationController : MonoBehaviour
             isAttacking = false;
         }
         animator.SetBool("isAttacking", isAttacking);
+
+        bool isDead;
+        if(knightRef.health <= 0)
+        {
+            isDead = true;
+        }
+        else
+        {
+            isDead = false;
+        }
+        animator.SetBool("isDead", isDead);
     }
 }

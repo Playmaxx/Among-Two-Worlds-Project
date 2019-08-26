@@ -19,6 +19,8 @@ public class GameManager : MonoBehaviour    //manages central aspects such as wo
     public level currentlvl;
     public static int score = 0;
 
+    public int keys = 0;
+
     public int respawnX;
     public int respawnY;
 

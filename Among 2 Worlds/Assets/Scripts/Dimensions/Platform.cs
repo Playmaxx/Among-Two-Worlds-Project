@@ -54,6 +54,7 @@ public class Platform : MonoBehaviour
                     renderRef.sprite = DarkSprite;
                     break;
             }
+            gameObject.layer = 10;
         }
         else
         {
@@ -68,6 +69,7 @@ public class Platform : MonoBehaviour
 
             }
             GetComponent<SpriteRenderer>().enabled = false;
+            gameObject.layer = 0;
         }
     }
 }
