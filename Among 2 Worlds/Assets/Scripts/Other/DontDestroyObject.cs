@@ -5,7 +5,6 @@ using UnityEngine.UI;
 
 public class DontDestroyObject : MonoBehaviour
 {
-    public static int score;
     public Text scoreText;
     public Canvas rootCanvas;
     private static DontDestroyObject instance = null;

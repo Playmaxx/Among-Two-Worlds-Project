@@ -20,7 +20,7 @@ public class DeathSequence : MonoBehaviour
     {
         PlayDeathSequence();
 
-        if (playerRef.health == 0)
+        if (Player.health == 0)
         {
             Debug.Log("ded");
             StartCoroutine(RespawnPlayer(0));
@@ -53,6 +53,6 @@ public class DeathSequence : MonoBehaviour
         playerRef.transform.position = new Vector2(0.299f, 2f);
         DeathSequenceIsPlaying = false;
         playerRef.rigidRef.velocity = new Vector2(0, 0);
-        playerRef.health = 100;
+        Player.health = 100;
     }
 }

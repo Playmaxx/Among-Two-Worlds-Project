@@ -6,6 +6,7 @@ public class SFXManager : MonoBehaviour
 {
     [SerializeField]
     Player playerRef;
+    [SerializeField]
     Rigidbody2D rigidRef;
     [SerializeField]
     Knight knightRef;

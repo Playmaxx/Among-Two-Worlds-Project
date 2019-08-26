@@ -46,7 +46,7 @@ public class SceneMngr : MonoBehaviour
         {
             sceneIsSwitching = true;
             Debug.Log(sceneIsSwitching);
-            Debug.Log(playerRef.health);
+            Debug.Log(Player.health);
         }
 
         if (sceneIsSwitching == true)
