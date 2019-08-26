@@ -26,7 +26,6 @@ public class DeathSequence : MonoBehaviour
         if (collision.tag == "Player")
         {
             DeathSequenceIsPlaying = true;
-            Debug.Log("player ded boi");
             RespawnPlayer();
         }
     }
@@ -36,7 +35,6 @@ public class DeathSequence : MonoBehaviour
         if (Input.GetKey(KeyCode.F) && DeathSequenceIsPlaying == false)
         {
             DeathSequenceIsPlaying = true;
-            Debug.Log("player ded boi");
             RespawnPlayer();
         }
     }

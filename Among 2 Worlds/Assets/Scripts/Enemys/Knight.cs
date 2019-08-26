@@ -74,7 +74,11 @@ public class Knight : MonoBehaviour
             currentAttackCooldown -= 1 * Time.deltaTime;
         }
 
-        death();
+        if (health <= 0)
+        {
+            StartCoroutine(death());
+        }
+        Damage(100);
     }
 
     void OnTriggerEnter2D(Collider2D collision)
@@ -140,11 +144,28 @@ public class Knight : MonoBehaviour
         {
             rigidRef.velocity = new Vector2(attackSpeed, 0);
         }
+        if (playerDistance < attackRange && currentAttackCooldown <= 0)
+        {
+            currentAttackCooldown = attackCooldown;
+            knightState = enemyState.Attacking;
+            playerRef.GetComponent<Player>().damage(damage);
+        }
+        if (!leftGroundRay)
+        {
+            Debug.Log("leftair");
+        }
+        if (!rightGroundRay)
+        {
+            Debug.Log("rightair");
+        }
     }
 
     public void Damage(int amount)
     {
-        health -= amount;
+        if (health <= 0)
+        {
+            rigidRef.velocity = Vector2.zero;
+        }
     }
 
     void flipX()
@@ -161,10 +182,6 @@ public class Knight : MonoBehaviour
 
     void matchState()
     {
-        if (playerDistance < attackRange)
-        {
-            attack();
-        }
         switch (knightState)
         {
             case (enemyState.Patrolling):
@@ -176,18 +193,19 @@ public class Knight : MonoBehaviour
                 break;
 
             case (enemyState.Attacking):
-                //knightState = enemyState.Following;
+                knightState = enemyState.Following;
                 break;
         }
     }
 
-    void death()
+    public IEnumerator death()
     {
-        if (playerDistance < deathdistance && playerRef.GetComponent<Player>().playerMoveState == Player.moveState.Dashing)
-        {
-            knightState = enemyState.Death;
-            Destroy(this.gameObject);
-        }
+        health = 0;
+        knightState = enemyState.Death;
+        rigidRef.gravityScale = 0;
+        GetComponent<CapsuleCollider2D>().enabled = false;
+        yield return new WaitForSeconds(1.5f);
+        Destroy(this.gameObject);
     }
 
     void updateRays()
@@ -212,11 +230,5 @@ public class Knight : MonoBehaviour
 
     void attack()
     {
-        if (currentAttackCooldown <= 0)
-        {
-            currentAttackCooldown = attackCooldown;
-            knightState = enemyState.Attacking;
-            playerRef.GetComponent<Player>().damage(damage);
-        }
     }
 }

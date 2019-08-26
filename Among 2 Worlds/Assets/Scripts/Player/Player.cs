@@ -205,7 +205,6 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
             {
                 playerMoveState = moveState.Grounded;
                 refreshAbilities();
-                Debug.Log("rightray");
             }
         }
         if (Physics2D.Raycast(new Vector2(transform.position.x - (playerwidth / 2) + 0.05f, transform.position.y), Vector2.down, playerheight / 2, GameManager.GMInstance.platformMask))
@@ -214,7 +213,6 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
             {
                 playerMoveState = moveState.Grounded;
                 refreshAbilities();
-                Debug.Log("leftray");
             }
         }
         if (!Physics2D.Raycast(new Vector2(transform.position.x + (playerwidth / 2) - 0.05f, transform.position.y), Vector2.down, playerheight / 2, GameManager.GMInstance.platformMask))
@@ -272,6 +270,10 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
             currentDashTime = -1;
             rigidRef.velocity = Vector2.zero;
         }
+        if (playerMoveState != moveState.Dashing)
+        {
+            GetComponent<CircleCollider2D>().enabled = false;
+        }
 
         switch (playerMoveState)    //movestates: Grounded, Jumping, Falling, Dashing, Gliding, Walled, Other
         {
@@ -292,6 +294,7 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
                 break;
 
             case (moveState.Dashing):
+                GetComponent<CircleCollider2D>().enabled = true;
                 break;
 
             case (moveState.Gliding):
@@ -344,4 +347,20 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
         rigidRef.velocity = new Vector2(0, 0);
         health = 100;
     }
+
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag == "Enemy")
+        {
+            if (collision is CapsuleCollider2D)
+            {
+                collision.gameObject.GetComponent<Knight>().health = 0;
+            }
+            if (collision is BoxCollider2D)
+            {
+                collision.gameObject.GetComponent<Archer>().health = 0;
+            }
+        }
+    }
+
 }
