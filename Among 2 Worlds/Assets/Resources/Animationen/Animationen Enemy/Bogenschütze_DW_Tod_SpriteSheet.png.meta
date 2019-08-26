@@ -1,0 +1,269 @@
+fileFormatVersion: 2
+guid: 6da97c81708f7a54d99a6b33f6f12578
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3897717175333233172
+    second: "Bogensch\xFCtze_DW_Tod_SpriteSheet_0"
+  - first:
+      213: -8962442024410886263
+    second: "Bogensch\xFCtze_DW_Tod_SpriteSheet_1"
+  - first:
+      213: -3393705734845614335
+    second: "Bogensch\xFCtze_DW_Tod_SpriteSheet_2"
+  - first:
+      213: 7747935811168168882
+    second: "Bogensch\xFCtze_DW_Tod_SpriteSheet_3"
+  - first:
+      213: -367455505848947050
+    second: "Bogensch\xFCtze_DW_Tod_SpriteSheet_4"
+  - first:
+      213: -1942438585653362271
+    second: "Bogensch\xFCtze_DW_Tod_SpriteSheet_5"
+  - first:
+      213: -5777873307865109246
+    second: "Bogensch\xFCtze_DW_Tod_SpriteSheet_6"
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Bogensch\xFCtze_DW_Tod_SpriteSheet_0"
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 400
+        width: 123
+        height: 314
+      alignment: 9
+      pivot: {x: 0.39106527, y: 0.5000002}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab7a37a348c019d439fd06291e669244
+      internalID: -3897717175333233172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bogensch\xFCtze_DW_Tod_SpriteSheet_1"
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 401
+        width: 170
+        height: 303
+      alignment: 9
+      pivot: {x: 0.33711064, y: 0.5235847}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6f1bdab9a1a56b4d9f375ace662a42c
+      internalID: -8962442024410886263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bogensch\xFCtze_DW_Tod_SpriteSheet_2"
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 408
+        width: 175
+        height: 284
+      alignment: 9
+      pivot: {x: 0.015084752, y: 0.55347043}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32adc1d157f61794d85b78a062a86e3e
+      internalID: -3393705734845614335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bogensch\xFCtze_DW_Tod_SpriteSheet_3"
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 420
+        width: 224
+        height: 252
+      alignment: 9
+      pivot: {x: 0.0015264238, y: 0.6240651}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa6b56c6537247e48afe1349262b60b4
+      internalID: 7747935811168168882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bogensch\xFCtze_DW_Tod_SpriteSheet_4"
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 68
+        width: 275
+        height: 198
+      alignment: 9
+      pivot: {x: 0.006267749, y: 0.8112897}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 251d3e9f8b092104093a9d061ea24a1d
+      internalID: -367455505848947050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bogensch\xFCtze_DW_Tod_SpriteSheet_5"
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 69
+        width: 293
+        height: 152
+      alignment: 9
+      pivot: {x: 0.030502163, y: 1.0406611}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad66b2e44be76e544bae0cfb534ef698
+      internalID: -1942438585653362271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bogensch\xFCtze_DW_Tod_SpriteSheet_6"
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 3
+        width: 321
+        height: 120
+      alignment: 9
+      pivot: {x: 0.102065615, y: 1.5719188}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a01c378f315f2754fbaff8c809a9ad6c
+      internalID: -5777873307865109246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 22fb46bd81e18ee47a4cb18f8bea1ad2
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

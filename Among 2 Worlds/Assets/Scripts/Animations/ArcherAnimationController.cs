@@ -35,16 +35,16 @@ public class ArcherAnimationController : MonoBehaviour
         animator.SetBool("LightDimension", LightDimension);
 
         //Patrolling, Following, Attacking 
-        bool isidle;
+        bool isIdle;
         if (archerRef.ArcherState == Archer.enemyState.Idle)
         {
-            isidle = true;
+            isIdle = true;
         }
         else
         {
-            isidle = false;
+            isIdle = false;
         }
-        animator.SetBool("isidle", isidle);
+        animator.SetBool("isIdle", isIdle);
 
         bool isAttacking;
         if (archerRef.ArcherState == Archer.enemyState.Attacking)

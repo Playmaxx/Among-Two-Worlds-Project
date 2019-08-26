@@ -20,6 +20,8 @@ public class GameManager : MonoBehaviour    //manages central aspects such as wo
     public static int score = 0;
 
     public int keys = 0;
+    public bool TowerLever = false;
+    public bool DungeonLever = false;
 
     public int respawnX;
     public int respawnY;
