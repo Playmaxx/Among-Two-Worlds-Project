@@ -20,7 +20,9 @@ public class Arrow : MonoBehaviour
     {
         rigidRef.gravityScale = 0;
         rigidRef.velocity = (Player.PlayerInstance.transform.position - transform.position).normalized * arrowspeed;
-        transform.Rotate((Player.PlayerInstance.transform.position - transform.parent.transform.position).normalized);
+        Vector2 targetVector = Player.PlayerInstance.transform.position - transform.position;
+        float targetRotation = Mathf.Atan2(targetVector.y, targetVector.x) * Mathf.Rad2Deg;
+        transform.rotation = Quaternion.Euler(0, 0, targetRotation);
     }
 
     // Update is called once per frame
@@ -34,6 +36,7 @@ public class Arrow : MonoBehaviour
         if (collision.tag == "Platform")
         {
             rigidRef.velocity = Vector2.zero;
+            StartCoroutine(despawnArrow());
         }
         if (collision.tag == "Player" && rigidRef.velocity != Vector2.zero)
         {
