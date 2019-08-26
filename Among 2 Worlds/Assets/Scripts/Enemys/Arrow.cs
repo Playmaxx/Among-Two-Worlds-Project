@@ -8,6 +8,7 @@ public class Arrow : MonoBehaviour
     int arrowDamage = 20;
     public int arrowspeed = 1;
     Rigidbody2D rigidRef;
+    bool isreflected = false;
 
     void Awake()
     {
@@ -34,9 +35,25 @@ public class Arrow : MonoBehaviour
         {
             rigidRef.velocity = Vector2.zero;
         }
-        if (collision.tag == "Player")
+        if (collision.tag == "Player" && rigidRef.velocity != Vector2.zero)
         {
-            Player.PlayerInstance.damage(arrowDamage);
+            if (Player.PlayerInstance.shieldActive == false)
+            {
+                Player.PlayerInstance.damage(arrowDamage);
+                Destroy(this.gameObject);
+            }
+            else
+            {
+                rigidRef.velocity = rigidRef.velocity * -1;
+                Player.PlayerInstance.shieldActive = false;
+                Player.PlayerInstance.currentShieldTime = 0;
+                isreflected = true;
+            }
+        }
+        if (collision.tag == "Enemy" && isreflected == true)
+        {
+            Destroy(collision.gameObject);
+            Destroy(this.gameObject);
         }
     }
 }

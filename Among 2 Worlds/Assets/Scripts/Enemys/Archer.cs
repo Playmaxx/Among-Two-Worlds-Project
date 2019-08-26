@@ -4,7 +4,10 @@ using UnityEngine;
 
 public class Archer : MonoBehaviour
 {
-    int health = 100;
+    public enum enemyState { Idle, Attacking, Death }
+    public enemyState ArcherState;
+
+    public int health = 100;
     float trackingdistance;
     bool playerInRange = false;
     bool playerTracked = false;
@@ -63,6 +66,10 @@ public class Archer : MonoBehaviour
         {
             currentCooldown -= 1 * Time.deltaTime;
         }
+        if (health <= 0)
+        {
+            StartCoroutine(death());
+        }
     }
 
     void OnTriggerEnter2D(Collider2D collision)
@@ -85,9 +92,18 @@ public class Archer : MonoBehaviour
     {
         if (currentCooldown <= 0)
         {
+            ArcherState = enemyState.Attacking;
             currentCooldown = arrowCooldown;
             GameObject Arrow = Instantiate(ArrowPrefab, transform) as GameObject;
             Arrow.transform.position = transform.position;
         }
+    }
+    public IEnumerator death()
+    {
+        health = 0;
+        ArcherState = enemyState.Death;
+        GetComponent<BoxCollider2D>().enabled = false;
+        yield return new WaitForSeconds(1.5f);
+        Destroy(this.gameObject);
     }
 }

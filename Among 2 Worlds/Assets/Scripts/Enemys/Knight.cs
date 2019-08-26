@@ -202,8 +202,9 @@ public class Knight : MonoBehaviour
         }
     }
 
-    IEnumerator death()
+    public IEnumerator death()
     {
+        health = 0;
         knightState = enemyState.Death;
         rigidRef.gravityScale = 0;
         GetComponent<CapsuleCollider2D>().enabled = false;
