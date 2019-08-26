@@ -120,24 +120,27 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
             refreshVariables();
             matchMoveState();
 
-            //handles character specific functions
-            switch (GameManager.GMInstance.currentdim)
+            if (health > 0)
             {
-                case (GameManager.dimension.Light):
-                    lilianRef.movement();
-                    lilianRef.jump();
-                    lilianRef.shield();
-                    lilianRef.glide();
-                    lilianRef.wallaction();
-                    break;
-                case (GameManager.dimension.Dark):
-                    galeRef.movement();
-                    galeRef.jump();
-                    galeRef.dash();
-                    galeRef.cancelGlide();
-                    galeRef.wallaction();
-                    break;
+                //handles character specific functions
+                switch (GameManager.GMInstance.currentdim)
+                {
+                    case (GameManager.dimension.Light):
+                        lilianRef.movement();
+                        lilianRef.jump();
+                        lilianRef.shield();
+                        lilianRef.glide();
+                        lilianRef.wallaction();
+                        break;
+                    case (GameManager.dimension.Dark):
+                        galeRef.movement();
+                        galeRef.jump();
+                        galeRef.dash();
+                        galeRef.cancelGlide();
+                        galeRef.wallaction();
+                        break;
 
+                }
             }
 
             //tests
@@ -274,7 +277,7 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
         {
             GetComponent<CircleCollider2D>().enabled = false;
         }
-        if(playerMoveState == moveState.Dashing)
+        if (playerMoveState == moveState.Dashing)
         {
             GetComponent<TrailRenderer>().enabled = true;
         }
