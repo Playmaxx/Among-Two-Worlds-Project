@@ -40502,7 +40502,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LightSprite: {fileID: 21300000, guid: d8fbaec70a1eeb045a182e7626273f7a, type: 3}
+  LightSprite: {fileID: 21300000, guid: a45a58aebd1dc2148a9e11713ad6d310, type: 3}
   DarkSprite: {fileID: 21300000, guid: 391f522614edca041b8b0ba513ece4af, type: 3}
 --- !u!212 &2016890897
 SpriteRenderer:
@@ -40541,7 +40541,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -101
-  m_Sprite: {fileID: 21300000, guid: d8fbaec70a1eeb045a182e7626273f7a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a45a58aebd1dc2148a9e11713ad6d310, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
