@@ -54,8 +54,8 @@ public class SFXManager : MonoBehaviour
 
     public void playSound(AudioSource audioSource, AudioClip audioClip)
     {
-        audioSource.clip = audioClip;
-        audioSource.Play();
+       // audioSource.clip = audioClip;
+      //  audioSource.Play();
     }
 
     public void CallJumpSound()

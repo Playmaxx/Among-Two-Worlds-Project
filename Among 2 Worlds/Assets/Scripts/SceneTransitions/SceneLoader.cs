@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour
 {
-    public enum targetScene { Eingang, Haupthalle, Keller, Türme, Gang, Boss }
+    public enum targetScene { Eingang, Haupthalle, Keller, Türme, Gang, Boss, EndScene, Credits }
     public targetScene t_Scene;
 
     bool intrigger = false;
@@ -28,7 +28,7 @@ public class SceneLoader : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (intrigger == true && (Input.GetKeyDown(KeyCode.Q) || Input.GetButtonDown("Interact")))
+        if (intrigger == true)
         {
             loadScene();
         }
@@ -67,6 +67,14 @@ public class SceneLoader : MonoBehaviour
             case (targetScene.Boss):
                 GameManager.GMInstance.currentlvl = GameManager.level.Boss;
                 SceneManager.LoadScene("Boss");
+                break;
+
+            case (targetScene.EndScene):
+                SceneManager.LoadScene("Endscene");
+                break;
+
+            case (targetScene.Credits):
+                SceneManager.LoadScene("Credits");
                 break;
         }
     }
