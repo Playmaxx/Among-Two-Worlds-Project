@@ -2928,7 +2928,7 @@ PrefabInstance:
     - target: {fileID: 2683088639634773220, guid: 369098f6e1f70fa43ab2011df2e66d81,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -23.289999
+      value: -23.33
       objectReference: {fileID: 0}
     - target: {fileID: 2683088639634773220, guid: 369098f6e1f70fa43ab2011df2e66d81,
         type: 3}
@@ -6661,7 +6661,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 8
+  m_SortingOrder: 4
   m_Sprite: {fileID: 21300000, guid: b5d55a012e14a13448441dec48dbed25, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -9163,7 +9163,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 8
+  m_SortingOrder: 4
   m_Sprite: {fileID: 21300000, guid: b5d55a012e14a13448441dec48dbed25, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -38581,7 +38581,7 @@ PrefabInstance:
     - target: {fileID: 2683088639634773220, guid: 369098f6e1f70fa43ab2011df2e66d81,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -19.5
+      value: -19.58
       objectReference: {fileID: 0}
     - target: {fileID: 2683088639634773220, guid: 369098f6e1f70fa43ab2011df2e66d81,
         type: 3}
@@ -40951,7 +40951,7 @@ PrefabInstance:
     - target: {fileID: 2683088639634773220, guid: 369098f6e1f70fa43ab2011df2e66d81,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -27.62
+      value: -27.51
       objectReference: {fileID: 0}
     - target: {fileID: 2683088639634773220, guid: 369098f6e1f70fa43ab2011df2e66d81,
         type: 3}
