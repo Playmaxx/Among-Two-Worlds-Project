@@ -32,15 +32,11 @@ public class ScoreCounter : MonoBehaviour
         playerRef = Player.PlayerInstance;
     }
 
-    private void Update()
-    {
-        scoreText.text = "Score: " + GameManager.score;
-    }
-
     void Update()
     {
         scoreText.text = "   " + GameManager.score;
     }
+
     void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "scoreSource")
