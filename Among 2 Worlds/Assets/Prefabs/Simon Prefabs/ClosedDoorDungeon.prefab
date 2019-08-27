@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3757467848543602937}
   - component: {fileID: 3757467848543602936}
   - component: {fileID: 2376593251459148577}
+  - component: {fileID: 1472201165}
   m_Layer: 0
   m_Name: ClosedDoorDungeon
   m_TagString: Untagged
@@ -28,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 3757467848543602942}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 6.06, y: 3.55, z: 0}
-  m_LocalScale: {x: 0.25, y: 0.5, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -46,18 +47,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.017977476, y: 0.12232208}
+  m_Offset: {x: 0.03194046, y: 0.12232208}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 5.36, y: 3.26}
+    oldSize: {x: 4, y: 4}
     newSize: {x: 4, y: 4}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 4.9028535, y: 2.8466306}
+  m_Size: {x: 2.8918076, y: 2.8466306}
   m_EdgeRadius: 0
 --- !u!212 &3757467848543602936
 SpriteRenderer:
@@ -96,7 +97,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 10
-  m_Sprite: {fileID: 21300000, guid: 89843640443061a4b94ad4363c2d201b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e1ce762bb30ad93458c1e8d7df056cad, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -119,3 +120,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eec223a2063a8a04a87b853819265675, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1472201165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3757467848543602942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: e1ce762bb30ad93458c1e8d7df056cad, type: 3}
+  DarkSprite: {fileID: 21300000, guid: bfad835ebc2e7b44f8d66da97e59a8d6, type: 3}

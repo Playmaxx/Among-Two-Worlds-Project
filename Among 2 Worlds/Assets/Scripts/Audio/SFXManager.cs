@@ -48,7 +48,7 @@ public class SFXManager : MonoBehaviour
     void Update()
     {
         CallJumpSound();
-        CallDashSound();
+        //CallDashSound();
         CallBubbleSound();
     }
 
@@ -67,7 +67,7 @@ public class SFXManager : MonoBehaviour
                 playSound(current_audioclip2, Jump);
                 JumpCounter--;
             }
-            
+
             if (JumpCounter < 0)
             {
                 JumpCounter = 0;
@@ -83,27 +83,27 @@ public class SFXManager : MonoBehaviour
                 JumpPlayed = true;
             }
         }
-        
+
         if (playerRef.playerMoveState == Player.moveState.Grounded)
         {
             JumpPlayed = false;
             JumpCounter = 1;
         }
     }
-    
-    public void CallDashSound()
+
+    /*public void CallDashSound()
     {
         if ((GameManager.GMInstance.currentdim == GameManager.dimension.Dark))
         {
             if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D) || Input.GetAxis("MoveHorizontal") > 0 || Input.GetAxis("MoveHorizontal") < 0)
             {
-                if (Input.GetKeyDown(KeyCode.LeftShift) || Input.GetButtonDown("Dash"))
+                if (Input.GetKeyDown(KeyCode.LeftShift) || Input.GetButtonDown("Dash") && playerRef.dashused == false)
                 {
                     //if (DashPlayed == false)
                     playSound(current_audioclip, Dash);
                     DashPlayed = true;
                 }
-           }
+            }
         }
 
         if (playerRef.playerMoveState != Player.moveState.Dashing)
@@ -111,7 +111,7 @@ public class SFXManager : MonoBehaviour
             DashPlayed = false;
         }
     }
-
+    */
     public void CallBubbleSound()
     {
         if (GameManager.GMInstance.currentdim == GameManager.dimension.Light)
@@ -139,7 +139,7 @@ public class SFXManager : MonoBehaviour
             LandPlayed = true;
             Debug.Log("hayyy");
         }
-        
+
         if (playerRef.playerMoveState != Player.moveState.Grounded)
         {
             LandPlayed = false;

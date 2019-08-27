@@ -386,6 +386,10 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
         DeathSequenceIsPlaying = false;
         rigidRef.velocity = new Vector2(0, 0);
         health = 100;
+        if (GameManager.GMInstance.OriginScene == "Level 5")
+        {
+            GameObject.Find("Witch").transform.position = new Vector2(0, 26);
+        }
     }
 
     void OnTriggerEnter2D(Collider2D collision)

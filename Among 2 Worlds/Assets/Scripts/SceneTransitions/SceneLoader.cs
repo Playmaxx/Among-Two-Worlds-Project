@@ -8,9 +8,6 @@ public class SceneLoader : MonoBehaviour
     public enum targetScene { Eingang, Haupthalle, Keller, Türme, Gang, Boss }
     public targetScene t_Scene;
 
-    public int targetX;
-    public int targetY;
-
     bool intrigger = false;
 
     void OnTriggerEnter2D(Collider2D collision)
@@ -39,11 +36,7 @@ public class SceneLoader : MonoBehaviour
 
     void loadScene()
     {
-        GameManager.GMInstance.respawnX = targetX;
-        GameManager.GMInstance.respawnY = targetY;
-        Debug.Log(GameManager.GMInstance.respawnX);
-        Debug.Log(GameManager.GMInstance.respawnY);
-
+        GameManager.GMInstance.OriginScene = SceneManager.GetActiveScene().name;
         switch (t_Scene)
         {
             case (targetScene.Eingang):

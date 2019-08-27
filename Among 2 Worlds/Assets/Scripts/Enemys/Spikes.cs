@@ -42,7 +42,7 @@ public class Spikes : MonoBehaviour
 
     void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.tag == "Player" && currentCD <= 0)
+        if (collision.tag == "Player")
         {
             inSpikes = false;
         }

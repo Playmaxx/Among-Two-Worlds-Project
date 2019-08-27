@@ -151,11 +151,13 @@ MonoBehaviour:
   knightSource: {fileID: 43259580160443861}
   Jump: {fileID: 8300000, guid: decd1de694216a744a8956b1bbb19b81, type: 3}
   Dash: {fileID: 8300000, guid: 3e27ffd3594c9c649950f584b9dd4cff, type: 3}
+  Bubble: {fileID: 8300000, guid: b713f19d01919754184f05bc876bd3b1, type: 3}
   KnightGettingHit: {fileID: 8300000, guid: 03f98704b3a1ce047bd51e9f550f3a6a, type: 3}
   Land: {fileID: 8300000, guid: ca4c0d12988cac749b0890228e35eb59, type: 3}
   KnightDeath: {fileID: 8300000, guid: 719a851b17245694fb79c5dd705af665, type: 3}
   JumpPlayed: 0
   DashPlayed: 0
+  BubblePlayed: 0
   LandPlayed: 0
   knightIsAttacking: 0
   JumpCounter: 1

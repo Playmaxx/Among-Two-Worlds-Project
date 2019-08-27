@@ -25,7 +25,7 @@ public class Witch : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -45,9 +45,9 @@ public class Witch : MonoBehaviour
 
     private void witchMovement()
     {
-        if(DistanceToPlayer > MinDistanceToPlayer)
+        if (DistanceToPlayer > MinDistanceToPlayer)
         {
-            transform.position = Vector2.MoveTowards(transform.position, playerRef.transform.position, (100*Speed) * Time.deltaTime);
+            transform.position = Vector2.MoveTowards(transform.position, playerRef.transform.position, (20 * Speed) * Time.deltaTime);
         }
         else
         {
@@ -59,7 +59,7 @@ public class Witch : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.gameObject.tag == "Player" && AttackCooldown > DamageCooldown)
+        if (other.gameObject.tag == "Player" && AttackCooldown > DamageCooldown)
         {
             playerRef.damage(DamageGiven);
             AttackCooldown = 0;

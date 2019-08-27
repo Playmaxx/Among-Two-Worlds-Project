@@ -22,6 +22,8 @@ public class GameManager : MonoBehaviour    //manages central aspects such as wo
     public int keys = 0;
     public bool TowerLever = false;
     public bool DungeonLever = false;
+    [HideInInspector]
+    public string OriginScene;
 
     public int respawnX;
     public int respawnY;
@@ -97,11 +99,58 @@ public class GameManager : MonoBehaviour    //manages central aspects such as wo
         SceneManager.sceneLoaded -= onSceneLoad;
     }
 
-    void onSceneLoad(Scene scene, LoadSceneMode mode)
+    void onSceneLoad(Scene loadedScene, LoadSceneMode mode)
     {
-        playerRef = Player.PlayerInstance;
-        Debug.Log(respawnX);
-        Debug.Log(respawnY);
-        playerRef.transform.position = new Vector2(respawnX, respawnY);
+        Debug.Log(loadedScene.name);
+        Debug.Log(OriginScene);
+        switch (loadedScene.name)
+        {
+            case ("Level 1"):
+                if (OriginScene == "Level 2")
+                {
+                    playerRef.transform.position = new Vector2(100, 28);
+                }
+                else
+                {
+                    playerRef.transform.position = Vector2.zero;
+                }
+                break;
+
+            case ("Level 2"):
+                if (OriginScene == "Level 1")
+                {
+                    playerRef.transform.position = new Vector2(0, 0);
+                    Debug.Log("221");
+                }
+                if (OriginScene == "Level 3")
+                {
+                    playerRef.transform.position = new Vector2(39, -10);
+                }
+                if (OriginScene == "Level 4")
+                {
+                    playerRef.transform.position = new Vector2(39, 26);
+                }
+                if (OriginScene == "Level 5")
+                {
+                    playerRef.transform.position = new Vector2(41, 1);
+                }
+                break;
+
+            case ("Level 3"):
+                playerRef.transform.position = Vector2.zero;
+                break;
+
+            case ("Level 4"):
+                playerRef.transform.position = Vector2.zero;
+                break;
+
+            case ("Level 5"):
+                playerRef.transform.position = Vector2.zero;
+                break;
+
+            case ("Boss"):
+                playerRef.transform.position = Vector2.zero;
+                break;
+        }
     }
 }

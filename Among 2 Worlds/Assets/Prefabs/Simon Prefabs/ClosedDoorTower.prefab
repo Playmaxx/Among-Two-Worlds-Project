@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1553777074788909241}
   - component: {fileID: 1553777074788909240}
   - component: {fileID: 1553777074788909247}
+  - component: {fileID: 1982893209}
   m_Layer: 0
   m_Name: ClosedDoorTower
   m_TagString: Untagged
@@ -96,7 +97,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 10
-  m_Sprite: {fileID: 21300000, guid: a89769c4063b0d14983f0a113af3c77b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 725ac34f5e9c0274d840532641675c25, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -119,3 +120,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8c75212301912c45ad06fe9935c45ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1982893209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1553777074788909246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5a1f045c9dbb40af4845e86ebcfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSprite: {fileID: 21300000, guid: 725ac34f5e9c0274d840532641675c25, type: 3}
+  DarkSprite: {fileID: 21300000, guid: 1fd6d1218f926b14284fc8b8c0739c30, type: 3}
