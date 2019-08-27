@@ -37,6 +37,10 @@ public class ScoreCounter : MonoBehaviour
         scoreText.text = "Score: " + GameManager.score;
     }
 
+    void Update()
+    {
+        scoreText.text = "   " + GameManager.score;
+    }
     void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "scoreSource")

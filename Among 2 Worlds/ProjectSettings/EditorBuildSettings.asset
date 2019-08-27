@@ -24,6 +24,12 @@ EditorBuildSettings:
     path: Assets/LD Test/Level 5.unity
     guid: 32d48e64f59d003429d28aad3e606769
   - enabled: 1
-    path: Assets/LD Test/Boss.unity
-    guid: b8f22d6b2c4147e46be333447f8c699b
+    path: Assets/Scenes/Credits.unity
+    guid: a214fda8be1afe349b96da11ec1a9625
+  - enabled: 1
+    path: Assets/Scenes/LVL1_Test_Bardia.unity
+    guid: 2966fc1f32b9917469f7d2089b1c6cac
+  - enabled: 1
+    path: Assets/Scenes/CutScene.unity
+    guid: 73fc69d885596e34aae8ad611103af05
   m_configObjects: {}

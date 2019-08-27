@@ -14,6 +14,7 @@ public class SFXManager : MonoBehaviour
     public AudioSource knightSource;
     public AudioClip Jump;
     public AudioClip Dash;
+    public AudioClip Bubble;
     public AudioClip KnightGettingHit;
     public AudioClip Land;
     public AudioClip KnightDeath;
@@ -22,6 +23,8 @@ public class SFXManager : MonoBehaviour
     bool JumpPlayed = false;
     [SerializeField]
     bool DashPlayed = false;
+    [SerializeField]
+    bool BubblePlayed = false;
     [SerializeField]
     bool LandPlayed = false;
     [SerializeField]
@@ -46,6 +49,7 @@ public class SFXManager : MonoBehaviour
     {
         CallJumpSound();
         CallDashSound();
+        CallBubbleSound();
     }
 
     public void playSound(AudioSource audioSource, AudioClip audioClip)
@@ -105,6 +109,25 @@ public class SFXManager : MonoBehaviour
         if (playerRef.playerMoveState != Player.moveState.Dashing)
         {
             DashPlayed = false;
+        }
+    }
+
+    public void CallBubbleSound()
+    {
+        if (GameManager.GMInstance.currentdim == GameManager.dimension.Light)
+        {
+            if (Input.GetKeyDown(KeyCode.LeftShift) || Input.GetButtonDown("Dash"))
+            {
+                if (BubblePlayed == false)
+                {
+                    playSound(current_audioclip, Bubble);
+                    BubblePlayed = true;
+                }
+            }
+        }
+        if (playerRef.currentShieldTime < -5)
+        {
+            BubblePlayed = false;
         }
     }
 

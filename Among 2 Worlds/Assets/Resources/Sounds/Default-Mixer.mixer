@@ -6,21 +6,21 @@ AudioMixerController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Jump-Mixer
+  m_Name: Default-Mixer
   m_OutputGroup: {fileID: 0}
   m_MasterGroup: {fileID: 24300002}
   m_Snapshots:
   - {fileID: 24500006}
   m_StartSnapshot: {fileID: 24500006}
-  m_SuspendThreshold: -31.92
+  m_SuspendThreshold: -80
   m_EnableSuspend: 1
   m_UpdateMode: 0
   m_ExposedParameters:
-  - guid: 08efc74744e42734582ca3ceb3105c62
-    name: SFXVolume
+  - guid: 61fa116550e0cb84091afe0369de67d2
+    name: TrueSFXVolume
   m_AudioMixerGroupViews:
   - guids:
-    - cf55e07468d0eb04db001edabf52f968
+    - 1da5752a830066e4d95aafcf3c80a19d
     name: View
   m_CurrentViewIndex: 0
   m_TargetSnapshot: {fileID: 24500006}
@@ -32,10 +32,10 @@ AudioMixerGroupController:
   m_PrefabAsset: {fileID: 0}
   m_Name: Master
   m_AudioMixer: {fileID: 24100000}
-  m_GroupID: cf55e07468d0eb04db001edabf52f968
+  m_GroupID: 1da5752a830066e4d95aafcf3c80a19d
   m_Children: []
-  m_Volume: 08efc74744e42734582ca3ceb3105c62
-  m_Pitch: ce9f33b4b5612b54ab79c2f18ab5dac7
+  m_Volume: 61fa116550e0cb84091afe0369de67d2
+  m_Pitch: bd010a04971145240afaeff984b412bc
   m_Send: 00000000000000000000000000000000
   m_Effects:
   - {fileID: 24400004}
@@ -50,9 +50,9 @@ AudioMixerEffectController:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  m_EffectID: 9fc0f17cb89a9cb48a65e608f686a490
+  m_EffectID: 8e98271332e24464d9becdcc62364bcb
   m_EffectName: Attenuation
-  m_MixLevel: ab62a9d02a05f0d4ead61de654911b33
+  m_MixLevel: a9ef4437c93be184ba8d30272102cd7a
   m_Parameters: []
   m_SendTarget: {fileID: 0}
   m_EnableWetMix: 0
@@ -65,8 +65,7 @@ AudioMixerSnapshotController:
   m_PrefabAsset: {fileID: 0}
   m_Name: Snapshot
   m_AudioMixer: {fileID: 24100000}
-  m_SnapshotID: 7b4b39dd8d004ff40bf3168e2e1a75d5
+  m_SnapshotID: 11b8ed8234e1f2d46b88b1e83cee465f
   m_FloatValues:
-    ce9f33b4b5612b54ab79c2f18ab5dac7: 3.91
-    08efc74744e42734582ca3ceb3105c62: -10
+    61fa116550e0cb84091afe0369de67d2: -10
   m_TransitionOverrides: {}
