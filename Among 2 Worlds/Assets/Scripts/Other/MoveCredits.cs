@@ -16,6 +16,12 @@ public class MoveCredits : MonoBehaviour
     void Update()
     {
         rigRef.velocity = new Vector2(0, 1.3f);
+        if (credits.transform.position.y > 21)
+        {
+            SceneManager.LoadScene("MainMenu");
+        }
+
+        Debug.Log(credits.transform.position.y);
     }
 
     public void LoadMainMenu()

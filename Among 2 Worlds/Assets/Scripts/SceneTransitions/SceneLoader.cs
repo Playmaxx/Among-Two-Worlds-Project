@@ -66,15 +66,16 @@ public class SceneLoader : MonoBehaviour
 
             case (targetScene.Boss):
                 GameManager.GMInstance.currentlvl = GameManager.level.Boss;
+                Destroy(GameObject.Find("AudioManager"));
                 SceneManager.LoadScene("Boss");
                 break;
-
+        
             case (targetScene.EndScene):
+                Destroy(GameObject.Find("AudioManager"));
+                Destroy(GameObject.FindWithTag("Player"));
+                Destroy(GameObject.Find("Canvas_ScoreUI"));
                 SceneManager.LoadScene("Endscene");
-                break;
-
-            case (targetScene.Credits):
-                SceneManager.LoadScene("Credits");
+               
                 break;
         }
     }
