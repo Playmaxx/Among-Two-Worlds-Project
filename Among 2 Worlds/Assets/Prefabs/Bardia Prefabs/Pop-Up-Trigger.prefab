@@ -61,3 +61,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   panel: {fileID: 0}
+  PopUpInstance: {fileID: 0}
