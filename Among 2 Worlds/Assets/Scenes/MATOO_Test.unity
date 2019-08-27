@@ -1261,6 +1261,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 800432587566103386, guid: 4b0149b6fc1d9704d95bd9b04cccabc0,
+        type: 3}
+      propertyPath: arrowCooldown
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4b0149b6fc1d9704d95bd9b04cccabc0, type: 3}
 --- !u!1001 &3113599808602297686
@@ -1343,11 +1348,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 5718854610222730107, guid: 0c29196364b4bd146acefde38bcf54b4,
-        type: 3}
-      propertyPath: DeathSequenceIsPlaying
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 79531169318872699, guid: 0c29196364b4bd146acefde38bcf54b4,
         type: 3}

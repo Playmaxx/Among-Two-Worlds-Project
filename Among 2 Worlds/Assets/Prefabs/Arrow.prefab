@@ -142,4 +142,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   arrowDamage: 20
-  arrowspeed: 1
+  arrowspeed: 20

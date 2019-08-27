@@ -39,6 +39,9 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
     public float shieldCooldown = -5;
     public float wallJumpTime = 0.5f;
     public float currentWJTime = 0;
+    public float iFrameTime = 2;
+    public float currentITime = 0;
+    public float frameswitchtime = 0.2f;
 
     //non-tweakable variables
     public static Player PlayerInstance;
@@ -51,6 +54,7 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
     public bool dashused = false;
     public bool WJUsed = false;
     public bool glideUsed = false;
+    float frameSwitchMultiplier = 0;
 
     //ref types
     Gale galeRef;
@@ -142,15 +146,6 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
 
                 }
             }
-
-            //tests
-            //utilized raycast overload: origin, direction, distance, layermask
-            //origin is transform.position +/- playerwidth/2 for x
-            // direction is downwards
-            //distance is playerheight/2
-            //layermask is gamemanager.platformmask
-
-            //walljump cast is made with double length of walledstate cast
         }
     }
 
@@ -184,11 +179,19 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
         if (currentDashTime >= dashCooldown)
         {
             currentDashTime -= 1 * Time.deltaTime;
-            Debug.Log("counting down time");
         }
         if (health <= 0)
         {
             StartCoroutine(RespawnPlayerAfterTime(3));
+        }
+        if (currentITime > 0)
+        {
+            iFrameFlash();
+            currentITime -= 1 * Time.deltaTime;
+        }
+        else
+        {
+            renderRef.enabled = true;
         }
     }
 
@@ -295,6 +298,10 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
         {
             GetComponent<ParticleSystem>().Stop();
         }
+        if (GameManager.GMInstance.currentdim == GameManager.dimension.Light && playerMoveState == moveState.Dashing)
+        {
+            playerMoveState = moveState.Falling;
+        }
 
         switch (playerMoveState)    //movestates: Grounded, Jumping, Falling, Dashing, Gliding, Walled, Other
         {
@@ -348,7 +355,14 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
     {
         if (shieldActive == false)
         {
-            health -= amount;
+            if (currentITime <= 0)
+            {
+                currentITime = iFrameTime;
+                frameSwitchMultiplier = 0;
+                GetComponent<SpriteRenderer>().color = Color.red;
+                health -= amount;
+                StartCoroutine(decolorize());
+            }
         }
         else
         {
@@ -389,4 +403,30 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
         }
     }
 
+    IEnumerator decolorize()
+    {
+        yield return new WaitForSeconds(0.1f);
+        GetComponent<SpriteRenderer>().color = Color.white;
+    }
+
+    void iFrameFlash()
+    {
+        if (currentITime < iFrameTime - frameSwitchMultiplier)
+        {
+            switchSpriteState();
+            frameSwitchMultiplier += frameswitchtime;
+        }
+    }
+
+    void switchSpriteState()
+    {
+        if (renderRef.enabled == true)
+        {
+            renderRef.enabled = false;
+        }
+        else
+        {
+            renderRef.enabled = true;
+        }
+    }
 }

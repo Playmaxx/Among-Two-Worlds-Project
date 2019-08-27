@@ -238,20 +238,22 @@ MonoBehaviour:
   dashtime: 0.1
   currentDashTime: 0
   dashCooldown: -1
-  glideTime: 5
+  maxGlideTime: 5
   currentGlideTime: -1
-  glideCooldown: 0
   shieldTime: 5
   currentShieldTime: -4
   shieldCooldown: -5
   wallJumpTime: 0.5
   currentWJTime: 0
+  iFrameTime: 2
+  currentITime: 0
   playerheight: 0
   playerwidth: 0
   shieldActive: 0
   DeathSequenceIsPlaying: 0
   dashused: 0
   WJUsed: 0
+  glideUsed: 0
   rigidRef: {fileID: 0}
   renderRef: {fileID: 0}
 --- !u!114 &2085399992994487765
