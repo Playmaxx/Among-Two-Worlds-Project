@@ -28,7 +28,7 @@ public class MenuManager : MonoBehaviour
 
     public void StartGame()
     {
-        SceneManager.LoadScene("LVL1_Test_Bardia");
+        SceneManager.LoadScene("CutScene");
     }
 
     public void LoadNewPanel()

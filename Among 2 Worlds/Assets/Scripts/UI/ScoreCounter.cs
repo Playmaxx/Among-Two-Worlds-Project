@@ -18,12 +18,15 @@ public class ScoreCounter : MonoBehaviour
         playerRef = GetComponent<Player>();
     }
 
+    void Update()
+    {
+        scoreText.text = "   " + GameManager.score;
+    }
     void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "scoreSource")
         {
             GameManager.score++;
-            scoreText.text = "Score: " + GameManager.score;
         }
     }
 }
