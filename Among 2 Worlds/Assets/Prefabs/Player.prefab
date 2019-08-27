@@ -225,7 +225,6 @@ MonoBehaviour:
   lastWallDirection: 0
   playerMoveState: 0
   Jumps: 2
-  health: 100
   moveSpeed: 7.5
   jumpforce: 18
   dashspeed: 40
@@ -238,7 +237,7 @@ MonoBehaviour:
   terminalVelocity: 10
   dashtime: 0.1
   currentDashTime: 0
-  dashCooldown: 2
+  dashCooldown: -1
   glideTime: 5
   currentGlideTime: -1
   glideCooldown: 0

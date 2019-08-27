@@ -22,7 +22,6 @@ public class DeathSequence : MonoBehaviour
 
         if (Player.health == 0)
         {
-            Debug.Log("ded");
             StartCoroutine(RespawnPlayer(0));
         }
     }
@@ -32,7 +31,6 @@ public class DeathSequence : MonoBehaviour
         if (collision.tag == "Player")
         {
             DeathSequenceIsPlaying = true;
-            Debug.Log("player ded boi");
             StartCoroutine(RespawnPlayer(3));
         }
     }
@@ -42,7 +40,6 @@ public class DeathSequence : MonoBehaviour
         if (Input.GetKey(KeyCode.F) && DeathSequenceIsPlaying == false)
         {
             DeathSequenceIsPlaying = true;
-            Debug.Log("player ded boi");
             StartCoroutine(RespawnPlayer(3));
         }
     }

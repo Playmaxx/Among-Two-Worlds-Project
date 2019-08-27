@@ -95,7 +95,7 @@ public class Gale : MonoBehaviour     //manages abilities for Gale
 
     public void dash()
     {
-        if ((Input.GetKey(KeyCode.LeftShift) || Input.GetButton("Dash")) && playerRef.dashused == false && playerRef.playerMoveState != Player.moveState.Walled)
+        if ((Input.GetKey(KeyCode.LeftShift) || Input.GetButton("Dash")) && playerRef.dashused == false && playerRef.playerMoveState != Player.moveState.Walled && playerRef.currentDashTime <= playerRef.dashCooldown)
         {
             playerRef.dashused = true;
             playerRef.playerMoveState = Player.moveState.Dashing;

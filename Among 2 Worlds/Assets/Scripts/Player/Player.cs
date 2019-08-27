@@ -32,9 +32,8 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
     public float dashtime = 0.5f;
     public float currentDashTime = 0;
     public float dashCooldown = -2;
-    public float glideTime = 5;
+    public float maxGlideTime = 5;
     public float currentGlideTime = 0;
-    public float glideCooldown = -2;
     public float shieldTime = 5;
     public float currentShieldTime = -5;
     public float shieldCooldown = -5;
@@ -51,6 +50,7 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
     public bool DeathSequenceIsPlaying = false;
     public bool dashused = false;
     public bool WJUsed = false;
+    public bool glideUsed = false;
 
     //ref types
     Gale galeRef;
@@ -177,13 +177,14 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
                 currentShieldTime = 0;
             }
         }
-        if (currentGlideTime >= glideCooldown)
+        if (currentGlideTime >= 0)
         {
             currentGlideTime -= 1 * Time.deltaTime;
         }
-        if (currentDashTime >= 0)
+        if (currentDashTime >= dashCooldown)
         {
             currentDashTime -= 1 * Time.deltaTime;
+            Debug.Log("counting down time");
         }
         if (health <= 0)
         {
@@ -196,6 +197,7 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
         Jumps = 2;
         dashused = false;
         WJUsed = false;
+        glideUsed = false;
         currentGlideTime = 0;
     }
 
@@ -317,11 +319,16 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
                 break;
 
             case (moveState.Gliding):
-                if (currentGlideTime < glideTime)
+                if (currentGlideTime > 0)
                 {
                     rigidRef.velocity = new Vector2(rigidRef.velocity.x, -glidespeed);
                 }
-                currentGlideTime += 1 * Time.deltaTime;
+                currentGlideTime -= 1 * Time.deltaTime;
+                if (currentGlideTime <= 0)
+                {
+                    playerMoveState = moveState.Falling;
+                    glideUsed = true;
+                }
                 break;
 
             case (moveState.Walled):
