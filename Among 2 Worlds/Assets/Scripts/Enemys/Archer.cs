@@ -16,7 +16,7 @@ public class Archer : MonoBehaviour
     GameObject ArrowPrefab;
     [SerializeField]
     int arrowCooldown = 3;
-    float currentCooldown;
+    float currentCooldown = 0;
 
     void Awake()
     {
@@ -63,7 +63,7 @@ public class Archer : MonoBehaviour
             }
             if (playerTracked == true)
             {
-                shoot();
+                StartCoroutine(shoot());
             }
             else
             {
@@ -71,7 +71,7 @@ public class Archer : MonoBehaviour
             }
             if (currentCooldown > 0)
             {
-                currentCooldown -= 1 * Time.deltaTime;
+                currentCooldown -= Time.deltaTime;
             }
             if (health <= 0)
             {
@@ -83,7 +83,7 @@ public class Archer : MonoBehaviour
             }
             else
             {
-                GetComponent<SpriteRenderer>().flipX = true;
+                GetComponent<SpriteRenderer>().flipX = false;
             }
         }
     }
@@ -104,12 +104,13 @@ public class Archer : MonoBehaviour
         }
     }
 
-    void shoot()
+    IEnumerator shoot()
     {
         if (currentCooldown <= 0)
         {
             ArcherState = enemyState.Attacking;
             currentCooldown = arrowCooldown;
+            yield return new WaitForSeconds(0.4f);
             GameObject Arrow = Instantiate(ArrowPrefab, transform) as GameObject;
             Arrow.transform.position = transform.position;
         }
@@ -119,7 +120,7 @@ public class Archer : MonoBehaviour
         health = 0;
         ArcherState = enemyState.Death;
         GetComponent<BoxCollider2D>().enabled = false;
-        yield return new WaitForSeconds(1.5f);
+        yield return new WaitForSeconds(1.05f);
         Destroy(this.gameObject);
     }
 }

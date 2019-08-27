@@ -102,6 +102,7 @@ MonoBehaviour:
   ArrowPrefab: {fileID: 7902242030699680437, guid: 86de3fa2fa6479946a9e2090dd99f84a,
     type: 3}
   arrowCooldown: 3
+  currentCooldown: 0
 --- !u!61 &5244382020145923266
 BoxCollider2D:
   m_ObjectHideFlags: 0
