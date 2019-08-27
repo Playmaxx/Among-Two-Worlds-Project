@@ -65,6 +65,10 @@ public class Archer : MonoBehaviour
             {
                 shoot();
             }
+            else
+            {
+                ArcherState = enemyState.Idle;
+            }
             if (currentCooldown > 0)
             {
                 currentCooldown -= 1 * Time.deltaTime;
@@ -72,6 +76,14 @@ public class Archer : MonoBehaviour
             if (health <= 0)
             {
                 StartCoroutine(death());
+            }
+            if (playerRef.transform.position.x > transform.position.x)
+            {
+                GetComponent<SpriteRenderer>().flipX = true;
+            }
+            else
+            {
+                GetComponent<SpriteRenderer>().flipX = true;
             }
         }
     }

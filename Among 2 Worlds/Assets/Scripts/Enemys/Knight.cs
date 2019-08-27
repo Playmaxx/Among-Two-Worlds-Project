@@ -204,6 +204,7 @@ public class Knight : MonoBehaviour
         knightState = enemyState.Death;
         rigidRef.gravityScale = 0;
         GetComponent<CapsuleCollider2D>().enabled = false;
+        transform.GetChild(0).GetComponent<KnightSFXManager>().CallKnightDeathSound();
         yield return new WaitForSeconds(1.5f);
         Destroy(this.gameObject);
     }
@@ -226,9 +227,5 @@ public class Knight : MonoBehaviour
         {
             rightGroundRay = false;
         }
-    }
-
-    void attack()
-    {
     }
 }

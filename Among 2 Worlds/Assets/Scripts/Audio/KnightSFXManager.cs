@@ -17,7 +17,6 @@ public class KnightSFXManager : MonoBehaviour
     void Update()
     {
         CallKnightHitSound();
-        CallKnightDeathSound();
     }
 
     public void CallKnightHitSound()
@@ -30,11 +29,6 @@ public class KnightSFXManager : MonoBehaviour
 
     public void CallKnightDeathSound()
     {
-        if (knightRef.health <= 0)
-        {
-            knightRef.health = 0;
-            sfxRef.playSound(sfxRef.knightSource, sfxRef.KnightDeath);
-            Debug.Log("najt ded");
-        }
+        sfxRef.playSound(sfxRef.knightSource, sfxRef.KnightDeath);
     }
 }
