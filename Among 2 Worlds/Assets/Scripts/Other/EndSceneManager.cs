@@ -23,7 +23,6 @@ public class EndSceneManager : MonoBehaviour
     {
         adjustFadeState();
         adjustTarget();
-        //Debug.Log(Current_CG.alpha);
     }
 
     IEnumerator FadeIn()
@@ -34,7 +33,7 @@ public class EndSceneManager : MonoBehaviour
 
     void FadeOut()
     {
-        //Current_CG.alpha -= 0.5f * Time.deltaTime;
+        Current_CG.alpha -= 0.5f * Time.deltaTime;
         StartCoroutine(loadCredits());
         Debug.Log("fadeout");
     }
@@ -51,12 +50,6 @@ public class EndSceneManager : MonoBehaviour
         if (Input.anyKeyDown && TargetTransparency == 1)
         {
             TargetTransparency = 0;
-            Debug.Log(TargetTransparency);
-        }
-
-        else
-        {
-            TargetTransparency = 1;
         }
     }
 

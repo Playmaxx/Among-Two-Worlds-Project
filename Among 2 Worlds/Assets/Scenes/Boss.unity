@@ -11699,6 +11699,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gift schaden
       objectReference: {fileID: 0}
+    - target: {fileID: 2757273407584337028, guid: ee5d6551fd22952488d2f37794de8d26,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 3472503289804157722, guid: ee5d6551fd22952488d2f37794de8d26,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11772,12 +11777,17 @@ PrefabInstance:
     - target: {fileID: 1301509040574255040, guid: ee5d6551fd22952488d2f37794de8d26,
         type: 3}
       propertyPath: m_Size.y
-      value: 10
+      value: 12.866625
       objectReference: {fileID: 0}
     - target: {fileID: 1301509040574255040, guid: ee5d6551fd22952488d2f37794de8d26,
         type: 3}
       propertyPath: m_IsTrigger
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1301509040574255040, guid: ee5d6551fd22952488d2f37794de8d26,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: -0.110253334
       objectReference: {fileID: 0}
     - target: {fileID: 4054305192624753101, guid: ee5d6551fd22952488d2f37794de8d26,
         type: 3}
@@ -15628,6 +15638,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Gift schaden (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2757273407584337028, guid: ee5d6551fd22952488d2f37794de8d26,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 3472503289804157722, guid: ee5d6551fd22952488d2f37794de8d26,
         type: 3}
@@ -58095,6 +58110,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Gift schaden (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2757273407584337028, guid: ee5d6551fd22952488d2f37794de8d26,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 3472503289804157722, guid: ee5d6551fd22952488d2f37794de8d26,
         type: 3}
