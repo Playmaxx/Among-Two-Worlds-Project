@@ -182,6 +182,7 @@ public class Player : MonoBehaviour     //manages aspects of the player that app
         }
         if (health <= 0)
         {
+            rigidRef.velocity = Vector2.zero;
             StartCoroutine(RespawnPlayerAfterTime(3));
         }
         if (currentITime > 0)
